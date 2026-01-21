@@ -1,0 +1,4106 @@
+{
+  "xoi_do_xanh": {
+    "name_vn": "Xôi đỗ xanh",
+    "name_en": "Sticky rice with mungbean, cooked",
+    "queries_tried": [
+      "Sticky rice with mungbean, cooked food",
+      "Xoi do xanh Vietnamese food",
+      "Sticky rice with mungbean, cooked"
+    ]
+  },
+  "xoi_lac": {
+    "name_vn": "Xôi lạc",
+    "name_en": "Sticky rice with peanut, cooked",
+    "queries_tried": [
+      "Sticky rice with peanut, cooked food",
+      "Xoi lac Vietnamese food",
+      "Sticky rice with peanut, cooked"
+    ]
+  },
+  "xoi_xeo": {
+    "name_vn": "Xôi xéo",
+    "name_en": "Sticky rice with mungbean paste, cooked",
+    "queries_tried": [
+      "Sticky rice with mungbean paste, cooked food",
+      "Xoi xeo Vietnamese food",
+      "Sticky rice with mungbean paste, cooked"
+    ]
+  },
+  "chao_dinh_duong_thit_bo": {
+    "name_vn": "Cháo dinh dưỡng thịt bò",
+    "name_en": "Cháo dinh dưỡng thịt bò",
+    "queries_tried": [
+      "Cháo dinh dưỡng thịt bò food",
+      "Chao dinh duong thit bo Vietnamese food",
+      "Cháo dinh dưỡng thịt bò"
+    ]
+  },
+  "chao_dinh_duong_tom": {
+    "name_vn": "Cháo dinh dưỡng tôm",
+    "name_en": "Cháo dinh dưỡng tôm",
+    "queries_tried": [
+      "Cháo dinh dưỡng tôm food",
+      "Chao dinh duong tom Vietnamese food",
+      "Cháo dinh dưỡng tôm"
+    ]
+  },
+  "xoi_do_den": {
+    "name_vn": "Xôi đỗ đen",
+    "name_en": "Xôi đỗ đen",
+    "queries_tried": [
+      "Xôi đỗ đen food",
+      "Xoi do den Vietnamese food",
+      "Xôi đỗ đen"
+    ]
+  },
+  "cu_cai_tuoi": {
+    "name_vn": "Củ cái, tươi",
+    "name_en": "Winged yam, purple yam, root, raw",
+    "queries_tried": [
+      "Winged yam, purple yam, root, raw food",
+      "Cu cai, tuoi Vietnamese food",
+      "Winged yam, purple yam, root, raw"
+    ]
+  },
+  "cu_dong_luoc": {
+    "name_vn": "Củ dong luộc",
+    "name_en": "Arrow root, boiled",
+    "queries_tried": [
+      "Arrow root, boiled food",
+      "Cu dong luoc Vietnamese food",
+      "Arrow root, boiled"
+    ]
+  },
+  "cu_san_tuoi": {
+    "name_vn": "Củ sắn, tươi",
+    "name_en": "Cassava, root, raw",
+    "queries_tried": [
+      "Cassava, root, raw food",
+      "Cu san, tuoi Vietnamese food",
+      "Cassava, root, raw"
+    ]
+  },
+  "cu_san_day_tuoi": {
+    "name_vn": "Củ sắn dây, tươi",
+    "name_en": "Kudzu root, Japanese arrowroot",
+    "queries_tried": [
+      "Kudzu root, Japanese arrowroot food",
+      "Cu san day, tuoi Vietnamese food",
+      "Kudzu root, Japanese arrowroot"
+    ]
+  },
+  "cu_sung_boc_vo_kho": {
+    "name_vn": "Củ súng, bóc vỏ, khô",
+    "name_en": "Tropical water lilies root, peeled, dried",
+    "queries_tried": [
+      "Tropical water lilies root, peeled, dried food",
+      "Cu sung, boc vo, kho Vietnamese food",
+      "Tropical water lilies root, peeled, dried"
+    ]
+  },
+  "cu_tu_luoc": {
+    "name_vn": "Củ từ luộc",
+    "name_en": "Lesser Yam, boiled",
+    "queries_tried": [
+      "Lesser Yam, boiled food",
+      "Cu tu luoc Vietnamese food",
+      "Lesser Yam, boiled"
+    ]
+  },
+  "khoai_lang_luoc": {
+    "name_vn": "Khoai lang, luộc",
+    "name_en": "Sweet potato, boiled ",
+    "queries_tried": [
+      "Sweet potato, boiled  food",
+      "Khoai lang, luoc Vietnamese food",
+      "Sweet potato, boiled "
+    ]
+  },
+  "khoai_lang_nghe_tuoi": {
+    "name_vn": "Khoai lang nghệ, tươi",
+    "name_en": "Sweet potato, yellow, raw",
+    "queries_tried": [
+      "Sweet potato, yellow, raw food",
+      "Khoai lang nghe, tuoi Vietnamese food",
+      "Sweet potato, yellow, raw"
+    ]
+  },
+  "khoai_mon_tuoi": {
+    "name_vn": "Khoai môn, tươi",
+    "name_en": "Taro, Indian taro, raw",
+    "queries_tried": [
+      "Taro, Indian taro, raw food",
+      "Khoai mon, tuoi Vietnamese food",
+      "Taro, Indian taro, raw"
+    ]
+  },
+  "khoai_rieng_tuoi": {
+    "name_vn": "Khoai riềng, tươi",
+    "name_en": "Edible canna, raw",
+    "queries_tried": [
+      "Edible canna, raw food",
+      "Khoai rieng, tuoi Vietnamese food",
+      "Edible canna, raw"
+    ]
+  },
+  "khoai_rieng_luoc": {
+    "name_vn": "Khoai riềng luộc",
+    "name_en": "Edible canna, boiled",
+    "queries_tried": [
+      "Edible canna, boiled food",
+      "Khoai rieng luoc Vietnamese food",
+      "Edible canna, boiled"
+    ]
+  },
+  "khoai_so_luoc": {
+    "name_vn": "Khoai sọ, luộc",
+    "name_en": "Taro tuber, boiled",
+    "queries_tried": [
+      "Taro tuber, boiled food",
+      "Khoai so, luoc Vietnamese food",
+      "Taro tuber, boiled"
+    ]
+  },
+  "khoai_tay_tuoi": {
+    "name_vn": "Khoai tây, tươi",
+    "name_en": "Potato, white, raw",
+    "queries_tried": [
+      "Potato, white, raw food",
+      "Khoai tay, tuoi Vietnamese food",
+      "Potato, white, raw"
+    ]
+  },
+  "mien_dong_kho": {
+    "name_vn": "Miến dong, khô",
+    "name_en": "Vermicelli from arrow root, raw",
+    "queries_tried": [
+      "Vermicelli from arrow root, raw food",
+      "Mien dong, kho Vietnamese food",
+      "Vermicelli from arrow root, raw"
+    ]
+  },
+  "bot_khoai_lang": {
+    "name_vn": "Bột khoai lang",
+    "name_en": "Sweet potato flour",
+    "queries_tried": [
+      "Sweet potato flour food",
+      "Bot khoai lang Vietnamese food",
+      "Sweet potato flour"
+    ]
+  },
+  "bot_khoai_rieng_bot_dao": {
+    "name_vn": "Bột khoai riềng (bột đao)",
+    "name_en": "Edible canna flour",
+    "queries_tried": [
+      "Edible canna flour food",
+      "Bot khoai rieng (bot dao) Vietnamese food",
+      "Edible canna flour"
+    ]
+  },
+  "bot_san": {
+    "name_vn": "Bột sắn",
+    "name_en": "Cassava flour",
+    "queries_tried": [
+      "Cassava flour food",
+      "Bot san Vietnamese food",
+      "Cassava flour"
+    ]
+  },
+  "khoai_lang_kho": {
+    "name_vn": "Khoai lang, khô",
+    "name_en": "Sweet potato, dried",
+    "queries_tried": [
+      "Sweet potato, dried food",
+      "Khoai lang, kho Vietnamese food",
+      "Sweet potato, dried"
+    ]
+  },
+  "san_cu_kho": {
+    "name_vn": "Sắn, củ, khô",
+    "name_en": "Cassava, dried",
+    "queries_tried": [
+      "Cassava, dried food",
+      "San, cu, kho Vietnamese food",
+      "Cassava, dried"
+    ]
+  },
+  "tran_chau_san_luoc": {
+    "name_vn": "Trân châu sắn luộc ",
+    "name_en": "Tapioca, boiled",
+    "queries_tried": [
+      "Tapioca, boiled food",
+      "Tran chau san luoc  Vietnamese food",
+      "Tapioca, boiled"
+    ]
+  },
+  "cui_dua_gia_tuoi": {
+    "name_vn": "Cùi dừa già, tươi",
+    "name_en": "Coconut meat, mature, raw",
+    "queries_tried": [
+      "Coconut meat, mature, raw food",
+      "Cui dua gia, tuoi Vietnamese food",
+      "Coconut meat, mature, raw"
+    ]
+  },
+  "dau_co_ve_hat_kho": {
+    "name_vn": "Đậu cô ve, hạt, khô",
+    "name_en": "Common bean, seed, dried",
+    "queries_tried": [
+      "Common bean, seed, dried food",
+      "Dau co ve, hat, kho Vietnamese food",
+      "Common bean, seed, dried"
+    ]
+  },
+  "dau_dua_hat_kho": {
+    "name_vn": "Đậu đũa, hạt, khô",
+    "name_en": "Yardlong bean, seed, dried",
+    "queries_tried": [
+      "Yardlong bean, seed, dried food",
+      "Dau dua, hat, kho Vietnamese food",
+      "Yardlong bean, seed, dried"
+    ]
+  },
+  "dau_tuong_dau_nanh_hat_kho": {
+    "name_vn": "Đậu tương, đậu nành, hạt khô",
+    "name_en": "Soybean, seed, dried",
+    "queries_tried": [
+      "Soybean, seed, dried food",
+      "Dau tuong, dau nanh, hat kho Vietnamese food",
+      "Soybean, seed, dried"
+    ]
+  },
+  "dau_trung_cuoc_hat_kho": {
+    "name_vn": "Đậu trứng cuốc, hạt, khô",
+    "name_en": "Đậu trứng cuốc, hạt, khô",
+    "queries_tried": [
+      "Đậu trứng cuốc, hạt, khô food",
+      "Dau trung cuoc, hat, kho Vietnamese food",
+      "Đậu trứng cuốc, hạt, khô"
+    ]
+  },
+  "hat_de_to_kho": {
+    "name_vn": "Hạt dẻ to, khô",
+    "name_en": "Chestnut, dried",
+    "queries_tried": [
+      "Chestnut, dried food",
+      "Hat de to, kho Vietnamese food",
+      "Chestnut, dried"
+    ]
+  },
+  "hat_de_to_tuoi": {
+    "name_vn": "Hạt dẻ to, tươi",
+    "name_en": "Chestnut, fresh",
+    "queries_tried": [
+      "Chestnut, fresh food",
+      "Hat de to, tuoi Vietnamese food",
+      "Chestnut, fresh"
+    ]
+  },
+  "hat_den_kho": {
+    "name_vn": "Hạt đen, khô",
+    "name_en": "Hạt đen, khô",
+    "queries_tried": [
+      "Hạt đen, khô food",
+      "Hat den, kho Vietnamese food",
+      "Hạt đen, khô"
+    ]
+  },
+  "hat_mit_tuoi": {
+    "name_vn": "Hạt mít, tươi",
+    "name_en": "Jack fruit, seed, raw",
+    "queries_tried": [
+      "Jack fruit, seed, raw food",
+      "Hat mit, tuoi Vietnamese food",
+      "Jack fruit, seed, raw"
+    ]
+  },
+  "lac_rang_dau": {
+    "name_vn": "Lạc rang dầu",
+    "name_en": "Lạc rang dầu",
+    "queries_tried": [
+      "Lạc rang dầu food",
+      "Lac rang dau Vietnamese food",
+      "Lạc rang dầu"
+    ]
+  },
+  "qua_dai_hai_tuoi": {
+    "name_vn": "Quả đại hái, tươi",
+    "name_en": "Hodgsonia fruit, raw",
+    "queries_tried": [
+      "Hodgsonia fruit, raw food",
+      "Qua dai hai, tuoi Vietnamese food",
+      "Hodgsonia fruit, raw"
+    ]
+  },
+  "vung_den_trang_hat_kho": {
+    "name_vn": "Vừng (đen, trắng), hạt, khô",
+    "name_en": "Sesame seeds, dried, black or white",
+    "queries_tried": [
+      "Sesame seeds, dried, black or white food",
+      "Vung (den, trang), hat, kho Vietnamese food",
+      "Sesame seeds, dried, black or white"
+    ]
+  },
+  "bot_dau_tuong_da_loai_beo": {
+    "name_vn": "Bột đậu tương, đã loại béo",
+    "name_en": "Soyflour, defatted",
+    "queries_tried": [
+      "Soyflour, defatted food",
+      "Bot dau tuong, da loai beo Vietnamese food",
+      "Soyflour, defatted"
+    ]
+  },
+  "bot_dau_xanh": {
+    "name_vn": "Bột đậu xanh",
+    "name_en": "Mungo bean flour",
+    "queries_tried": [
+      "Mungo bean flour food",
+      "Bot dau xanh Vietnamese food",
+      "Mungo bean flour"
+    ]
+  },
+  "bot_lac": {
+    "name_vn": "Bột lạc",
+    "name_en": "Peanut flour",
+    "queries_tried": [
+      "Peanut flour food",
+      "Bot lac Vietnamese food",
+      "Peanut flour"
+    ]
+  },
+  "dau_phu_luoc": {
+    "name_vn": "Đậu phụ luộc",
+    "name_en": "Tofu, boiled ",
+    "queries_tried": [
+      "Tofu, boiled  food",
+      "Dau phu luoc Vietnamese food",
+      "Tofu, boiled "
+    ]
+  },
+  "dau_phu_chuc_song": {
+    "name_vn": "Đậu phụ chúc, sống",
+    "name_en": "Tofu skin, yuba, bean curd skin, bean curd sheet, raw",
+    "queries_tried": [
+      "Tofu skin, yuba, bean curd skin, bean curd sheet, raw food",
+      "Dau phu chuc, song Vietnamese food",
+      "Tofu skin, yuba, bean curd skin, bean curd sheet, raw"
+    ]
+  },
+  "hat_bi_do_rang": {
+    "name_vn": "Hạt bí đỏ, rang",
+    "name_en": "Pumpkin seeds, fried",
+    "queries_tried": [
+      "Pumpkin seeds, fried food",
+      "Hat bi do, rang Vietnamese food",
+      "Pumpkin seeds, fried"
+    ]
+  },
+  "hat_dieu_kho_chien_dau": {
+    "name_vn": "Hạt điều khô, chiên dầu",
+    "name_en": "Cashew nut, roasted with oil",
+    "queries_tried": [
+      "Cashew nut, roasted with oil food",
+      "Hat dieu kho, chien dau Vietnamese food",
+      "Cashew nut, roasted with oil"
+    ]
+  },
+  "sua_bot_dau_nanh": {
+    "name_vn": "Sữa bột đậu nành",
+    "name_en": "Milk powder, soy flour and sugar",
+    "queries_tried": [
+      "Milk powder, soy flour and sugar food",
+      "Sua bot dau nanh Vietnamese food",
+      "Milk powder, soy flour and sugar"
+    ]
+  },
+  "tao_pho": {
+    "name_vn": "Tào phớ",
+    "name_en": "Soybean curd in light syrup ",
+    "queries_tried": [
+      "Soybean curd in light syrup  food",
+      "Tao pho Vietnamese food",
+      "Soybean curd in light syrup "
+    ]
+  },
+  "dau_van_luoc": {
+    "name_vn": "Đậu ván luộc",
+    "name_en": "Bean, lablab bean, boiled",
+    "queries_tried": [
+      "Bean, lablab bean, boiled food",
+      "Dau van luoc Vietnamese food",
+      "Bean, lablab bean, boiled"
+    ]
+  },
+  "hat_sen_tuoi_luoc": {
+    "name_vn": "Hạt sen tươi luộc",
+    "name_en": "Lotus seed, fresh, boiled",
+    "queries_tried": [
+      "Lotus seed, fresh, boiled food",
+      "Hat sen tuoi luoc Vietnamese food",
+      "Lotus seed, fresh, boiled"
+    ]
+  },
+  "hat_oc_cho_rang": {
+    "name_vn": "Hạt óc chó rang",
+    "name_en": "Walnuts dried, stirred",
+    "queries_tried": [
+      "Walnuts dried, stirred food",
+      "Hat oc cho rang Vietnamese food",
+      "Walnuts dried, stirred"
+    ]
+  },
+  "hat_de_cuoi_rang": {
+    "name_vn": "Hạt dẻ cười rang",
+    "name_en": "Pistachio dried, stirred",
+    "queries_tried": [
+      "Pistachio dried, stirred food",
+      "Hat de cuoi rang Vietnamese food",
+      "Pistachio dried, stirred"
+    ]
+  },
+  "bau_luoc": {
+    "name_vn": "Bầu, luộc",
+    "name_en": "Calabash  (Bottle gourd), boiled",
+    "queries_tried": [
+      "Calabash  (Bottle gourd), boiled food",
+      "Bau, luoc Vietnamese food",
+      "Calabash  (Bottle gourd), boiled"
+    ]
+  },
+  "bi_dao_bi_xanh_luoc": {
+    "name_vn": "Bí đao (bí xanh), luộc",
+    "name_en": "Asgourd Waxgoured, boiled",
+    "queries_tried": [
+      "Asgourd Waxgoured, boiled food",
+      "Bi dao (bi xanh), luoc Vietnamese food",
+      "Asgourd Waxgoured, boiled"
+    ]
+  },
+  "bi_ngo_luoc": {
+    "name_vn": "Bí ngô, luộc",
+    "name_en": "Pumpkin squash, boiled",
+    "queries_tried": [
+      "Pumpkin squash, boiled food",
+      "Bi ngo, luoc Vietnamese food",
+      "Pumpkin squash, boiled"
+    ]
+  },
+  "ca_bat_luoc": {
+    "name_vn": "Cà bát, luộc",
+    "name_en": "Egg plant large round, boiled",
+    "queries_tried": [
+      "Egg plant large round, boiled food",
+      "Ca bat, luoc Vietnamese food",
+      "Egg plant large round, boiled"
+    ]
+  },
+  "cu_ca_rot_tuoi": {
+    "name_vn": "Củ cà rốt, tươi",
+    "name_en": "Carrots, all variety, raw",
+    "queries_tried": [
+      "Carrots, all variety, raw food",
+      "Cu ca rot, tuoi Vietnamese food",
+      "Carrots, all variety, raw"
+    ]
+  },
+  "cu_ca_rot_kho": {
+    "name_vn": "Củ cà rốt, khô",
+    "name_en": "Carrot, dried",
+    "queries_tried": [
+      "Carrot, dried food",
+      "Cu ca rot, kho Vietnamese food",
+      "Carrot, dried"
+    ]
+  },
+  "ca_tim_luoc": {
+    "name_vn": "Cà tím, luộc",
+    "name_en": "Aubergine, boiled",
+    "queries_tried": [
+      "Aubergine, boiled food",
+      "Ca tim, luoc Vietnamese food",
+      "Aubergine, boiled"
+    ]
+  },
+  "cai_bap_luoc": {
+    "name_vn": "Cải bắp, luộc",
+    "name_en": "Cabbage, white/green, boiled",
+    "queries_tried": [
+      "Cabbage, white/green, boiled food",
+      "Cai bap, luoc Vietnamese food",
+      "Cabbage, white/green, boiled"
+    ]
+  },
+  "cai_bap_do_luoc": {
+    "name_vn": "Cải bắp đỏ, luộc",
+    "name_en": "Cabbage, red, boiled",
+    "queries_tried": [
+      "Cabbage, red, boiled food",
+      "Cai bap do, luoc Vietnamese food",
+      "Cabbage, red, boiled"
+    ]
+  },
+  "cai_cuc_tuoi": {
+    "name_vn": "Cải cúc, tươi",
+    "name_en": "Crown daisy, raw",
+    "queries_tried": [
+      "Crown daisy, raw food",
+      "Cai cuc, tuoi Vietnamese food",
+      "Crown daisy, raw"
+    ]
+  },
+  "cai_soong_tuoi": {
+    "name_vn": "Cải soong, tươi",
+    "name_en": "Water cress, raw",
+    "queries_tried": [
+      "Water cress, raw food",
+      "Cai soong, tuoi Vietnamese food",
+      "Water cress, raw"
+    ]
+  },
+  "cai_thia_cai_trang_luoc": {
+    "name_vn": "Cải thìa (cải trắng), luộc",
+    "name_en": "Brassica, Bok choy (pak choi), boiled",
+    "queries_tried": [
+      "Brassica, Bok choy (pak choi), boiled food",
+      "Cai thia (cai trang), luoc Vietnamese food",
+      "Brassica, Bok choy (pak choi), boiled"
+    ]
+  },
+  "cai_xanh_luoc": {
+    "name_vn": "Cải xanh, luộc",
+    "name_en": "Brassica, Mustard greens, Indian mustard, boiled",
+    "queries_tried": [
+      "Brassica, Mustard greens, Indian mustard, boiled food",
+      "Cai xanh, luoc Vietnamese food",
+      "Brassica, Mustard greens, Indian mustard, boiled"
+    ]
+  },
+  "can_tay_tuoi": {
+    "name_vn": "Cần tây, tươi",
+    "name_en": "Celery, raw",
+    "queries_tried": [
+      "Celery, raw food",
+      "Can tay, tuoi Vietnamese food",
+      "Celery, raw"
+    ]
+  },
+  "chuoi_xanh_tuoi": {
+    "name_vn": "Chuối xanh, tươi",
+    "name_en": "Banana common varieties, unripe",
+    "queries_tried": [
+      "Banana common varieties, unripe food",
+      "Chuoi xanh, tuoi Vietnamese food",
+      "Banana common varieties, unripe"
+    ]
+  },
+  "cu_cai_do_tuoi": {
+    "name_vn": "Củ cải đỏ, tươi",
+    "name_en": "Red radish oriental, raw",
+    "queries_tried": [
+      "Red radish oriental, raw food",
+      "Cu cai do, tuoi Vietnamese food",
+      "Red radish oriental, raw"
+    ]
+  },
+  "cu_cai_trang_tuoi": {
+    "name_vn": "Củ cải trắng, tươi",
+    "name_en": "Radish garden while, raw",
+    "queries_tried": [
+      "Radish garden while, raw food",
+      "Cu cai trang, tuoi Vietnamese food",
+      "Radish garden while, raw"
+    ]
+  },
+  "cu_cai_trang_kho": {
+    "name_vn": "Củ cải trắng, khô",
+    "name_en": "White radish, dried",
+    "queries_tried": [
+      "White radish, dried food",
+      "Cu cai trang, kho Vietnamese food",
+      "White radish, dried"
+    ]
+  },
+  "cu_nieng_tuoi": {
+    "name_vn": "Củ niễng, tươi",
+    "name_en": "Manchurian wild rice, stem, raw",
+    "queries_tried": [
+      "Manchurian wild rice, stem, raw food",
+      "Cu nieng, tuoi Vietnamese food",
+      "Manchurian wild rice, stem, raw"
+    ]
+  },
+  "doc_cu_cai_non_tuoi": {
+    "name_vn": "Dọc củ cải, non, tươi",
+    "name_en": "Radish garden, immature, raw",
+    "queries_tried": [
+      "Radish garden, immature, raw food",
+      "Doc cu cai, non, tuoi Vietnamese food",
+      "Radish garden, immature, raw"
+    ]
+  },
+  "dua_chuot_tuoi": {
+    "name_vn": "Dưa chuột, tươi",
+    "name_en": "Cucumber, raw",
+    "queries_tried": [
+      "Cucumber, raw food",
+      "Dua chuot, tuoi Vietnamese food",
+      "Cucumber, raw"
+    ]
+  },
+  "dua_gang_tuoi": {
+    "name_vn": "Dưa gang, tươi",
+    "name_en": "Large cucumber, raw",
+    "queries_tried": [
+      "Large cucumber, raw food",
+      "Dua gang, tuoi Vietnamese food",
+      "Large cucumber, raw"
+    ]
+  },
+  "dau_co_ve_luoc": {
+    "name_vn": "Đậu cô ve, luộc",
+    "name_en": "Bean common string, boiled",
+    "queries_tried": [
+      "Bean common string, boiled food",
+      "Dau co ve, luoc Vietnamese food",
+      "Bean common string, boiled"
+    ]
+  },
+  "dau_dua_luoc": {
+    "name_vn": "Đậu đũa, luộc",
+    "name_en": "Yardlong bean, boiled",
+    "queries_tried": [
+      "Yardlong bean, boiled food",
+      "Dau dua, luoc Vietnamese food",
+      "Yardlong bean, boiled"
+    ]
+  },
+  "dau_ha_lan_qua_tuoi": {
+    "name_vn": "Đậu Hà Lan, quả, tươi",
+    "name_en": "Green peas; field pea, raw",
+    "queries_tried": [
+      "Green peas; field pea, raw food",
+      "Dau Ha Lan, qua, tuoi Vietnamese food",
+      "Green peas; field pea, raw"
+    ]
+  },
+  "du_du_xanh_tuoi": {
+    "name_vn": "Đu đủ xanh, tươi",
+    "name_en": "Papaya, unripe, raw",
+    "queries_tried": [
+      "Papaya, unripe, raw food",
+      "Du du xanh, tuoi Vietnamese food",
+      "Papaya, unripe, raw"
+    ]
+  },
+  "gia_dau_tuong_tuoi": {
+    "name_vn": "Giá đậu tương, tươi",
+    "name_en": "Sprout of soybeans, raw",
+    "queries_tried": [
+      "Sprout of soybeans, raw food",
+      "Gia dau tuong, tuoi Vietnamese food",
+      "Sprout of soybeans, raw"
+    ]
+  },
+  "gia_dau_xanh_luoc": {
+    "name_vn": "Giá đậu xanh, luộc",
+    "name_en": "Sprouts, Mungobean sprouts, boiled",
+    "queries_tried": [
+      "Sprouts, Mungobean sprouts, boiled food",
+      "Gia dau xanh, luoc Vietnamese food",
+      "Sprouts, Mungobean sprouts, boiled"
+    ]
+  },
+  "hanh_la_hanh_hoa_tuoi": {
+    "name_vn": "Hành lá (hành hoa), tươi",
+    "name_en": "Onion, leave, raw",
+    "queries_tried": [
+      "Onion, leave, raw food",
+      "Hanh la (hanh hoa), tuoi Vietnamese food",
+      "Onion, leave, raw"
+    ]
+  },
+  "hat_sen_tuoi": {
+    "name_vn": "Hạt sen, tươi",
+    "name_en": "Lotus seed, raw",
+    "queries_tried": [
+      "Lotus seed, raw food",
+      "Hat sen, tuoi Vietnamese food",
+      "Lotus seed, raw"
+    ]
+  },
+  "he_la_tuoi": {
+    "name_vn": "Hẹ lá, tươi",
+    "name_en": "Onion, fragrant, Chinese leek, raw",
+    "queries_tried": [
+      "Onion, fragrant, Chinese leek, raw food",
+      "He la, tuoi Vietnamese food",
+      "Onion, fragrant, Chinese leek, raw"
+    ]
+  },
+  "hoa_chuoi_tuoi": {
+    "name_vn": "Hoa chuối, tươi",
+    "name_en": "Banana, buds and flowers, raw",
+    "queries_tried": [
+      "Banana, buds and flowers, raw food",
+      "Hoa chuoi, tuoi Vietnamese food",
+      "Banana, buds and flowers, raw"
+    ]
+  },
+  "qua_khe_tuoi": {
+    "name_vn": "Quả khế, tươi",
+    "name_en": "Carambola; Star fruit, raw",
+    "queries_tried": [
+      "Carambola; Star fruit, raw food",
+      "Qua khe, tuoi Vietnamese food",
+      "Carambola; Star fruit, raw"
+    ]
+  },
+  "la_lot_tuoi": {
+    "name_vn": "Lá lốt, tươi",
+    "name_en": "Lolot pepper, raw",
+    "queries_tried": [
+      "Lolot pepper, raw food",
+      "La lot, tuoi Vietnamese food",
+      "Lolot pepper, raw"
+    ]
+  },
+  "la_me_tuoi": {
+    "name_vn": "Lá me, tươi ",
+    "name_en": "Lá me, tươi ",
+    "queries_tried": [
+      "Lá me, tươi  food",
+      "La me, tuoi  Vietnamese food",
+      "Lá me, tươi "
+    ]
+  },
+  "la_san_tuoi": {
+    "name_vn": "Lá sắn, tươi",
+    "name_en": "Cassava leaves, raw",
+    "queries_tried": [
+      "Cassava leaves, raw food",
+      "La san, tuoi Vietnamese food",
+      "Cassava leaves, raw"
+    ]
+  },
+  "mang_chua_mang_tre": {
+    "name_vn": "Măng chua, măng tre",
+    "name_en": "Bamboo shoot, fermented, raw",
+    "queries_tried": [
+      "Bamboo shoot, fermented, raw food",
+      "Mang chua, mang tre Vietnamese food",
+      "Bamboo shoot, fermented, raw"
+    ]
+  },
+  "mang_tay_tuoi": {
+    "name_vn": "Măng tây, tươi",
+    "name_en": "Asparagus, white, raw",
+    "queries_tried": [
+      "Asparagus, white, raw food",
+      "Mang tay, tuoi Vietnamese food",
+      "Asparagus, white, raw"
+    ]
+  },
+  "muop_tuoi": {
+    "name_vn": "Mướp, tươi",
+    "name_en": "Gourd, sponge gourd, raw",
+    "queries_tried": [
+      "Gourd, sponge gourd, raw food",
+      "Muop, tuoi Vietnamese food",
+      "Gourd, sponge gourd, raw"
+    ]
+  },
+  "muop_luoc": {
+    "name_vn": "Mướp, luộc",
+    "name_en": "Gourd (sponge gourd), boiled",
+    "queries_tried": [
+      "Gourd (sponge gourd), boiled food",
+      "Muop, luoc Vietnamese food",
+      "Gourd (sponge gourd), boiled"
+    ]
+  },
+  "muop_dang_luoc": {
+    "name_vn": "Mướp đắng, luộc",
+    "name_en": "Bitter gourd, boiled",
+    "queries_tried": [
+      "Bitter gourd, boiled food",
+      "Muop dang, luoc Vietnamese food",
+      "Bitter gourd, boiled"
+    ]
+  },
+  "ngai_cuu_tuoi": {
+    "name_vn": "Ngải cứu, tươi",
+    "name_en": "Mugwort, wormwood, raw",
+    "queries_tried": [
+      "Mugwort, wormwood, raw food",
+      "Ngai cuu, tuoi Vietnamese food",
+      "Mugwort, wormwood, raw"
+    ]
+  },
+  "ngo_sen_tuoi": {
+    "name_vn": "Ngó sen, tươi",
+    "name_en": "Lotus, underground stem, raw",
+    "queries_tried": [
+      "Lotus, underground stem, raw food",
+      "Ngo sen, tuoi Vietnamese food",
+      "Lotus, underground stem, raw"
+    ]
+  },
+  "ot_do_to_tuoi": {
+    "name_vn": "Ớt đỏ to, tươi",
+    "name_en": "Peppers, red, raw",
+    "queries_tried": [
+      "Peppers, red, raw food",
+      "Ớt do to, tuoi Vietnamese food",
+      "Peppers, red, raw"
+    ]
+  },
+  "ot_vang_to_tuoi": {
+    "name_vn": "Ớt vàng to, tươi",
+    "name_en": "Peppers, yellow, raw",
+    "queries_tried": [
+      "Peppers, yellow, raw food",
+      "Ớt vang to, tuoi Vietnamese food",
+      "Peppers, yellow, raw"
+    ]
+  },
+  "qua_doc_tuoi": {
+    "name_vn": "Quả dọc, tươi",
+    "name_en": "Bira tai, raw",
+    "queries_tried": [
+      "Bira tai, raw food",
+      "Qua doc, tuoi Vietnamese food",
+      "Bira tai, raw"
+    ]
+  },
+  "rau_bi_tuoi": {
+    "name_vn": "Rau bí, tươi",
+    "name_en": "Pumpkin leaves, raw",
+    "queries_tried": [
+      "Pumpkin leaves, raw food",
+      "Rau bi, tuoi Vietnamese food",
+      "Pumpkin leaves, raw"
+    ]
+  },
+  "rau_cau_kho": {
+    "name_vn": "Rau câu, khô",
+    "name_en": "Seaweed, dried",
+    "queries_tried": [
+      "Seaweed, dried food",
+      "Rau cau, kho Vietnamese food",
+      "Seaweed, dried"
+    ]
+  },
+  "rau_diep_tuoi": {
+    "name_vn": "Rau diếp, tươi",
+    "name_en": "Lettuce, garden, raw",
+    "queries_tried": [
+      "Lettuce, garden, raw food",
+      "Rau diep, tuoi Vietnamese food",
+      "Lettuce, garden, raw"
+    ]
+  },
+  "rau_giap_ca_diep_ca_tuoi": {
+    "name_vn": "Rau giấp cá, diếp cá, tươi",
+    "name_en": "Lizard tail,  fishwort, raw",
+    "queries_tried": [
+      "Lizard tail,  fishwort, raw food",
+      "Rau giap ca, diep ca, tuoi Vietnamese food",
+      "Lizard tail,  fishwort, raw"
+    ]
+  },
+  "rau_gien_com_luoc": {
+    "name_vn": "Rau giền cơm, luộc",
+    "name_en": "Amaranth, green, boiled",
+    "queries_tried": [
+      "Amaranth, green, boiled food",
+      "Rau gien com, luoc Vietnamese food",
+      "Amaranth, green, boiled"
+    ]
+  },
+  "rau_gien_do_luoc": {
+    "name_vn": "Rau giền đỏ, luộc",
+    "name_en": "Amaranth, red, boiled",
+    "queries_tried": [
+      "Amaranth, red, boiled food",
+      "Rau gien do, luoc Vietnamese food",
+      "Amaranth, red, boiled"
+    ]
+  },
+  "rau_gien_trang_tuoi": {
+    "name_vn": "Rau giền trắng, tươi",
+    "name_en": "Amaranth, sp White, raw",
+    "queries_tried": [
+      "Amaranth, sp White, raw food",
+      "Rau gien trang, tuoi Vietnamese food",
+      "Amaranth, sp White, raw"
+    ]
+  },
+  "rau_hung_tuoi": {
+    "name_vn": "Rau húng, tươi",
+    "name_en": "Basil sweet leaves, raw",
+    "queries_tried": [
+      "Basil sweet leaves, raw food",
+      "Rau hung, tuoi Vietnamese food",
+      "Basil sweet leaves, raw"
+    ]
+  },
+  "rau_khoai_lang_tuoi": {
+    "name_vn": "Rau khoai lang, tươi",
+    "name_en": "Sweet potato leaves, raw",
+    "queries_tried": [
+      "Sweet potato leaves, raw food",
+      "Rau khoai lang, tuoi Vietnamese food",
+      "Sweet potato leaves, raw"
+    ]
+  },
+  "rau_kinh_gioi_tuoi": {
+    "name_vn": "Rau kinh giới, tươi",
+    "name_en": "Vietnamese Balm, raw",
+    "queries_tried": [
+      "Vietnamese Balm, raw food",
+      "Rau kinh gioi, tuoi Vietnamese food",
+      "Vietnamese Balm, raw"
+    ]
+  },
+  "rau_ma_rung_tuoi": {
+    "name_vn": "Rau má rừng, tươi",
+    "name_en": "Wild centella, raw",
+    "queries_tried": [
+      "Wild centella, raw food",
+      "Rau ma rung, tuoi Vietnamese food",
+      "Wild centella, raw"
+    ]
+  },
+  "rau_mong_toi_tuoi": {
+    "name_vn": "Rau mồng tơi, tươi",
+    "name_en": "Malabar, Ceylon spinach, raw",
+    "queries_tried": [
+      "Malabar, Ceylon spinach, raw food",
+      "Rau mong toi, tuoi Vietnamese food",
+      "Malabar, Ceylon spinach, raw"
+    ]
+  },
+  "rau_mong_toi_luoc": {
+    "name_vn": "Rau mồng tơi, luộc",
+    "name_en": "Malabar nightshade, boiled",
+    "queries_tried": [
+      "Malabar nightshade, boiled food",
+      "Rau mong toi, luoc Vietnamese food",
+      "Malabar nightshade, boiled"
+    ]
+  },
+  "rau_mui_tau_tuoi": {
+    "name_vn": "Rau mùi tàu, tươi",
+    "name_en": "Parsley, curley, raw",
+    "queries_tried": [
+      "Parsley, curley, raw food",
+      "Rau mui tau, tuoi Vietnamese food",
+      "Parsley, curley, raw"
+    ]
+  },
+  "rau_muong_luoc": {
+    "name_vn": "Rau muống, luộc",
+    "name_en": "Water spinach, boiled",
+    "queries_tried": [
+      "Water spinach, boiled food",
+      "Rau muong, luoc Vietnamese food",
+      "Water spinach, boiled"
+    ]
+  },
+  "rau_ngo_tuoi": {
+    "name_vn": "Rau ngổ, tươi",
+    "name_en": "Buffalo spinach, raw",
+    "queries_tried": [
+      "Buffalo spinach, raw food",
+      "Rau ngo, tuoi Vietnamese food",
+      "Buffalo spinach, raw"
+    ]
+  },
+  "rau_ngot_kho": {
+    "name_vn": "Rau ngót, khô",
+    "name_en": "Sauropus, dried",
+    "queries_tried": [
+      "Sauropus, dried food",
+      "Rau ngot, kho Vietnamese food",
+      "Sauropus, dried"
+    ]
+  },
+  "rau_ram_tuoi": {
+    "name_vn": "Rau răm, tươi",
+    "name_en": "Vietnamese mint, hot mint, raw",
+    "queries_tried": [
+      "Vietnamese mint, hot mint, raw food",
+      "Rau ram, tuoi Vietnamese food",
+      "Vietnamese mint, hot mint, raw"
+    ]
+  },
+  "rau_sa_lach_tuoi": {
+    "name_vn": "Rau sà lách, tươi",
+    "name_en": "Lettuce, garden asparagus, raw",
+    "queries_tried": [
+      "Lettuce, garden asparagus, raw food",
+      "Rau sa lach, tuoi Vietnamese food",
+      "Lettuce, garden asparagus, raw"
+    ]
+  },
+  "rau_sam_tuoi": {
+    "name_vn": "Rau sam, tươi",
+    "name_en": "Purslane, pursley, raw",
+    "queries_tried": [
+      "Purslane, pursley, raw food",
+      "Rau sam, tuoi Vietnamese food",
+      "Purslane, pursley, raw"
+    ]
+  },
+  "rau_tau_bay_tuoi": {
+    "name_vn": "Rau tàu bay, tươi",
+    "name_en": "Redflower ragleaf, fireweed, raw",
+    "queries_tried": [
+      "Redflower ragleaf, fireweed, raw food",
+      "Rau tau bay, tuoi Vietnamese food",
+      "Redflower ragleaf, fireweed, raw"
+    ]
+  },
+  "rau_thom_tuoi": {
+    "name_vn": "Rau thơm, tươi",
+    "name_en": "Mint leaves, raw",
+    "queries_tried": [
+      "Mint leaves, raw food",
+      "Rau thom, tuoi Vietnamese food",
+      "Mint leaves, raw"
+    ]
+  },
+  "cu_su_hao_tuoi": {
+    "name_vn": "Củ su hào, tươi",
+    "name_en": "Kohlrabi, turnip cabbage, raw",
+    "queries_tried": [
+      "Kohlrabi, turnip cabbage, raw food",
+      "Cu su hao, tuoi Vietnamese food",
+      "Kohlrabi, turnip cabbage, raw"
+    ]
+  },
+  "cu_su_hao_kho": {
+    "name_vn": "Củ su hào, khô",
+    "name_en": "Kohlrabi, turnip cabbage, dried",
+    "queries_tried": [
+      "Kohlrabi, turnip cabbage, dried food",
+      "Cu su hao, kho Vietnamese food",
+      "Kohlrabi, turnip cabbage, dried"
+    ]
+  },
+  "qua_su_su_tuoi": {
+    "name_vn": "Quả su su, tươi",
+    "name_en": "Chayote, raw",
+    "queries_tried": [
+      "Chayote, raw food",
+      "Qua su su, tuoi Vietnamese food",
+      "Chayote, raw"
+    ]
+  },
+  "sup_lo_trang_tuoi": {
+    "name_vn": "Súp lơ trắng, tươi",
+    "name_en": "Cauliflower, raw",
+    "queries_tried": [
+      "Cauliflower, raw food",
+      "Sup lo trang, tuoi Vietnamese food",
+      "Cauliflower, raw"
+    ]
+  },
+  "sup_lo_xanh_tuoi": {
+    "name_vn": "Súp lơ xanh, tươi",
+    "name_en": "Broccoli, raw",
+    "queries_tried": [
+      "Broccoli, raw food",
+      "Sup lo xanh, tuoi Vietnamese food",
+      "Broccoli, raw"
+    ]
+  },
+  "sup_lo_xanh_luoc": {
+    "name_vn": "Súp lơ xanh, luộc",
+    "name_en": "Cauli/Brocco, Broccoli, boiled",
+    "queries_tried": [
+      "Cauli/Brocco, Broccoli, boiled food",
+      "Sup lo xanh, luoc Vietnamese food",
+      "Cauli/Brocco, Broccoli, boiled"
+    ]
+  },
+  "tia_to_tuoi": {
+    "name_vn": "Tía tô, tươi",
+    "name_en": "Balm-mint, garden- balm, raw",
+    "queries_tried": [
+      "Balm-mint, garden- balm, raw food",
+      "Tia to, tuoi Vietnamese food",
+      "Balm-mint, garden- balm, raw"
+    ]
+  },
+  "toi_tay_ca_la_tuoi": {
+    "name_vn": "Tỏi tây, cả lá, tươi",
+    "name_en": "Chinese Leek, Onion fragrant, raw",
+    "queries_tried": [
+      "Chinese Leek, Onion fragrant, raw food",
+      "Toi tay, ca la, tuoi Vietnamese food",
+      "Chinese Leek, Onion fragrant, raw"
+    ]
+  },
+  "tram_den_qua_chin_tuoi": {
+    "name_vn": "Trám đen, quả chín, tươi",
+    "name_en": "Fruit of Canarium pimela, ripe",
+    "queries_tried": [
+      "Fruit of Canarium pimela, ripe food",
+      "Tram den, qua chin, tuoi Vietnamese food",
+      "Fruit of Canarium pimela, ripe"
+    ]
+  },
+  "la_xuong_song_tuoi": {
+    "name_vn": "Lá xương sông, tươi",
+    "name_en": "Edible leaves of Blumea lanceolaria, raw",
+    "queries_tried": [
+      "Edible leaves of Blumea lanceolaria, raw food",
+      "La xuong song, tuoi Vietnamese food",
+      "Edible leaves of Blumea lanceolaria, raw"
+    ]
+  },
+  "cai_ngot_luoc": {
+    "name_vn": "Cải ngọt, luộc",
+    "name_en": "Brassica, Elongated mustard, boiled",
+    "queries_tried": [
+      "Brassica, Elongated mustard, boiled food",
+      "Cai ngot, luoc Vietnamese food",
+      "Brassica, Elongated mustard, boiled"
+    ]
+  },
+  "ngon_su_su_tuoi": {
+    "name_vn": "Ngọn su su, tươi",
+    "name_en": "Chayote, young stem and leaves raw",
+    "queries_tried": [
+      "Chayote, young stem and leaves raw food",
+      "Ngon su su, tuoi Vietnamese food",
+      "Chayote, young stem and leaves raw"
+    ]
+  },
+  "qua_dau_van_tuoi": {
+    "name_vn": "Quả đậu ván, tươi",
+    "name_en": "Hyacinth bean,    Australian pea, raw",
+    "queries_tried": [
+      "Hyacinth bean,    Australian pea, raw food",
+      "Qua dau van, tuoi Vietnamese food",
+      "Hyacinth bean,    Australian pea, raw"
+    ]
+  },
+  "ca_phao_muoi_nen": {
+    "name_vn": "Cà pháo, muối nén",
+    "name_en": "Eggplant, pickled with salt",
+    "queries_tried": [
+      "Eggplant, pickled with salt food",
+      "Ca phao, muoi nen Vietnamese food",
+      "Eggplant, pickled with salt"
+    ]
+  },
+  "dua_cai_bap": {
+    "name_vn": "Dưa cải bắp",
+    "name_en": "Cabbage Chinese pickled with salt",
+    "queries_tried": [
+      "Cabbage Chinese pickled with salt food",
+      "Dua cai bap Vietnamese food",
+      "Cabbage Chinese pickled with salt"
+    ]
+  },
+  "dua_cai_sen": {
+    "name_vn": "Dưa cải sen",
+    "name_en": "Field mustard, pickled with salt",
+    "queries_tried": [
+      "Field mustard, pickled with salt food",
+      "Dua cai sen Vietnamese food",
+      "Field mustard, pickled with salt"
+    ]
+  },
+  "dua_chuot_muoi": {
+    "name_vn": "Dưa chuột, muối",
+    "name_en": "Cucumber, pickled with salt",
+    "queries_tried": [
+      "Cucumber, pickled with salt food",
+      "Dua chuot, muoi Vietnamese food",
+      "Cucumber, pickled with salt"
+    ]
+  },
+  "hanh_cu_muoi": {
+    "name_vn": "Hành củ, muối",
+    "name_en": "Onion, pickled with salt",
+    "queries_tried": [
+      "Onion, pickled with salt food",
+      "Hanh cu, muoi Vietnamese food",
+      "Onion, pickled with salt"
+    ]
+  },
+  "kieu_muoi": {
+    "name_vn": "Kiệu, muối",
+    "name_en": "Onion shallot, scallion, pickled with salt",
+    "queries_tried": [
+      "Onion shallot, scallion, pickled with salt food",
+      "Kieu, muoi Vietnamese food",
+      "Onion shallot, scallion, pickled with salt"
+    ]
+  },
+  "men_bia_kho": {
+    "name_vn": "Men bia, khô",
+    "name_en": "Brewer\\",
+    "queries_tried": [
+      "Brewer\\ food",
+      "Men bia, kho Vietnamese food",
+      "Brewer\\"
+    ]
+  },
+  "men_bia_tuoi": {
+    "name_vn": "Men bia, tươi",
+    "name_en": "Brewer\\",
+    "queries_tried": [
+      "Brewer\\ food",
+      "Men bia, tuoi Vietnamese food",
+      "Brewer\\"
+    ]
+  },
+  "nam_huong_kho": {
+    "name_vn": "Nấm hương, khô",
+    "name_en": "Mushroom, shiitake, dried",
+    "queries_tried": [
+      "Mushroom, shiitake, dried food",
+      "Nam huong, kho Vietnamese food",
+      "Mushroom, shiitake, dried"
+    ]
+  },
+  "nam_mo_nam_tay_tuoi": {
+    "name_vn": "Nấm mỡ (Nấm tây), tươi",
+    "name_en": "Common mushroom, table mushroom, raw",
+    "queries_tried": [
+      "Common mushroom, table mushroom, raw food",
+      "Nam mo (Nam tay), tuoi Vietnamese food",
+      "Common mushroom, table mushroom, raw"
+    ]
+  },
+  "nam_rom_tuoi": {
+    "name_vn": "Nấm rơm, tươi",
+    "name_en": "Straw mushroom, raw",
+    "queries_tried": [
+      "Straw mushroom, raw food",
+      "Nam rom, tuoi Vietnamese food",
+      "Straw mushroom, raw"
+    ]
+  },
+  "hanh_kho": {
+    "name_vn": "Hành khô",
+    "name_en": "Hành khô",
+    "queries_tried": [
+      "Hành khô food",
+      "Hanh kho Vietnamese food",
+      "Hành khô"
+    ]
+  },
+  "cai_ngong": {
+    "name_vn": "Cải ngồng",
+    "name_en": "Cải ngồng",
+    "queries_tried": [
+      "Cải ngồng food",
+      "Cai ngong Vietnamese food",
+      "Cải ngồng"
+    ]
+  },
+  "rau_cai_chip": {
+    "name_vn": "Rau cải chíp",
+    "name_en": "Rau cải chíp",
+    "queries_tried": [
+      "Rau cải chíp food",
+      "Rau cai chip Vietnamese food",
+      "Rau cải chíp"
+    ]
+  },
+  "rong_bien": {
+    "name_vn": "Rong biển",
+    "name_en": "Rong biển",
+    "queries_tried": [
+      "Rong biển food",
+      "Rong bien Vietnamese food",
+      "Rong biển"
+    ]
+  },
+  "cam_tuoi": {
+    "name_vn": "Cam, tươi",
+    "name_en": "Orange, raw",
+    "queries_tried": [
+      "Orange, raw food",
+      "Cam, tuoi Vietnamese food",
+      "Orange, raw"
+    ]
+  },
+  "chom_chom_tuoi": {
+    "name_vn": "Chôm chôm, tươi",
+    "name_en": "Rambutan, raw",
+    "queries_tried": [
+      "Rambutan, raw food",
+      "Chom chom, tuoi Vietnamese food",
+      "Rambutan, raw"
+    ]
+  },
+  "chuoi_tay_tuoi": {
+    "name_vn": "Chuối tây, tươi",
+    "name_en": "Banana, raw",
+    "queries_tried": [
+      "Banana, raw food",
+      "Chuoi tay, tuoi Vietnamese food",
+      "Banana, raw"
+    ]
+  },
+  "dau_gia_tuoi": {
+    "name_vn": "Dâu gia, tươi ",
+    "name_en": "Fruit of Baccaurea sapida, tươi",
+    "queries_tried": [
+      "Fruit of Baccaurea sapida, tươi food",
+      "Dau gia, tuoi  Vietnamese food",
+      "Fruit of Baccaurea sapida, tươi"
+    ]
+  },
+  "dau_tay_tuoi": {
+    "name_vn": "Dâu tây, tươi",
+    "name_en": "Strawberry, raw",
+    "queries_tried": [
+      "Strawberry, raw food",
+      "Dau tay, tuoi Vietnamese food",
+      "Strawberry, raw"
+    ]
+  },
+  "dua_hau_tuoi": {
+    "name_vn": "Dưa hấu, tươi",
+    "name_en": "Watermelon, raw",
+    "queries_tried": [
+      "Watermelon, raw food",
+      "Dua hau, tuoi Vietnamese food",
+      "Watermelon, raw"
+    ]
+  },
+  "dua_hong_tuoi": {
+    "name_vn": "Dưa hồng, tươi",
+    "name_en": "Dưa hồng, tươi",
+    "queries_tried": [
+      "Dưa hồng, tươi food",
+      "Dua hong, tuoi Vietnamese food",
+      "Dưa hồng, tươi"
+    ]
+  },
+  "dua_ta_tuoi": {
+    "name_vn": "Dứa ta, tươi",
+    "name_en": "Pineapple, wild, raw",
+    "queries_tried": [
+      "Pineapple, wild, raw food",
+      "Dua ta, tuoi Vietnamese food",
+      "Pineapple, wild, raw"
+    ]
+  },
+  "dua_tay_tuoi": {
+    "name_vn": "Dứa tây, tươi",
+    "name_en": "Pineapple, raw",
+    "queries_tried": [
+      "Pineapple, raw food",
+      "Dua tay, tuoi Vietnamese food",
+      "Pineapple, raw"
+    ]
+  },
+  "du_du_chin_tuoi": {
+    "name_vn": "Đu đủ chín, tươi",
+    "name_en": "Papaya ripe, raw",
+    "queries_tried": [
+      "Papaya ripe, raw food",
+      "Du du chin, tuoi Vietnamese food",
+      "Papaya ripe, raw"
+    ]
+  },
+  "hong_bi_tuoi": {
+    "name_vn": "Hồng bì, tươi",
+    "name_en": "Wampee, Chinese; Wampi, raw",
+    "queries_tried": [
+      "Wampee, Chinese; Wampi, raw food",
+      "Hong bi, tuoi Vietnamese food",
+      "Wampee, Chinese; Wampi, raw"
+    ]
+  },
+  "hong_do_tuoi": {
+    "name_vn": "Hồng đỏ, tươi",
+    "name_en": "Persimmon kaki soft type, ripe, raw",
+    "queries_tried": [
+      "Persimmon kaki soft type, ripe, raw food",
+      "Hong do, tuoi Vietnamese food",
+      "Persimmon kaki soft type, ripe, raw"
+    ]
+  },
+  "hong_xiem_tuoi": {
+    "name_vn": "Hồng xiêm, tươi",
+    "name_en": "Sapodilla, sapota ponderosa, raw",
+    "queries_tried": [
+      "Sapodilla, sapota ponderosa, raw food",
+      "Hong xiem, tuoi Vietnamese food",
+      "Sapodilla, sapota ponderosa, raw"
+    ]
+  },
+  "le_tuoi": {
+    "name_vn": "Lê, tươi",
+    "name_en": "Pear, raw",
+    "queries_tried": [
+      "Pear, raw food",
+      "Le, tuoi Vietnamese food",
+      "Pear, raw"
+    ]
+  },
+  "mang_cau_xiem_tuoi": {
+    "name_vn": "Mãng cầu xiêm, tươi",
+    "name_en": "Soursop, raw",
+    "queries_tried": [
+      "Soursop, raw food",
+      "Mang cau xiem, tuoi Vietnamese food",
+      "Soursop, raw"
+    ]
+  },
+  "man_tim_tuoi": {
+    "name_vn": "Mận tím, tươi",
+    "name_en": "Japanese plum, raw",
+    "queries_tried": [
+      "Japanese plum, raw food",
+      "Man tim, tuoi Vietnamese food",
+      "Japanese plum, raw"
+    ]
+  },
+  "mit_dai_tuoi": {
+    "name_vn": "Mít dai, tươi",
+    "name_en": "Jackfruit, mature, raw",
+    "queries_tried": [
+      "Jackfruit, mature, raw food",
+      "Mit dai, tuoi Vietnamese food",
+      "Jackfruit, mature, raw"
+    ]
+  },
+  "mit_mat_tuoi": {
+    "name_vn": "Mít mật , tươi",
+    "name_en": "Jackfruit, sweet type, raw",
+    "queries_tried": [
+      "Jackfruit, sweet type, raw food",
+      "Mit mat , tuoi Vietnamese food",
+      "Jackfruit, sweet type, raw"
+    ]
+  },
+  "mo_tuoi": {
+    "name_vn": "Mơ, tươi",
+    "name_en": "Apricot, raw",
+    "queries_tried": [
+      "Apricot, raw food",
+      "Mo, tuoi Vietnamese food",
+      "Apricot, raw"
+    ]
+  },
+  "muom_queo_tuoi": {
+    "name_vn": "Muỗm, quéo, tươi",
+    "name_en": "Mango, common; Indian mango, unripe, raw",
+    "queries_tried": [
+      "Mango, common; Indian mango, unripe, raw food",
+      "Muom, queo, tuoi Vietnamese food",
+      "Mango, common; Indian mango, unripe, raw"
+    ]
+  },
+  "na_tuoi": {
+    "name_vn": "Na, tươi",
+    "name_en": "Sugar apple, sweetsop, raw",
+    "queries_tried": [
+      "Sugar apple, sweetsop, raw food",
+      "Na, tuoi Vietnamese food",
+      "Sugar apple, sweetsop, raw"
+    ]
+  },
+  "nhan_kho": {
+    "name_vn": "Nhãn, khô",
+    "name_en": "Longan, dried",
+    "queries_tried": [
+      "Longan, dried food",
+      "Nhan, kho Vietnamese food",
+      "Longan, dried"
+    ]
+  },
+  "nho_ta_nho_chua_tuoi": {
+    "name_vn": "Nho ta (nho chua), tươi",
+    "name_en": "Grape fruit, wild, raw",
+    "queries_tried": [
+      "Grape fruit, wild, raw food",
+      "Nho ta (nho chua), tuoi Vietnamese food",
+      "Grape fruit, wild, raw"
+    ]
+  },
+  "nhot_tuoi": {
+    "name_vn": "Nhót, tươi",
+    "name_en": "Silver berry, raw",
+    "queries_tried": [
+      "Silver berry, raw food",
+      "Nhot, tuoi Vietnamese food",
+      "Silver berry, raw"
+    ]
+  },
+  "qua_bo_vo_tim_tuoi": {
+    "name_vn": "Quả bơ vỏ tím, tươi",
+    "name_en": "Avocado, Alligator Pear, raw",
+    "queries_tried": [
+      "Avocado, Alligator Pear, raw food",
+      "Qua bo vo tim, tuoi Vietnamese food",
+      "Avocado, Alligator Pear, raw"
+    ]
+  },
+  "qua_coc_tuoi": {
+    "name_vn": "Quả cóc, tươi",
+    "name_en": "Pork plum, Tahitian apple, Otaheite apple, raw",
+    "queries_tried": [
+      "Pork plum, Tahitian apple, Otaheite apple, raw food",
+      "Qua coc, tuoi Vietnamese food",
+      "Pork plum, Tahitian apple, Otaheite apple, raw"
+    ]
+  },
+  "qua_thanh_long_tuoi": {
+    "name_vn": "Quả thanh long, tươi",
+    "name_en": "Dragon\\",
+    "queries_tried": [
+      "Dragon\\ food",
+      "Qua thanh long, tuoi Vietnamese food",
+      "Dragon\\"
+    ]
+  },
+  "quat_chin_tuoi": {
+    "name_vn": "Quất chín, tươi",
+    "name_en": "Mandarin, raw",
+    "queries_tried": [
+      "Mandarin, raw food",
+      "Quat chin, tuoi Vietnamese food",
+      "Mandarin, raw"
+    ]
+  },
+  "quit_tuoi": {
+    "name_vn": "Quít, tươi",
+    "name_en": "Tangerine; Orange; Mandarin, raw",
+    "queries_tried": [
+      "Tangerine; Orange; Mandarin, raw food",
+      "Quit, tuoi Vietnamese food",
+      "Tangerine; Orange; Mandarin, raw"
+    ]
+  },
+  "sau_chin_tuoi": {
+    "name_vn": "Sấu chín, tươi   ",
+    "name_en": "Sanpidus, ripe, raw",
+    "queries_tried": [
+      "Sanpidus, ripe, raw food",
+      "Sau chin, tuoi    Vietnamese food",
+      "Sanpidus, ripe, raw"
+    ]
+  },
+  "tao_ta_tuoi": {
+    "name_vn": "Táo ta, tươi",
+    "name_en": "Jujube, Vietnamese apple, raw",
+    "queries_tried": [
+      "Jujube, Vietnamese apple, raw food",
+      "Tao ta, tuoi Vietnamese food",
+      "Jujube, Vietnamese apple, raw"
+    ]
+  },
+  "vai_tuoi": {
+    "name_vn": "Vải, tươi   ",
+    "name_en": "Litchi; lychee, raw",
+    "queries_tried": [
+      "Litchi; lychee, raw food",
+      "Vai, tuoi    Vietnamese food",
+      "Litchi; lychee, raw"
+    ]
+  },
+  "vu_sua_tuoi": {
+    "name_vn": "Vú sữa, tươi",
+    "name_en": "Starapple, cainito, raw",
+    "queries_tried": [
+      "Starapple, cainito, raw food",
+      "Vu sua, tuoi Vietnamese food",
+      "Starapple, cainito, raw"
+    ]
+  },
+  "xoai_chin_tuoi": {
+    "name_vn": "Xoài chín, tươi",
+    "name_en": "Mango, common, ripe, raw",
+    "queries_tried": [
+      "Mango, common, ripe, raw food",
+      "Xoai chin, tuoi Vietnamese food",
+      "Mango, common, ripe, raw"
+    ]
+  },
+  "tao_meo": {
+    "name_vn": "Táo mèo",
+    "name_en": "Táo mèo",
+    "queries_tried": [
+      "Táo mèo food",
+      "Tao meo Vietnamese food",
+      "Táo mèo"
+    ]
+  },
+  "dua_luoi": {
+    "name_vn": "Dưa lưới",
+    "name_en": "Cantaloupe",
+    "queries_tried": [
+      "Cantaloupe food",
+      "Dua luoi Vietnamese food",
+      "Cantaloupe"
+    ]
+  },
+  "bo": {
+    "name_vn": "Bơ",
+    "name_en": "Butter, unsalted",
+    "queries_tried": [
+      "Butter, unsalted food",
+      "Bo Vietnamese food",
+      "Butter, unsalted"
+    ]
+  },
+  "dau_thao_moc_lac_vung_cam": {
+    "name_vn": "Dầu thảo mộc (Lạc, vừng, cám...)",
+    "name_en": "Vegetable oil, mixed varieties",
+    "queries_tried": [
+      "Vegetable oil, mixed varieties food",
+      "Dau thao moc (Lac, vung, cam...) Vietnamese food",
+      "Vegetable oil, mixed varieties"
+    ]
+  },
+  "mo_lon_nuoc": {
+    "name_vn": "Mỡ lợn, nước",
+    "name_en": "Lard, liquid",
+    "queries_tried": [
+      "Lard, liquid food",
+      "Mo lon, nuoc Vietnamese food",
+      "Lard, liquid"
+    ]
+  },
+  "dau_bong": {
+    "name_vn": "Dầu bông",
+    "name_en": "Oil, cottonseed, salad or cooking",
+    "queries_tried": [
+      "Oil, cottonseed, salad or cooking food",
+      "Dau bong Vietnamese food",
+      "Oil, cottonseed, salad or cooking"
+    ]
+  },
+  "dau_cam_gao": {
+    "name_vn": "Dầu cám gạo",
+    "name_en": "Oil, rice bran",
+    "queries_tried": [
+      "Oil, rice bran food",
+      "Dau cam gao Vietnamese food",
+      "Oil, rice bran"
+    ]
+  },
+  "dau_dua": {
+    "name_vn": "Dầu dừa",
+    "name_en": "Oil, coconut kernel",
+    "queries_tried": [
+      "Oil, coconut kernel food",
+      "Dau dua Vietnamese food",
+      "Oil, coconut kernel"
+    ]
+  },
+  "dau_lac": {
+    "name_vn": "Dầu lạc",
+    "name_en": "Oil, peanut, salad or cooking",
+    "queries_tried": [
+      "Oil, peanut, salad or cooking food",
+      "Dau lac Vietnamese food",
+      "Oil, peanut, salad or cooking"
+    ]
+  },
+  "dau_me": {
+    "name_vn": "Dầu mè",
+    "name_en": "Oil, sesame, salad or cooking",
+    "queries_tried": [
+      "Oil, sesame, salad or cooking food",
+      "Dau me Vietnamese food",
+      "Oil, sesame, salad or cooking"
+    ]
+  },
+  "dau_oliu": {
+    "name_vn": "Dầu oliu",
+    "name_en": "Oil, olive, salad or cooking",
+    "queries_tried": [
+      "Oil, olive, salad or cooking food",
+      "Dau oliu Vietnamese food",
+      "Oil, olive, salad or cooking"
+    ]
+  },
+  "thit_be_mo_tuoi": {
+    "name_vn": "Thịt bê, mỡ, tươi",
+    "name_en": "Veal, lean and fat meat, raw",
+    "queries_tried": [
+      "Veal, lean and fat meat, raw food",
+      "Thit be, mo, tuoi Vietnamese food",
+      "Veal, lean and fat meat, raw"
+    ]
+  },
+  "thit_bo_loai_i_tuoi": {
+    "name_vn": "Thịt bò, loại I, tươi",
+    "name_en": "Beef, meat, grade I, raw",
+    "queries_tried": [
+      "Beef, meat, grade I, raw food",
+      "Thit bo, loai I, tuoi Vietnamese food",
+      "Beef, meat, grade I, raw"
+    ]
+  },
+  "thit_bo_loai_ii_tuoi": {
+    "name_vn": "Thịt bò, loại II, tươi",
+    "name_en": "Beef, meat, grade II, raw",
+    "queries_tried": [
+      "Beef, meat, grade II, raw food",
+      "Thit bo, loai II, tuoi Vietnamese food",
+      "Beef, meat, grade II, raw"
+    ]
+  },
+  "thit_bo_lung_nac_chan": {
+    "name_vn": "Thịt bò, lưng, nạc, chần",
+    "name_en": "Beef, loin, lean, poached",
+    "queries_tried": [
+      "Beef, loin, lean, poached food",
+      "Thit bo, lung, nac, chan Vietnamese food",
+      "Beef, loin, lean, poached"
+    ]
+  },
+  "thit_bo_lung_nac_va_mo_chan": {
+    "name_vn": "Thịt bò, lưng, nạc và mỡ, chần",
+    "name_en": "Beef, loin, medium fat, poached",
+    "queries_tried": [
+      "Beef, loin, medium fat, poached food",
+      "Thit bo, lung, nac va mo, chan Vietnamese food",
+      "Beef, loin, medium fat, poached"
+    ]
+  },
+  "thit_bo_cau_ca_con_non_ra_rang_tuoi": {
+    "name_vn": "Thịt bồ câu, cả con non (ra ràng), tươi",
+    "name_en": "Pigeon, young bird, raw",
+    "queries_tried": [
+      "Pigeon, young bird, raw food",
+      "Thit bo cau, ca con non (ra rang), tuoi Vietnamese food",
+      "Pigeon, young bird, raw"
+    ]
+  },
+  "thit_cho_vai_tuoi": {
+    "name_vn": "Thịt chó, vai, tươi",
+    "name_en": "Dog, shoulder, lean and fat meat, raw",
+    "queries_tried": [
+      "Dog, shoulder, lean and fat meat, raw food",
+      "Thit cho, vai, tuoi Vietnamese food",
+      "Dog, shoulder, lean and fat meat, raw"
+    ]
+  },
+  "thit_cuu_nac_tuoi": {
+    "name_vn": "Thịt cừu, nạc, tươi",
+    "name_en": "Mutton, lean meat, raw",
+    "queries_tried": [
+      "Mutton, lean meat, raw food",
+      "Thit cuu, nac, tuoi Vietnamese food",
+      "Mutton, lean meat, raw"
+    ]
+  },
+  "thit_de_nac_hap": {
+    "name_vn": "Thịt dê, nạc, hấp",
+    "name_en": "Goat meat, lean, steamed",
+    "queries_tried": [
+      "Goat meat, lean, steamed food",
+      "Thit de, nac, hap Vietnamese food",
+      "Goat meat, lean, steamed"
+    ]
+  },
+  "thit_ga_rung_tuoi": {
+    "name_vn": "Thịt gà rừng, tươi",
+    "name_en": "Chicken, wild, raw",
+    "queries_tried": [
+      "Chicken, wild, raw food",
+      "Thit ga rung, tuoi Vietnamese food",
+      "Chicken, wild, raw"
+    ]
+  },
+  "thit_ga_tay_tuoi": {
+    "name_vn": "Thịt gà tây, tươi",
+    "name_en": "Turkey, average meat, raw",
+    "queries_tried": [
+      "Turkey, average meat, raw food",
+      "Thit ga tay, tuoi Vietnamese food",
+      "Turkey, average meat, raw"
+    ]
+  },
+  "thit_huou_tuoi": {
+    "name_vn": "Thịt hươu, tươi",
+    "name_en": "Deer, average meat, raw",
+    "queries_tried": [
+      "Deer, average meat, raw food",
+      "Thit huou, tuoi Vietnamese food",
+      "Deer, average meat, raw"
+    ]
+  },
+  "thit_lon_nac_tuoi": {
+    "name_vn": "Thịt lợn, nạc, tươi",
+    "name_en": "Pork, lean meat, raw",
+    "queries_tried": [
+      "Pork, lean meat, raw food",
+      "Thit lon, nac, tuoi Vietnamese food",
+      "Pork, lean meat, raw"
+    ]
+  },
+  "thit_lon_nua_nac_nua_mo_luoc": {
+    "name_vn": "Thịt lợn nửa nạc, nửa mỡ, luộc",
+    "name_en": "Pork, medium fat meat, boiled",
+    "queries_tried": [
+      "Pork, medium fat meat, boiled food",
+      "Thit lon nua nac, nua mo, luoc Vietnamese food",
+      "Pork, medium fat meat, boiled"
+    ]
+  },
+  "thit_ngong_tuoi": {
+    "name_vn": "Thịt ngỗng, tươi",
+    "name_en": "Goose, average meat, raw",
+    "queries_tried": [
+      "Goose, average meat, raw food",
+      "Thit ngong, tuoi Vietnamese food",
+      "Goose, average meat, raw"
+    ]
+  },
+  "thit_ngua_tuoi": {
+    "name_vn": "Thịt ngựa, tươi",
+    "name_en": "Horse, average meat, raw",
+    "queries_tried": [
+      "Horse, average meat, raw food",
+      "Thit ngua, tuoi Vietnamese food",
+      "Horse, average meat, raw"
+    ]
+  },
+  "thit_tho_nha_tuoi": {
+    "name_vn": "Thịt thỏ nhà, tươi",
+    "name_en": "Rabbit, average meat, raw",
+    "queries_tried": [
+      "Rabbit, average meat, raw food",
+      "Thit tho nha, tuoi Vietnamese food",
+      "Rabbit, average meat, raw"
+    ]
+  },
+  "thit_trau_tuoi": {
+    "name_vn": "Thịt trâu, tươi",
+    "name_en": "Buffalo, average meat, raw",
+    "queries_tried": [
+      "Buffalo, average meat, raw food",
+      "Thit trau, tuoi Vietnamese food",
+      "Buffalo, average meat, raw"
+    ]
+  },
+  "thit_trau_bap_tuoi": {
+    "name_vn": "Thịt trâu, bắp, tươi",
+    "name_en": "Buffalo, shoulder, lean meat, raw",
+    "queries_tried": [
+      "Buffalo, shoulder, lean meat, raw food",
+      "Thit trau, bap, tuoi Vietnamese food",
+      "Buffalo, shoulder, lean meat, raw"
+    ]
+  },
+  "thit_trau_bap_chan": {
+    "name_vn": "Thịt trâu bắp, chần",
+    "name_en": "Buffalo meat, leg, poached",
+    "queries_tried": [
+      "Buffalo meat, leg, poached food",
+      "Thit trau bap, chan Vietnamese food",
+      "Buffalo meat, leg, poached"
+    ]
+  },
+  "thit_trau_co_tuoi": {
+    "name_vn": "Thịt trâu, cổ, tươi",
+    "name_en": "Buffalo, neck, lean and fat meat, raw",
+    "queries_tried": [
+      "Buffalo, neck, lean and fat meat, raw food",
+      "Thit trau, co, tuoi Vietnamese food",
+      "Buffalo, neck, lean and fat meat, raw"
+    ]
+  },
+  "thit_trau_than_luoc": {
+    "name_vn": "Thịt trâu thăn, luộc",
+    "name_en": "Buffalo meat, tenderloin, boiled",
+    "queries_tried": [
+      "Buffalo meat, tenderloin, boiled food",
+      "Thit trau than, luoc Vietnamese food",
+      "Buffalo meat, tenderloin, boiled"
+    ]
+  },
+  "thit_vit_tuoi": {
+    "name_vn": "Thịt vịt, tươi",
+    "name_en": "Duck, average meat, raw",
+    "queries_tried": [
+      "Duck, average meat, raw food",
+      "Thit vit, tuoi Vietnamese food",
+      "Duck, average meat, raw"
+    ]
+  },
+  "bau_duc_bo_tuoi": {
+    "name_vn": "Bầu dục bò, tươi",
+    "name_en": "Beef, kidney, raw",
+    "queries_tried": [
+      "Beef, kidney, raw food",
+      "Bau duc bo, tuoi Vietnamese food",
+      "Beef, kidney, raw"
+    ]
+  },
+  "bau_duc_bo_luoc": {
+    "name_vn": "Bầu dục bò, luộc",
+    "name_en": "Kidney, cow, boiled",
+    "queries_tried": [
+      "Kidney, cow, boiled food",
+      "Bau duc bo, luoc Vietnamese food",
+      "Kidney, cow, boiled"
+    ]
+  },
+  "bau_duc_lon_luoc": {
+    "name_vn": "Bầu dục lợn, luộc",
+    "name_en": "Kidney, pig, boiled",
+    "queries_tried": [
+      "Kidney, pig, boiled food",
+      "Bau duc lon, luoc Vietnamese food",
+      "Kidney, pig, boiled"
+    ]
+  },
+  "chan_gio_lon_tuoi": {
+    "name_vn": "Chân giò lợn, tươi",
+    "name_en": "Pork, leg , raw",
+    "queries_tried": [
+      "Pork, leg , raw food",
+      "Chan gio lon, tuoi Vietnamese food",
+      "Pork, leg , raw"
+    ]
+  },
+  "thit_chan_gio_lon_luoc": {
+    "name_vn": "Thịt chân giò lợn, luộc",
+    "name_en": "Pork, leg meat, boiled",
+    "queries_tried": [
+      "Pork, leg meat, boiled food",
+      "Thit chan gio lon, luoc Vietnamese food",
+      "Pork, leg meat, boiled"
+    ]
+  },
+  "da_day_lon_tuoi": {
+    "name_vn": "Dạ dày lợn, tươi",
+    "name_en": "Pork, stomach, raw",
+    "queries_tried": [
+      "Pork, stomach, raw food",
+      "Da day lon, tuoi Vietnamese food",
+      "Pork, stomach, raw"
+    ]
+  },
+  "dau_bo_tuoi": {
+    "name_vn": "Đầu bò, tươi",
+    "name_en": "Beef, head, raw",
+    "queries_tried": [
+      "Beef, head, raw food",
+      "Dau bo, tuoi Vietnamese food",
+      "Beef, head, raw"
+    ]
+  },
+  "dau_lon_tuoi": {
+    "name_vn": "Đầu lợn, tươi",
+    "name_en": "Pork, head, raw",
+    "queries_tried": [
+      "Pork, head, raw food",
+      "Dau lon, tuoi Vietnamese food",
+      "Pork, head, raw"
+    ]
+  },
+  "duoi_lon_tuoi": {
+    "name_vn": "Đuôi lợn, tươi",
+    "name_en": "Pork, tail, raw",
+    "queries_tried": [
+      "Pork, tail, raw food",
+      "Duoi lon, tuoi Vietnamese food",
+      "Pork, tail, raw"
+    ]
+  },
+  "gan_bo_tuoi": {
+    "name_vn": "Gan bò, tươi",
+    "name_en": "Beef, liver, raw",
+    "queries_tried": [
+      "Beef, liver, raw food",
+      "Gan bo, tuoi Vietnamese food",
+      "Beef, liver, raw"
+    ]
+  },
+  "gan_ga_luoc": {
+    "name_vn": "Gan gà, luộc",
+    "name_en": "Liver, chicken, boiled",
+    "queries_tried": [
+      "Liver, chicken, boiled food",
+      "Gan ga, luoc Vietnamese food",
+      "Liver, chicken, boiled"
+    ]
+  },
+  "gan_lon_luoc": {
+    "name_vn": "Gan lợn, luộc",
+    "name_en": "Liver, pig, boiled",
+    "queries_tried": [
+      "Liver, pig, boiled food",
+      "Gan lon, luoc Vietnamese food",
+      "Liver, pig, boiled"
+    ]
+  },
+  "gan_vit_luoc": {
+    "name_vn": "Gan vịt, luộc",
+    "name_en": "Liver, duck, boiled",
+    "queries_tried": [
+      "Liver, duck, boiled food",
+      "Gan vit, luoc Vietnamese food",
+      "Liver, duck, boiled"
+    ]
+  },
+  "gan_chan_bo_tuoi": {
+    "name_vn": "Gân chân bò, tươi",
+    "name_en": "Beef, tendon, leg, raw",
+    "queries_tried": [
+      "Beef, tendon, leg, raw food",
+      "Gan chan bo, tuoi Vietnamese food",
+      "Beef, tendon, leg, raw"
+    ]
+  },
+  "luoi_bo_tuoi": {
+    "name_vn": "Lưỡi bò, tươi",
+    "name_en": "Beef, tongue, raw",
+    "queries_tried": [
+      "Beef, tongue, raw food",
+      "Luoi bo, tuoi Vietnamese food",
+      "Beef, tongue, raw"
+    ]
+  },
+  "luoi_lon_tuoi": {
+    "name_vn": "Lưỡi lợn, tươi",
+    "name_en": "Pork, tongue, raw",
+    "queries_tried": [
+      "Pork, tongue, raw food",
+      "Luoi lon, tuoi Vietnamese food",
+      "Pork, tongue, raw"
+    ]
+  },
+  "long_lon_ruot_non_tuoi": {
+    "name_vn": "Lòng lợn (ruột non), tươi",
+    "name_en": "Pork, small intestine, raw",
+    "queries_tried": [
+      "Pork, small intestine, raw food",
+      "Long lon (ruot non), tuoi Vietnamese food",
+      "Pork, small intestine, raw"
+    ]
+  },
+  "me_ga_tuoi": {
+    "name_vn": "Mề gà, tươi",
+    "name_en": "Chicken, gizzard, raw",
+    "queries_tried": [
+      "Chicken, gizzard, raw food",
+      "Me ga, tuoi Vietnamese food",
+      "Chicken, gizzard, raw"
+    ]
+  },
+  "oc_bo_tuoi": {
+    "name_vn": "Óc bò, tươi",
+    "name_en": "Beef, brain, raw",
+    "queries_tried": [
+      "Beef, brain, raw food",
+      "Óc bo, tuoi Vietnamese food",
+      "Beef, brain, raw"
+    ]
+  },
+  "oc_lon_tuoi": {
+    "name_vn": "Óc lợn, tươi",
+    "name_en": "Pork, brain, raw",
+    "queries_tried": [
+      "Pork, brain, raw food",
+      "Óc lon, tuoi Vietnamese food",
+      "Pork, brain, raw"
+    ]
+  },
+  "phoi_bo_tuoi": {
+    "name_vn": "Phổi bò, tươi",
+    "name_en": "Beef, lung, raw",
+    "queries_tried": [
+      "Beef, lung, raw food",
+      "Phoi bo, tuoi Vietnamese food",
+      "Beef, lung, raw"
+    ]
+  },
+  "phoi_lon_tuoi": {
+    "name_vn": "Phổi lợn, tươi",
+    "name_en": "Pork, lung, raw",
+    "queries_tried": [
+      "Pork, lung, raw food",
+      "Phoi lon, tuoi Vietnamese food",
+      "Pork, lung, raw"
+    ]
+  },
+  "tai_lon_tuoi": {
+    "name_vn": "Tai lợn, tươi",
+    "name_en": "Pork, ears, raw",
+    "queries_tried": [
+      "Pork, ears, raw food",
+      "Tai lon, tuoi Vietnamese food",
+      "Pork, ears, raw"
+    ]
+  },
+  "tim_bo_tuoi": {
+    "name_vn": "Tim bò, tươi",
+    "name_en": "Beef, heart, raw",
+    "queries_tried": [
+      "Beef, heart, raw food",
+      "Tim bo, tuoi Vietnamese food",
+      "Beef, heart, raw"
+    ]
+  },
+  "tim_bo_luoc": {
+    "name_vn": "Tim bò, luộc",
+    "name_en": "Heart, cow, boiled",
+    "queries_tried": [
+      "Heart, cow, boiled food",
+      "Tim bo, luoc Vietnamese food",
+      "Heart, cow, boiled"
+    ]
+  },
+  "tim_ga_luoc": {
+    "name_vn": "Tim gà, luộc",
+    "name_en": "Heart, chicken, boiled",
+    "queries_tried": [
+      "Heart, chicken, boiled food",
+      "Tim ga, luoc Vietnamese food",
+      "Heart, chicken, boiled"
+    ]
+  },
+  "tim_lon_luoc": {
+    "name_vn": "Tim lợn, luộc",
+    "name_en": "Heart, pig, boiled",
+    "queries_tried": [
+      "Heart, pig, boiled food",
+      "Tim lon, luoc Vietnamese food",
+      "Heart, pig, boiled"
+    ]
+  },
+  "tiet_bo_luoc": {
+    "name_vn": "Tiết bò, luộc",
+    "name_en": "Blood, cow, boiled",
+    "queries_tried": [
+      "Blood, cow, boiled food",
+      "Tiet bo, luoc Vietnamese food",
+      "Blood, cow, boiled"
+    ]
+  },
+  "tiet_lon_luoc": {
+    "name_vn": "Tiết lợn, luộc",
+    "name_en": "Pork, blood, boiled",
+    "queries_tried": [
+      "Pork, blood, boiled food",
+      "Tiet lon, luoc Vietnamese food",
+      "Pork, blood, boiled"
+    ]
+  },
+  "tuy_xuong_bo_tuoi": {
+    "name_vn": "Tủy xương bò, tươi",
+    "name_en": "Beef, bone marrow, raw",
+    "queries_tried": [
+      "Beef, bone marrow, raw food",
+      "Tuy xuong bo, tuoi Vietnamese food",
+      "Beef, bone marrow, raw"
+    ]
+  },
+  "ba_te_lon": {
+    "name_vn": "Ba tê lợn",
+    "name_en": "Pate, from pork",
+    "queries_tried": [
+      "Pate, from pork food",
+      "Ba te lon Vietnamese food",
+      "Pate, from pork"
+    ]
+  },
+  "cha_lon": {
+    "name_vn": "Chả lợn",
+    "name_en": "Pork, minced meat with spices, fried",
+    "queries_tried": [
+      "Pork, minced meat with spices, fried food",
+      "Cha lon Vietnamese food",
+      "Pork, minced meat with spices, fried"
+    ]
+  },
+  "dam_bong_lon": {
+    "name_vn": "Dăm bông lợn",
+    "name_en": "Pork, ham",
+    "queries_tried": [
+      "Pork, ham food",
+      "Dam bong lon Vietnamese food",
+      "Pork, ham"
+    ]
+  },
+  "gio_bo_chin": {
+    "name_vn": "Giò bò, chín",
+    "name_en": "Beef, minced lean meat and spices, steamed",
+    "queries_tried": [
+      "Beef, minced lean meat and spices, steamed food",
+      "Gio bo, chin Vietnamese food",
+      "Beef, minced lean meat and spices, steamed"
+    ]
+  },
+  "gio_lua_chin": {
+    "name_vn": "Giò lụa, chín",
+    "name_en": "Pork, minced lean meat and spices, steamed",
+    "queries_tried": [
+      "Pork, minced lean meat and spices, steamed food",
+      "Gio lua, chin Vietnamese food",
+      "Pork, minced lean meat and spices, steamed"
+    ]
+  },
+  "lap_xuong_lap_suon": {
+    "name_vn": "Lạp xường, lạp sườn",
+    "name_en": "Chinese sausage",
+    "queries_tried": [
+      "Chinese sausage food",
+      "Lap xuong, lap suon Vietnamese food",
+      "Chinese sausage"
+    ]
+  },
+  "nem_chua": {
+    "name_vn": "Nem chua",
+    "name_en": "Pork, lean meat, minced with spices, fermented",
+    "queries_tried": [
+      "Pork, lean meat, minced with spices, fermented food",
+      "Nem chua Vietnamese food",
+      "Pork, lean meat, minced with spices, fermented"
+    ]
+  },
+  "thit_bo_kho": {
+    "name_vn": "Thịt bò khô",
+    "name_en": "Beef, lean meat, dried with spices",
+    "queries_tried": [
+      "Beef, lean meat, dried with spices food",
+      "Thit bo kho Vietnamese food",
+      "Beef, lean meat, dried with spices"
+    ]
+  },
+  "xuc_xich": {
+    "name_vn": "Xúc xích",
+    "name_en": "Pork, sausage",
+    "queries_tried": [
+      "Pork, sausage food",
+      "Xuc xich Vietnamese food",
+      "Pork, sausage"
+    ]
+  },
+  "bot_coc": {
+    "name_vn": "Bột cóc",
+    "name_en": "Toad, meat and small bones, powded",
+    "queries_tried": [
+      "Toad, meat and small bones, powded food",
+      "Bot coc Vietnamese food",
+      "Toad, meat and small bones, powded"
+    ]
+  },
+  "ech_thit_dui_tuoi": {
+    "name_vn": "Ếch (thịt đùi), tươi",
+    "name_en": "Frog, leg meat, raw",
+    "queries_tried": [
+      "Frog, leg meat, raw food",
+      "Ếch (thit dui), tuoi Vietnamese food",
+      "Frog, leg meat, raw"
+    ]
+  },
+  "nhong_tuoi": {
+    "name_vn": "Nhộng, tươi",
+    "name_en": "Silk worm, raw",
+    "queries_tried": [
+      "Silk worm, raw food",
+      "Nhong, tuoi Vietnamese food",
+      "Silk worm, raw"
+    ]
+  },
+  "thit_lon_nac_vai_tuoi": {
+    "name_vn": "Thịt lợn, nạc vai, tươi",
+    "name_en": "Pork, lean meat, shoulder, raw",
+    "queries_tried": [
+      "Pork, lean meat, shoulder, raw food",
+      "Thit lon, nac vai, tuoi Vietnamese food",
+      "Pork, lean meat, shoulder, raw"
+    ]
+  },
+  "thit_lon_nac_mong_tuoi": {
+    "name_vn": "Thịt lợn, nạc mông, tươi",
+    "name_en": "Pork, lean meat, thighs, raw",
+    "queries_tried": [
+      "Pork, lean meat, thighs, raw food",
+      "Thit lon, nac mong, tuoi Vietnamese food",
+      "Pork, lean meat, thighs, raw"
+    ]
+  },
+  "thit_lon_nac_mong_luoc": {
+    "name_vn": "Thịt lợn nạc mông, luộc",
+    "name_en": "Pork, lean meat buttock, boiled",
+    "queries_tried": [
+      "Pork, lean meat buttock, boiled food",
+      "Thit lon nac mong, luoc Vietnamese food",
+      "Pork, lean meat buttock, boiled"
+    ]
+  },
+  "thit_lon_nac_than_luoc": {
+    "name_vn": "Thịt lợn nạc thăn, luộc",
+    "name_en": "Pork, lean meat tenderloin, boiled",
+    "queries_tried": [
+      "Pork, lean meat tenderloin, boiled food",
+      "Thit lon nac than, luoc Vietnamese food",
+      "Pork, lean meat tenderloin, boiled"
+    ]
+  },
+  "thit_lon_nua_nac_nua_mo_nuong": {
+    "name_vn": "Thịt lợn nửa nạc, nửa mỡ, nướng",
+    "name_en": "Pork, lean and fat meat, grilled",
+    "queries_tried": [
+      "Pork, lean and fat meat, grilled food",
+      "Thit lon nua nac, nua mo, nuong Vietnamese food",
+      "Pork, lean and fat meat, grilled"
+    ]
+  },
+  "thit_ga_cong_nghiep_canh_luoc": {
+    "name_vn": "Thịt gà công nghiệp, cánh, luộc",
+    "name_en": "Chicken meat, industrial, wing, boiled",
+    "queries_tried": [
+      "Chicken meat, industrial, wing, boiled food",
+      "Thit ga cong nghiep, canh, luoc Vietnamese food",
+      "Chicken meat, industrial, wing, boiled"
+    ]
+  },
+  "thit_ga_cong_nghiep_dui_luoc": {
+    "name_vn": "Thịt gà công nghiệp, đùi, luộc",
+    "name_en": "Chicken meat, industrial, thighs, boiled",
+    "queries_tried": [
+      "Chicken meat, industrial, thighs, boiled food",
+      "Thit ga cong nghiep, dui, luoc Vietnamese food",
+      "Chicken meat, industrial, thighs, boiled"
+    ]
+  },
+  "thit_ngan_tuoi": {
+    "name_vn": "Thịt ngan, tươi",
+    "name_en": "Goose, average meat, raw",
+    "queries_tried": [
+      "Goose, average meat, raw food",
+      "Thit ngan, tuoi Vietnamese food",
+      "Goose, average meat, raw"
+    ]
+  },
+  "thit_ngan_luoc": {
+    "name_vn": "Thịt ngan, luộc",
+    "name_en": "Muscovy duck meat, boiled",
+    "queries_tried": [
+      "Muscovy duck meat, boiled food",
+      "Thit ngan, luoc Vietnamese food",
+      "Muscovy duck meat, boiled"
+    ]
+  },
+  "thit_bo_bap_song": {
+    "name_vn": "Thịt bò, bắp, sống",
+    "name_en": "Thịt bò, bắp, sống",
+    "queries_tried": [
+      "Thịt bò, bắp, sống food",
+      "Thit bo, bap, song Vietnamese food",
+      "Thịt bò, bắp, sống"
+    ]
+  },
+  "thit_bo_vai_hap": {
+    "name_vn": "Thịt bò, vai, hấp",
+    "name_en": "Beef, shoulder, steamed",
+    "queries_tried": [
+      "Beef, shoulder, steamed food",
+      "Thit bo, vai, hap Vietnamese food",
+      "Beef, shoulder, steamed"
+    ]
+  },
+  "thit_ga_ta_dui_luoc": {
+    "name_vn": "Thịt gà, ta, đùi, luộc",
+    "name_en": "Chicken meat, local,  thigh, boiled",
+    "queries_tried": [
+      "Chicken meat, local,  thigh, boiled food",
+      "Thit ga, ta, dui, luoc Vietnamese food",
+      "Chicken meat, local,  thigh, boiled"
+    ]
+  },
+  "thit_ga_ta_canh_dui_luoc": {
+    "name_vn": "Thịt gà, ta, cánh, đùi, luộc",
+    "name_en": "Chicken meat, local, boiled",
+    "queries_tried": [
+      "Chicken meat, local, boiled food",
+      "Thit ga, ta, canh, dui, luoc Vietnamese food",
+      "Chicken meat, local, boiled"
+    ]
+  },
+  "thit_ga_cong_nghiep_co_luoc": {
+    "name_vn": "Thịt gà, công nghiệp, cổ, luộc",
+    "name_en": "Chicken meat, industrial, neck, boiled",
+    "queries_tried": [
+      "Chicken meat, industrial, neck, boiled food",
+      "Thit ga, cong nghiep, co, luoc Vietnamese food",
+      "Chicken meat, industrial, neck, boiled"
+    ]
+  },
+  "thit_lon_mong_song": {
+    "name_vn": "Thịt lợn, mông, sống",
+    "name_en": "Thịt lợn, mông, sống",
+    "queries_tried": [
+      "Thịt lợn, mông, sống food",
+      "Thit lon, mong, song Vietnamese food",
+      "Thịt lợn, mông, sống"
+    ]
+  },
+  "thit_vit_luon_hap": {
+    "name_vn": "Thịt vịt, lườn, hấp",
+    "name_en": "Duck meat, pointrine, steamed",
+    "queries_tried": [
+      "Duck meat, pointrine, steamed food",
+      "Thit vit, luon, hap Vietnamese food",
+      "Duck meat, pointrine, steamed"
+    ]
+  },
+  "thit_vit_canh_hap": {
+    "name_vn": "Thịt vịt, cánh, hấp",
+    "name_en": "Duck meat, wing, steamed",
+    "queries_tried": [
+      "Duck meat, wing, steamed food",
+      "Thit vit, canh, hap Vietnamese food",
+      "Duck meat, wing, steamed"
+    ]
+  },
+  "xuong_cuc": {
+    "name_vn": "Xương cục",
+    "name_en": "Xương cục",
+    "queries_tried": [
+      "Xương cục food",
+      "Xuong cuc Vietnamese food",
+      "Xương cục"
+    ]
+  },
+  "tiet_ngan_luoc": {
+    "name_vn": "Tiết ngan, luộc",
+    "name_en": "Blood, muscovy duck,  boiled",
+    "queries_tried": [
+      "Blood, muscovy duck,  boiled food",
+      "Tiet ngan, luoc Vietnamese food",
+      "Blood, muscovy duck,  boiled"
+    ]
+  },
+  "nuoc_canh": {
+    "name_vn": "Nước canh",
+    "name_en": "Nước canh",
+    "queries_tried": [
+      "Nước canh food",
+      "Nuoc canh Vietnamese food",
+      "Nước canh"
+    ]
+  },
+  "nuoc_dung": {
+    "name_vn": "Nước dùng",
+    "name_en": "Nước dùng",
+    "queries_tried": [
+      "Nước dùng food",
+      "Nuoc dung Vietnamese food",
+      "Nước dùng"
+    ]
+  },
+  "xuc_xich_bo": {
+    "name_vn": "Xúc xích bò",
+    "name_en": "Xúc xích bò",
+    "queries_tried": [
+      "Xúc xích bò food",
+      "Xuc xich bo Vietnamese food",
+      "Xúc xích bò"
+    ]
+  },
+  "tiet_ga": {
+    "name_vn": "Tiết gà",
+    "name_en": "Tiết gà",
+    "queries_tried": [
+      "Tiết gà food",
+      "Tiet ga Vietnamese food",
+      "Tiết gà"
+    ]
+  },
+  "ca_bong_tuoi": {
+    "name_vn": "Cá bống, tươi",
+    "name_en": "Fish, goby, raw",
+    "queries_tried": [
+      "Fish, goby, raw food",
+      "Ca bong, tuoi Vietnamese food",
+      "Fish, goby, raw"
+    ]
+  },
+  "ca_chep_tuoi": {
+    "name_vn": "Cá chép, tươi",
+    "name_en": "Fish, carp, raw",
+    "queries_tried": [
+      "Fish, carp, raw food",
+      "Ca chep, tuoi Vietnamese food",
+      "Fish, carp, raw"
+    ]
+  },
+  "ca_dua_tuoi": {
+    "name_vn": "Cá dưa, tươi",
+    "name_en": "Fissh, daggertooth pike conger, raw ",
+    "queries_tried": [
+      "Fissh, daggertooth pike conger, raw  food",
+      "Ca dua, tuoi Vietnamese food",
+      "Fissh, daggertooth pike conger, raw "
+    ]
+  },
+  "ca_diec_tuoi": {
+    "name_vn": "Cá diếc, tươi",
+    "name_en": "Fissh, mullet, raw",
+    "queries_tried": [
+      "Fissh, mullet, raw food",
+      "Ca diec, tuoi Vietnamese food",
+      "Fissh, mullet, raw"
+    ]
+  },
+  "ca_dao_tuoi": {
+    "name_vn": "Cá đao, tươi",
+    "name_en": "Fish, sawfish, raw",
+    "queries_tried": [
+      "Fish, sawfish, raw food",
+      "Ca dao, tuoi Vietnamese food",
+      "Fish, sawfish, raw"
+    ]
+  },
+  "ca_doi_tuoi": {
+    "name_vn": "Cá đối, tươi",
+    "name_en": "Fish, flathead grey mullet, raw",
+    "queries_tried": [
+      "Fish, flathead grey mullet, raw food",
+      "Ca doi, tuoi Vietnamese food",
+      "Fish, flathead grey mullet, raw"
+    ]
+  },
+  "ca_hoi_tuoi": {
+    "name_vn": "Cá hồi, tươi",
+    "name_en": "Fish, salmon, raw",
+    "queries_tried": [
+      "Fish, salmon, raw food",
+      "Ca hoi, tuoi Vietnamese food",
+      "Fish, salmon, raw"
+    ]
+  },
+  "ca_kho_chim_thu_nu_de_song": {
+    "name_vn": "Cá khô (chim, thu, nụ, đé), sống",
+    "name_en": "Fish, mix variety, dried",
+    "queries_tried": [
+      "Fish, mix variety, dried food",
+      "Ca kho (chim, thu, nu, de), song Vietnamese food",
+      "Fish, mix variety, dried"
+    ]
+  },
+  "ca_lac_luoc": {
+    "name_vn": "Cá lác, luộc",
+    "name_en": "Seafish, Thac lac fish, boiled",
+    "queries_tried": [
+      "Seafish, Thac lac fish, boiled food",
+      "Ca lac, luoc Vietnamese food",
+      "Seafish, Thac lac fish, boiled"
+    ]
+  },
+  "ca_lac_chien_gion": {
+    "name_vn": "Cá lác, chiên giòn",
+    "name_en": "Seafish, Thac lac fish, shallow fried",
+    "queries_tried": [
+      "Seafish, Thac lac fish, shallow fried food",
+      "Ca lac, chien gion Vietnamese food",
+      "Seafish, Thac lac fish, shallow fried"
+    ]
+  },
+  "ca_moi_ca_sardin_tuoi": {
+    "name_vn": "Cá mòi (cá sardin), tươi",
+    "name_en": "Fish, sardin, raw",
+    "queries_tried": [
+      "Fish, sardin, raw food",
+      "Ca moi (ca sardin), tuoi Vietnamese food",
+      "Fish, sardin, raw"
+    ]
+  },
+  "ca_mo_tuoi": {
+    "name_vn": "Cá mỡ, tươi",
+    "name_en": "Cá mỡ, tươi",
+    "queries_tried": [
+      "Cá mỡ, tươi food",
+      "Ca mo, tuoi Vietnamese food",
+      "Cá mỡ, tươi"
+    ]
+  },
+  "ca_nac_tuoi": {
+    "name_vn": "Cá nạc, tươi",
+    "name_en": "Cá nạc, tươi",
+    "queries_tried": [
+      "Cá nạc, tươi food",
+      "Ca nac, tuoi Vietnamese food",
+      "Cá nạc, tươi"
+    ]
+  },
+  "ca_nuc_tuoi": {
+    "name_vn": "Cá nục, tươi",
+    "name_en": "Fish, anchovy, raw",
+    "queries_tried": [
+      "Fish, anchovy, raw food",
+      "Ca nuc, tuoi Vietnamese food",
+      "Fish, anchovy, raw"
+    ]
+  },
+  "ca_nuc_luoc": {
+    "name_vn": "Cá nục, luộc",
+    "name_en": "Seafish, Anchovy, boiled",
+    "queries_tried": [
+      "Seafish, Anchovy, boiled food",
+      "Ca nuc, luoc Vietnamese food",
+      "Seafish, Anchovy, boiled"
+    ]
+  },
+  "ca_phen_tuoi": {
+    "name_vn": "Cá phèn, tươi",
+    "name_en": "Fish, goatfishes, raw",
+    "queries_tried": [
+      "Fish, goatfishes, raw food",
+      "Ca phen, tuoi Vietnamese food",
+      "Fish, goatfishes, raw"
+    ]
+  },
+  "ca_qua_tuoi": {
+    "name_vn": "Cá quả, tươi",
+    "name_en": "Fish, snakehead fish, raw",
+    "queries_tried": [
+      "Fish, snakehead fish, raw food",
+      "Ca qua, tuoi Vietnamese food",
+      "Fish, snakehead fish, raw"
+    ]
+  },
+  "ca_ro_phi_tuoi": {
+    "name_vn": "Cá rô phi, tươi",
+    "name_en": "Fish, tilapia, raw",
+    "queries_tried": [
+      "Fish, tilapia, raw food",
+      "Ca ro phi, tuoi Vietnamese food",
+      "Fish, tilapia, raw"
+    ]
+  },
+  "ca_ro_phi_chien_gion": {
+    "name_vn": "Cá rô phi, chiên giòn",
+    "name_en": "Cá rô phi, chiên giòn",
+    "queries_tried": [
+      "Cá rô phi, chiên giòn food",
+      "Ca ro phi, chien gion Vietnamese food",
+      "Cá rô phi, chiên giòn"
+    ]
+  },
+  "ca_thu_tuoi": {
+    "name_vn": "Cá thu, tươi",
+    "name_en": "Fish, mackerel, kingfish, raw",
+    "queries_tried": [
+      "Fish, mackerel, kingfish, raw food",
+      "Ca thu, tuoi Vietnamese food",
+      "Fish, mackerel, kingfish, raw"
+    ]
+  },
+  "ca_thu_dao_tuoi": {
+    "name_vn": "Cá thu đao, tươi",
+    "name_en": "Fish, pacific saury, raw",
+    "queries_tried": [
+      "Fish, pacific saury, raw food",
+      "Ca thu dao, tuoi Vietnamese food",
+      "Fish, pacific saury, raw"
+    ]
+  },
+  "ca_tram_co_tuoi": {
+    "name_vn": "Cá trắm cỏ, tươi",
+    "name_en": "Fish, grass carp, raw",
+    "queries_tried": [
+      "Fish, grass carp, raw food",
+      "Ca tram co, tuoi Vietnamese food",
+      "Fish, grass carp, raw"
+    ]
+  },
+  "ca_trich_tuoi": {
+    "name_vn": "Cá trích, tươi",
+    "name_en": "Fish, herring, raw",
+    "queries_tried": [
+      "Fish, herring, raw food",
+      "Ca trich, tuoi Vietnamese food",
+      "Fish, herring, raw"
+    ]
+  },
+  "ca_troi_tuoi": {
+    "name_vn": "Cá trôi, tươi ",
+    "name_en": "Fish, mrigal carp, raw",
+    "queries_tried": [
+      "Fish, mrigal carp, raw food",
+      "Ca troi, tuoi  Vietnamese food",
+      "Fish, mrigal carp, raw"
+    ]
+  },
+  "cua_dong_tuoi": {
+    "name_vn": "Cua đồng, tươi",
+    "name_en": "Crab, fresh water, raw",
+    "queries_tried": [
+      "Crab, fresh water, raw food",
+      "Cua dong, tuoi Vietnamese food",
+      "Crab, fresh water, raw"
+    ]
+  },
+  "hai_sam_tuoi": {
+    "name_vn": "Hải sâm, tươi",
+    "name_en": "Sea slug, sea cucumber, raw",
+    "queries_tried": [
+      "Sea slug, sea cucumber, raw food",
+      "Hai sam, tuoi Vietnamese food",
+      "Sea slug, sea cucumber, raw"
+    ]
+  },
+  "hen_tuoi": {
+    "name_vn": "Hến, tươi",
+    "name_en": "Clam, raw",
+    "queries_tried": [
+      "Clam, raw food",
+      "Hen, tuoi Vietnamese food",
+      "Clam, raw"
+    ]
+  },
+  "muc_kho_song": {
+    "name_vn": "Mực khô, sống",
+    "name_en": "Squid, dried, raw",
+    "queries_tried": [
+      "Squid, dried, raw food",
+      "Muc kho, song Vietnamese food",
+      "Squid, dried, raw"
+    ]
+  },
+  "muc_tuoi": {
+    "name_vn": "Mực, tươi",
+    "name_en": "Squid, fresh, raw",
+    "queries_tried": [
+      "Squid, fresh, raw food",
+      "Muc, tuoi Vietnamese food",
+      "Squid, fresh, raw"
+    ]
+  },
+  "muc_tuoi_nuong": {
+    "name_vn": "Mực tươi, nướng",
+    "name_en": "Cuttle fish squid, grilled",
+    "queries_tried": [
+      "Cuttle fish squid, grilled food",
+      "Muc tuoi, nuong Vietnamese food",
+      "Cuttle fish squid, grilled"
+    ]
+  },
+  "oc_buou_tuoi": {
+    "name_vn": "Ốc bươu, tươi",
+    "name_en": "Snail, medium - size, raw",
+    "queries_tried": [
+      "Snail, medium - size, raw food",
+      "Ốc buou, tuoi Vietnamese food",
+      "Snail, medium - size, raw"
+    ]
+  },
+  "oc_da_tuoi": {
+    "name_vn": "Ốc đá, tươi",
+    "name_en": "Snail, marble snail, Chinese mysterysnail, raw",
+    "queries_tried": [
+      "Snail, marble snail, Chinese mysterysnail, raw food",
+      "Ốc da, tuoi Vietnamese food",
+      "Snail, marble snail, Chinese mysterysnail, raw"
+    ]
+  },
+  "oc_nhoi_tuoi": {
+    "name_vn": "Ốc nhồi, tươi",
+    "name_en": "Snail, large size, raw",
+    "queries_tried": [
+      "Snail, large size, raw food",
+      "Ốc nhoi, tuoi Vietnamese food",
+      "Snail, large size, raw"
+    ]
+  },
+  "oc_van_raw": {
+    "name_vn": "Ốc vặn, raw",
+    "name_en": "Snail, helix, raw",
+    "queries_tried": [
+      "Snail, helix, raw food",
+      "Ốc van, raw Vietnamese food",
+      "Snail, helix, raw"
+    ]
+  },
+  "oc_van_luoc": {
+    "name_vn": "Ốc vặn, luộc",
+    "name_en": "Snail, Helix, boiled",
+    "queries_tried": [
+      "Snail, Helix, boiled food",
+      "Ốc van, luoc Vietnamese food",
+      "Snail, Helix, boiled"
+    ]
+  },
+  "oc_van_nuong": {
+    "name_vn": "Ốc vặn, nướng",
+    "name_en": "Snail, Helix, grilled",
+    "queries_tried": [
+      "Snail, Helix, grilled food",
+      "Ốc van, nuong Vietnamese food",
+      "Snail, Helix, grilled"
+    ]
+  },
+  "ram_tuoi": {
+    "name_vn": "Rạm, tươi",
+    "name_en": "Crab, sea water, small size, raw",
+    "queries_tried": [
+      "Crab, sea water, small size, raw food",
+      "Ram, tuoi Vietnamese food",
+      "Crab, sea water, small size, raw"
+    ]
+  },
+  "ruoi_tuoi": {
+    "name_vn": "Rươi, tươi",
+    "name_en": "Tylorhynchus sinensis, raw",
+    "queries_tried": [
+      "Tylorhynchus sinensis, raw food",
+      "Ruoi, tuoi Vietnamese food",
+      "Tylorhynchus sinensis, raw"
+    ]
+  },
+  "tep_gao_tuoi": {
+    "name_vn": "Tép gạo, tươi",
+    "name_en": "Shrimp, fresh water, tiny, raw",
+    "queries_tried": [
+      "Shrimp, fresh water, tiny, raw food",
+      "Tep gao, tuoi Vietnamese food",
+      "Shrimp, fresh water, tiny, raw"
+    ]
+  },
+  "tep_kho_song": {
+    "name_vn": "Tép khô, sống",
+    "name_en": "Shrimp, fresh water, tiny, dried",
+    "queries_tried": [
+      "Shrimp, fresh water, tiny, dried food",
+      "Tep kho, song Vietnamese food",
+      "Shrimp, fresh water, tiny, dried"
+    ]
+  },
+  "tom_bien_luoc": {
+    "name_vn": "Tôm biển, luộc",
+    "name_en": "Shrimp, sea water, boiled",
+    "queries_tried": [
+      "Shrimp, sea water, boiled food",
+      "Tom bien, luoc Vietnamese food",
+      "Shrimp, sea water, boiled"
+    ]
+  },
+  "tom_dong_tuoi": {
+    "name_vn": "Tôm đồng, tươi",
+    "name_en": "Shrimp, fresh water, raw",
+    "queries_tried": [
+      "Shrimp, fresh water, raw food",
+      "Tom dong, tuoi Vietnamese food",
+      "Shrimp, fresh water, raw"
+    ]
+  },
+  "tom_dong_luoc": {
+    "name_vn": "Tôm đồng, luộc",
+    "name_en": "Shrimp, fresh water, boiled",
+    "queries_tried": [
+      "Shrimp, fresh water, boiled food",
+      "Tom dong, luoc Vietnamese food",
+      "Shrimp, fresh water, boiled"
+    ]
+  },
+  "tom_bien_kho": {
+    "name_vn": "Tôm biển, khô",
+    "name_en": "Shrimp, sea water, dried",
+    "queries_tried": [
+      "Shrimp, sea water, dried food",
+      "Tom bien, kho Vietnamese food",
+      "Shrimp, sea water, dried"
+    ]
+  },
+  "banh_phong_tom_ran": {
+    "name_vn": "Bánh phồng tôm, rán",
+    "name_en": "Chips,  shrimp flavour, fried with oil",
+    "queries_tried": [
+      "Chips,  shrimp flavour, fried with oil food",
+      "Banh phong tom, ran Vietnamese food",
+      "Chips,  shrimp flavour, fried with oil"
+    ]
+  },
+  "banh_phong_tom_song": {
+    "name_vn": "Bánh phồng tôm, sống",
+    "name_en": "Chíp, shrimp flavour, raw",
+    "queries_tried": [
+      "Chíp, shrimp flavour, raw food",
+      "Banh phong tom, song Vietnamese food",
+      "Chíp, shrimp flavour, raw"
+    ]
+  },
+  "ruoc_ca_qua": {
+    "name_vn": "Ruốc cá quả",
+    "name_en": "Fish, snake head fish, dried flour with fish sauce",
+    "queries_tried": [
+      "Fish, snake head fish, dried flour with fish sauce food",
+      "Ruoc ca qua Vietnamese food",
+      "Fish, snake head fish, dried flour with fish sauce"
+    ]
+  },
+  "ruoc_tom": {
+    "name_vn": "Ruốc tôm",
+    "name_en": "Shrimp dried flour with fish sauce",
+    "queries_tried": [
+      "Shrimp dried flour with fish sauce food",
+      "Ruoc tom Vietnamese food",
+      "Shrimp dried flour with fish sauce"
+    ]
+  },
+  "ca_chim_trang": {
+    "name_vn": "Cá chim trắng",
+    "name_en": "Silver or white pomfret",
+    "queries_tried": [
+      "Silver or white pomfret food",
+      "Ca chim trang Vietnamese food",
+      "Silver or white pomfret"
+    ]
+  },
+  "ca_dieu_hong": {
+    "name_vn": "Cá điêu hồng",
+    "name_en": "Red tilapia",
+    "queries_tried": [
+      "Red tilapia food",
+      "Ca dieu hong Vietnamese food",
+      "Red tilapia"
+    ]
+  },
+  "cha_ca_basa": {
+    "name_vn": "Chả cá basa",
+    "name_en": "Basafish, fishball",
+    "queries_tried": [
+      "Basafish, fishball food",
+      "Cha ca basa Vietnamese food",
+      "Basafish, fishball"
+    ]
+  },
+  "con_trung_truc": {
+    "name_vn": "Con trùng trục",
+    "name_en": "Mussel, fresh water",
+    "queries_tried": [
+      "Mussel, fresh water food",
+      "Con trung truc Vietnamese food",
+      "Mussel, fresh water"
+    ]
+  },
+  "thit_cua": {
+    "name_vn": "Thịt cua",
+    "name_en": "Thịt cua",
+    "queries_tried": [
+      "Thịt cua food",
+      "Thit cua Vietnamese food",
+      "Thịt cua"
+    ]
+  },
+  "so_huyet_luoc": {
+    "name_vn": "Sò huyết, luộc",
+    "name_en": "Blood cockle, boiled",
+    "queries_tried": [
+      "Blood cockle, boiled food",
+      "So huyet, luoc Vietnamese food",
+      "Blood cockle, boiled"
+    ]
+  },
+  "oc_mong_tay_nuong": {
+    "name_vn": "Ốc móng tay, nướng",
+    "name_en": "Snail, Razor shells, grilled",
+    "queries_tried": [
+      "Snail, Razor shells, grilled food",
+      "Ốc mong tay, nuong Vietnamese food",
+      "Snail, Razor shells, grilled"
+    ]
+  },
+  "oc_huong_luoc": {
+    "name_vn": "Ốc hương, luộc",
+    "name_en": "Snail, Babylonia tesselata, boiled",
+    "queries_tried": [
+      "Snail, Babylonia tesselata, boiled food",
+      "Ốc huong, luoc Vietnamese food",
+      "Snail, Babylonia tesselata, boiled"
+    ]
+  },
+  "oc_huong_nuong": {
+    "name_vn": "Ốc hương, nướng",
+    "name_en": "Snail, Babylonia tesselata, grilled",
+    "queries_tried": [
+      "Snail, Babylonia tesselata, grilled food",
+      "Ốc huong, nuong Vietnamese food",
+      "Snail, Babylonia tesselata, grilled"
+    ]
+  },
+  "oc_len_hap": {
+    "name_vn": "Ốc len, hấp",
+    "name_en": "Snail, Obtuse Horn Shell, steamed",
+    "queries_tried": [
+      "Snail, Obtuse Horn Shell, steamed food",
+      "Ốc len, hap Vietnamese food",
+      "Snail, Obtuse Horn Shell, steamed"
+    ]
+  },
+  "so_duong_hap": {
+    "name_vn": "Sò dương, hấp",
+    "name_en": "Scallop, Vasticardium flavum, steamed",
+    "queries_tried": [
+      "Scallop, Vasticardium flavum, steamed food",
+      "So duong, hap Vietnamese food",
+      "Scallop, Vasticardium flavum, steamed"
+    ]
+  },
+  "so_diep_luoc": {
+    "name_vn": "Sò điệp, luộc",
+    "name_en": "Scallop, Noble scallop, boiled",
+    "queries_tried": [
+      "Scallop, Noble scallop, boiled food",
+      "So diep, luoc Vietnamese food",
+      "Scallop, Noble scallop, boiled"
+    ]
+  },
+  "so_diep_hap": {
+    "name_vn": "Sò điệp, hấp",
+    "name_en": "Scallop, Noble scallop, steamed",
+    "queries_tried": [
+      "Scallop, Noble scallop, steamed food",
+      "So diep, hap Vietnamese food",
+      "Scallop, Noble scallop, steamed"
+    ]
+  },
+  "so_long_hap": {
+    "name_vn": "Sò lông, hấp",
+    "name_en": "Scallop, ark clam, steamed",
+    "queries_tried": [
+      "Scallop, ark clam, steamed food",
+      "So long, hap Vietnamese food",
+      "Scallop, ark clam, steamed"
+    ]
+  },
+  "so_long_nuong": {
+    "name_vn": "Sò lông, nướng",
+    "name_en": "Scallop, ark clam, grilled",
+    "queries_tried": [
+      "Scallop, ark clam, grilled food",
+      "So long, nuong Vietnamese food",
+      "Scallop, ark clam, grilled"
+    ]
+  },
+  "tom_tit_be_be": {
+    "name_vn": "Tôm tít (bề bề)",
+    "name_en": "Tôm tít (bề bề)",
+    "queries_tried": [
+      "Tôm tít (bề bề) food",
+      "Tom tit (be be) Vietnamese food",
+      "Tôm tít (bề bề)"
+    ]
+  },
+  "tu_hai": {
+    "name_vn": "Tu hài",
+    "name_en": "Tu hài",
+    "queries_tried": [
+      "Tu hài food",
+      "Tu hai Vietnamese food",
+      "Tu hài"
+    ]
+  },
+  "long_do_trung_ga": {
+    "name_vn": "Lòng đỏ trứng gà",
+    "name_en": "Hen egg, yolk",
+    "queries_tried": [
+      "Hen egg, yolk food",
+      "Long do trung ga Vietnamese food",
+      "Hen egg, yolk"
+    ]
+  },
+  "trung_vit": {
+    "name_vn": "Trứng vịt",
+    "name_en": "Duck egg",
+    "queries_tried": [
+      "Duck egg food",
+      "Trung vit Vietnamese food",
+      "Duck egg"
+    ]
+  },
+  "long_do_trung_vit": {
+    "name_vn": "Lòng đỏ trứng vịt",
+    "name_en": "Duck egg, yolk",
+    "queries_tried": [
+      "Duck egg, yolk food",
+      "Long do trung vit Vietnamese food",
+      "Duck egg, yolk"
+    ]
+  },
+  "trung_chim_cut": {
+    "name_vn": "Trứng chim cút",
+    "name_en": "Quail egg",
+    "queries_tried": [
+      "Quail egg food",
+      "Trung chim cut Vietnamese food",
+      "Quail egg"
+    ]
+  },
+  "trung_ca_muoi": {
+    "name_vn": "Trứng cá muối",
+    "name_en": "Fish caviar, black and red, granule",
+    "queries_tried": [
+      "Fish caviar, black and red, granule food",
+      "Trung ca muoi Vietnamese food",
+      "Fish caviar, black and red, granule"
+    ]
+  },
+  "trung_vit_lon": {
+    "name_vn": "Trứng vịt lộn",
+    "name_en": "Duck embryonated egg",
+    "queries_tried": [
+      "Duck embryonated egg food",
+      "Trung vit lon Vietnamese food",
+      "Duck embryonated egg"
+    ]
+  },
+  "trung_ga_cong_nghiep": {
+    "name_vn": "Trứng gà công nghiệp",
+    "name_en": "Trứng gà công nghiệp",
+    "queries_tried": [
+      "Trứng gà công nghiệp food",
+      "Trung ga cong nghiep Vietnamese food",
+      "Trứng gà công nghiệp"
+    ]
+  },
+  "su_hao_xao": {
+    "name_vn": "Su hào xào",
+    "name_en": "Stir-fried kohlrabi",
+    "queries_tried": [
+      "Stir-fried kohlrabi food",
+      "Su hao xao Vietnamese food",
+      "Stir-fried kohlrabi"
+    ]
+  },
+  "rau_ci_ngt_xo": {
+    "name_vn": "Rau cải ngọt xào",
+    "name_en": "Stir-fried Chinese mustard greens",
+    "queries_tried": [
+      "Stir-fried Chinese mustard greens food",
+      "Rau cai ngot xao Vietnamese food",
+      "Stir-fried Chinese mustard greens"
+    ]
+  },
+  "rau_ci_bp_xo": {
+    "name_vn": "Rau cải bắp xào",
+    "name_en": "Stir-fried cabbage",
+    "queries_tried": [
+      "Stir-fried cabbage food",
+      "Rau cai bap xao Vietnamese food",
+      "Stir-fried cabbage"
+    ]
+  },
+  "tht_ln_ba_ch_rang_chy_cnh": {
+    "name_vn": "Thịt lợn ba chỉ rang cháy cạnh",
+    "name_en": "Crispy caramelized pork belly",
+    "queries_tried": [
+      "Crispy caramelized pork belly food",
+      "Thit lon ba chi rang chay canh Vietnamese food",
+      "Crispy caramelized pork belly"
+    ]
+  },
+  "u_ph_st_c_chua": {
+    "name_vn": "Đậu phụ sốt cà chua",
+    "name_en": "Tofu in tomato sauce",
+    "queries_tried": [
+      "Tofu in tomato sauce food",
+      "Dau phu sot ca chua Vietnamese food",
+      "Tofu in tomato sauce"
+    ]
+  },
+  "rau_gin_luc": {
+    "name_vn": "Rau giền luộc",
+    "name_en": "Boiled amaranth leaves",
+    "queries_tried": [
+      "Boiled amaranth leaves food",
+      "Rau gien luoc Vietnamese food",
+      "Boiled amaranth leaves"
+    ]
+  },
+  "tht_mng_sn_kho_c_ci": {
+    "name_vn": "Thịt mông sấn kho củ cải",
+    "name_en": "Braised pork haunch with daikon",
+    "queries_tried": [
+      "Braised pork haunch with daikon food",
+      "Thit mong san kho cu cai Vietnamese food",
+      "Braised pork haunch with daikon"
+    ]
+  },
+  "tht_ln_ba_ch_kho_trng_ct": {
+    "name_vn": "Thịt lợn ba chỉ kho trứng cút",
+    "name_en": "Braised pork belly with quail eggs",
+    "queries_tried": [
+      "Braised pork belly with quail eggs food",
+      "Thit lon ba chi kho trung cut Vietnamese food",
+      "Braised pork belly with quail eggs"
+    ]
+  },
+  "tht_chn_gi_nu_ng": {
+    "name_vn": "Thịt chân giò nấu đông",
+    "name_en": "Jellied pork leg stew",
+    "queries_tried": [
+      "Jellied pork leg stew food",
+      "Thit chan gio nau dong Vietnamese food",
+      "Jellied pork leg stew"
+    ]
+  },
+  "u_ph_kho_tht": {
+    "name_vn": "Đậu phụ kho thịt",
+    "name_en": "Braised tofu with pork",
+    "queries_tried": [
+      "Braised tofu with pork food",
+      "Dau phu kho thit Vietnamese food",
+      "Braised tofu with pork"
+    ]
+  },
+  "ch_ln_m": {
+    "name_vn": "Chả lợn mỡ",
+    "name_en": "Fatty pork-patse",
+    "queries_tried": [
+      "Fatty pork-patse food",
+      "Cha lon mo Vietnamese food",
+      "Fatty pork-patse"
+    ]
+  },
+  "tm_vin_chin_ng_ph": {
+    "name_vn": "Tôm viên chiên đường phố",
+    "name_en": "Fried shrimp balls",
+    "queries_tried": [
+      "Fried shrimp balls food",
+      "Tom vien chien duong pho Vietnamese food",
+      "Fried shrimp balls"
+    ]
+  },
+  "bnh_m_b_st_vang": {
+    "name_vn": "Bánh mỳ bò sốt vang",
+    "name_en": "Baguette with beef stew sauce",
+    "queries_tried": [
+      "Baguette with beef stew sauce food",
+      "Banh my bo sot vang Vietnamese food",
+      "Baguette with beef stew sauce"
+    ]
+  },
+  "bnh_rn_vng_5_chic": {
+    "name_vn": "Bánh rán vừng (5 chiếc)",
+    "name_en": "Sesame fried cake (5 pieces)",
+    "queries_tried": [
+      "Sesame fried cake (5 pieces) food",
+      "Banh ran vung (5 chiec) Vietnamese food",
+      "Sesame fried cake (5 pieces)"
+    ]
+  },
+  "nc_p_lu": {
+    "name_vn": "Nước ép lựu",
+    "name_en": "Pomegranate Juice",
+    "queries_tried": [
+      "Pomegranate Juice food",
+      "Nuoc ep luu Vietnamese food",
+      "Pomegranate Juice"
+    ]
+  },
+  "bnh_m_ch_c_st_cay": {
+    "name_vn": "Bánh mỳ chả cá sốt cay",
+    "name_en": "Banh my with fish cake in spicy sauce",
+    "queries_tried": [
+      "Banh my with fish cake in spicy sauce food",
+      "Banh my cha ca sot cay Vietnamese food",
+      "Banh my with fish cake in spicy sauce"
+    ]
+  },
+  "bnh_m_cay_5_ci": {
+    "name_vn": "Bánh mỳ cay 5 cái",
+    "name_en": "Spicy baguette (5 pieces)",
+    "queries_tried": [
+      "Spicy baguette (5 pieces) food",
+      "Banh my cay 5 cai Vietnamese food",
+      "Spicy baguette (5 pieces)"
+    ]
+  },
+  "bnh_m_cho": {
+    "name_vn": "Bánh mỳ chảo",
+    "name_en": "Banh my with beef, egg, pate and sausage served in frying pan",
+    "queries_tried": [
+      "Banh my with beef, egg, pate and sausage served in frying pan food",
+      "Banh my chao Vietnamese food",
+      "Banh my with beef, egg, pate and sausage served in frying pan"
+    ]
+  },
+  "bnh_m_cho_st_ngt": {
+    "name_vn": "Bánh mỳ chảo sốt ngọt",
+    "name_en": "Banh my with egg, pate and sausage with sweet sauce served in frying pan",
+    "queries_tried": [
+      "Banh my with egg, pate and sausage with sweet sauce served in frying pan food",
+      "Banh my chao sot ngot Vietnamese food",
+      "Banh my with egg, pate and sausage with sweet sauce served in frying pan"
+    ]
+  },
+  "bnh_gi": {
+    "name_vn": "Bánh giò",
+    "name_en": "Pyramid rice dumpling",
+    "queries_tried": [
+      "Pyramid rice dumpling food",
+      "Banh gio Vietnamese food",
+      "Pyramid rice dumpling"
+    ]
+  },
+  "trng_vt_ln_2_qu": {
+    "name_vn": "Trứng vịt lộn 2 quả",
+    "name_en": "Balut (2 pieces)",
+    "queries_tried": [
+      "Balut (2 pieces) food",
+      "Trung vit lon 2 qua Vietnamese food",
+      "Balut (2 pieces)"
+    ]
+  },
+  "bnh_m_st_trng_ct": {
+    "name_vn": "Bánh mỳ sốt trứng cút",
+    "name_en": "Banh my with sauced quail eggs",
+    "queries_tried": [
+      "Banh my with sauced quail eggs food",
+      "Banh my sot trung cut Vietnamese food",
+      "Banh my with sauced quail eggs"
+    ]
+  },
+  "tht_ln_quay": {
+    "name_vn": "Thịt lợn quay",
+    "name_en": "Roast pork",
+    "queries_tried": [
+      "Roast pork food",
+      "Thit lon quay Vietnamese food",
+      "Roast pork"
+    ]
+  },
+  "cun_bng_8_ci": {
+    "name_vn": "Cuốn bỗng 8 cái",
+    "name_en": "Lettuce roll with shrimp with vinegar dipping sauce",
+    "queries_tried": [
+      "Lettuce roll with shrimp with vinegar dipping sauce food",
+      "Cuon bong 8 cai Vietnamese food",
+      "Lettuce roll with shrimp with vinegar dipping sauce"
+    ]
+  },
+  "c_ph_da": {
+    "name_vn": "Cà phê dừa",
+    "name_en": "Coconut coffee",
+    "queries_tried": [
+      "Coconut coffee food",
+      "Ca phe dua Vietnamese food",
+      "Coconut coffee"
+    ]
+  },
+  "ch_su_ring": {
+    "name_vn": "Chè sầu riêng",
+    "name_en": "Durian dessert soup",
+    "queries_tried": [
+      "Durian dessert soup food",
+      "Che sau rieng Vietnamese food",
+      "Durian dessert soup"
+    ]
+  },
+  "ng_nng": {
+    "name_vn": "Ngô nướng",
+    "name_en": "Grilled corn",
+    "queries_tried": [
+      "Grilled corn food",
+      "Ngo nuong Vietnamese food",
+      "Grilled corn"
+    ]
+  },
+  "ch_thi": {
+    "name_vn": "Chè Thái",
+    "name_en": "Variety of jello and milk dessert soup",
+    "queries_tried": [
+      "Variety of jello and milk dessert soup food",
+      "Che Thai Vietnamese food",
+      "Variety of jello and milk dessert soup"
+    ]
+  },
+  "c_bng_xo_b_trng_mn": {
+    "name_vn": "Ốc bông xào bơ trứng mặn",
+    "name_en": "Stir-fried snail with salted butter egg yolk sauce",
+    "queries_tried": [
+      "Stir-fried snail with salted butter egg yolk sauce food",
+      "Ốc bong xao bo trung man Vietnamese food",
+      "Stir-fried snail with salted butter egg yolk sauce"
+    ]
+  },
+  "ng_cay": {
+    "name_vn": "Ngô cay",
+    "name_en": "Spicy corn",
+    "queries_tried": [
+      "Spicy corn food",
+      "Ngo cay Vietnamese food",
+      "Spicy corn"
+    ]
+  },
+  "nem_rn": {
+    "name_vn": "Nem rán",
+    "name_en": "Fried spring rolls",
+    "queries_tried": [
+      "Fried spring rolls food",
+      "Nem ran Vietnamese food",
+      "Fried spring rolls"
+    ]
+  },
+  "c_xo": {
+    "name_vn": "Ốc đá xào",
+    "name_en": "Stir fried snail",
+    "queries_tried": [
+      "Stir fried snail food",
+      "Ốc da xao Vietnamese food",
+      "Stir fried snail"
+    ]
+  },
+  "c_mt_luc_mm": {
+    "name_vn": "Ốc mít luộc mắm",
+    "name_en": "Boiled snail in fish sauce",
+    "queries_tried": [
+      "Boiled snail in fish sauce food",
+      "Ốc mit luoc mam Vietnamese food",
+      "Boiled snail in fish sauce"
+    ]
+  },
+  "c_m_xo_ng": {
+    "name_vn": "Ốc mỡ xào ngô",
+    "name_en": "Fried snail with maize seeds",
+    "queries_tried": [
+      "Fried snail with maize seeds food",
+      "Ốc mo xao ngo Vietnamese food",
+      "Fried snail with maize seeds"
+    ]
+  },
+  "chim_ct_quay_l_mc_mt_4_con": {
+    "name_vn": "Chim cút quay lá mắc mật (4 con)",
+    "name_en": "Roasted bird with Dalzell oliv leaves",
+    "queries_tried": [
+      "Roasted bird with Dalzell oliv leaves food",
+      "Chim cut quay la mac mat (4 con) Vietnamese food",
+      "Roasted bird with Dalzell oliv leaves"
+    ]
+  },
+  "ht_d_nng": {
+    "name_vn": "Hạt dẻ nướng",
+    "name_en": "Roasted chestnuts",
+    "queries_tried": [
+      "Roasted chestnuts food",
+      "Hat de nuong Vietnamese food",
+      "Roasted chestnuts"
+    ]
+  },
+  "gi_b_xo": {
+    "name_vn": "Giá bể xào",
+    "name_en": "Stir-fried Lamp Shell",
+    "queries_tried": [
+      "Stir-fried Lamp Shell food",
+      "Gia be xao Vietnamese food",
+      "Stir-fried Lamp Shell"
+    ]
+  },
+  "lng_di_sn": {
+    "name_vn": "Lòng dồi sụn",
+    "name_en": "Pork Cartilage blood sausages",
+    "queries_tried": [
+      "Pork Cartilage blood sausages food",
+      "Long doi sun Vietnamese food",
+      "Pork Cartilage blood sausages"
+    ]
+  },
+  "b_vin_chin_ng_ph": {
+    "name_vn": "Bò viên chiên đường phố",
+    "name_en": "Street-style fried beef balls",
+    "queries_tried": [
+      "Street-style fried beef balls food",
+      "Bo vien chien duong pho Vietnamese food",
+      "Street-style fried beef balls"
+    ]
+  },
+  "nm_b_kh": {
+    "name_vn": "Nộm bò khô",
+    "name_en": "Salad with dried beef and green papaya",
+    "queries_tried": [
+      "Salad with dried beef and green papaya food",
+      "Nom bo kho Vietnamese food",
+      "Salad with dried beef and green papaya"
+    ]
+  },
+  "to_ph": {
+    "name_vn": "Tào phớ",
+    "name_en": "Tofu pudding",
+    "queries_tried": [
+      "Tofu pudding food",
+      "Tao pho Vietnamese food",
+      "Tofu pudding"
+    ]
+  },
+  "si_dn": {
+    "name_vn": "Sủi dìn",
+    "name_en": "Glutinous rice balls filled with mung bean patse and black sesame patse in syrup",
+    "queries_tried": [
+      "Glutinous rice balls filled with mung bean patse and black sesame patse in syrup food",
+      "Sui din Vietnamese food",
+      "Glutinous rice balls filled with mung bean patse and black sesame patse in syrup"
+    ]
+  },
+  "hoa_qu_dm": {
+    "name_vn": "Hoa quả dầm",
+    "name_en": "Mixed fruit dessert",
+    "queries_tried": [
+      "Mixed fruit dessert food",
+      "Hoa qua dam Vietnamese food",
+      "Mixed fruit dessert"
+    ]
+  },
+  "bnh_a_b_nh": {
+    "name_vn": "Bánh đa bò nhừ",
+    "name_en": "Crispy rice paper with tender beef",
+    "queries_tried": [
+      "Crispy rice paper with tender beef food",
+      "Banh da bo nhu Vietnamese food",
+      "Crispy rice paper with tender beef"
+    ]
+  },
+  "bnh_a_cua": {
+    "name_vn": "Bánh đa cua",
+    "name_en": "Crab noodle soup with red rice noodles",
+    "queries_tried": [
+      "Crab noodle soup with red rice noodles food",
+      "Banh da cua Vietnamese food",
+      "Crab noodle soup with red rice noodles"
+    ]
+  },
+  "ch_xanh": {
+    "name_vn": "Chè đỗ xanh",
+    "name_en": "Mung bean sweet soup",
+    "queries_tried": [
+      "Mung bean sweet soup food",
+      "Che do xanh Vietnamese food",
+      "Mung bean sweet soup"
+    ]
+  },
+  "bnh_tri": {
+    "name_vn": "Bánh trôi",
+    "name_en": "Glutinous rice balls in syrup",
+    "queries_tried": [
+      "Glutinous rice balls in syrup food",
+      "Banh troi Vietnamese food",
+      "Glutinous rice balls in syrup"
+    ]
+  },
+  "bnh_trng_trn": {
+    "name_vn": "Bánh tráng trộn",
+    "name_en": "Mixed rice paper salad",
+    "queries_tried": [
+      "Mixed rice paper salad food",
+      "Banh trang tron Vietnamese food",
+      "Mixed rice paper salad"
+    ]
+  },
+  "bnh_tiu": {
+    "name_vn": "Bánh tiêu",
+    "name_en": "Hollow fried doughnut",
+    "queries_tried": [
+      "Hollow fried doughnut food",
+      "Banh tieu Vietnamese food",
+      "Hollow fried doughnut"
+    ]
+  },
+  "bnh_su_kem": {
+    "name_vn": "Bánh su kem",
+    "name_en": "Cream puff",
+    "queries_tried": [
+      "Cream puff food",
+      "Banh su kem Vietnamese food",
+      "Cream puff"
+    ]
+  },
+  "bn_b_nh": {
+    "name_vn": "Bún bò nhừ",
+    "name_en": "Vietnamese noodle soup with tender stewed beef",
+    "queries_tried": [
+      "Vietnamese noodle soup with tender stewed beef food",
+      "Bun bo nhu Vietnamese food",
+      "Vietnamese noodle soup with tender stewed beef"
+    ]
+  },
+  "bn_c_cay": {
+    "name_vn": "Bún cá cay",
+    "name_en": "Spicy fish noodle soup",
+    "queries_tried": [
+      "Spicy fish noodle soup food",
+      "Bun ca cay Vietnamese food",
+      "Spicy fish noodle soup"
+    ]
+  },
+  "bnh_rn_ngt_khng_vng_5_ci": {
+    "name_vn": "Bánh rán ngọt không vừng 5 cái",
+    "name_en": "Sweet fried cake without sesame (5 pieces)",
+    "queries_tried": [
+      "Sweet fried cake without sesame (5 pieces) food",
+      "Banh ran ngot khong vung 5 cai Vietnamese food",
+      "Sweet fried cake without sesame (5 pieces)"
+    ]
+  },
+  "bnh_rn_ngt_c_vng_3c": {
+    "name_vn": "Bánh rán ngọt có vừng (3c)",
+    "name_en": "Sweet sesame fried cake (3 pieces)",
+    "queries_tried": [
+      "Sweet sesame fried cake (3 pieces) food",
+      "Banh ran ngot co vung (3c) Vietnamese food",
+      "Sweet sesame fried cake (3 pieces)"
+    ]
+  },
+  "nc_chanh_leo": {
+    "name_vn": "Nước chanh leo",
+    "name_en": "Passion fruit juice",
+    "queries_tried": [
+      "Passion fruit juice food",
+      "Nuoc chanh leo Vietnamese food",
+      "Passion fruit juice"
+    ]
+  },
+  "nc_ma_chanh_leo": {
+    "name_vn": "Nước mía chanh leo",
+    "name_en": "Passion fruit mix sugarcane juice",
+    "queries_tried": [
+      "Passion fruit mix sugarcane juice food",
+      "Nuoc mia chanh leo Vietnamese food",
+      "Passion fruit mix sugarcane juice"
+    ]
+  },
+  "bn_c_cay_ch_kh": {
+    "name_vn": "Bún cá cay chú Khò",
+    "name_en": "Spicy Fish Noodle Soup of Chef Khò",
+    "queries_tried": [
+      "Spicy Fish Noodle Soup of Chef Khò food",
+      "Bun ca cay chu Kho Vietnamese food",
+      "Spicy Fish Noodle Soup of Chef Khò"
+    ]
+  },
+  "bnh_m_khng": {
+    "name_vn": "Bánh mỳ không",
+    "name_en": "Plain baguette",
+    "queries_tried": [
+      "Plain baguette food",
+      "Banh my khong Vietnamese food",
+      "Plain baguette"
+    ]
+  },
+  "bnh_m_gi_ch": {
+    "name_vn": "Bánh mỳ giò chả",
+    "name_en": "Baguette with pork sausage",
+    "queries_tried": [
+      "Baguette with pork sausage food",
+      "Banh my gio cha Vietnamese food",
+      "Baguette with pork sausage"
+    ]
+  },
+  "bn_cua_thp_cm": {
+    "name_vn": "Bún cua thập cẩm",
+    "name_en": "Rice vermicelli soup with crab and mixed seafood",
+    "queries_tried": [
+      "Rice vermicelli soup with crab and mixed seafood food",
+      "Bun cua thap cam Vietnamese food",
+      "Rice vermicelli soup with crab and mixed seafood"
+    ]
+  },
+  "bn_ch_c_thu": {
+    "name_vn": "Bún chả cô Thu",
+    "name_en": "Cô Thu\\",
+    "queries_tried": [
+      "Cô Thu\\ food",
+      "Bun cha co Thu Vietnamese food",
+      "Cô Thu\\"
+    ]
+  },
+  "bnh_m_pate_trng": {
+    "name_vn": "Bánh mỳ pate trứng",
+    "name_en": "Baguette with pâté and egg",
+    "queries_tried": [
+      "Baguette with pâté and egg food",
+      "Banh my pate trung Vietnamese food",
+      "Baguette with pâté and egg"
+    ]
+  },
+  "bn_ch_qut": {
+    "name_vn": "Bún chả quạt",
+    "name_en": "Grilled pork patties and vermicelli noodles",
+    "queries_tried": [
+      "Grilled pork patties and vermicelli noodles food",
+      "Bun cha quat Vietnamese food",
+      "Grilled pork patties and vermicelli noodles"
+    ]
+  },
+  "pizza_tht_xng_khi_c_l": {
+    "name_vn": "Pizza thịt xông khói (cỡ L)",
+    "name_en": "Bacon pizza (L size)",
+    "queries_tried": [
+      "Bacon pizza (L size) food",
+      "Pizza thit xong khoi (co L) Vietnamese food",
+      "Bacon pizza (L size)"
+    ]
+  },
+  "pizza_hi_sn_c_m": {
+    "name_vn": "Pizza hải sản (cỡ M)",
+    "name_en": "Seafood pizza (M size)",
+    "queries_tried": [
+      "Seafood pizza (M size) food",
+      "Pizza hai san (co M) Vietnamese food",
+      "Seafood pizza (M size)"
+    ]
+  },
+  "pizza_hi_sn_c_l": {
+    "name_vn": "Pizza hải sản (cỡ L)",
+    "name_en": "Seafood pizza (L size)",
+    "queries_tried": [
+      "Seafood pizza (L size) food",
+      "Pizza hai san (co L) Vietnamese food",
+      "Seafood pizza (L size)"
+    ]
+  },
+  "pizza_g_nng_nm_c_l": {
+    "name_vn": "Pizza gà nướng nấm (cỡ L)",
+    "name_en": "BBQ chicken mushroom pizza (L size)",
+    "queries_tried": [
+      "BBQ chicken mushroom pizza (L size) food",
+      "Pizza ga nuong nam (co L) Vietnamese food",
+      "BBQ chicken mushroom pizza (L size)"
+    ]
+  },
+  "pizza_b_c_m": {
+    "name_vn": "Pizza bò (cỡ M)",
+    "name_en": "Premium beed pizza (M size)",
+    "queries_tried": [
+      "Premium beed pizza (M size) food",
+      "Pizza bo (co M) Vietnamese food",
+      "Premium beed pizza (M size)"
+    ]
+  },
+  "hamburger_g": {
+    "name_vn": "Hamburger Gà",
+    "name_en": "Chicken Humburger",
+    "queries_tried": [
+      "Chicken Humburger food",
+      "Hamburger Ga Vietnamese food",
+      "Chicken Humburger"
+    ]
+  },
+  "hamburger_b": {
+    "name_vn": "Hamburger Bò",
+    "name_en": "Beef Hamburger",
+    "queries_tried": [
+      "Beef Hamburger food",
+      "Hamburger Bo Vietnamese food",
+      "Beef Hamburger"
+    ]
+  },
+  "burger_g": {
+    "name_vn": "Burger gà",
+    "name_en": "Chicken Burger",
+    "queries_tried": [
+      "Chicken Burger food",
+      "Burger ga Vietnamese food",
+      "Chicken Burger"
+    ]
+  },
+  "burger_c": {
+    "name_vn": "Burger cá",
+    "name_en": "Fish Burger",
+    "queries_tried": [
+      "Fish Burger food",
+      "Burger ca Vietnamese food",
+      "Fish Burger"
+    ]
+  },
+  "bnh_tm_h_ty": {
+    "name_vn": "Bánh tôm Hồ Tây",
+    "name_en": "Ho Tay crispy prawn fritters",
+    "queries_tried": [
+      "Ho Tay crispy prawn fritters food",
+      "Banh tom Ho Tay Vietnamese food",
+      "Ho Tay crispy prawn fritters"
+    ]
+  },
+  "bnh_cun_thanh_tr": {
+    "name_vn": "Bánh cuốn Thanh Trì",
+    "name_en": "Rice pancake rolled with pork (Thanh Tri style)",
+    "queries_tried": [
+      "Rice pancake rolled with pork (Thanh Tri style) food",
+      "Banh cuon Thanh Tri Vietnamese food",
+      "Rice pancake rolled with pork (Thanh Tri style)"
+    ]
+  },
+  "bnh_m_pa_t_trng": {
+    "name_vn": "Bánh mỳ pa tê trứng",
+    "name_en": "Banh my with Pate and fried egg",
+    "queries_tried": [
+      "Banh my with Pate and fried egg food",
+      "Banh my pa te trung Vietnamese food",
+      "Banh my with Pate and fried egg"
+    ]
+  },
+  "bnh_m_cho_ln": {
+    "name_vn": "Bánh mỳ chảo lợn",
+    "name_en": "Banh my with pork served in frying pan",
+    "queries_tried": [
+      "Banh my with pork served in frying pan food",
+      "Banh my chao lon Vietnamese food",
+      "Banh my with pork served in frying pan"
+    ]
+  },
+  "xi_xu": {
+    "name_vn": "Xôi xíu",
+    "name_en": "Sticky rice with Char siu",
+    "queries_tried": [
+      "Sticky rice with Char siu food",
+      "Xoi xiu Vietnamese food",
+      "Sticky rice with Char siu"
+    ]
+  },
+  "xi_xo_tht": {
+    "name_vn": "Xôi xéo thịt",
+    "name_en": "Sticky rice with braised pork belly and mung bean paste",
+    "queries_tried": [
+      "Sticky rice with braised pork belly and mung bean paste food",
+      "Xoi xeo thit Vietnamese food",
+      "Sticky rice with braised pork belly and mung bean paste"
+    ]
+  },
+  "min_riu_cua_nc": {
+    "name_vn": "Miến riêu cua (nước)",
+    "name_en": "Vermicelli soup with fresh water crab paste",
+    "queries_tried": [
+      "Vermicelli soup with fresh water crab paste food",
+      "Mien rieu cua (nuoc) Vietnamese food",
+      "Vermicelli soup with fresh water crab paste"
+    ]
+  },
+  "min_ln_trn": {
+    "name_vn": "Miến lươn trộn",
+    "name_en": "Vermicelli mixed with eel",
+    "queries_tried": [
+      "Vermicelli mixed with eel food",
+      "Mien luon tron Vietnamese food",
+      "Vermicelli mixed with eel"
+    ]
+  },
+  "h_tiu_tht_bm": {
+    "name_vn": "Hủ tiếu thịt bằm",
+    "name_en": "Rice noodle soup with minced pork",
+    "queries_tried": [
+      "Rice noodle soup with minced pork food",
+      "Hu tieu thit bam Vietnamese food",
+      "Rice noodle soup with minced pork"
+    ]
+  },
+  "h_tiu_i_dng": {
+    "name_vn": "Hủ tiếu đại dương",
+    "name_en": "Rice noodle soup with mixed seafood",
+    "queries_tried": [
+      "Rice noodle soup with mixed seafood food",
+      "Hu tieu dai duong Vietnamese food",
+      "Rice noodle soup with mixed seafood"
+    ]
+  },
+  "bnh_canh_sn_heo": {
+    "name_vn": "Bánh canh sườn heo",
+    "name_en": "Thick rice noodle soup with pork-rib",
+    "queries_tried": [
+      "Thick rice noodle soup with pork-rib food",
+      "Banh canh suon heo Vietnamese food",
+      "Thick rice noodle soup with pork-rib"
+    ]
+  },
+  "ph_li_b": {
+    "name_vn": "Phở lõi bò",
+    "name_en": "Pho with Beef heel muscle",
+    "queries_tried": [
+      "Pho with Beef heel muscle food",
+      "Pho loi bo Vietnamese food",
+      "Pho with Beef heel muscle"
+    ]
+  },
+  "ph_g_trn": {
+    "name_vn": "Phở gà trộn",
+    "name_en": "Pho mixed with chicken",
+    "queries_tried": [
+      "Pho mixed with chicken food",
+      "Pho ga tron Vietnamese food",
+      "Pho mixed with chicken"
+    ]
+  },
+  "ph_b_ti_gu": {
+    "name_vn": "Phở bò tái gầu",
+    "name_en": "Pho with rare beef and brisket",
+    "queries_tried": [
+      "Pho with rare beef and brisket food",
+      "Pho bo tai gau Vietnamese food",
+      "Pho with rare beef and brisket"
+    ]
+  },
+  "bn_riu_b": {
+    "name_vn": "Bún riêu bò",
+    "name_en": "Beef crab paste vermicelli",
+    "queries_tried": [
+      "Beef crab paste vermicelli food",
+      "Bun rieu bo Vietnamese food",
+      "Beef crab paste vermicelli"
+    ]
+  },
+  "bn_c_ngui": {
+    "name_vn": "Bún ốc nguội",
+    "name_en": "Cold snail vermicelli",
+    "queries_tried": [
+      "Cold snail vermicelli food",
+      "Bun oc nguoi Vietnamese food",
+      "Cold snail vermicelli"
+    ]
+  },
+  "bn_riu_cua_gi_b": {
+    "name_vn": "Bún riêu cua, giò, bò",
+    "name_en": "Crab paste vermicelli with pork pie and beef",
+    "queries_tried": [
+      "Crab paste vermicelli with pork pie and beef food",
+      "Bun rieu cua, gio, bo Vietnamese food",
+      "Crab paste vermicelli with pork pie and beef"
+    ]
+  },
+  "bn_ngan_mng_ti": {
+    "name_vn": "Bún ngan măng tươi",
+    "name_en": "Rice vermicelli with duck and fresh bamboo shoots",
+    "queries_tried": [
+      "Rice vermicelli with duck and fresh bamboo shoots food",
+      "Bun ngan mang tuoi Vietnamese food",
+      "Rice vermicelli with duck and fresh bamboo shoots"
+    ]
+  },
+  "bn_nem_cua_b": {
+    "name_vn": "Bún nem cua bể",
+    "name_en": "Rice vermicelli with Hai Phong-style crab spring rolls",
+    "queries_tried": [
+      "Rice vermicelli with Hai Phong-style crab spring rolls food",
+      "Bun nem cua be Vietnamese food",
+      "Rice vermicelli with Hai Phong-style crab spring rolls"
+    ]
+  },
+  "bn_ch_ri": {
+    "name_vn": "Bún chả rươi",
+    "name_en": "Vermicelli with grilled rươi patties",
+    "queries_tried": [
+      "Vermicelli with grilled rươi patties food",
+      "Bun cha ruoi Vietnamese food",
+      "Vermicelli with grilled rươi patties"
+    ]
+  },
+  "bn_nem_c": {
+    "name_vn": "Bún nem cá",
+    "name_en": "Rice vermicelli with fish springrolls",
+    "queries_tried": [
+      "Rice vermicelli with fish springrolls food",
+      "Bun nem ca Vietnamese food",
+      "Rice vermicelli with fish springrolls"
+    ]
+  },
+  "bnh_a_trn": {
+    "name_vn": "Bánh đa đỏ trộn",
+    "name_en": "Red thick rice noodle mixed with meat and vegetables",
+    "queries_tried": [
+      "Red thick rice noodle mixed with meat and vegetables food",
+      "Banh da do tron Vietnamese food",
+      "Red thick rice noodle mixed with meat and vegetables"
+    ]
+  },
+  "bnh_a_cua_b_gi": {
+    "name_vn": "Bánh đa cua, bò, giò",
+    "name_en": "Red thick rice noodle soup with crab paste, beef and steamed pork-paste",
+    "queries_tried": [
+      "Red thick rice noodle soup with crab paste, beef and steamed pork-paste food",
+      "Banh da cua, bo, gio Vietnamese food",
+      "Red thick rice noodle soup with crab paste, beef and steamed pork-paste"
+    ]
+  },
+  "bnh_a_cua_gi": {
+    "name_vn": "Bánh đa cua, giò",
+    "name_en": "Red thick rice noodle soup with crab paste and steamed pork ear roll",
+    "queries_tried": [
+      "Red thick rice noodle soup with crab paste and steamed pork ear roll food",
+      "Banh da cua, gio Vietnamese food",
+      "Red thick rice noodle soup with crab paste and steamed pork ear roll"
+    ]
+  },
+  "bnh_a_cua_b_mc": {
+    "name_vn": "Bánh đa cua, bò, mọc",
+    "name_en": "Red thick rice noodle soup with crab paste, beef and meatball",
+    "queries_tried": [
+      "Red thick rice noodle soup with crab paste, beef and meatball food",
+      "Banh da cua, bo, moc Vietnamese food",
+      "Red thick rice noodle soup with crab paste, beef and meatball"
+    ]
+  },
+  "ngao_trng_hp": {
+    "name_vn": "Ngao trắng hấp",
+    "name_en": "Steamed white clams",
+    "queries_tried": [
+      "Steamed white clams food",
+      "Ngao trang hap Vietnamese food",
+      "Steamed white clams"
+    ]
+  },
+  "sa_chua_ung_l_np": {
+    "name_vn": "Sữa chua uống lá nếp",
+    "name_en": "Drinkable yogurt with pandan leaves",
+    "queries_tried": [
+      "Drinkable yogurt with pandan leaves food",
+      "Sua chua uong la nep Vietnamese food",
+      "Drinkable yogurt with pandan leaves"
+    ]
+  },
+  "cm_sut_tht_ln_tm": {
+    "name_vn": "Cơm suất (thịt lợn, tôm)",
+    "name_en": "Set meal (pork belly, shrimp)",
+    "queries_tried": [
+      "Set meal (pork belly, shrimp) food",
+      "Com suat (thit lon, tom) Vietnamese food",
+      "Set meal (pork belly, shrimp)"
+    ]
+  },
+  "cm_sut_sn_mng_gi_gi_cy": {
+    "name_vn": "Cơm suất (sườn, móng giò giả cầy)",
+    "name_en": "Set meal (BBQ pork-ribs and braised pork leg)",
+    "queries_tried": [
+      "Set meal (BBQ pork-ribs and braised pork leg) food",
+      "Com suat (suon, mong gio gia cay) Vietnamese food",
+      "Set meal (BBQ pork-ribs and braised pork leg)"
+    ]
+  },
+  "bn_ngm": {
+    "name_vn": "Bún ngâm",
+    "name_en": "Soft rice vermicelli soup",
+    "queries_tried": [
+      "Soft rice vermicelli soup food",
+      "Bun ngam Vietnamese food",
+      "Soft rice vermicelli soup"
+    ]
+  },
+  "bun_c_ngui": {
+    "name_vn": "Bún ốc nguội",
+    "name_en": "Rice vermicelli with cold stuffed snails",
+    "queries_tried": [
+      "Rice vermicelli with cold stuffed snails food",
+      "Bún óc nguọi Vietnamese food",
+      "Rice vermicelli with cold stuffed snails"
+    ]
+  },
+  "bp_xo_tp": {
+    "name_vn": "Bắp xào tép",
+    "name_en": "Stir-fried maize seeds with small shrimp",
+    "queries_tried": [
+      "Stir-fried maize seeds with small shrimp food",
+      "Bap xao tep Vietnamese food",
+      "Stir-fried maize seeds with small shrimp"
+    ]
+  }
+}

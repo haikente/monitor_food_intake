@@ -1,0 +1,5094 @@
+{
+  "sua_bo_tuoi": {
+    "name_vn": "Sữa bò tươi",
+    "name_en": "Milk cow, fresh (Fluid)"
+  },
+  "sua_de_tuoi": {
+    "name_vn": "Sữa dê tươi",
+    "name_en": "Milk goat\\"
+  },
+  "sua_me": {
+    "name_vn": "Sữa mẹ (sữa người)",
+    "name_en": "Breast milk (Milk human, fluid, whole)."
+  },
+  "sua_chua": {
+    "name_vn": "Sữa chua",
+    "name_en": "Yogurt"
+  },
+  "sua_chua_vot_beo": {
+    "name_vn": "Sữa chua vớt béo",
+    "name_en": "Yogurt (Skimmed milk)"
+  },
+  "sua_bot_toan_phan": {
+    "name_vn": "Sữa bột toàn phần",
+    "name_en": "Milk, dried, whole powder"
+  },
+  "sua_bot_tach_beo": {
+    "name_vn": "Sữa bột tách béo",
+    "name_en": "Skimmed milk powder"
+  },
+  "sua_dac_co_duong": {
+    "name_vn": "Sữa đặc có đường Việt Nam",
+    "name_en": "Milk condensed sweetened"
+  },
+  "pho_mat": {
+    "name_vn": "Phó mát",
+    "name_en": "Cheese (type whole fat)"
+  },
+  "gao_nep_cai": {
+    "name_vn": "Gạo, trắng, nếp cái, sống",
+    "name_en": "Rice, white, glutinous, raw"
+  },
+  "sua_bo_tiet_trung_co_duong": {
+    "name_vn": "Sữa, bò, tiệt trùng, có đường, toàn phần, trắng ",
+    "name_en": "Milk, cow, steralized, with sugar, whole, white"
+  },
+  "gao_nep_thuong": {
+    "name_vn": "Gạo, trắng, nếp thường, sống",
+    "name_en": "Rice, white, glutinous, raw"
+  },
+  "gao_te_gia_tay": {
+    "name_vn": "Gạo, trắng, tẻ, giã tay, sống",
+    "name_en": "Rice, white, home-milled, raw"
+  },
+  "sua_chua_nuoc_co_duong": {
+    "name_vn": "Sữa chua, nước/uống, có đường",
+    "name_en": "Yougurt, drink/liquid, with sugar, whole, white"
+  },
+  "sua_chua_dac_co_duong": {
+    "name_vn": "Sữa chua, đặc, có đường",
+    "name_en": "Yougurt, thick, with sugar, whole, white"
+  },
+  "sua_chua_dac_khong_duong": {
+    "name_vn": "Sữa chua, đặc, không đường",
+    "name_en": "Yogurt, thick, without sugar, whole, white"
+  },
+  "gao_te_xat_may": {
+    "name_vn": "Gạo, trắng, tẻ, xát máy, sống",
+    "name_en": "Rice, white, polished, raw"
+  },
+  "sua_dac_co_duong_vn": {
+    "name_vn": "Sữa đặc có đường, Việt Nam",
+    "name_en": "Milk condensed sweetened"
+  },
+  "sua_hop_milo": {
+    "name_vn": "Sữa hộp Milo",
+    "name_en": "Chocolate drink packaged "
+  },
+  "gao_lut": {
+    "name_vn": "Gạo, tẻ, chưa xát (gạo lứt), sống",
+    "name_en": "Rice, brown, raw"
+  },
+  "ke_hat": {
+    "name_vn": "Kê, hạt, sống",
+    "name_en": "Millet, raw"
+  },
+  "ngo_ca_bap_tuoi": {
+    "name_vn": "Ngô, cả bắp, tươi",
+    "name_en": "Corn, whole corb, fresh"
+  },
+  "ngo_tuoi_te_nuong": {
+    "name_vn": "Ngô tươi, tẻ, nướng",
+    "name_en": "Corn fresh, glutinous, grilled "
+  },
+  "ngo_vang_hat_kho": {
+    "name_vn": "Ngô, vàng, hạt, khô",
+    "name_en": "Corn, yellow, seed, dried"
+  },
+  "banh_bao_nhan_thit": {
+    "name_vn": "Bánh bao, nhân thịt",
+    "name_en": "Dumpling, with pork"
+  },
+  "banh_da_nem": {
+    "name_vn": "Bánh đa nem",
+    "name_en": "Vietnamese rice paper, raw"
+  },
+  "banh_duc": {
+    "name_vn": "Bánh đúc",
+    "name_en": "Rice cake made of rice flour, and lime water, cooked"
+  },
+  "banh_my": {
+    "name_vn": "Bánh mỳ ",
+    "name_en": "Bread, French style"
+  },
+  "banh_pho": {
+    "name_vn": "Bánh phở",
+    "name_en": "Rice noodles, raw"
+  },
+  "banh_quay": {
+    "name_vn": "Bánh quẩy",
+    "name_en": "Fried breadstick, Youtiao"
+  },
+  "bong_ngo": {
+    "name_vn": "Bỏng ngô",
+    "name_en": "Corn flakes"
+  },
+  "bot_gao_nep": {
+    "name_vn": "Bột gạo, gạo nếp thường",
+    "name_en": "Rice flour, glutinous"
+  },
+  "bot_gao_te": {
+    "name_vn": "Bột gạo, gạo tẻ",
+    "name_en": "Rice flour, white"
+  },
+  "bot_mi_trang": {
+    "name_vn": "Bột mì, trắng ",
+    "name_en": "Wheat flour, white"
+  },
+  "bot_ngo_vang": {
+    "name_vn": "Bột ngô, ngô vàng",
+    "name_en": "Maize flour, yellow"
+  },
+  "bun_tuoi": {
+    "name_vn": "Bún, tươi",
+    "name_en": "Rice vermicelli, soft noodles, fresh"
+  },
+  "com_tuoi": {
+    "name_vn": "Cốm, tươi",
+    "name_en": "Rice, unriped, raw"
+  },
+  "my_soi_kho": {
+    "name_vn": "Mỳ sợi, khô",
+    "name_en": "Wheat noodle, dried"
+  },
+  "ngo_nep_luoc": {
+    "name_vn": "Ngô, cả bắp, nếp, luộc",
+    "name_en": "Corn, whole corb, boiled"
+  },
+  "xoi_nep_cam": {
+    "name_vn": "Xôi nếp cẩm",
+    "name_en": "Rice glutinous (cooked), purple, boiled"
+  },
+  "ngo_nep_nuong": {
+    "name_vn": "Ngô tươi, nếp, nướng",
+    "name_en": "Corn fresh, regular, grilled"
+  },
+  "banh_mi_vuong_ngot": {
+    "name_vn": "Bánh mì, vuông, ngọt",
+    "name_en": "Bread, square/sandwich type, sweet"
+  },
+  "banh_bao_chay": {
+    "name_vn": "Bánh bao chay",
+    "name_en": "Dumplings, no filled"
+  },
+  "banh_da_do_trang": {
+    "name_vn": "Bánh đa (đỏ, trắng)",
+    "name_en": "Vietnamese style rice noodles (flat), raw"
+  },
+  "banh_da_luoc": {
+    "name_vn": "Bánh đa (đỏ, trắng), luộc",
+    "name_en": "Vietnamese style rice noodles (flat), boiled"
+  },
+  "my_an_lien": {
+    "name_vn": "Mỳ  ăn liền, lúa mì ",
+    "name_en": "Instant noodle, wheat, uncooked"
+  },
+  "my_an_lien_luoc": {
+    "name_vn": "Mỳ ăn liền, lúa mì, luộc",
+    "name_en": "Instant noodle, wheat, boiled"
+  },
+  "soi_my_quang": {
+    "name_vn": "Sợi mỳ Quảng",
+    "name_en": "Sợi mỳ Quảng"
+  },
+  "nui_luoc": {
+    "name_vn": "Nui, luộc",
+    "name_en": "Macaroni, boiled"
+  },
+  "chuoi_nuoc_duong": {
+    "name_vn": "Chuối nước đường",
+    "name_en": "Banana, canned sweetened"
+  },
+  "dua_chuot_hop": {
+    "name_vn": "Dưa chuột hộp",
+    "name_en": "Cucumber (canned)"
+  },
+  "dua_hop": {
+    "name_vn": "Dứa hộp",
+    "name_en": "Pineapple, canned sweetened"
+  },
+  "lac_chao_dau": {
+    "name_vn": "Lạc chao dầu",
+    "name_en": "Peanut, oil fried"
+  },
+  "mac_cooc_nuoc_duong": {
+    "name_vn": "Mắc coọc nước đường",
+    "name_en": "Pyrus pachis in syrup"
+  },
+  "man_nuoc_duong": {
+    "name_vn": "Mận nước đường",
+    "name_en": "Plum, canned sweetened"
+  },
+  "mut_bi_ngo": {
+    "name_vn": "Mứt bí ngô",
+    "name_en": "Pumpkin jam"
+  },
+  "mut_cam_co_vo": {
+    "name_vn": "Mứt cam có vỏ",
+    "name_en": "Orange marmalade, jellies"
+  },
+  "mut_chuoi": {
+    "name_vn": "Mứt chuối",
+    "name_en": "Banana jam"
+  },
+  "mut_dua": {
+    "name_vn": "Mứt dứa",
+    "name_en": "Pineapple jam"
+  },
+  "mut_du_du": {
+    "name_vn": "Mứt đu đủ",
+    "name_en": "Papaya jam"
+  },
+  "nhan_nuoc_duong": {
+    "name_vn": "Nhãn nước đường",
+    "name_en": "Longan, canned sweetened"
+  },
+  "nuoc_dua_hop": {
+    "name_vn": "Nước dứa hộp",
+    "name_en": "Pineapple juice"
+  },
+  "vai_nuoc_duong": {
+    "name_vn": "Vải nước đường",
+    "name_en": "Litchi, canned sweetened"
+  },
+  "ca_thu_hop": {
+    "name_vn": "Cá thu hộp",
+    "name_en": "Mackerel, canned"
+  },
+  "ca_trich_hop": {
+    "name_vn": "Cá trích hộp",
+    "name_en": "Herring, canned"
+  },
+  "thit_bo_hop": {
+    "name_vn": "Thịt bò hộp",
+    "name_en": "Beef, canned"
+  },
+  "thit_ga_hop": {
+    "name_vn": "Thịt gà hộp",
+    "name_en": "Chicken, canned"
+  },
+  "thit_lon_hop": {
+    "name_vn": "Thịt lợn hộp",
+    "name_en": "Pork, canned"
+  },
+  "thit_lon_thit_bo_xay_hop": {
+    "name_vn": "Thịt lợn, thịt bò xay hộp",
+    "name_en": "Pork beef mince canned"
+  },
+  "thit_vit_ham": {
+    "name_vn": "Thịt vịt hầm",
+    "name_en": "Duck, stewed meat"
+  },
+  "ca_ngu_hop": {
+    "name_vn": "Cá ngừ hộp",
+    "name_en": "Cá ngừ hộp"
+  },
+  "ca_nuc_hop": {
+    "name_vn": "Cá nục hộp",
+    "name_en": "Cá nục hộp"
+  },
+  "banh_bich_cot": {
+    "name_vn": "Bánh bích cốt",
+    "name_en": "Whole wheat rusk"
+  },
+  "banh_bich_quy": {
+    "name_vn": "Bánh bích quy",
+    "name_en": "Biscuits, plain"
+  },
+  "banh_cha": {
+    "name_vn": "Bánh chả",
+    "name_en": "Small biscuit, fried"
+  },
+  "banh_con_ca": {
+    "name_vn": "Bánh con cá",
+    "name_en": "Small biscuits, fish figured"
+  },
+  "banh_dau_xanh": {
+    "name_vn": "Bánh đậu xanh",
+    "name_en": "Mungbean cake"
+  },
+  "banh_kem_xop": {
+    "name_vn": "Bánh kem xốp",
+    "name_en": "Wafers filled"
+  },
+  "banh_khao_chay": {
+    "name_vn": "Bánh khảo chay",
+    "name_en": "Rice cake, plain"
+  },
+  "banh_que": {
+    "name_vn": "Bánh quế",
+    "name_en": "Cinnamon waffle (roll)"
+  },
+  "banh_so_co_la": {
+    "name_vn": "Bánh sô cô la",
+    "name_en": "Chocolate filled"
+  },
+  "banh_thoi_so_co_la": {
+    "name_vn": "Bánh thỏi sô cô la",
+    "name_en": "Chocolate sweet"
+  },
+  "banh_trung_nhen": {
+    "name_vn": "Bánh trứng nhện",
+    "name_en": "Small biscuit"
+  },
+  "bot_ca_cao": {
+    "name_vn": "Bột ca cao",
+    "name_en": "Cocoa powder"
+  },
+  "duong_cat": {
+    "name_vn": "Đường cát",
+    "name_en": "Sugar crude, brown"
+  },
+  "duong_kinh": {
+    "name_vn": "Đường kính",
+    "name_en": "Granulated sugar"
+  },
+  "keo_bo_cung": {
+    "name_vn": "Kẹo bơ cứng",
+    "name_en": "Toffee, sweets"
+  },
+  "keo_ca_phe": {
+    "name_vn": "Kẹo cà phê",
+    "name_en": "Coffee sweets"
+  },
+  "keo_cam_chanh": {
+    "name_vn": "Kẹo cam chanh",
+    "name_en": "Sweets, caramel with citron, orange aroma"
+  },
+  "keo_dua_mem": {
+    "name_vn": "Kẹo dừa mềm",
+    "name_en": "Sweets with coconut aroma"
+  },
+  "keo_thom_mem": {
+    "name_vn": "Kẹo dứa mềm",
+    "name_en": "Pineapple sweets candy"
+  },
+  "keo_lac": {
+    "name_vn": "Kẹo lạc",
+    "name_en": "Peanut candy"
+  },
+  "keo_pastille_keo_ngam_bac_ha": {
+    "name_vn": "Kẹo Pastille (kẹo ngậm bạc hà)",
+    "name_en": "Menthol pastille"
+  },
+  "keo_so_co_la": {
+    "name_vn": "Kẹo sô cô la",
+    "name_en": "Sweets with chocolate"
+  },
+  "keo_sua": {
+    "name_vn": "Kẹo sữa",
+    "name_en": "Sweets with milk"
+  },
+  "keo_vung_vien": {
+    "name_vn": "Kẹo vừng viên",
+    "name_en": "Sesame candy"
+  },
+  "mach_nha": {
+    "name_vn": "Mạch nha",
+    "name_en": "Malt"
+  },
+  "mat_ong": {
+    "name_vn": "Mật ong",
+    "name_en": "Honey"
+  },
+  "mut_lac": {
+    "name_vn": "Mứt lạc",
+    "name_en": "Peanut sugar (Jam)"
+  },
+  "banh_chocopie": {
+    "name_vn": "Bánh chocopie",
+    "name_en": "Bánh chocopie"
+  },
+  "banh_sua": {
+    "name_vn": "Bánh sữa",
+    "name_en": "Bánh sữa"
+  },
+  "thach_poke_huong_trai_cay": {
+    "name_vn": "Thạch POKE hương trái cây ",
+    "name_en": "Thạch POKE hương trái cây "
+  },
+  "bim_bim_gao_man": {
+    "name_vn": "Bim bim, gạo, mặn",
+    "name_en": "Bim bim, gạo, mặn"
+  },
+  "dau_phong_da_ca": {
+    "name_vn": "Đậu phộng da cá",
+    "name_en": "Đậu phộng da cá"
+  },
+  "kem_ngo": {
+    "name_vn": "Kem ngô",
+    "name_en": "Kem ngô"
+  },
+  "kem_que_merino_cacao_so_co_la": {
+    "name_vn": "Kem que Merino Cacao - Sô cô la",
+    "name_en": "Kem que Merino Cacao - Sô cô la"
+  },
+  "kem_dau_xanh": {
+    "name_vn": "Kem đậu xanh",
+    "name_en": "Kem đậu xanh"
+  },
+  "kem_tuoi": {
+    "name_vn": "Kem tươi",
+    "name_en": "Kem tươi"
+  },
+  "banh_bong_lan": {
+    "name_vn": "Bánh bông lan",
+    "name_en": "Bánh bông lan"
+  },
+  "banh_gau": {
+    "name_vn": "Bánh gấu",
+    "name_en": "Bánh gấu"
+  },
+  "banh_ngu_coc_cao_nang_luong": {
+    "name_vn": "Bánh ngũ cốc cao năng lượng",
+    "name_en": "Bánh ngũ cốc cao năng lượng"
+  },
+  "banh_quy_tron_nhan_kem_ritz": {
+    "name_vn": "Bánh quy tròn nhân kem Ritz",
+    "name_en": "Bánh quy tròn nhân kem Ritz"
+  },
+  "banh_trung_custas": {
+    "name_vn": "Bánh trứng Custas",
+    "name_en": "Bánh trứng Custas"
+  },
+  "banh_goi": {
+    "name_vn": "Bánh gối",
+    "name_en": "Bánh gối"
+  },
+  "banh_ran_nhan_do": {
+    "name_vn": "Bánh rán nhân đỗ",
+    "name_en": "Bánh rán nhân đỗ"
+  },
+  "banh_tieu": {
+    "name_vn": "Bánh tiêu",
+    "name_en": "Bánh tiêu"
+  },
+  "cary_bot": {
+    "name_vn": "Cary bột",
+    "name_en": "Cari powder "
+  },
+  "gung_kho_bot": {
+    "name_vn": "Gừng khô (bột)",
+    "name_en": "Ginger root dried"
+  },
+  "gung_tuoi": {
+    "name_vn": "Gừng tươi",
+    "name_en": "Ginger root fresh"
+  },
+  "hat_tieu": {
+    "name_vn": "Hạt tiêu",
+    "name_en": "Pepper black seeds"
+  },
+  "nghe_kho_bot": {
+    "name_vn": "Nghệ khô, bột",
+    "name_en": "Turmeric rhizome, dried"
+  },
+  "nghe_tuoi": {
+    "name_vn": "Nghệ tươi",
+    "name_en": "Turmeric, rhizome, fresh"
+  },
+  "ot_kho_bot": {
+    "name_vn": "ot_kho_bot",
+    "name_en": "Red pepper, dried powder"
+  },
+  "tuong_dau_nanh": {
+    "name_vn": "Magi",
+    "name_en": "Soybean sauce"
+  },
+  "mam_tom_dac": {
+    "name_vn": "Mắm tôm đặc",
+    "name_en": "Shrimp sauce, concentrate"
+  },
+  "mam_tom_loang": {
+    "name_vn": "Mắm tôm loãng",
+    "name_en": "Shrimp sauce"
+  },
+  "mam_tep_chua": {
+    "name_vn": "Mắm tép chua",
+    "name_en": "River shrimp (small) sauce"
+  },
+  "nuoc_mam_ca_loai_dac_biet": {
+    "name_vn": "Nước mắm cá (loại đặc biệt)",
+    "name_en": "Fish sauce (high quality)"
+  },
+  "nuoc_mam_loai_i": {
+    "name_vn": "Nước mắm loại I",
+    "name_en": "Fish sauce liquid, grade I"
+  },
+  "nuoc_mam_loai_ii": {
+    "name_vn": "Nước mắm loại II",
+    "name_en": "Fish sauce liquid grade II"
+  },
+  "nuoc_mam_ca": {
+    "name_vn": "Nước mắm cá",
+    "name_en": "Fish sauce, ready-to-serve"
+  },
+  "nuoc_mam_co": {
+    "name_vn": "Nước mắm cô",
+    "name_en": "Fish sauce dried"
+  },
+  "tuong_ngo": {
+    "name_vn": "Tương ngô",
+    "name_en": "Soybean sauce with rice and maize"
+  },
+  "tuong_nep": {
+    "name_vn": "Tương nếp",
+    "name_en": "Soybean sauce with glutinous rice"
+  },
+  "tuong_ot": {
+    "name_vn": "Tương ớt",
+    "name_en": "Chili sauce "
+  },
+  "xi_dau": {
+    "name_vn": "Xì dầu",
+    "name_en": "Soybean sauce"
+  },
+  "sot_mayonnaise": {
+    "name_vn": "Sốt mayonnaise",
+    "name_en": "Mayonnaise"
+  },
+  "sa": {
+    "name_vn": "Sả",
+    "name_en": "Sả"
+  },
+  "bot_canh": {
+    "name_vn": "Bột canh",
+    "name_en": "Bột canh"
+  },
+  "bot_nem": {
+    "name_vn": "Bột nêm",
+    "name_en": "Bột nêm"
+  },
+  "dau_hao": {
+    "name_vn": "Dầu hào",
+    "name_en": "Oyster sauce"
+  },
+  "gia_vi": {
+    "name_vn": "Gia vị",
+    "name_en": "Gia vị"
+  },
+  "my_chinh": {
+    "name_vn": "Mỳ chính",
+    "name_en": "Mỳ chính"
+  },
+  "ngu_vi_huong": {
+    "name_vn": "Ngũ vị hương",
+    "name_en": "Five-spice seasoning"
+  },
+  "nuoc_hang": {
+    "name_vn": "Nước hàng",
+    "name_en": "Sugar cooked to make color"
+  },
+  "nuoc_sot_ca_chua": {
+    "name_vn": "Nước sốt cà chua",
+    "name_en": "Nước sốt cà chua"
+  },
+  "giam_an": {
+    "name_vn": "Giấm ăn",
+    "name_en": "Giấm ăn"
+  },
+  "ot_tuoi": {
+    "name_vn": "Ớt tươi",
+    "name_en": "Chilli (fresh) "
+  },
+  "mu_tat": {
+    "name_vn": "Mù tạt",
+    "name_en": "Mù tạt"
+  },
+  "bot_chien_gion": {
+    "name_vn": "Bột chiên giòn",
+    "name_en": "Bột chiên giòn"
+  },
+  "bot_nang": {
+    "name_vn": "Bột năng",
+    "name_en": "Tapioca Starch/Tapioca Flour"
+  },
+  "me": {
+    "name_vn": "Mẻ",
+    "name_en": "Fermented rice or rice noodle"
+  },
+  "sa_te": {
+    "name_vn": "Sa tế",
+    "name_en": "Chilli paste"
+  },
+  "bot_hat_dieu_do": {
+    "name_vn": "Bột hạt điều đỏ",
+    "name_en": "Annatto seed powder"
+  },
+  "la_chanh": {
+    "name_vn": "Lá chanh",
+    "name_en": "Lemon leaf"
+  },
+  "bot_chien_xu": {
+    "name_vn": "Bột chiên xù",
+    "name_en": "Bột chiên xù"
+  },
+  "hat_y_di": {
+    "name_vn": "Hạt ý dĩ",
+    "name_en": "Hạt ý dĩ"
+  },
+  "nuoc_uop_ga_nuong": {
+    "name_vn": "Nước ướp gà nướng",
+    "name_en": "Nước ướp gà nướng"
+  },
+  "nuoc_uop_thit_kho": {
+    "name_vn": "Nước ướp thịt kho",
+    "name_en": "Nước ướp thịt kho"
+  },
+  "goi_thuoc_bac_dung_de_ham_thit": {
+    "name_vn": "Gói thuốc bắc (dùng để hầm thịt)",
+    "name_en": "Gói thuốc bắc (dùng để hầm thịt)"
+  },
+  "bia_con_4_5_g": {
+    "name_vn": "Bia (cồn: 4,5 g)",
+    "name_en": "Beer light (4,5 % Alcohol)"
+  },
+  "co_nhac_con_32_g": {
+    "name_vn": "Cô nhắc (cồn 32 g)",
+    "name_en": "Cognac (32% alcohol)"
+  },
+  "coc_tain_con_13_g": {
+    "name_vn": "Cốc tain (cồn 13 g)",
+    "name_en": "Cocktail (13% alcohol)"
+  },
+  "coca_cola": {
+    "name_vn": "Coca cola",
+    "name_en": "Coca Cola"
+  },
+  "nuoc_cam_tuoi": {
+    "name_vn": "Nước cam tươi",
+    "name_en": "Orange juice, fresh"
+  },
+  "nuoc_dua_non_tuoi": {
+    "name_vn": "Nước dừa non tươi",
+    "name_en": "Water from immature coconut"
+  },
+  "nuoc_ep_ca_chua": {
+    "name_vn": "Nước ép cà chua",
+    "name_en": "Tomato juice, without salt added"
+  },
+  "nuoc_khoang": {
+    "name_vn": "Nước khoáng",
+    "name_en": "Mineral water"
+  },
+  "nuoc_quit_tuoi": {
+    "name_vn": "Nước quít tươi",
+    "name_en": "Mandarins juice (fresh)"
+  },
+  "ruou_cam_chanh_con_24_2_g": {
+    "name_vn": "Rượu cam, chanh (cồn 24,2 g)",
+    "name_en": "Liqueur orange, citron"
+  },
+  "ruou_nep_80g_24_ml_con_5_g": {
+    "name_vn": "Rượu nếp (80g/ 24 ml) (cồn 5 g)",
+    "name_en": "Rice glutinous Vodka"
+  },
+  "ruou_trang_con_39_g": {
+    "name_vn": "Rượu trắng (cồn 39 g)",
+    "name_en": "Vodka (39% alcohol)"
+  },
+  "ruou_vang_do_con_9_5_g": {
+    "name_vn": "Rượu vang đỏ (cồn 9,5 g)",
+    "name_en": "Red wine (9.5% alcohol)"
+  },
+  "ruou_vang_trang_con_9_5_g": {
+    "name_vn": "Rượu vang trắng (cồn 9,5 g)",
+    "name_en": "White wine (9.5% alcohol)"
+  },
+  "ruou_vang_trang_ngot_con_10_2_g": {
+    "name_vn": "Rượu vang trắng ngọt (cồn 10.2 g)",
+    "name_en": "White wine, sweet (10.2% alcohol)"
+  },
+  "ruou_whisky_con_35_2_g": {
+    "name_vn": "Rượu Whisky (cồn 35,2 g)",
+    "name_en": "Whisky liqueur (35.2% alcohol)"
+  },
+  "ca_phe_sua_hoa_tan": {
+    "name_vn": "Cà phê sữa hòa tan",
+    "name_en": "Cà phê sữa hòa tan"
+  },
+  "nuoc_mia": {
+    "name_vn": "Nước mía",
+    "name_en": "Nước mía"
+  },
+  "nuoc_ep_dua_hau": {
+    "name_vn": "Nước ép dưa hấu",
+    "name_en": "Juice, watermelon"
+  },
+  "nuoc_ep_dao_dong_hop": {
+    "name_vn": "Nước ép đào đóng hộp",
+    "name_en": "Juice  packaged, Peach "
+  },
+  "nuoc_da": {
+    "name_vn": "Nước đá",
+    "name_en": "Ice"
+  },
+  "nuoc_giai_khat_vitamin_c": {
+    "name_vn": "Nước giải khát vitamin C",
+    "name_en": "Nước giải khát vitamin C"
+  },
+  "tra_neste": {
+    "name_vn": "Trà Neste",
+    "name_en": "Trà Neste"
+  },
+  "tra_tui_loc": {
+    "name_vn": "Trà túi lọc",
+    "name_en": "Trà túi lọc"
+  },
+  "banh_bao_chien_co_nhan": {
+    "name_vn": "Bánh bao chiên có nhân",
+    "name_en": "Filled steamed bread, fried"
+  },
+  "banh_beo": {
+    "name_vn": "Bánh bèo",
+    "name_en": "Bloating Fern-shaped cake"
+  },
+  "banh_bot_loc": {
+    "name_vn": "Bánh bột lọc",
+    "name_en": "Rice dumpling cake"
+  },
+  "banh_chay": {
+    "name_vn": "Bánh chay",
+    "name_en": "Stuffed sticky rice balls, large"
+  },
+  "banh_chin_tang_may": {
+    "name_vn": "Bánh chín tầng mây",
+    "name_en": "Bánh chín tầng mây"
+  },
+  "banh_chung": {
+    "name_vn": "Bánh chưng",
+    "name_en": "Stuffed sticky rice cake"
+  },
+  "banh_chuoi": {
+    "name_vn": "Bánh chuối",
+    "name_en": "Banana cake"
+  },
+  "banh_com": {
+    "name_vn": "Bánh cốm",
+    "name_en": "Young rice cake"
+  },
+  "banh_cuon": {
+    "name_vn": "Bánh cuốn",
+    "name_en": "Stuffed pancake"
+  },
+  "banh_cuon_nong_nhan_thit": {
+    "name_vn": "Bánh cuốn nóng nhân thịt",
+    "name_en": "Stuffed pancake, with pork"
+  },
+  "banh_deo_nhan_thap_cam": {
+    "name_vn": "Bánh dẻo nhân thập cẩm",
+    "name_en": "Sticky rice cake (filled with preserved fruit and meat)"
+  },
+  "banh_deo_nhan_trung": {
+    "name_vn": "Bánh dẻo nhân trứng",
+    "name_en": "Sticky rice cake (filled with egg)"
+  },
+  "banh_duc_nguoi": {
+    "name_vn": "Bánh đúc nguội",
+    "name_en": "Plain rice flan; rice cake made of rice flour, and lime water"
+  },
+  "banh_duc_nong": {
+    "name_vn": "Bánh đúc nóng",
+    "name_en": "Plain rice flan; rice cake made of rice flour, and lime water, hot"
+  },
+  "banh_gai": {
+    "name_vn": "Bánh gai",
+    "name_en": "Stuffed sticky rice cake with ramie leaves"
+  },
+  "banh_gio": {
+    "name_vn": "Bánh gio",
+    "name_en": "Sticky rice cake with ash water"
+  },
+  "banh_gio_ha_noi": {
+    "name_vn": "Bánh giò",
+    "name_en": "Pyramidal rice dumpling (filled with meat, onion, mushroom), meat pie"
+  },
+  "banh_khoai": {
+    "name_vn": "Bánh khoai",
+    "name_en": "Cake made of sweet potato meal (mixed with rice flour"
+  },
+  "banh_khoai_hue": {
+    "name_vn": "Bánh khoái",
+    "name_en": "Plain rice flan"
+  },
+  "banh_khoai_so_chien": {
+    "name_vn": "Bánh khoai sọ chiên",
+    "name_en": "Taro cake, fried"
+  },
+  "banh_khuc": {
+    "name_vn": "Bánh khúc",
+    "name_en": "Cake made of glutinous rice mixed with everlasting gnaphalium leaves (filled with green bean paste and sprinkled with grains of cooked glutinous rice)"
+  },
+  "banh_me": {
+    "name_vn": "Bánh mè",
+    "name_en": "Bread with egg and sesame seed, fried"
+  },
+  "banh_mi_xiu_mai": {
+    "name_vn": "Bánh mì xíu mại",
+    "name_en": "Bread with egg and beef"
+  },
+  "banh_my_pate": {
+    "name_vn": "Bánh mỳ patê",
+    "name_en": "Bread with pate"
+  },
+  "banh_nep": {
+    "name_vn": "Bánh nếp",
+    "name_en": "Sticky rice cake"
+  },
+  "banh_nuong_nhan_thap_cam": {
+    "name_vn": "Bánh nướng nhân thập cẩm",
+    "name_en": "Pie filled with various fruit and meat"
+  },
+  "banh_nuong_nhan_trung_do_xanh": {
+    "name_vn": "Bánh nướng nhân trứng đỗ xanh",
+    "name_en": "Pie filled with egg and mungbean"
+  },
+  "banh_phu_the_su_se_xu_xue": {
+    "name_vn": "Bánh phu thê (su sê, xu xuê)",
+    "name_en": "Yellow-coloured wedding pastry"
+  },
+  "banh_ran_boc_duong": {
+    "name_vn": "Bánh rán bọc đường",
+    "name_en": "Rice cake, fried with sugar"
+  },
+  "banh_te": {
+    "name_vn": "Bánh tẻ",
+    "name_en": "Rice cake,, filled with meat"
+  },
+  "banh_tom": {
+    "name_vn": "Bánh tôm",
+    "name_en": "Crisp shrimp pastry"
+  },
+  "banh_troi": {
+    "name_vn": "Bánh trôi",
+    "name_en": "Stuffed sticky rice balls"
+  },
+  "bun_bo_nam_bo": {
+    "name_vn": "Bún bò Nam bộ",
+    "name_en": "Vermicelli noodles with beef, southern style"
+  },
+  "bun_cha": {
+    "name_vn": "Bún chả",
+    "name_en": "Vermicelli noodles with grilled pork"
+  },
+  "bun_cua": {
+    "name_vn": "Bún cua",
+    "name_en": "Vermicelli noodles with fresh water crab"
+  },
+  "bun_dau": {
+    "name_vn": "Bún đậu",
+    "name_en": "Vermicelli noodles with tofu, dried"
+  },
+  "bun_doc_mung": {
+    "name_vn": "Bún dọc mùng",
+    "name_en": "Vermicelli noodles with giant elephant ear stem"
+  },
+  "bun_nem": {
+    "name_vn": "Bún nem",
+    "name_en": "Vermicelli noodles with pork rolls"
+  },
+  "bun_oc": {
+    "name_vn": "Bún ốc",
+    "name_en": "Vermicelli noodles with snail"
+  },
+  "banh_caramen": {
+    "name_vn": "Caramen",
+    "name_en": "Caramel cake"
+  },
+  "cha_que": {
+    "name_vn": "Chả quế",
+    "name_en": "Roasted cinnamon pork"
+  },
+  "chao_long": {
+    "name_vn": "Cháo lòng",
+    "name_en": " Pig\\"
+  },
+  "chao_suon": {
+    "name_vn": "Cháo sườn",
+    "name_en": "Rice soup with pork rips"
+  },
+  "chao_trai": {
+    "name_vn": "Cháo trai",
+    "name_en": "Rice soup with clams"
+  },
+  "che_buoi": {
+    "name_vn": "Chè bưởi",
+    "name_en": "Sweets gruel with pomelo flavor"
+  },
+  "che_chuoi": {
+    "name_vn": "Chè chuối",
+    "name_en": "Sweets gruel with banana"
+  },
+  "che_com": {
+    "name_vn": "Chè cốm",
+    "name_en": "Sweets gruel with young rice"
+  },
+  "che_do_den": {
+    "name_vn": "Chè đỗ đen",
+    "name_en": "Sweets gruel with black bean"
+  },
+  "che_do_do": {
+    "name_vn": "Chè đỗ đỏ",
+    "name_en": "Sweets gruel with red bean"
+  },
+  "che_do_xanh": {
+    "name_vn": "Chè đỗ xanh",
+    "name_en": "Sweets gruel with mungbean"
+  },
+  "che_hat_sen": {
+    "name_vn": "Chè hạt sen",
+    "name_en": "Sweets gruel with lotus seed"
+  },
+  "che_khoai_so": {
+    "name_vn": "Chè khoai sọ",
+    "name_en": "Sweets gruel with taro"
+  },
+  "che_ngo_com": {
+    "name_vn": "Chè ngô cốm",
+    "name_en": "Sweets gruel with corn and young rice seeds"
+  },
+  "che_san": {
+    "name_vn": "Chè sắn",
+    "name_en": "Sweets gruel with Kudzu root"
+  },
+  "che_thai": {
+    "name_vn": "Chè Thái",
+    "name_en": "Sweets gruel, Thailand style"
+  },
+  "com_rang": {
+    "name_vn": "Cơm rang",
+    "name_en": "Fried rice with egg and pork"
+  },
+  "ga_tan": {
+    "name_vn": "Gà tần",
+    "name_en": "Stewed chicken with medicinal herbs"
+  },
+  "mien_luon": {
+    "name_vn": "Miến lươn",
+    "name_en": "Vermicelli made of cassava, with eels"
+  },
+  "mien_ngan": {
+    "name_vn": "Miến ngan",
+    "name_en": "Vermicelli made of cassava, with goose meat"
+  },
+  "my_van_than": {
+    "name_vn": "Mỳ vằn thắn",
+    "name_en": "Wonton soup"
+  },
+  "my_xao": {
+    "name_vn": "Mỳ xào",
+    "name_en": "Instant noodle, fried with vegetable and meat"
+  },
+  "nem_lui": {
+    "name_vn": "Nem lụi",
+    "name_en": "Roll pork meat, grilled"
+  },
+  "nem_ran": {
+    "name_vn": "Nem rán",
+    "name_en": "Spring roll, fried"
+  },
+  "nom_tai_lon": {
+    "name_vn": "Nộm tai lợn",
+    "name_en": "Pork ear salad"
+  },
+  "pho_bo_chin": {
+    "name_vn": "Phở bò chín",
+    "name_en": "Rice noodle with beef, cooked"
+  },
+  "pho_bo_tai": {
+    "name_vn": "Phở bò tái",
+    "name_en": "Rice noodle with beef, rare"
+  },
+  "pho_ga": {
+    "name_vn": "Phở gà",
+    "name_en": "Rice noodle with chicken"
+  },
+  "thit_xien_nuong": {
+    "name_vn": "Thịt xiên nướng",
+    "name_en": "Pork meat, grilled"
+  },
+  "xoi_do_xanh": {
+    "name_vn": "Xôi đỗ xanh",
+    "name_en": "Sticky rice with mungbean, cooked"
+  },
+  "xoi_gac": {
+    "name_vn": "Xôi gấc",
+    "name_en": "Sticky rice with Gac fruit, cooked"
+  },
+  "xoi_lac": {
+    "name_vn": "Xôi lạc",
+    "name_en": "Sticky rice with peanut, cooked"
+  },
+  "xoi_ngo": {
+    "name_vn": "Xôi ngô",
+    "name_en": "Sticky rice with corn, cooked"
+  },
+  "xoi_xeo": {
+    "name_vn": "Xôi xéo",
+    "name_en": "Sticky rice with mungbean paste, cooked"
+  },
+  "muoi_vung": {
+    "name_vn": "Muối vừng",
+    "name_en": "Muối vừng"
+  },
+  "chao_dinh_duong_thit_bo": {
+    "name_vn": "Cháo dinh dưỡng thịt bò",
+    "name_en": "Cháo dinh dưỡng thịt bò"
+  },
+  "chao_dinh_duong_tom": {
+    "name_vn": "Cháo dinh dưỡng tôm",
+    "name_en": "Cháo dinh dưỡng tôm"
+  },
+  "banh_day": {
+    "name_vn": "Bánh dày",
+    "name_en": "Bánh dày"
+  },
+  "xoi_do_den": {
+    "name_vn": "Xôi đỗ đen",
+    "name_en": "Xôi đỗ đen"
+  },
+  "cu_au_tuoi": {
+    "name_vn": "Củ ấu, tươi",
+    "name_en": "Water caltrop, buffalo nut, root, raw"
+  },
+  "cu_cai_tuoi": {
+    "name_vn": "Củ cái, tươi",
+    "name_en": "Winged yam, purple yam, root, raw"
+  },
+  "cu_dong_tuoi": {
+    "name_vn": "Củ dong, tươi",
+    "name_en": "Arrow root, raw"
+  },
+  "cu_dong_luoc": {
+    "name_vn": "Củ dong luộc",
+    "name_en": "Arrow root, boiled"
+  },
+  "cu_san_tuoi": {
+    "name_vn": "Củ sắn, tươi",
+    "name_en": "Cassava, root, raw"
+  },
+  "cu_san_nuong": {
+    "name_vn": "Củ sắn nướng",
+    "name_en": "Cassava (manioc), roasted"
+  },
+  "cu_san_day_tuoi": {
+    "name_vn": "Củ sắn dây, tươi",
+    "name_en": "Kudzu root, Japanese arrowroot"
+  },
+  "cu_san_day_luoc": {
+    "name_vn": "Củ sắn dây, luộc",
+    "name_en": "Kudzu root (Japanese arrowroot), boiled"
+  },
+  "cu_sung_boc_vo_kho": {
+    "name_vn": "Củ súng, bóc vỏ, khô",
+    "name_en": "Tropical water lilies root, peeled, dried"
+  },
+  "cu_tu_tuoi": {
+    "name_vn": "Củ từ, tươi",
+    "name_en": "Lesser Yam, raw"
+  },
+  "cu_tu_luoc": {
+    "name_vn": "Củ từ luộc",
+    "name_en": "Lesser Yam, boiled"
+  },
+  "khoai_lang_tuoi": {
+    "name_vn": "Khoai lang, tươi",
+    "name_en": "Sweet potato, raw"
+  },
+  "khoai_lang_luoc": {
+    "name_vn": "Khoai lang, luộc",
+    "name_en": "Sweet potato, boiled "
+  },
+  "khoai_lang_nuong": {
+    "name_vn": "Khoai lang, nướng ",
+    "name_en": "Sweet potato, roasted"
+  },
+  "khoai_lang_nghe_tuoi": {
+    "name_vn": "Khoai lang nghệ, tươi",
+    "name_en": "Sweet potato, yellow, raw"
+  },
+  "khoai_mon_tuoi": {
+    "name_vn": "Khoai môn, tươi",
+    "name_en": "Taro, Indian taro, raw"
+  },
+  "khoai_nuoc_tuoi": {
+    "name_vn": "Khoai nước, tươi",
+    "name_en": "Water taro, raw"
+  },
+  "khoai_rieng_tuoi": {
+    "name_vn": "Khoai riềng, tươi",
+    "name_en": "Edible canna, raw"
+  },
+  "khoai_rieng_luoc": {
+    "name_vn": "Khoai riềng luộc",
+    "name_en": "Edible canna, boiled"
+  },
+  "khoai_so_tuoi": {
+    "name_vn": "Khoai sọ, tươi",
+    "name_en": "Taro tuber, raw"
+  },
+  "khoai_so_luoc": {
+    "name_vn": "Khoai sọ, luộc",
+    "name_en": "Taro tuber, boiled"
+  },
+  "khoai_tay_tuoi": {
+    "name_vn": "Khoai tây, tươi",
+    "name_en": "Potato, white, raw"
+  },
+  "khoai_tay_luoc": {
+    "name_vn": "Khoai tây, luộc",
+    "name_en": "Potato (white), boiled"
+  },
+  "mien_dong_kho": {
+    "name_vn": "Miến dong, khô",
+    "name_en": "Vermicelli from arrow root, raw"
+  },
+  "bot_dong_loc": {
+    "name_vn": "Bột dong lọc",
+    "name_en": "Arrow root flour"
+  },
+  "bot_khoai_lang": {
+    "name_vn": "Bột khoai lang",
+    "name_en": "Sweet potato flour"
+  },
+  "bot_khoai_rieng_bot_dao": {
+    "name_vn": "Bột khoai riềng (bột đao)",
+    "name_en": "Edible canna flour"
+  },
+  "bot_khoai_tay_loc": {
+    "name_vn": "Bột khoai tây (lọc)",
+    "name_en": "White potato flour"
+  },
+  "bot_san": {
+    "name_vn": "Bột sắn",
+    "name_en": "Cassava flour"
+  },
+  "bot_san_day": {
+    "name_vn": "Bột sắn dây",
+    "name_en": "Kudzu root flour"
+  },
+  "khoai_lang_kho": {
+    "name_vn": "Khoai lang, khô",
+    "name_en": "Sweet potato, dried"
+  },
+  "khoai_tay_kho": {
+    "name_vn": "Khoai tây, khô",
+    "name_en": "White potato, dried"
+  },
+  "khoai_tay_lat_chien": {
+    "name_vn": "Khoai tây lát, chiên",
+    "name_en": "Potato crisp, fried"
+  },
+  "san_cu_kho": {
+    "name_vn": "Sắn, củ, khô",
+    "name_en": "Cassava, dried"
+  },
+  "tran_chau_san": {
+    "name_vn": "Trân châu sắn",
+    "name_en": "Tapioca"
+  },
+  "tran_chau_san_luoc": {
+    "name_vn": "Trân châu sắn luộc ",
+    "name_en": "Tapioca, boiled"
+  },
+  "cui_dua_gia_tuoi": {
+    "name_vn": "Cùi dừa già, tươi",
+    "name_en": "Coconut meat, mature, raw"
+  },
+  "cui_dua_non_tuoi": {
+    "name_vn": "Cùi dừa non, tươi",
+    "name_en": "Coconut meat, immature, raw"
+  },
+  "dau_co_ve_hat_kho": {
+    "name_vn": "Đậu cô ve, hạt, khô",
+    "name_en": "Common bean, seed, dried"
+  },
+  "dau_den_hat_kho": {
+    "name_vn": "Đậu đen, hạt, khô",
+    "name_en": "Black bean, seed, dried"
+  },
+  "dau_dua_hat_kho": {
+    "name_vn": "Đậu đũa, hạt, khô",
+    "name_en": "Yardlong bean, seed, dried"
+  },
+  "dau_ha_lan_hat_kho": {
+    "name_vn": "Đậu Hà lan, hạt, khô",
+    "name_en": "Field peas, seed, dried"
+  },
+  "dau_tuong_dau_nanh_hat_kho": {
+    "name_vn": "Đậu tương, đậu nành, hạt khô",
+    "name_en": "Soybean, seed, dried"
+  },
+  "dau_trang_dau_tay_hat_kho": {
+    "name_vn": "Đậu trắng (đậu tây), hạt, khô",
+    "name_en": "Kidney bean, white bean, seed, dried"
+  },
+  "dau_trung_cuoc_hat_kho": {
+    "name_vn": "Đậu trứng cuốc, hạt, khô",
+    "name_en": "Đậu trứng cuốc, hạt, khô"
+  },
+  "dau_xanh_dau_tat_hat_kho": {
+    "name_vn": "Đậu xanh (đậu tắt), hạt, khô",
+    "name_en": "Mungo bean"
+  },
+  "hat_de_to_kho": {
+    "name_vn": "Hạt dẻ to, khô",
+    "name_en": "Chestnut, dried"
+  },
+  "hat_de_to_tuoi": {
+    "name_vn": "Hạt dẻ to, tươi",
+    "name_en": "Chestnut, fresh"
+  },
+  "hat_de_kho": {
+    "name_vn": "Hạt dẻ, khô",
+    "name_en": "Chestnut, small, dried"
+  },
+  "hat_den_kho": {
+    "name_vn": "Hạt đen, khô",
+    "name_en": "Hạt đen, khô"
+  },
+  "hat_dieu_kho": {
+    "name_vn": "Hạt điều, khô ",
+    "name_en": "Cashew nut, dried"
+  },
+  "hat_mit_tuoi": {
+    "name_vn": "Hạt mít, tươi",
+    "name_en": "Jack fruit, seed, raw"
+  },
+  "lac_hat_kho": {
+    "name_vn": "Lạc hạt, khô",
+    "name_en": "Peanut, dried"
+  },
+  "lac_rang_dau": {
+    "name_vn": "Lạc rang dầu",
+    "name_en": "Lạc rang dầu"
+  },
+  "qua_co_tuoi": {
+    "name_vn": "Quả cọ, tươi",
+    "name_en": "Palm fruit, fresh"
+  },
+  "qua_dai_hai_tuoi": {
+    "name_vn": "Quả đại hái, tươi",
+    "name_en": "Hodgsonia fruit, raw"
+  },
+  "vung_den_trang_hat_kho": {
+    "name_vn": "Vừng (đen, trắng), hạt, khô",
+    "name_en": "Sesame seeds, dried, black or white"
+  },
+  "vung_rang": {
+    "name_vn": "Vừng rang",
+    "name_en": "Sesame seed (stirred)"
+  },
+  "bot_dau_tuong_da_loai_beo": {
+    "name_vn": "Bột đậu tương, đã loại béo",
+    "name_en": "Soyflour, defatted"
+  },
+  "bot_dau_tuong_rang_chin": {
+    "name_vn": "Bột đậu tương, rang chín",
+    "name_en": "Soybeans, roasted,  flour"
+  },
+  "bot_dau_xanh": {
+    "name_vn": "Bột đậu xanh",
+    "name_en": "Mungo bean flour"
+  },
+  "bot_lac": {
+    "name_vn": "Bột lạc",
+    "name_en": "Peanut flour"
+  },
+  "dau_phu_song": {
+    "name_vn": "Đậu phụ, sống",
+    "name_en": "Tofu, raw"
+  },
+  "dau_phu_luoc": {
+    "name_vn": "Đậu phụ luộc",
+    "name_en": "Tofu, boiled "
+  },
+  "dau_phu_chuc_song": {
+    "name_vn": "Đậu phụ chúc, sống",
+    "name_en": "Tofu skin, yuba, bean curd skin, bean curd sheet, raw"
+  },
+  "dau_phu_nuong": {
+    "name_vn": "Đậu phụ, nướng",
+    "name_en": "Tofu, grilled"
+  },
+  "hat_bi_do_rang": {
+    "name_vn": "Hạt bí đỏ, rang",
+    "name_en": "Pumpkin seeds, fried"
+  },
+  "hat_dua_hau_rang": {
+    "name_vn": "Hạt dưa hấu, rang",
+    "name_en": "Water melon seeds, fried"
+  },
+  "hat_dieu_kho_chien_dau": {
+    "name_vn": "Hạt điều khô, chiên dầu",
+    "name_en": "Cashew nut, roasted with oil"
+  },
+  "sua_bot_dau_nanh": {
+    "name_vn": "Sữa bột đậu nành",
+    "name_en": "Milk powder, soy flour and sugar"
+  },
+  "sua_dau_nanh_100g_dau_lit": {
+    "name_vn": "Sữa đậu nành (100g đậu/lít)",
+    "name_en": "Soymilk (100 g soybean/L)"
+  },
+  "tao_pho": {
+    "name_vn": "Tào phớ",
+    "name_en": "Soybean curd in light syrup "
+  },
+  "dau_ngu_luoc": {
+    "name_vn": "Đậu ngự luộc",
+    "name_en": "Bean, lima bean, boiled"
+  },
+  "dau_van_luoc": {
+    "name_vn": "Đậu ván luộc",
+    "name_en": "Bean, lablab bean, boiled"
+  },
+  "dau_phu_non_tu_xuyen": {
+    "name_vn": "Đậu phụ non Tứ Xuyên",
+    "name_en": "Đậu phụ non Tứ Xuyên"
+  },
+  "hat_sen_tuoi_luoc": {
+    "name_vn": "Hạt sen tươi luộc",
+    "name_en": "Lotus seed, fresh, boiled"
+  },
+  "hat_huong_duong_rang": {
+    "name_vn": "Hạt hướng dương rang",
+    "name_en": "Sunflower seeds, stirred"
+  },
+  "hat_hanh_nhan_rang": {
+    "name_vn": "Hạt hạnh nhân rang",
+    "name_en": "Almonds dried, stirred"
+  },
+  "hat_oc_cho_rang": {
+    "name_vn": "Hạt óc chó rang",
+    "name_en": "Walnuts dried, stirred"
+  },
+  "hat_macca_rang": {
+    "name_vn": "Hạt macca rang",
+    "name_en": "Macadamia nut dried, stirred"
+  },
+  "hat_de_cuoi_rang": {
+    "name_vn": "Hạt dẻ cười rang",
+    "name_en": "Pistachio dried, stirred"
+  },
+  "qua_bau_tuoi": {
+    "name_vn": "Quả bầu, tươi",
+    "name_en": "Calabash, Bottle gourd, raw"
+  },
+  "bau_luoc": {
+    "name_vn": "Bầu, luộc",
+    "name_en": "Calabash  (Bottle gourd), boiled"
+  },
+  "qua_bi_dao_bi_xanh_tuoi": {
+    "name_vn": "Quả bí đao (bí xanh), tươi",
+    "name_en": "Asgourd, winter melon, raw"
+  },
+  "bi_dao_bi_xanh_luoc": {
+    "name_vn": "Bí đao (bí xanh), luộc",
+    "name_en": "Asgourd Waxgoured, boiled"
+  },
+  "qua_bi_ngo_tuoi": {
+    "name_vn": "Quả bí ngô, tươi",
+    "name_en": "Pumpkin squash, raw"
+  },
+  "bi_ngo_luoc": {
+    "name_vn": "Bí ngô, luộc",
+    "name_en": "Pumpkin squash, boiled"
+  },
+  "qua_ca_bat_tuoi": {
+    "name_vn": "Quả cà bát, tươi",
+    "name_en": "Egg plant, large round, raw"
+  },
+  "ca_bat_luoc": {
+    "name_vn": "Cà bát, luộc",
+    "name_en": "Egg plant large round, boiled"
+  },
+  "qua_ca_chua_tuoi": {
+    "name_vn": "Quả cà chua, tươi",
+    "name_en": "Tomato, raw"
+  },
+  "qua_ca_phao_tuoi": {
+    "name_vn": "Quả cà pháo, tươi",
+    "name_en": "Egg plant - small, raw"
+  },
+  "cu_ca_rot_tuoi": {
+    "name_vn": "Củ cà rốt, tươi",
+    "name_en": "Carrots, all variety, raw"
+  },
+  "ca_rot_cu_do_vang_luoc": {
+    "name_vn": "Cà rốt (củ đỏ, vàng), luộc",
+    "name_en": "Carrots, boiled"
+  },
+  "cu_ca_rot_kho": {
+    "name_vn": "Củ cà rốt, khô",
+    "name_en": "Carrot, dried"
+  },
+  "qua_ca_tim_tuoi": {
+    "name_vn": "Quả cà tím, tươi",
+    "name_en": "Aubergine, raw"
+  },
+  "ca_tim_luoc": {
+    "name_vn": "Cà tím, luộc",
+    "name_en": "Aubergine, boiled"
+  },
+  "cai_bap_trang_tuoi": {
+    "name_vn": "Cải bắp trắng, tươi",
+    "name_en": "Cabbage, common, raw"
+  },
+  "cai_bap_luoc": {
+    "name_vn": "Cải bắp, luộc",
+    "name_en": "Cabbage, white/green, boiled"
+  },
+  "cai_bap_do_tuoi": {
+    "name_vn": "Cải bắp đỏ, tươi",
+    "name_en": "Cabbage, red, raw"
+  },
+  "cai_bap_do_luoc": {
+    "name_vn": "Cải bắp đỏ, luộc",
+    "name_en": "Cabbage, red, boiled"
+  },
+  "cai_bap_trang_kho": {
+    "name_vn": "Cải bắp trắng, khô",
+    "name_en": "Cabbage, dried"
+  },
+  "cai_cuc_tuoi": {
+    "name_vn": "Cải cúc, tươi",
+    "name_en": "Crown daisy, raw"
+  },
+  "cai_soong_tuoi": {
+    "name_vn": "Cải soong, tươi",
+    "name_en": "Water cress, raw"
+  },
+  "cai_thia_cai_trang_tuoi": {
+    "name_vn": "Cải thìa (cải trắng), tươi",
+    "name_en": "Chinese cabbage, raw"
+  },
+  "cai_thia_cai_trang_luoc": {
+    "name_vn": "Cải thìa (cải trắng), luộc",
+    "name_en": "Brassica, Bok choy (pak choi), boiled"
+  },
+  "cai_xanh_tuoi": {
+    "name_vn": "Cải xanh tươi",
+    "name_en": "Fresh green mustard greens"
+  },
+  "cai_xanh_luoc": {
+    "name_vn": "Cải xanh, luộc",
+    "name_en": "Brassica, Mustard greens, Indian mustard, boiled"
+  },
+  "can_ta_tuoi": {
+    "name_vn": "Cần ta, tươi",
+    "name_en": "Water drop-wort,  raw"
+  },
+  "can_tay_tuoi": {
+    "name_vn": "Cần tây, tươi",
+    "name_en": "Celery, raw"
+  },
+  "chuoi_xanh_tuoi": {
+    "name_vn": "Chuối xanh, tươi",
+    "name_en": "Banana common varieties, unripe"
+  },
+  "chuoi_xanh_luoc": {
+    "name_vn": "Chuối xanh, luộc",
+    "name_en": "Banana unripe, boiled"
+  },
+  "cu_cai_do_tuoi": {
+    "name_vn": "Củ cải đỏ, tươi",
+    "name_en": "Red radish oriental, raw"
+  },
+  "cu_cai_do_luoc": {
+    "name_vn": "Củ cải đỏ, luộc",
+    "name_en": "Radish, red, boiled"
+  },
+  "cu_cai_trang_tuoi": {
+    "name_vn": "Củ cải trắng, tươi",
+    "name_en": "Radish garden while, raw"
+  },
+  "cu_cai_trang_luoc": {
+    "name_vn": "Củ cải trắng, luộc",
+    "name_en": "Radish, white, boiled"
+  },
+  "cu_cai_trang_kho": {
+    "name_vn": "Củ cải trắng, khô",
+    "name_en": "White radish, dried"
+  },
+  "cu_dau_tuoi": {
+    "name_vn": "Củ đậu, tươi",
+    "name_en": "Jicama, Mexican yam bean"
+  },
+  "cu_nieng_tuoi": {
+    "name_vn": "Củ niễng, tươi",
+    "name_en": "Manchurian wild rice, stem, raw"
+  },
+  "doc_cu_cai_non_tuoi": {
+    "name_vn": "Dọc củ cải, non, tươi",
+    "name_en": "Radish garden, immature, raw"
+  },
+  "doc_mung_tuoi": {
+    "name_vn": "Dọc mùng, tươi",
+    "name_en": "Indian taro, stem, raw"
+  },
+  "dua_chuot_tuoi": {
+    "name_vn": "Dưa chuột, tươi",
+    "name_en": "Cucumber, raw"
+  },
+  "dua_gang_tuoi": {
+    "name_vn": "Dưa gang, tươi",
+    "name_en": "Large cucumber, raw"
+  },
+  "dau_co_ve_qua_tuoi": {
+    "name_vn": "Đậu cô ve, quả, tươi",
+    "name_en": "Common bean, string bean, raw"
+  },
+  "dau_co_ve_luoc": {
+    "name_vn": "Đậu cô ve, luộc",
+    "name_en": "Bean common string, boiled"
+  },
+  "dau_dua_qua_tuoi": {
+    "name_vn": "Đậu đũa, quả, tươi",
+    "name_en": "Yardlong bean, raw"
+  },
+  "dau_dua_luoc": {
+    "name_vn": "Đậu đũa, luộc",
+    "name_en": "Yardlong bean, boiled"
+  },
+  "dau_ha_lan_qua_tuoi": {
+    "name_vn": "Đậu Hà Lan, quả, tươi",
+    "name_en": "Green peas; field pea, raw"
+  },
+  "dau_rong_qua_non_tuoi": {
+    "name_vn": "Đậu rồng, quả non, tươi",
+    "name_en": "Winged bean, asparagus pea, raw"
+  },
+  "du_du_xanh_tuoi": {
+    "name_vn": "Đu đủ xanh, tươi",
+    "name_en": "Papaya, unripe, raw"
+  },
+  "qua_gac_tuoi": {
+    "name_vn": "Quả gấc, tươi",
+    "name_en": "Gac fruit, whole, raw"
+  },
+  "gia_dau_tuong_tuoi": {
+    "name_vn": "Giá đậu tương, tươi",
+    "name_en": "Sprout of soybeans, raw"
+  },
+  "gia_dau_xanh_tuoi": {
+    "name_vn": "Giá đậu xanh, tươi",
+    "name_en": "Mungobean sprouts, raw"
+  },
+  "gia_dau_xanh_luoc": {
+    "name_vn": "Giá đậu xanh, luộc",
+    "name_en": "Sprouts, Mungobean sprouts, boiled"
+  },
+  "hanh_cu_tuoi": {
+    "name_vn": "Hành củ, tươi",
+    "name_en": "Onion, bulb, raw"
+  },
+  "hanh_la_hanh_hoa_tuoi": {
+    "name_vn": "Hành lá (hành hoa), tươi",
+    "name_en": "Onion, leave, raw"
+  },
+  "hanh_tay_tuoi": {
+    "name_vn": "Hành tây, tươi",
+    "name_en": "Onion, common, garden, raw"
+  },
+  "hat_sen_tuoi": {
+    "name_vn": "Hạt sen, tươi",
+    "name_en": "Lotus seed, raw"
+  },
+  "hat_sen_kho": {
+    "name_vn": "Hạt sen, khô",
+    "name_en": "Dried lotus seed"
+  },
+  "he_la_tuoi": {
+    "name_vn": "Hẹ lá, tươi",
+    "name_en": "Onion, fragrant, Chinese leek, raw"
+  },
+  "hoa_chuoi_tuoi": {
+    "name_vn": "Hoa chuối, tươi",
+    "name_en": "Banana, buds and flowers, raw"
+  },
+  "hoa_ly_tuoi": {
+    "name_vn": "Hoa lý, tươi",
+    "name_en": "Daylily, lemon flowers, raw"
+  },
+  "qua_khe_tuoi": {
+    "name_vn": "Quả khế, tươi",
+    "name_en": "Carambola; Star fruit, raw"
+  },
+  "la_lot_tuoi": {
+    "name_vn": "Lá lốt, tươi",
+    "name_en": "Lolot pepper, raw"
+  },
+  "la_me_tuoi": {
+    "name_vn": "Lá me, tươi ",
+    "name_en": "Lá me, tươi "
+  },
+  "la_mo_long_tuoi": {
+    "name_vn": "Lá mơ lông, tươi",
+    "name_en": "Skunk vine, raw"
+  },
+  "la_san_tuoi": {
+    "name_vn": "Lá sắn, tươi",
+    "name_en": "Cassava leaves, raw"
+  },
+  "mang_chua_mang_tre": {
+    "name_vn": "Măng chua, măng tre",
+    "name_en": "Bamboo shoot, fermented, raw"
+  },
+  "mang_tre_kho": {
+    "name_vn": "Măng tre, khô",
+    "name_en": "Bamboo shoot, dried"
+  },
+  "mang_tay_tuoi": {
+    "name_vn": "Măng tây, tươi",
+    "name_en": "Asparagus, white, raw"
+  },
+  "mang_tre_tuoi": {
+    "name_vn": "Măng tre, tươi",
+    "name_en": "Bamboo shoots, raw"
+  },
+  "muop_tuoi": {
+    "name_vn": "Mướp, tươi",
+    "name_en": "Gourd, sponge gourd, raw"
+  },
+  "muop_luoc": {
+    "name_vn": "Mướp, luộc",
+    "name_en": "Gourd (sponge gourd), boiled"
+  },
+  "muop_dang_tuoi": {
+    "name_vn": "Mướp đắng, tươi",
+    "name_en": "Balsam-pear,  Bitter gourd, raw"
+  },
+  "muop_dang_luoc": {
+    "name_vn": "Mướp đắng, luộc",
+    "name_en": "Bitter gourd, boiled"
+  },
+  "muop_nhat_ban_tuoi": {
+    "name_vn": "Mướp Nhật bản, tươi",
+    "name_en": "Sponge gourd, Japanese origin, raw"
+  },
+  "ngai_cuu_tuoi": {
+    "name_vn": "Ngải cứu, tươi",
+    "name_en": "Mugwort, wormwood, raw"
+  },
+  "ngo_bao_tu_tuoi": {
+    "name_vn": "Ngô bao tử, tươi",
+    "name_en": "Baby corn, raw"
+  },
+  "ngo_sen_tuoi": {
+    "name_vn": "Ngó sen, tươi",
+    "name_en": "Lotus, underground stem, raw"
+  },
+  "nu_muop_tuoi": {
+    "name_vn": "Nụ mướp, tươi",
+    "name_en": "Sponge gourd, young flower, raw"
+  },
+  "ot_do_to_tuoi": {
+    "name_vn": "Ớt đỏ to, tươi",
+    "name_en": "Peppers, red, raw"
+  },
+  "ot_vang_to_tuoi": {
+    "name_vn": "Ớt vàng to, tươi",
+    "name_en": "Peppers, yellow, raw"
+  },
+  "ot_xanh_to_tuoi": {
+    "name_vn": "Ớt xanh to, tươi",
+    "name_en": "Peppers, green, raw"
+  },
+  "qua_doc_tuoi": {
+    "name_vn": "Quả dọc, tươi",
+    "name_en": "Bira tai, raw"
+  },
+  "qua_me_chua_tuoi": {
+    "name_vn": "Quả me chua, tươi",
+    "name_en": "Tamarind fruit, pulp, raw"
+  },
+  "rau_bi_tuoi": {
+    "name_vn": "Rau bí, tươi",
+    "name_en": "Pumpkin leaves, raw"
+  },
+  "rau_bi_luoc": {
+    "name_vn": "Rau bí, luộc",
+    "name_en": "Pumpkin leaves, boiled"
+  },
+  "rau_cau_kho": {
+    "name_vn": "Rau câu, khô",
+    "name_en": "Seaweed, dried"
+  },
+  "rau_cau_tuoi": {
+    "name_vn": "Rau câu, tươi",
+    "name_en": "Seaweed, fresh"
+  },
+  "rau_diep_tuoi": {
+    "name_vn": "Rau diếp, tươi",
+    "name_en": "Lettuce, garden, raw"
+  },
+  "rau_day_tuoi": {
+    "name_vn": "Rau đay, tươi",
+    "name_en": "Jute potherb, raw"
+  },
+  "rau_giap_ca_diep_ca_tuoi": {
+    "name_vn": "Rau giấp cá, diếp cá, tươi",
+    "name_en": "Lizard tail,  fishwort, raw"
+  },
+  "rau_gien_com_tuoi": {
+    "name_vn": "Rau giền cơm, tươi",
+    "name_en": "Amaranth, spineless, raw"
+  },
+  "rau_gien_com_luoc": {
+    "name_vn": "Rau giền cơm, luộc",
+    "name_en": "Amaranth, green, boiled"
+  },
+  "rau_gien_do_tuoi": {
+    "name_vn": "Rau giền đỏ, tươi",
+    "name_en": "Amaranth, sp. Red, raw"
+  },
+  "rau_gien_do_luoc": {
+    "name_vn": "Rau giền đỏ, luộc",
+    "name_en": "Amaranth, red, boiled"
+  },
+  "rau_gien_trang_tuoi": {
+    "name_vn": "Rau giền trắng, tươi",
+    "name_en": "Amaranth, sp White, raw"
+  },
+  "rau_gien_trang_luoc": {
+    "name_vn": "Rau giền trắng, luộc",
+    "name_en": "Amaranth, white, boiled"
+  },
+  "rau_hung_tuoi": {
+    "name_vn": "Rau húng, tươi",
+    "name_en": "Basil sweet leaves, raw"
+  },
+  "rau_khoai_lang_tuoi": {
+    "name_vn": "Rau khoai lang, tươi",
+    "name_en": "Sweet potato leaves, raw"
+  },
+  "rau_khoai_lang_luoc": {
+    "name_vn": "Rau khoai lang, luộc",
+    "name_en": "Sweet potato leaves, boiled"
+  },
+  "rau_kinh_gioi_tuoi": {
+    "name_vn": "Rau kinh giới, tươi",
+    "name_en": "Vietnamese Balm, raw"
+  },
+  "rau_ma_rung_tuoi": {
+    "name_vn": "Rau má rừng, tươi",
+    "name_en": "Wild centella, raw"
+  },
+  "rau_ma_ma_mo_tuoi": {
+    "name_vn": "Rau má, má mơ, tươi",
+    "name_en": "Centella, gotu kola, raw"
+  },
+  "rau_mong_toi_tuoi": {
+    "name_vn": "Rau mồng tơi, tươi",
+    "name_en": "Malabar, Ceylon spinach, raw"
+  },
+  "rau_mong_toi_luoc": {
+    "name_vn": "Rau mồng tơi, luộc",
+    "name_en": "Malabar nightshade, boiled"
+  },
+  "rau_mui_tuoi": {
+    "name_vn": "Rau mùi, tươi",
+    "name_en": "Coriander, raw"
+  },
+  "rau_mui_tau_tuoi": {
+    "name_vn": "Rau mùi tàu, tươi",
+    "name_en": "Parsley, curley, raw"
+  },
+  "rau_muong_tuoi": {
+    "name_vn": "Rau muống,  tươi",
+    "name_en": "Water spinach, raw"
+  },
+  "rau_muong_luoc": {
+    "name_vn": "Rau muống, luộc",
+    "name_en": "Water spinach, boiled"
+  },
+  "rau_muong_kho": {
+    "name_vn": "Rau muống, khô",
+    "name_en": "Water spinach, dried"
+  },
+  "rau_ngo_tuoi": {
+    "name_vn": "Rau ngổ, tươi",
+    "name_en": "Buffalo spinach, raw"
+  },
+  "rau_ngot_tuoi": {
+    "name_vn": "Rau ngót, tươi",
+    "name_en": "Sauropus, sp. Leaves, raw"
+  },
+  "rau_ngot_kho": {
+    "name_vn": "Rau ngót, khô",
+    "name_en": "Sauropus, dried"
+  },
+  "rau_ram_tuoi": {
+    "name_vn": "Rau răm, tươi",
+    "name_en": "Vietnamese mint, hot mint, raw"
+  },
+  "rau_rut_tuoi": {
+    "name_vn": "Rau rút, tươi",
+    "name_en": "Water mimosa,  raw"
+  },
+  "rau_sa_lach_tuoi": {
+    "name_vn": "Rau sà lách, tươi",
+    "name_en": "Lettuce, garden asparagus, raw"
+  },
+  "rau_sam_tuoi": {
+    "name_vn": "Rau sam, tươi",
+    "name_en": "Purslane, pursley, raw"
+  },
+  "rau_sang_chua_huong_tuoi": {
+    "name_vn": "Rau sắng chùa hương, tươi",
+    "name_en": "Rau sắng chùa hương, tươi"
+  },
+  "rau_tau_bay_tuoi": {
+    "name_vn": "Rau tàu bay, tươi",
+    "name_en": "Redflower ragleaf, fireweed, raw"
+  },
+  "rau_thom_tuoi": {
+    "name_vn": "Rau thơm, tươi",
+    "name_en": "Mint leaves, raw"
+  },
+  "qua_sau_xanh_tuoi": {
+    "name_vn": "Quả sấu xanh, tươi",
+    "name_en": "Fruit of Dracontomelon duperreanum, immature, raw"
+  },
+  "cu_su_hao_tuoi": {
+    "name_vn": "Củ su hào, tươi",
+    "name_en": "Kohlrabi, turnip cabbage, raw"
+  },
+  "su_hao_luoc": {
+    "name_vn": "Su hào, luộc",
+    "name_en": "Kohlrabi, boiled"
+  },
+  "cu_su_hao_kho": {
+    "name_vn": "Củ su hào, khô",
+    "name_en": "Kohlrabi, turnip cabbage, dried"
+  },
+  "qua_su_su_tuoi": {
+    "name_vn": "Quả su su, tươi",
+    "name_en": "Chayote, raw"
+  },
+  "su_su_luoc": {
+    "name_vn": "Su su, luộc",
+    "name_en": "Chayote frui, boiled"
+  },
+  "sup_lo_trang_tuoi": {
+    "name_vn": "Súp lơ trắng, tươi",
+    "name_en": "Cauliflower, raw"
+  },
+  "sup_lo_trang_luoc": {
+    "name_vn": "Súp lơ trắng, luộc",
+    "name_en": "Cauli/Brocco, Cauliflower, boiled"
+  },
+  "sup_lo_xanh_tuoi": {
+    "name_vn": "Súp lơ xanh, tươi",
+    "name_en": "Broccoli, raw"
+  },
+  "sup_lo_xanh_luoc": {
+    "name_vn": "Súp lơ xanh, luộc",
+    "name_en": "Cauli/Brocco, Broccoli, boiled"
+  },
+  "thia_la_tuoi": {
+    "name_vn": "Thìa là, tươi",
+    "name_en": "Dill, raw"
+  },
+  "tia_to_tuoi": {
+    "name_vn": "Tía tô, tươi",
+    "name_en": "Balm-mint, garden- balm, raw"
+  },
+  "toi_ta_tuoi": {
+    "name_vn": "Tỏi ta, tươi",
+    "name_en": "Garlic bulbs, raw"
+  },
+  "toi_tay_ca_la_tuoi": {
+    "name_vn": "Tỏi tây, cả lá, tươi",
+    "name_en": "Chinese Leek, Onion fragrant, raw"
+  },
+  "tram_den_qua_chin_tuoi": {
+    "name_vn": "Trám đen, quả chín, tươi",
+    "name_en": "Fruit of Canarium pimela, ripe"
+  },
+  "tram_xanh_tram_trang_tuoi": {
+    "name_vn": "Trám xanh, trám trắng, tươi",
+    "name_en": "Canarium nut, pili nut, Java almond, raw"
+  },
+  "la_xuong_song_tuoi": {
+    "name_vn": "Lá xương sông, tươi",
+    "name_en": "Edible leaves of Blumea lanceolaria, raw"
+  },
+  "rau_cai_ngot_tuoi": {
+    "name_vn": "Rau cải ngọt, tươi",
+    "name_en": "Elongated mustard, raw"
+  },
+  "cai_ngot_luoc": {
+    "name_vn": "Cải ngọt, luộc",
+    "name_en": "Brassica, Elongated mustard, boiled"
+  },
+  "rau_cai_thao_tuoi": {
+    "name_vn": "Rau cải thảo, tươi",
+    "name_en": "Chinese cabbage, raw"
+  },
+  "cai_thao_luoc": {
+    "name_vn": "Cải thảo, luộc",
+    "name_en": "Brassica, Chinese cabbage, boiled"
+  },
+  "ngon_su_su_tuoi": {
+    "name_vn": "Ngọn su su, tươi",
+    "name_en": "Chayote, young stem and leaves raw"
+  },
+  "ngon_su_su_luoc": {
+    "name_vn": "Ngọn su su, luộc",
+    "name_en": "Chayote young stem and leaves, boiled"
+  },
+  "qua_dau_van_tuoi": {
+    "name_vn": "Quả đậu ván, tươi",
+    "name_en": "Hyacinth bean,    Australian pea, raw"
+  },
+  "ca_chua_muoi": {
+    "name_vn": "Cà chua, muối",
+    "name_en": "Tomato, pickled with salt"
+  },
+  "ca_phao_muoi_nen": {
+    "name_vn": "Cà pháo, muối nén",
+    "name_en": "Eggplant, pickled with salt"
+  },
+  "ca_phao_muoi_soi": {
+    "name_vn": "Cà pháo, muối sổi ",
+    "name_en": "Eggplant, pickled with salt"
+  },
+  "dua_cai_bap": {
+    "name_vn": "Dưa cải bắp",
+    "name_en": "Cabbage Chinese pickled with salt"
+  },
+  "dua_cai_be": {
+    "name_vn": "Dưa cải bẹ",
+    "name_en": "Mustard green, pickled with salt"
+  },
+  "dua_cai_sen": {
+    "name_vn": "Dưa cải sen",
+    "name_en": "Field mustard, pickled with salt"
+  },
+  "dua_chuot_muoi": {
+    "name_vn": "Dưa chuột, muối",
+    "name_en": "Cucumber, pickled with salt"
+  },
+  "dua_gia_dau_xanh": {
+    "name_vn": "Dưa giá đậu xanh",
+    "name_en": "Mung bean sprouts, pickled with salt"
+  },
+  "hanh_cu_muoi": {
+    "name_vn": "Hành củ, muối",
+    "name_en": "Onion, pickled with salt"
+  },
+  "kieu_muoi": {
+    "name_vn": "Kiệu, muối",
+    "name_en": "Onion shallot, scallion, pickled with salt"
+  },
+  "nhut_dua_muoi_tu_mit_non_la_dau_xanh_non": {
+    "name_vn": "Nhút (dưa muối từ mít non, lá đậu xanh non...)",
+    "name_en": "Mix pickled from young jack fruit, mung bean leaves and other"
+  },
+  "men_bia_kho": {
+    "name_vn": "Men bia, khô",
+    "name_en": "Brewer\\"
+  },
+  "men_bia_tuoi": {
+    "name_vn": "Men bia, tươi",
+    "name_en": "Brewer\\"
+  },
+  "moc_nhi_kho": {
+    "name_vn": "Mộc nhĩ, khô",
+    "name_en": "Jew\\"
+  },
+  "nam_huong_kho": {
+    "name_vn": "Nấm hương, khô",
+    "name_en": "Mushroom, shiitake, dried"
+  },
+  "nam_huong_tuoi": {
+    "name_vn": "Nấm hương, tươi",
+    "name_en": "Mushroom, shiitake, raw"
+  },
+  "nam_mo_nam_tay_tuoi": {
+    "name_vn": "Nấm mỡ (Nấm tây), tươi",
+    "name_en": "Common mushroom, table mushroom, raw"
+  },
+  "nam_rom_tuoi": {
+    "name_vn": "Nấm rơm, tươi",
+    "name_en": "Straw mushroom, raw"
+  },
+  "nam_thuong_tuoi": {
+    "name_vn": "Nấm thường, tươi",
+    "name_en": "Gilled mushroom, meadow mushroom, raw"
+  },
+  "hanh_kho": {
+    "name_vn": "Hành khô",
+    "name_en": "Hành khô"
+  },
+  "nam_kim_cham": {
+    "name_vn": "Nấm kim châm",
+    "name_en": "Mushroom, small and tall, raw"
+  },
+  "cai_ngong": {
+    "name_vn": "Cải ngồng",
+    "name_en": "Cải ngồng"
+  },
+  "cai_ngong_luoc": {
+    "name_vn": "Cải ngồng, luộc",
+    "name_en": "Brassica, Cabbage/mustard, boiled"
+  },
+  "rau_cai_chip": {
+    "name_vn": "Rau cải chíp",
+    "name_en": "Rau cải chíp"
+  },
+  "rau_cai_chip_luoc": {
+    "name_vn": "Rau cải chíp luộc",
+    "name_en": "Brassica rapa chinensis, boiled"
+  },
+  "rong_bien": {
+    "name_vn": "Rong biển",
+    "name_en": "Rong biển"
+  },
+  "buoi_tuoi": {
+    "name_vn": "Bưởi, tươi",
+    "name_en": "Pomelo, Pummelo; Shaddock, raw"
+  },
+  "cam_tuoi": {
+    "name_vn": "Cam, tươi",
+    "name_en": "Orange, raw"
+  },
+  "chanh_tuoi": {
+    "name_vn": "Chanh, tươi",
+    "name_en": "Lemon, raw"
+  },
+  "chom_chom_tuoi": {
+    "name_vn": "Chôm chôm, tươi",
+    "name_en": "Rambutan, raw"
+  },
+  "chuoi_kho": {
+    "name_vn": "Chuối, khô",
+    "name_en": "Banana, dried"
+  },
+  "chuoi_tay_tuoi": {
+    "name_vn": "Chuối tây, tươi",
+    "name_en": "Banana, raw"
+  },
+  "chuoi_tieu_tuoi": {
+    "name_vn": "Chuối tiêu, tươi",
+    "name_en": "Banana, dwarf, raw"
+  },
+  "dau_gia_tuoi": {
+    "name_vn": "Dâu gia, tươi ",
+    "name_en": "Fruit of Baccaurea sapida, tươi"
+  },
+  "dau_tay_tuoi": {
+    "name_vn": "Dâu tây, tươi",
+    "name_en": "Strawberry, raw"
+  },
+  "dua_bo_tuoi": {
+    "name_vn": "Dưa bở, tươi",
+    "name_en": "Musk melon, Spanish melon, Cantaloupe, raw"
+  },
+  "dua_hau_tuoi": {
+    "name_vn": "Dưa hấu, tươi",
+    "name_en": "Watermelon, raw"
+  },
+  "dua_hong_tuoi": {
+    "name_vn": "Dưa hồng, tươi",
+    "name_en": "Dưa hồng, tươi"
+  },
+  "dua_le_tuoi": {
+    "name_vn": "Dưa lê, tươi",
+    "name_en": "Honey dew melon, raw"
+  },
+  "dua_ta_tuoi": {
+    "name_vn": "Dứa ta, tươi",
+    "name_en": "Pineapple, wild, raw"
+  },
+  "dua_tay_tuoi": {
+    "name_vn": "Dứa tây, tươi",
+    "name_en": "Pineapple, raw"
+  },
+  "dao_tuoi": {
+    "name_vn": "Đào, tươi",
+    "name_en": "Peach, raw"
+  },
+  "du_du_chin_tuoi": {
+    "name_vn": "Đu đủ chín, tươi",
+    "name_en": "Papaya ripe, raw"
+  },
+  "gioi_tuoi": {
+    "name_vn": "Gioi, tươi",
+    "name_en": "Ohia; Malaya roseapple, raw"
+  },
+  "hong_bi_tuoi": {
+    "name_vn": "Hồng bì, tươi",
+    "name_en": "Wampee, Chinese; Wampi, raw"
+  },
+  "hong_do_tuoi": {
+    "name_vn": "Hồng đỏ, tươi",
+    "name_en": "Persimmon kaki soft type, ripe, raw"
+  },
+  "hong_ngam_tuoi": {
+    "name_vn": "Hồng ngâm, tươi",
+    "name_en": "Persimmon kaki, Hard-type, ripe, raw"
+  },
+  "hong_xiem_tuoi": {
+    "name_vn": "Hồng xiêm, tươi",
+    "name_en": "Sapodilla, sapota ponderosa, raw"
+  },
+  "le_tuoi": {
+    "name_vn": "Lê, tươi",
+    "name_en": "Pear, raw"
+  },
+  "luu_tuoi": {
+    "name_vn": "Lựu, tươi",
+    "name_en": "Pome granate, raw"
+  },
+  "mang_cau_xiem_tuoi": {
+    "name_vn": "Mãng cầu xiêm, tươi",
+    "name_en": "Soursop, raw"
+  },
+  "mac_cooc_tuoi": {
+    "name_vn": "Mắc coọc, tươi",
+    "name_en": "Wild Himalayan pear, raw"
+  },
+  "man_tim_tuoi": {
+    "name_vn": "Mận tím, tươi",
+    "name_en": "Japanese plum, raw"
+  },
+  "mit_dai_tuoi": {
+    "name_vn": "Mít dai, tươi",
+    "name_en": "Jackfruit, mature, raw"
+  },
+  "mit_kho": {
+    "name_vn": "Mít khô",
+    "name_en": "Jackfruit, dried"
+  },
+  "mit_mat_tuoi": {
+    "name_vn": "Mít mật , tươi",
+    "name_en": "Jackfruit, sweet type, raw"
+  },
+  "mo_tuoi": {
+    "name_vn": "Mơ, tươi",
+    "name_en": "Apricot, raw"
+  },
+  "mo_kho": {
+    "name_vn": "Mơ, khô",
+    "name_en": "Apricot, dried"
+  },
+  "muom_queo_tuoi": {
+    "name_vn": "Muỗm, quéo, tươi",
+    "name_en": "Mango, common; Indian mango, unripe, raw"
+  },
+  "na_tuoi": {
+    "name_vn": "Na, tươi",
+    "name_en": "Sugar apple, sweetsop, raw"
+  },
+  "nhan_tuoi": {
+    "name_vn": "Nhãn, tươi ",
+    "name_en": "Longan, raw"
+  },
+  "nhan_kho": {
+    "name_vn": "Nhãn, khô",
+    "name_en": "Longan, dried"
+  },
+  "nho_ngot_tuoi": {
+    "name_vn": "Nho ngọt, tươi",
+    "name_en": "Grape, European, sweet, raw"
+  },
+  "nho_ta_nho_chua_tuoi": {
+    "name_vn": "Nho ta (nho chua), tươi",
+    "name_en": "Grape fruit, wild, raw"
+  },
+  "nhot_tuoi": {
+    "name_vn": "Nhót, tươi",
+    "name_en": "Silver berry, raw"
+  },
+  "oi_qua_chin_tuoi": {
+    "name_vn": "Ổi, quả chín, tươi",
+    "name_en": "Guava, common, raw"
+  },
+  "qua_bo_vo_tim_tuoi": {
+    "name_vn": "Quả bơ vỏ tím, tươi",
+    "name_en": "Avocado, Alligator Pear, raw"
+  },
+  "qua_bo_vo_xanh_tuoi": {
+    "name_vn": "Quả bơ vỏ xanh, tươi",
+    "name_en": "Avocado, Alligator Pear, raaw"
+  },
+  "qua_coc_tuoi": {
+    "name_vn": "Quả cóc, tươi",
+    "name_en": "Pork plum, Tahitian apple, Otaheite apple, raw"
+  },
+  "qua_thanh_long_tuoi": {
+    "name_vn": "Quả thanh long, tươi",
+    "name_en": "Dragon\\"
+  },
+  "qua_trung_ga_tuoi": {
+    "name_vn": "Quả trứng gà, tươi",
+    "name_en": "Lúcuma, raw"
+  },
+  "quat_chin_tuoi": {
+    "name_vn": "Quất chín, tươi",
+    "name_en": "Mandarin, raw"
+  },
+  "quit_tuoi": {
+    "name_vn": "Quít, tươi",
+    "name_en": "Tangerine; Orange; Mandarin, raw"
+  },
+  "sau_rieng_tuoi": {
+    "name_vn": "Sầu riêng, tươi",
+    "name_en": "Durian, raw"
+  },
+  "sau_chin_tuoi": {
+    "name_vn": "Sấu chín, tươi   ",
+    "name_en": "Sanpidus, ripe, raw"
+  },
+  "tao_ta_tuoi": {
+    "name_vn": "Táo ta, tươi",
+    "name_en": "Jujube, Vietnamese apple, raw"
+  },
+  "tao_tay_tuoi": {
+    "name_vn": "Táo tây, tươi",
+    "name_en": "Apple, common, raw"
+  },
+  "vai_tuoi": {
+    "name_vn": "Vải, tươi   ",
+    "name_en": "Litchi; lychee, raw"
+  },
+  "vai_kho": {
+    "name_vn": "Vải, khô",
+    "name_en": "Litchi, dried with shells"
+  },
+  "vu_sua_tuoi": {
+    "name_vn": "Vú sữa, tươi",
+    "name_en": "Starapple, cainito, raw"
+  },
+  "xoai_chin_tuoi": {
+    "name_vn": "Xoài chín, tươi",
+    "name_en": "Mango, common, ripe, raw"
+  },
+  "qua_kiwi_tuoi": {
+    "name_vn": "Quả kiwi, tươi",
+    "name_en": "Kiwifruit, Chinese gooseberry, raw"
+  },
+  "tao_meo": {
+    "name_vn": "Táo mèo",
+    "name_en": "Táo mèo"
+  },
+  "dua_luoi": {
+    "name_vn": "Dưa lưới",
+    "name_en": "Cantaloupe"
+  },
+  "mang_cut": {
+    "name_vn": "Măng cụt",
+    "name_en": "Mangosteen"
+  },
+  "bo": {
+    "name_vn": "Bơ",
+    "name_en": "Butter, unsalted"
+  },
+  "dau_thao_moc_lac_vung_cam": {
+    "name_vn": "Dầu thảo mộc (Lạc, vừng, cám...)",
+    "name_en": "Vegetable oil, mixed varieties"
+  },
+  "mo_lon_muoi": {
+    "name_vn": "Mỡ lợn, muối",
+    "name_en": "Lard, salted"
+  },
+  "mo_lon_nuoc": {
+    "name_vn": "Mỡ lợn, nước",
+    "name_en": "Lard, liquid"
+  },
+  "bo_thuc_vat": {
+    "name_vn": "Bơ thực vật",
+    "name_en": "Margarine, unsalted"
+  },
+  "dau_bong": {
+    "name_vn": "Dầu bông",
+    "name_en": "Oil, cottonseed, salad or cooking"
+  },
+  "dau_cam_gao": {
+    "name_vn": "Dầu cám gạo",
+    "name_en": "Oil, rice bran"
+  },
+  "dau_co": {
+    "name_vn": "Dầu cọ",
+    "name_en": "Vegetable oil, palm kernel"
+  },
+  "dau_dua": {
+    "name_vn": "Dầu dừa",
+    "name_en": "Oil, coconut kernel"
+  },
+  "dau_dau_tuong": {
+    "name_vn": "Dầu đậu tương",
+    "name_en": "Oil, soybean, salad or cooking"
+  },
+  "dau_lac": {
+    "name_vn": "Dầu lạc",
+    "name_en": "Oil, peanut, salad or cooking"
+  },
+  "dau_me": {
+    "name_vn": "Dầu mè",
+    "name_en": "Oil, sesame, salad or cooking"
+  },
+  "dau_ngo": {
+    "name_vn": "Dầu ngô ",
+    "name_en": "Oil, corn, salad or cooking"
+  },
+  "dau_oliu": {
+    "name_vn": "Dầu oliu",
+    "name_en": "Oil, olive, salad or cooking"
+  },
+  "dau_hon_hop": {
+    "name_vn": "Dầu hỗn hợp",
+    "name_en": "Vegetable oil, mixed varieties"
+  },
+  "thit_be_mo_tuoi": {
+    "name_vn": "Thịt bê, mỡ, tươi",
+    "name_en": "Veal, lean and fat meat, raw"
+  },
+  "thit_be_nac_tuoi": {
+    "name_vn": "Thịt bê, nạc, tươi",
+    "name_en": "Veal, lean meat only, raw"
+  },
+  "thit_bo_loai_i_tuoi": {
+    "name_vn": "Thịt bò, loại I, tươi",
+    "name_en": "Beef, meat, grade I, raw"
+  },
+  "thit_bo_loai_ii_tuoi": {
+    "name_vn": "Thịt bò, loại II, tươi",
+    "name_en": "Beef, meat, grade II, raw"
+  },
+  "thit_bo_lung_nac_tuoi": {
+    "name_vn": "Thịt bò, lưng, nạc, tươi",
+    "name_en": "Beef, short loin, top loin, seperable lean only, trimmed to 1/8\" fat, prime, raw"
+  },
+  "thit_bo_lung_nac_chan": {
+    "name_vn": "Thịt bò, lưng, nạc, chần",
+    "name_en": "Beef, loin, lean, poached"
+  },
+  "thit_bo_lung_nac_va_mo_tuoi": {
+    "name_vn": "Thịt bò, lưng, nạc và mỡ, tươi",
+    "name_en": "Beef, short loin, top loin, seperable lean only, trimmed to 1/4\" fat, prime, raw"
+  },
+  "thit_bo_lung_nac_va_mo_chan": {
+    "name_vn": "Thịt bò, lưng, nạc và mỡ, chần",
+    "name_en": "Beef, loin, medium fat, poached"
+  },
+  "thit_bo_cau_ca_con_non_ra_rang_tuoi": {
+    "name_vn": "Thịt bồ câu, cả con non (ra ràng), tươi",
+    "name_en": "Pigeon, young bird, raw"
+  },
+  "thit_cho_san_tuoi": {
+    "name_vn": "Thịt chó, sấn, tươi",
+    "name_en": "Dog, lean and fat meat, raw"
+  },
+  "thit_cho_vai_tuoi": {
+    "name_vn": "Thịt chó, vai, tươi",
+    "name_en": "Dog, shoulder, lean and fat meat, raw"
+  },
+  "thit_cuu_nac_tuoi": {
+    "name_vn": "Thịt cừu, nạc, tươi",
+    "name_en": "Mutton, lean meat, raw"
+  },
+  "thit_de_nac_tuoi": {
+    "name_vn": "Thịt dê, nạc, tươi",
+    "name_en": "Goat, lean meat, raw"
+  },
+  "thit_de_nac_hap": {
+    "name_vn": "Thịt dê, nạc, hấp",
+    "name_en": "Goat meat, lean, steamed"
+  },
+  "thit_ga_rung_tuoi": {
+    "name_vn": "Thịt gà rừng, tươi",
+    "name_en": "Chicken, wild, raw"
+  },
+  "thit_ga_ta_tuoi": {
+    "name_vn": "Thịt gà ta, tươi",
+    "name_en": "Chicken, average meat, raw"
+  },
+  "thit_ga_tay_tuoi": {
+    "name_vn": "Thịt gà tây, tươi",
+    "name_en": "Turkey, average meat, raw"
+  },
+  "thit_huou_tuoi": {
+    "name_vn": "Thịt hươu, tươi",
+    "name_en": "Deer, average meat, raw"
+  },
+  "thit_lon_mo_tuoi": {
+    "name_vn": "Thịt lợn, mỡ, tươi",
+    "name_en": "Pork, fat meat, raw"
+  },
+  "thit_lon_nac_tuoi": {
+    "name_vn": "Thịt lợn, nạc, tươi",
+    "name_en": "Pork, lean meat, raw"
+  },
+  "thit_lon_nua_nac_nua_mo_tuoi": {
+    "name_vn": "Thịt lợn, nửa nạc, nửa mỡ, tươi",
+    "name_en": "Pork, lean and fat meat, raw"
+  },
+  "thit_lon_nua_nac_nua_mo_luoc": {
+    "name_vn": "Thịt lợn nửa nạc, nửa mỡ, luộc",
+    "name_en": "Pork, medium fat meat, boiled"
+  },
+  "thit_ngong_tuoi": {
+    "name_vn": "Thịt ngỗng, tươi",
+    "name_en": "Goose, average meat, raw"
+  },
+  "thit_ngong_luoc": {
+    "name_vn": "Thịt ngỗng, luộc",
+    "name_en": "Goose meat, boiled"
+  },
+  "thit_ngua_tuoi": {
+    "name_vn": "Thịt ngựa, tươi",
+    "name_en": "Horse, average meat, raw"
+  },
+  "thit_tho_nha_tuoi": {
+    "name_vn": "Thịt thỏ nhà, tươi",
+    "name_en": "Rabbit, average meat, raw"
+  },
+  "thit_tho_rung_tuoi": {
+    "name_vn": "Thịt thỏ rừng, tươi",
+    "name_en": "Rabbit, wild, average meat, raw"
+  },
+  "thit_trau_tuoi": {
+    "name_vn": "Thịt trâu, tươi",
+    "name_en": "Buffalo, average meat, raw"
+  },
+  "thit_trau_bap_tuoi": {
+    "name_vn": "Thịt trâu, bắp, tươi",
+    "name_en": "Buffalo, shoulder, lean meat, raw"
+  },
+  "thit_trau_bap_luoc": {
+    "name_vn": "Thịt trâu bắp, luộc",
+    "name_en": "Buffalo meat, leg, boiled"
+  },
+  "thit_trau_bap_chan": {
+    "name_vn": "Thịt trâu bắp, chần",
+    "name_en": "Buffalo meat, leg, poached"
+  },
+  "thit_trau_co_tuoi": {
+    "name_vn": "Thịt trâu, cổ, tươi",
+    "name_en": "Buffalo, neck, lean and fat meat, raw"
+  },
+  "thit_trau_dui_tuoi": {
+    "name_vn": "Thịt trâu, đùi, tươi",
+    "name_en": "Buffalo, leg, lean and fat meat, raw"
+  },
+  "thit_trau_than_luoc": {
+    "name_vn": "Thịt trâu thăn, luộc",
+    "name_en": "Buffalo meat, tenderloin, boiled"
+  },
+  "thit_trau_than_chan": {
+    "name_vn": "Thịt trâu thăn, chần",
+    "name_en": "Buffalo meat, tenderloin, poached"
+  },
+  "thit_vit_tuoi": {
+    "name_vn": "Thịt vịt, tươi",
+    "name_en": "Duck, average meat, raw"
+  },
+  "thit_vit_luoc": {
+    "name_vn": "Thịt vịt, luộc",
+    "name_en": "Duck meat, average, boiled"
+  },
+  "bau_duc_bo_tuoi": {
+    "name_vn": "Bầu dục bò, tươi",
+    "name_en": "Beef, kidney, raw"
+  },
+  "bau_duc_bo_luoc": {
+    "name_vn": "Bầu dục bò, luộc",
+    "name_en": "Kidney, cow, boiled"
+  },
+  "bau_duc_lon_tuoi": {
+    "name_vn": "Bầu dục lợn, tươi",
+    "name_en": "Pork, kidney, raw"
+  },
+  "bau_duc_lon_luoc": {
+    "name_vn": "Bầu dục lợn, luộc",
+    "name_en": "Kidney, pig, boiled"
+  },
+  "bi_lon_tuoi": {
+    "name_vn": "Bì lợn, tươi",
+    "name_en": "Pork, skin, raw"
+  },
+  "chan_gio_lon_tuoi": {
+    "name_vn": "Chân giò lợn, tươi",
+    "name_en": "Pork, leg , raw"
+  },
+  "thit_chan_gio_lon_luoc": {
+    "name_vn": "Thịt chân giò lợn, luộc",
+    "name_en": "Pork, leg meat, boiled"
+  },
+  "da_day_bo_tuoi": {
+    "name_vn": "Dạ dày bò, tươi",
+    "name_en": "Beef, stomach, raw"
+  },
+  "da_day_lon_tuoi": {
+    "name_vn": "Dạ dày lợn, tươi",
+    "name_en": "Pork, stomach, raw"
+  },
+  "da_day_lon_luoc": {
+    "name_vn": "Dạ dày lợn, luộc",
+    "name_en": "Hog, stomach, boiled"
+  },
+  "dau_bo_tuoi": {
+    "name_vn": "Đầu bò, tươi",
+    "name_en": "Beef, head, raw"
+  },
+  "dau_lon_tuoi": {
+    "name_vn": "Đầu lợn, tươi",
+    "name_en": "Pork, head, raw"
+  },
+  "duoi_bo_tuoi": {
+    "name_vn": "Đuôi bò, tươi",
+    "name_en": "Beef, tail, raw"
+  },
+  "duoi_lon_tuoi": {
+    "name_vn": "Đuôi lợn, tươi",
+    "name_en": "Pork, tail, raw"
+  },
+  "gan_bo_tuoi": {
+    "name_vn": "Gan bò, tươi",
+    "name_en": "Beef, liver, raw"
+  },
+  "gan_ga_tuoi": {
+    "name_vn": "Gan gà, tươi",
+    "name_en": "Chicken, liver, raw"
+  },
+  "gan_ga_luoc": {
+    "name_vn": "Gan gà, luộc",
+    "name_en": "Liver, chicken, boiled"
+  },
+  "gan_lon_tuoi": {
+    "name_vn": "Gan lợn, tươi",
+    "name_en": "Pork, liver, raw"
+  },
+  "gan_lon_luoc": {
+    "name_vn": "Gan lợn, luộc",
+    "name_en": "Liver, pig, boiled"
+  },
+  "gan_vit_tuoi": {
+    "name_vn": "Gan vịt, tươi",
+    "name_en": "Duck, liver, raw"
+  },
+  "gan_vit_luoc": {
+    "name_vn": "Gan vịt, luộc",
+    "name_en": "Liver, duck, boiled"
+  },
+  "gan_chan_bo_tuoi": {
+    "name_vn": "Gân chân bò, tươi",
+    "name_en": "Beef, tendon, leg, raw"
+  },
+  "thit_bo_gan_kho_om": {
+    "name_vn": "Thịt bò, gân, kho/om",
+    "name_en": "Beef, tendon-leg, braised"
+  },
+  "luoi_bo_tuoi": {
+    "name_vn": "Lưỡi bò, tươi",
+    "name_en": "Beef, tongue, raw"
+  },
+  "luoi_bo_luoc": {
+    "name_vn": "Lưỡi bò, luộc",
+    "name_en": "Tongue, cow, boiled"
+  },
+  "luoi_lon_tuoi": {
+    "name_vn": "Lưỡi lợn, tươi",
+    "name_en": "Pork, tongue, raw"
+  },
+  "luoi_lon_luoc": {
+    "name_vn": "Lưỡi lợn, luộc",
+    "name_en": "Tongue, cow, boiled"
+  },
+  "long_lon_ruot_gia_tuoi": {
+    "name_vn": "Lòng lợn (ruột già), tươi",
+    "name_en": "Pork, large intestine, raw"
+  },
+  "long_lon_ruot_non_tuoi": {
+    "name_vn": "Lòng lợn (ruột non), tươi",
+    "name_en": "Pork, small intestine, raw"
+  },
+  "long_lon_ruot_non_luoc": {
+    "name_vn": "Lòng lợn (ruột non), luộc",
+    "name_en": "Hog, intestine, small, boiled"
+  },
+  "me_ga_tuoi": {
+    "name_vn": "Mề gà, tươi",
+    "name_en": "Chicken, gizzard, raw"
+  },
+  "me_ga_luoc": {
+    "name_vn": "Mề gà, luộc",
+    "name_en": "Chicken gizzard, boiled"
+  },
+  "oc_bo_tuoi": {
+    "name_vn": "Óc bò, tươi",
+    "name_en": "Beef, brain, raw"
+  },
+  "oc_bo_luoc": {
+    "name_vn": "Óc bò, luộc",
+    "name_en": "Brain, cow, boiled"
+  },
+  "oc_lon_tuoi": {
+    "name_vn": "Óc lợn, tươi",
+    "name_en": "Pork, brain, raw"
+  },
+  "oc_lon_luoc": {
+    "name_vn": "Óc lợn, luộc",
+    "name_en": "Brain, pig, boiled"
+  },
+  "phoi_bo_tuoi": {
+    "name_vn": "Phổi bò, tươi",
+    "name_en": "Beef, lung, raw"
+  },
+  "phoi_lon_tuoi": {
+    "name_vn": "Phổi lợn, tươi",
+    "name_en": "Pork, lung, raw"
+  },
+  "suon_lon_tuoi": {
+    "name_vn": "Sườn lợn, tươi",
+    "name_en": "Pork, ribs, raw"
+  },
+  "tai_lon_tuoi": {
+    "name_vn": "Tai lợn, tươi",
+    "name_en": "Pork, ears, raw"
+  },
+  "tai_lon_luoc": {
+    "name_vn": "Tai lợn, luộc",
+    "name_en": "Hog ears, boiled"
+  },
+  "tim_bo_tuoi": {
+    "name_vn": "Tim bò, tươi",
+    "name_en": "Beef, heart, raw"
+  },
+  "tim_bo_luoc": {
+    "name_vn": "Tim bò, luộc",
+    "name_en": "Heart, cow, boiled"
+  },
+  "tim_ga_tuoi": {
+    "name_vn": "Tim gà, tươi",
+    "name_en": "Chicken, heart, tươi"
+  },
+  "tim_ga_luoc": {
+    "name_vn": "Tim gà, luộc",
+    "name_en": "Heart, chicken, boiled"
+  },
+  "tim_lon_tuoi": {
+    "name_vn": "Tim lợn, tươi",
+    "name_en": "Pork, heart, raw"
+  },
+  "tim_lon_luoc": {
+    "name_vn": "Tim lợn, luộc",
+    "name_en": "Heart, pig, boiled"
+  },
+  "tiet_bo_tuoi": {
+    "name_vn": "Tiết bò, tươi",
+    "name_en": "Beef, blood, raw"
+  },
+  "tiet_bo_luoc": {
+    "name_vn": "Tiết bò, luộc",
+    "name_en": "Blood, cow, boiled"
+  },
+  "tiet_lon_luoc": {
+    "name_vn": "Tiết lợn, luộc",
+    "name_en": "Pork, blood, boiled"
+  },
+  "tiet_lon_tuoi": {
+    "name_vn": "Tiết lợn, tươi",
+    "name_en": "Pork, blood, raw"
+  },
+  "tuy_xuong_bo_tuoi": {
+    "name_vn": "Tủy xương bò, tươi",
+    "name_en": "Beef, bone marrow, raw"
+  },
+  "tuy_xuong_lon_tuoi": {
+    "name_vn": "Tủy xương lợn, tươi",
+    "name_en": "Pork, bone marrow, raw"
+  },
+  "ba_te_lon": {
+    "name_vn": "Ba tê lợn",
+    "name_en": "Pate, from pork"
+  },
+  "cha_lon": {
+    "name_vn": "Chả lợn",
+    "name_en": "Pork, minced meat with spices, fried"
+  },
+  "cha_que_lon": {
+    "name_vn": "Chả quế lợn",
+    "name_en": "Pork, minced meat with spices and cinnamon, fried"
+  },
+  "dam_bong_lon": {
+    "name_vn": "Dăm bông lợn",
+    "name_en": "Pork, ham"
+  },
+  "doi_lon_chin": {
+    "name_vn": "Dồi lợn, chín",
+    "name_en": "Pork, mix blood and viscera and spices in large intestine, boiled"
+  },
+  "gio_bo_chin": {
+    "name_vn": "Giò bò, chín",
+    "name_en": "Beef, minced lean meat and spices, steamed"
+  },
+  "gio_lua_chin": {
+    "name_vn": "Giò lụa, chín",
+    "name_en": "Pork, minced lean meat and spices, steamed"
+  },
+  "gio_thu_lon_chin": {
+    "name_vn": "Giò thủ lợn, chín",
+    "name_en": "Pork, head meat with spices, steamed"
+  },
+  "lap_xuong_lap_suon": {
+    "name_vn": "Lạp xường, lạp sườn",
+    "name_en": "Chinese sausage"
+  },
+  "nem_chao": {
+    "name_vn": "Nem chạo",
+    "name_en": "Pork, skin and meat with spices, rolled with rice paper "
+  },
+  "nem_chua": {
+    "name_vn": "Nem chua",
+    "name_en": "Pork, lean meat, minced with spices, fermented"
+  },
+  "ruoc_thit_lon": {
+    "name_vn": "Ruốc thịt lợn",
+    "name_en": "Pork, lean meat, shredded, fried with salt"
+  },
+  "thit_bo_kho": {
+    "name_vn": "Thịt bò khô",
+    "name_en": "Beef, lean meat, dried with spices"
+  },
+  "thit_trau_kho": {
+    "name_vn": "Thịt trâu khô",
+    "name_en": "Buffalo, meat, dried with spices"
+  },
+  "xuc_xich": {
+    "name_vn": "Xúc xích",
+    "name_en": "Pork, sausage"
+  },
+  "bot_coc": {
+    "name_vn": "Bột cóc",
+    "name_en": "Toad, meat and small bones, powded"
+  },
+  "chau_chau_song": {
+    "name_vn": "Châu chấu, sống",
+    "name_en": "Locust, raw"
+  },
+  "ech_thit_dui_tuoi": {
+    "name_vn": "Ếch (thịt đùi), tươi",
+    "name_en": "Frog, leg meat, raw"
+  },
+  "nhong_tuoi": {
+    "name_vn": "Nhộng, tươi",
+    "name_en": "Silk worm, raw"
+  },
+  "long_ga_ca_bo_tuoi": {
+    "name_vn": "Lòng gà (cả bộ), tươi",
+    "name_en": "Chicken, whole giblets, raw"
+  },
+  "thit_lon_nac_vai_tuoi": {
+    "name_vn": "Thịt lợn, nạc vai, tươi",
+    "name_en": "Pork, lean meat, shoulder, raw"
+  },
+  "thit_lon_nac_vai_luoc": {
+    "name_vn": "Thịt lợn nạc vai, luộc",
+    "name_en": "Pork, lean meat shoulder, boiled"
+  },
+  "thit_lon_nac_mong_tuoi": {
+    "name_vn": "Thịt lợn, nạc mông, tươi",
+    "name_en": "Pork, lean meat, thighs, raw"
+  },
+  "thit_lon_nac_mong_luoc": {
+    "name_vn": "Thịt lợn nạc mông, luộc",
+    "name_en": "Pork, lean meat buttock, boiled"
+  },
+  "thit_lon_nac_than_tuoi": {
+    "name_vn": "Thịt lợn, nạc thăn, tươi",
+    "name_en": "Pork, lean meat, tenderloin, raw"
+  },
+  "thit_lon_nac_than_luoc": {
+    "name_vn": "Thịt lợn nạc thăn, luộc",
+    "name_en": "Pork, lean meat tenderloin, boiled"
+  },
+  "thit_lon_nua_nac_nua_mo_nuong": {
+    "name_vn": "Thịt lợn nửa nạc, nửa mỡ, nướng",
+    "name_en": "Pork, lean and fat meat, grilled"
+  },
+  "thit_ga_cong_nghiep_canh_tuoi": {
+    "name_vn": "Thịt gà công nghiệp, cánh, tươi",
+    "name_en": "Chicken, wing, raw"
+  },
+  "thit_ga_cong_nghiep_canh_luoc": {
+    "name_vn": "Thịt gà công nghiệp, cánh, luộc",
+    "name_en": "Chicken meat, industrial, wing, boiled"
+  },
+  "thit_ga_cong_nghiep_dui_tuoi": {
+    "name_vn": "Thịt gà công nghiệp, đùi, tươi",
+    "name_en": "Chicken, thighs, raw"
+  },
+  "thit_ga_cong_nghiep_dui_luoc": {
+    "name_vn": "Thịt gà công nghiệp, đùi, luộc",
+    "name_en": "Chicken meat, industrial, thighs, boiled"
+  },
+  "thit_ga_cong_nghiep_luon_raw": {
+    "name_vn": "Thịt gà công nghiệp, lườn, raw",
+    "name_en": "Chicken, breast, raw"
+  },
+  "thit_ngan_tuoi": {
+    "name_vn": "Thịt ngan, tươi",
+    "name_en": "Goose, average meat, raw"
+  },
+  "thit_ngan_luoc": {
+    "name_vn": "Thịt ngan, luộc",
+    "name_en": "Muscovy duck meat, boiled"
+  },
+  "cha_la_lot_ran": {
+    "name_vn": "Chả lá lốt, rán",
+    "name_en": "Pork, meat with spices,  rolled with lolot pepper leaves, fried"
+  },
+  "thit_bo_bap_song": {
+    "name_vn": "Thịt bò, bắp, sống",
+    "name_en": "Thịt bò, bắp, sống"
+  },
+  "thit_bo_bap_hap": {
+    "name_vn": "Thịt bò, bắp, hấp",
+    "name_en": "Beef, thigh, steamed"
+  },
+  "thit_bo_vai_hap": {
+    "name_vn": "Thịt bò, vai, hấp",
+    "name_en": "Beef, shoulder, steamed"
+  },
+  "nam_bo": {
+    "name_vn": "Nầm bò",
+    "name_en": "Nầm bò"
+  },
+  "thit_ga_ta_dui_luoc": {
+    "name_vn": "Thịt gà, ta, đùi, luộc",
+    "name_en": "Chicken meat, local,  thigh, boiled"
+  },
+  "thit_ga_ta_luon_dui_luoc": {
+    "name_vn": "Thịt gà, ta, lườn, đùi, luộc",
+    "name_en": "Chicken meat, local,  thigh, boiled"
+  },
+  "thit_ga_ta_canh_dui_luoc": {
+    "name_vn": "Thịt gà, ta, cánh, đùi, luộc",
+    "name_en": "Chicken meat, local, boiled"
+  },
+  "thit_ga_ta_chan_dui_luoc": {
+    "name_vn": "Thịt gà, ta, chân, đùi, luộc",
+    "name_en": "Chicken meat, local,  boiled"
+  },
+  "thit_ga_cong_nghiep_co_luoc": {
+    "name_vn": "Thịt gà, công nghiệp, cổ, luộc",
+    "name_en": "Chicken meat, industrial, neck, boiled"
+  },
+  "thit_lon_mong_song": {
+    "name_vn": "Thịt lợn, mông, sống",
+    "name_en": "Thịt lợn, mông, sống"
+  },
+  "thit_vit_luon_luoc": {
+    "name_vn": "Thịt vịt, lườn, luộc",
+    "name_en": "Duck meat, pointrine, boiled"
+  },
+  "thit_vit_luon_hap": {
+    "name_vn": "Thịt vịt, lườn, hấp",
+    "name_en": "Duck meat, pointrine, steamed"
+  },
+  "thit_vit_dui_luoc": {
+    "name_vn": "Thịt vịt, đùi, luộc",
+    "name_en": "Duck meat, thigh, boiled"
+  },
+  "thit_vit_canh_hap": {
+    "name_vn": "Thịt vịt, cánh, hấp",
+    "name_en": "Duck meat, wing, steamed"
+  },
+  "moc_tu_thit_lon_nau_canh": {
+    "name_vn": "Mọc, từ thịt lợn, nấu canh",
+    "name_en": "Pork mince lean and fat meat ball shaped boiled"
+  },
+  "xuong_cuc": {
+    "name_vn": "Xương cục",
+    "name_en": "Xương cục"
+  },
+  "tiet_ngan_luoc": {
+    "name_vn": "Tiết ngan, luộc",
+    "name_en": "Blood, muscovy duck,  boiled"
+  },
+  "nuoc_ham_xuong_lon": {
+    "name_vn": "Nước hầm xương lợn",
+    "name_en": "Nước hầm xương lợn"
+  },
+  "nuoc_canh": {
+    "name_vn": "Nước canh",
+    "name_en": "Nước canh"
+  },
+  "nuoc_dung": {
+    "name_vn": "Nước dùng",
+    "name_en": "Nước dùng"
+  },
+  "thit_xa_xiu": {
+    "name_vn": "Thịt xá xíu",
+    "name_en": "Thịt xá xíu"
+  },
+  "xuc_xich_bo": {
+    "name_vn": "Xúc xích bò",
+    "name_en": "Xúc xích bò"
+  },
+  "tiet_ga": {
+    "name_vn": "Tiết gà",
+    "name_en": "Tiết gà"
+  },
+  "tiet_de": {
+    "name_vn": "Tiết dê",
+    "name_en": "Tiết dê"
+  },
+  "ca_bong_tuoi": {
+    "name_vn": "Cá bống, tươi",
+    "name_en": "Fish, goby, raw"
+  },
+  "ca_chay_tuoi": {
+    "name_vn": "Cá chày, tươi",
+    "name_en": "Fish, barbel chub, raw"
+  },
+  "ca_chep_tuoi": {
+    "name_vn": "Cá chép, tươi",
+    "name_en": "Fish, carp, raw"
+  },
+  "ca_dua_tuoi": {
+    "name_vn": "Cá dưa, tươi",
+    "name_en": "Fissh, daggertooth pike conger, raw "
+  },
+  "ca_dau_tuoi": {
+    "name_vn": "Cá dầu, tươi",
+    "name_en": "Cá dầu, tươi"
+  },
+  "ca_diec_tuoi": {
+    "name_vn": "Cá diếc, tươi",
+    "name_en": "Fissh, mullet, raw"
+  },
+  "ca_dao_tuoi": {
+    "name_vn": "Cá đao, tươi",
+    "name_en": "Fish, sawfish, raw"
+  },
+  "ca_de_tuoi": {
+    "name_vn": "Cá đé, tươi",
+    "name_en": "Fish, chinese herring or slender shad, raw"
+  },
+  "ca_doi_tuoi": {
+    "name_vn": "Cá đối, tươi",
+    "name_en": "Fish, flathead grey mullet, raw"
+  },
+  "ca_dong_tien_tuoi": {
+    "name_vn": "Cá đồng tiền, tươi",
+    "name_en": "Fish, goby, raw"
+  },
+  "ca_hoi_tuoi": {
+    "name_vn": "Cá hồi, tươi",
+    "name_en": "Fish, salmon, raw"
+  },
+  "ca_kho_chim_thu_nu_de_song": {
+    "name_vn": "Cá khô (chim, thu, nụ, đé), sống",
+    "name_en": "Fish, mix variety, dried"
+  },
+  "ca_lac_tuoi": {
+    "name_vn": "Cá lác, tươi",
+    "name_en": "Cá lác, tươi"
+  },
+  "ca_lac_luoc": {
+    "name_vn": "Cá lác, luộc",
+    "name_en": "Seafish, Thac lac fish, boiled"
+  },
+  "ca_lac_chien_gion": {
+    "name_vn": "Cá lác, chiên giòn",
+    "name_en": "Seafish, Thac lac fish, shallow fried"
+  },
+  "ca_me_tuoi": {
+    "name_vn": "Cá mè, tươi",
+    "name_en": "Fish, silver carp, raw"
+  },
+  "ca_moi_ca_sardin_tuoi": {
+    "name_vn": "Cá mòi (cá sardin), tươi",
+    "name_en": "Fish, sardin, raw"
+  },
+  "ca_mo_tuoi": {
+    "name_vn": "Cá mỡ, tươi",
+    "name_en": "Cá mỡ, tươi"
+  },
+  "ca_moi_tuoi": {
+    "name_vn": "Cá mối, tươi",
+    "name_en": "Fish, lizardfish, raw"
+  },
+  "ca_nac_tuoi": {
+    "name_vn": "Cá nạc, tươi",
+    "name_en": "Cá nạc, tươi"
+  },
+  "ca_ngu_tuoi": {
+    "name_vn": "Cá ngừ, tươi",
+    "name_en": "Fish, tuna, raw"
+  },
+  "ca_nuc_tuoi": {
+    "name_vn": "Cá nục, tươi",
+    "name_en": "Fish, anchovy, raw"
+  },
+  "ca_nuc_luoc": {
+    "name_vn": "Cá nục, luộc",
+    "name_en": "Seafish, Anchovy, boiled"
+  },
+  "ca_nuc_nuong": {
+    "name_vn": "Cá nục, nướng",
+    "name_en": "Seafish, Anchovy, grilled"
+  },
+  "ca_phen_tuoi": {
+    "name_vn": "Cá phèn, tươi",
+    "name_en": "Fish, goatfishes, raw"
+  },
+  "ca_qua_tuoi": {
+    "name_vn": "Cá quả, tươi",
+    "name_en": "Fish, snakehead fish, raw"
+  },
+  "ca_ro_dong_tuoi": {
+    "name_vn": "Cá rô đồng, tươi",
+    "name_en": "Fish, climbing perch, raw"
+  },
+  "ca_ro_phi_tuoi": {
+    "name_vn": "Cá rô phi, tươi",
+    "name_en": "Fish, tilapia, raw"
+  },
+  "ca_ro_phi_chien_gion": {
+    "name_vn": "Cá rô phi, chiên giòn",
+    "name_en": "Cá rô phi, chiên giòn"
+  },
+  "ca_thon_bon_tuoi": {
+    "name_vn": "Cá thờn bơn, tươi",
+    "name_en": "Fish, flatfishes, raw"
+  },
+  "ca_thu_tuoi": {
+    "name_vn": "Cá thu, tươi",
+    "name_en": "Fish, mackerel, kingfish, raw"
+  },
+  "ca_thu_dao_tuoi": {
+    "name_vn": "Cá thu đao, tươi",
+    "name_en": "Fish, pacific saury, raw"
+  },
+  "ca_trach_tuoi": {
+    "name_vn": "Cá trạch, tươi",
+    "name_en": "Fish, spiny eels, raw"
+  },
+  "ca_tram_co_tuoi": {
+    "name_vn": "Cá trắm cỏ, tươi",
+    "name_en": "Fish, grass carp, raw"
+  },
+  "ca_tre_tuoi": {
+    "name_vn": "Cá trê, tươi",
+    "name_en": "Fish, catfish, raw"
+  },
+  "ca_trich_tuoi": {
+    "name_vn": "Cá trích, tươi",
+    "name_en": "Fish, herring, raw"
+  },
+  "ca_troi_tuoi": {
+    "name_vn": "Cá trôi, tươi ",
+    "name_en": "Fish, mrigal carp, raw"
+  },
+  "cua_be_tuoi": {
+    "name_vn": "Cua bể, tươi",
+    "name_en": "Crab, sea water, raw"
+  },
+  "cua_dong_tuoi": {
+    "name_vn": "Cua đồng, tươi",
+    "name_en": "Crab, fresh water, raw"
+  },
+  "cua_ghe_tuoi": {
+    "name_vn": "Cua ghẹ, tươi",
+    "name_en": "Crab, flower crab, blue crab, or sand crab, raw"
+  },
+  "hai_sam_tuoi": {
+    "name_vn": "Hải sâm, tươi",
+    "name_en": "Sea slug, sea cucumber, raw"
+  },
+  "hen_tuoi": {
+    "name_vn": "Hến, tươi",
+    "name_en": "Clam, raw"
+  },
+  "luon_tuoi": {
+    "name_vn": "Lươn, tươi",
+    "name_en": "Fish, eel, mixed species, raw"
+  },
+  "muc_kho_song": {
+    "name_vn": "Mực khô, sống",
+    "name_en": "Squid, dried, raw"
+  },
+  "muc_tuoi": {
+    "name_vn": "Mực, tươi",
+    "name_en": "Squid, fresh, raw"
+  },
+  "muc_tuoi_hap": {
+    "name_vn": "Mực tươi, hấp",
+    "name_en": "Cuttle fish squid, steamed"
+  },
+  "muc_tuoi_nuong": {
+    "name_vn": "Mực tươi, nướng",
+    "name_en": "Cuttle fish squid, grilled"
+  },
+  "oc_buou_tuoi": {
+    "name_vn": "Ốc bươu, tươi",
+    "name_en": "Snail, medium - size, raw"
+  },
+  "oc_buou_luoc": {
+    "name_vn": "Ốc bươu, luộc",
+    "name_en": "Snail, bươu, boiled"
+  },
+  "oc_da_tuoi": {
+    "name_vn": "Ốc đá, tươi",
+    "name_en": "Snail, marble snail, Chinese mysterysnail, raw"
+  },
+  "oc_nhoi_tuoi": {
+    "name_vn": "Ốc nhồi, tươi",
+    "name_en": "Snail, large size, raw"
+  },
+  "oc_nhoi_hap": {
+    "name_vn": "Ốc nhồi, hấp",
+    "name_en": "Snail, nhồi , steamed"
+  },
+  "oc_van_raw": {
+    "name_vn": "Ốc vặn, raw",
+    "name_en": "Snail, helix, raw"
+  },
+  "oc_van_luoc": {
+    "name_vn": "Ốc vặn, luộc",
+    "name_en": "Snail, Helix, boiled"
+  },
+  "oc_van_hap": {
+    "name_vn": "Ốc vặn, hấp",
+    "name_en": "Snail, Helix, steamed"
+  },
+  "oc_van_nuong": {
+    "name_vn": "Ốc vặn, nướng",
+    "name_en": "Snail, Helix, grilled"
+  },
+  "ram_muoi_do": {
+    "name_vn": "Rạm, muối, đồ",
+    "name_en": "Crab, sea water, small size, steamed"
+  },
+  "ram_tuoi": {
+    "name_vn": "Rạm, tươi",
+    "name_en": "Crab, sea water, small size, raw"
+  },
+  "ruoi_tuoi": {
+    "name_vn": "Rươi, tươi",
+    "name_en": "Tylorhynchus sinensis, raw"
+  },
+  "so_tuoi": {
+    "name_vn": "Sò, tươi",
+    "name_en": "Oyster, raw"
+  },
+  "tep_gao_tuoi": {
+    "name_vn": "Tép gạo, tươi",
+    "name_en": "Shrimp, fresh water, tiny, raw"
+  },
+  "tep_kho_song": {
+    "name_vn": "Tép khô, sống",
+    "name_en": "Shrimp, fresh water, tiny, dried"
+  },
+  "tom_bien_tuoi": {
+    "name_vn": "Tôm biển, tươi",
+    "name_en": "Shrimp, sea water, raw"
+  },
+  "tom_bien_luoc": {
+    "name_vn": "Tôm biển, luộc",
+    "name_en": "Shrimp, sea water, boiled"
+  },
+  "tom_bien_nuong": {
+    "name_vn": "Tôm biển, nướng",
+    "name_en": "Shrimp, sea water, grilled"
+  },
+  "tom_dong_tuoi": {
+    "name_vn": "Tôm đồng, tươi",
+    "name_en": "Shrimp, fresh water, raw"
+  },
+  "tom_dong_luoc": {
+    "name_vn": "Tôm đồng, luộc",
+    "name_en": "Shrimp, fresh water, boiled"
+  },
+  "tom_dong_nuong": {
+    "name_vn": "Tôm đồng, nướng",
+    "name_en": "Shrimp, fresh water, grilled"
+  },
+  "tom_bien_kho": {
+    "name_vn": "Tôm biển, khô",
+    "name_en": "Shrimp, sea water, dried"
+  },
+  "trai_nuoc_ngot_tuoi": {
+    "name_vn": "Trai, nước ngọt, tươi",
+    "name_en": "Mussel, fresh water, raw"
+  },
+  "banh_phong_tom_ran": {
+    "name_vn": "Bánh phồng tôm, rán",
+    "name_en": "Chips,  shrimp flavour, fried with oil"
+  },
+  "banh_phong_tom_song": {
+    "name_vn": "Bánh phồng tôm, sống",
+    "name_en": "Chíp, shrimp flavour, raw"
+  },
+  "bot_ca_song": {
+    "name_vn": "Bột cá, sống",
+    "name_en": "Fish flour, bones included, raw"
+  },
+  "ruoc_ca_qua": {
+    "name_vn": "Ruốc cá quả",
+    "name_en": "Fish, snake head fish, dried flour with fish sauce"
+  },
+  "ruoc_tom": {
+    "name_vn": "Ruốc tôm",
+    "name_en": "Shrimp dried flour with fish sauce"
+  },
+  "ca_chim": {
+    "name_vn": "Cá chim",
+    "name_en": "Black pomfret"
+  },
+  "ca_chim_trang": {
+    "name_vn": "Cá chim trắng",
+    "name_en": "Silver or white pomfret"
+  },
+  "ca_dieu_hong": {
+    "name_vn": "Cá điêu hồng",
+    "name_en": "Red tilapia"
+  },
+  "ca_basa_phi_le": {
+    "name_vn": "Cá basa, phi lê",
+    "name_en": "Basafish, Catfish, fillet"
+  },
+  "cha_ca_basa": {
+    "name_vn": "Chả cá basa",
+    "name_en": "Basafish, fishball"
+  },
+  "cha_ca_basa_ran": {
+    "name_vn": "Chả cá basa, rán",
+    "name_en": "Chả cá basa, rán"
+  },
+  "con_trung_truc": {
+    "name_vn": "Con trùng trục",
+    "name_en": "Mussel, fresh water"
+  },
+  "ngao_bien_trang": {
+    "name_vn": "Ngao biển trắng",
+    "name_en": "Sea water clams"
+  },
+  "thit_cua": {
+    "name_vn": "Thịt cua",
+    "name_en": "Thịt cua"
+  },
+  "so_huyet_luoc": {
+    "name_vn": "Sò huyết, luộc",
+    "name_en": "Blood cockle, boiled"
+  },
+  "oc_mong_tay_luoc": {
+    "name_vn": "Ốc móng tay, luộc",
+    "name_en": "Snail, Razor shells, boiled"
+  },
+  "oc_mong_tay_nuong": {
+    "name_vn": "Ốc móng tay, nướng",
+    "name_en": "Snail, Razor shells, grilled"
+  },
+  "oc_huong_luoc": {
+    "name_vn": "Ốc hương, luộc",
+    "name_en": "Snail, Babylonia tesselata, boiled"
+  },
+  "oc_huong_hap": {
+    "name_vn": "Ốc hương, hấp",
+    "name_en": "Snail, Babylonia tesselata, steamed"
+  },
+  "oc_huong_nuong": {
+    "name_vn": "Ốc hương, nướng",
+    "name_en": "Snail, Babylonia tesselata, grilled"
+  },
+  "oc_len_hap": {
+    "name_vn": "Ốc len, hấp",
+    "name_en": "Snail, Obtuse Horn Shell, steamed"
+  },
+  "oc_len_nuong": {
+    "name_vn": "Ốc len, nướng",
+    "name_en": "Snail, Obtuse Horn Shell, grilled"
+  },
+  "so_duong_luoc": {
+    "name_vn": "Sò dương, luộc",
+    "name_en": "Scallop, Vasticardium flavum, boiled"
+  },
+  "so_duong_hap": {
+    "name_vn": "Sò dương, hấp",
+    "name_en": "Scallop, Vasticardium flavum, steamed"
+  },
+  "so_duong_nuong": {
+    "name_vn": "Sò dương, nướng",
+    "name_en": "Scallop, Vasticardium flavum, grilled"
+  },
+  "so_diep_luoc": {
+    "name_vn": "Sò điệp, luộc",
+    "name_en": "Scallop, Noble scallop, boiled"
+  },
+  "so_diep_hap": {
+    "name_vn": "Sò điệp, hấp",
+    "name_en": "Scallop, Noble scallop, steamed"
+  },
+  "so_diep_nuong": {
+    "name_vn": "Sò điệp, nướng",
+    "name_en": "Scallop, Noble scallop, grilled"
+  },
+  "so_long_hap": {
+    "name_vn": "Sò lông, hấp",
+    "name_en": "Scallop, ark clam, steamed"
+  },
+  "so_long_nuong": {
+    "name_vn": "Sò lông, nướng",
+    "name_en": "Scallop, ark clam, grilled"
+  },
+  "ca_basa_tuoi": {
+    "name_vn": "Cá basa, tươi",
+    "name_en": "Cá basa, tươi"
+  },
+  "tom_tit_be_be": {
+    "name_vn": "Tôm tít (bề bề)",
+    "name_en": "Tôm tít (bề bề)"
+  },
+  "tu_hai": {
+    "name_vn": "Tu hài",
+    "name_en": "Tu hài"
+  },
+  "trung_ga_ta": {
+    "name_vn": "Trứng gà ta",
+    "name_en": "Hen egg (Raw, whole)"
+  },
+  "long_do_trung_ga": {
+    "name_vn": "Lòng đỏ trứng gà",
+    "name_en": "Hen egg, yolk"
+  },
+  "long_trang_trung_ga": {
+    "name_vn": "Lòng trắng trứng gà",
+    "name_en": "Hen egg, white"
+  },
+  "trung_vit": {
+    "name_vn": "Trứng vịt",
+    "name_en": "Duck egg"
+  },
+  "long_do_trung_vit": {
+    "name_vn": "Lòng đỏ trứng vịt",
+    "name_en": "Duck egg, yolk"
+  },
+  "long_trang_trung_vit": {
+    "name_vn": "Lòng trắng trứng vịt",
+    "name_en": "Duck egg, white"
+  },
+  "trung_chim_cut": {
+    "name_vn": "Trứng chim cút",
+    "name_en": "Quail egg"
+  },
+  "trung_ca": {
+    "name_vn": "Trứng cá",
+    "name_en": "Fish roe"
+  },
+  "trung_ca_muoi": {
+    "name_vn": "Trứng cá muối",
+    "name_en": "Fish caviar, black and red, granule"
+  },
+  "trung_vit_lon": {
+    "name_vn": "Trứng vịt lộn",
+    "name_en": "Duck embryonated egg"
+  },
+  "bot_trung": {
+    "name_vn": "Bột trứng",
+    "name_en": "Egg powder"
+  },
+  "trung_ga_cong_nghiep": {
+    "name_vn": "Trứng gà công nghiệp",
+    "name_en": "Trứng gà công nghiệp"
+  },
+  "tiet_luoc": {
+    "name_vn": "Tiết luộc",
+    "name_en": "Boiled pig blood"
+  },
+  "su_hao_xao": {
+    "name_vn": "Su hào xào",
+    "name_en": "Stir-fried kohlrabi"
+  },
+  "tit_luc": {
+    "name_vn": "Tiết luộc",
+    "name_en": "Boiled pig blood"
+  },
+  "su_ho_xo": {
+    "name_vn": "Su hào xào",
+    "name_en": "Stir-fried kohlrabi"
+  },
+  "rau_ci_ngt_xo": {
+    "name_vn": "Rau cải ngọt xào",
+    "name_en": "Stir-fried Chinese mustard greens"
+  },
+  "rau_ci_chp_xo_nm": {
+    "name_vn": "Rau cải chíp xào nấm",
+    "name_en": "Stir-fried bok choy with mushrooms"
+  },
+  "rau_ci_bp_xo": {
+    "name_vn": "Rau cải bắp xào",
+    "name_en": "Stir-fried cabbage"
+  },
+  "mc_xo_da": {
+    "name_vn": "Mực xào dưa",
+    "name_en": "Stir-fried squid with pickled mustard greens"
+  },
+  "tht_ln_ba_ch_rang_chy_cnh": {
+    "name_vn": "Thịt lợn ba chỉ rang cháy cạnh",
+    "name_en": "Crispy caramelized pork belly"
+  },
+  "mc_ng_nhi_tht_chin_b": {
+    "name_vn": "Mực ống nhồi thịt chiên bơ",
+    "name_en": "Butter-fried stuffed squid"
+  },
+  "u_ph_st_c_chua": {
+    "name_vn": "Đậu phụ sốt cà chua",
+    "name_en": "Tofu in tomato sauce"
+  },
+  "rau_gin_luc": {
+    "name_vn": "Rau giền luộc",
+    "name_en": "Boiled amaranth leaves"
+  },
+  "vt_om_su": {
+    "name_vn": "Vịt om sấu",
+    "name_en": "Duck braised with dracontomelon"
+  },
+  "tht_mng_sn_kho_c_ci": {
+    "name_vn": "Thịt mông sấn kho củ cải",
+    "name_en": "Braised pork haunch with daikon"
+  },
+  "tht_ln_st_c_chua": {
+    "name_vn": "Thịt lợn sốt cà chua",
+    "name_en": "Pork in tomato sauce"
+  },
+  "tht_ln_ba_ch_kho_trng_ct": {
+    "name_vn": "Thịt lợn ba chỉ kho trứng cút",
+    "name_en": "Braised pork belly with quail eggs"
+  },
+  "tht_chn_gi_nu_ng": {
+    "name_vn": "Thịt chân giò nấu đông",
+    "name_en": "Jellied pork leg stew"
+  },
+  "c_om_chui_u": {
+    "name_vn": "Ốc om chuối đậu",
+    "name_en": "Snail braised with banana and tofu"
+  },
+  "u_ph_kho_tht": {
+    "name_vn": "Đậu phụ kho thịt",
+    "name_en": "Braised tofu with pork"
+  },
+  "c_dic_kho": {
+    "name_vn": "Cá Diếc kho",
+    "name_en": "Braised crucian carp"
+  },
+  "ch_ln_m": {
+    "name_vn": "Chả lợn mỡ",
+    "name_en": "Fatty pork-patse"
+  },
+  "b_b": {
+    "name_vn": "Bì bò",
+    "name_en": "Spring roll with mixed beef and vegetables"
+  },
+  "tm_vin_chin_ng_ph": {
+    "name_vn": "Tôm viên chiên đường phố",
+    "name_en": "Fried shrimp balls"
+  },
+  "bnh_m_b_st_vang": {
+    "name_vn": "Bánh mỳ bò sốt vang",
+    "name_en": "Baguette with beef stew sauce"
+  },
+  "nc_p_l": {
+    "name_vn": "Nước ép lê",
+    "name_en": "Pear juice"
+  },
+  "bnh_rn_vng_5_chic": {
+    "name_vn": "Bánh rán vừng (5 chiếc)",
+    "name_en": "Sesame fried cake (5 pieces)"
+  },
+  "nc_p_lu": {
+    "name_vn": "Nước ép lựu",
+    "name_en": "Pomegranate Juice"
+  },
+  "bnh_m_que_1_ci": {
+    "name_vn": "Bánh mỳ que 1 cái",
+    "name_en": "French baguette (1 piece)"
+  },
+  "bnh_m_ch_c_st_cay": {
+    "name_vn": "Bánh mỳ chả cá sốt cay",
+    "name_en": "Banh my with fish cake in spicy sauce"
+  },
+  "bnh_m_nng_mui_t": {
+    "name_vn": "Bánh mỳ nướng muối ớt",
+    "name_en": "Salt and pepper toast"
+  },
+  "bnh_m_cay_5_ci": {
+    "name_vn": "Bánh mỳ cay 5 cái",
+    "name_en": "Spicy baguette (5 pieces)"
+  },
+  "bnh_m_cho": {
+    "name_vn": "Bánh mỳ chảo",
+    "name_en": "Banh my with beef, egg, pate and sausage served in frying pan"
+  },
+  "bnh_m_cay": {
+    "name_vn": "Bánh mỳ cay",
+    "name_en": "Spicy baguette"
+  },
+  "bnh_m_cho_st_ngt": {
+    "name_vn": "Bánh mỳ chảo sốt ngọt",
+    "name_en": "Banh my with egg, pate and sausage with sweet sauce served in frying pan"
+  },
+  "bnh_gi": {
+    "name_vn": "Bánh giò",
+    "name_en": "Pyramid rice dumpling"
+  },
+  "bnh_m_tht_xin_mt_ong": {
+    "name_vn": "Bánh mỳ thịt xiên mật ong",
+    "name_en": "Honey baked bread with BBQ pork skewers"
+  },
+  "trng_vt_ln_2_qu": {
+    "name_vn": "Trứng vịt lộn 2 quả",
+    "name_en": "Balut (2 pieces)"
+  },
+  "bnh_m_st_trng_ct": {
+    "name_vn": "Bánh mỳ sốt trứng cút",
+    "name_en": "Banh my with sauced quail eggs"
+  },
+  "tht_xin_nng_6_ci": {
+    "name_vn": "Thịt xiên nướng 6 cái",
+    "name_en": "Grilled meat skewers (6 pieces)"
+  },
+  "tht_ln_quay": {
+    "name_vn": "Thịt lợn quay",
+    "name_en": "Roast pork"
+  },
+  "cun_bng_8_ci": {
+    "name_vn": "Cuốn bỗng 8 cái",
+    "name_en": "Lettuce roll with shrimp with vinegar dipping sauce"
+  },
+  "sn_luc": {
+    "name_vn": "Sắn luộc",
+    "name_en": "Boiled cassava"
+  },
+  "c_ph_da": {
+    "name_vn": "Cà phê dừa",
+    "name_en": "Coconut coffee"
+  },
+  "ch_su_ring": {
+    "name_vn": "Chè sầu riêng",
+    "name_en": "Durian dessert soup"
+  },
+  "ph_mai_chin": {
+    "name_vn": "Phô mai chiên",
+    "name_en": "Fried cheese"
+  },
+  "ng_nng": {
+    "name_vn": "Ngô nướng",
+    "name_en": "Grilled corn"
+  },
+  "ch_thi": {
+    "name_vn": "Chè Thái",
+    "name_en": "Variety of jello and milk dessert soup"
+  },
+  "ng_luc": {
+    "name_vn": "Ngô luộc",
+    "name_en": "Boiled corn"
+  },
+  "c_bng_xo_b_trng_mn": {
+    "name_vn": "Ốc bông xào bơ trứng mặn",
+    "name_en": "Stir-fried snail with salted butter egg yolk sauce"
+  },
+  "ng_cay": {
+    "name_vn": "Ngô cay",
+    "name_en": "Spicy corn"
+  },
+  "c_bng_xo_me": {
+    "name_vn": "Ốc bông xào me",
+    "name_en": "Stir-fried snail with tamarind sauce"
+  },
+  "nem_rn": {
+    "name_vn": "Nem rán",
+    "name_en": "Fried spring rolls"
+  },
+  "c_xo": {
+    "name_vn": "Ốc đá xào",
+    "name_en": "Stir fried snail"
+  },
+  "lng_ln_luc": {
+    "name_vn": "Lòng lợn luộc",
+    "name_en": "Boiled pork offal"
+  },
+  "c_mt_luc_mm": {
+    "name_vn": "Ốc mít luộc mắm",
+    "name_en": "Boiled snail in fish sauce"
+  },
+  "khoai_ty_chin": {
+    "name_vn": "Khoai tây chiên",
+    "name_en": "French fries"
+  },
+  "c_m_xo_ng": {
+    "name_vn": "Ốc mỡ xào ngô",
+    "name_en": "Fried snail with maize seeds"
+  },
+  "khoai_lang_luc": {
+    "name_vn": "Khoai lang luộc",
+    "name_en": "Boiled sweet potato"
+  },
+  "chim_ct_quay_l_mc_mt_4_con": {
+    "name_vn": "Chim cút quay lá mắc mật (4 con)",
+    "name_en": "Roasted bird with Dalzell oliv leaves"
+  },
+  "ht_d_nng": {
+    "name_vn": "Hạt dẻ nướng",
+    "name_en": "Roasted chestnuts"
+  },
+  "di_sn_nng": {
+    "name_vn": "Dồi sụn nướng",
+    "name_en": "Roasted pig small intestine"
+  },
+  "gi_b_xo": {
+    "name_vn": "Giá bể xào",
+    "name_en": "Stir-fried Lamp Shell"
+  },
+  "c_vin_chin_ng_ph": {
+    "name_vn": "Cá viên chiên đường phố",
+    "name_en": "Street-style fried fish balls"
+  },
+  "lng_di_sn": {
+    "name_vn": "Lòng dồi sụn",
+    "name_en": "Pork Cartilage blood sausages"
+  },
+  "bng_ng": {
+    "name_vn": "Bỏng ngô",
+    "name_en": "Popcorn"
+  },
+  "nem_thnh": {
+    "name_vn": "Nem Thính",
+    "name_en": "Pork ear and pork belly mixed with roasted rice powder"
+  },
+  "b_vin_chin_ng_ph": {
+    "name_vn": "Bò viên chiên đường phố",
+    "name_en": "Street-style fried beef balls"
+  },
+  "nm_b_kh": {
+    "name_vn": "Nộm bò khô",
+    "name_en": "Salad with dried beef and green papaya"
+  },
+  "ph_lu": {
+    "name_vn": "Phá lấu",
+    "name_en": "Offal stew"
+  },
+  "to_ph": {
+    "name_vn": "Tào phớ",
+    "name_en": "Tofu pudding"
+  },
+  "si_dn": {
+    "name_vn": "Sủi dìn",
+    "name_en": "Glutinous rice balls filled with mung bean patse and black sesame patse in syrup"
+  },
+  "vt_rang_me": {
+    "name_vn": "Vịt rang me",
+    "name_en": "Roasted duck with tamarind"
+  },
+  "hoa_qu_dm": {
+    "name_vn": "Hoa quả dầm",
+    "name_en": "Mixed fruit dessert"
+  },
+  "bnh_a_b_nh": {
+    "name_vn": "Bánh đa bò nhừ",
+    "name_en": "Crispy rice paper with tender beef"
+  },
+  "ch_vng_en": {
+    "name_vn": "Chè vừng đen",
+    "name_en": "Black sesame sweet soup"
+  },
+  "bnh_a_cua": {
+    "name_vn": "Bánh đa cua",
+    "name_en": "Crab noodle soup with red rice noodles"
+  },
+  "ch_xanh": {
+    "name_vn": "Chè đỗ xanh",
+    "name_en": "Mung bean sweet soup"
+  },
+  "bnh_xin_quy_ng": {
+    "name_vn": "Bánh xiên quẩy đường",
+    "name_en": "Sugar-coated fried dough skewers"
+  },
+  "bnh_tri": {
+    "name_vn": "Bánh trôi",
+    "name_en": "Glutinous rice balls in syrup"
+  },
+  "bnh_a_ngan": {
+    "name_vn": "Bánh đa ngan",
+    "name_en": "Red rice noodle soup with duck"
+  },
+  "bnh_trng_trn": {
+    "name_vn": "Bánh tráng trộn",
+    "name_en": "Mixed rice paper salad"
+  },
+  "bn_mm": {
+    "name_vn": "Bún mắm",
+    "name_en": "Fermented fish noodle soup"
+  },
+  "bnh_tiu": {
+    "name_vn": "Bánh tiêu",
+    "name_en": "Hollow fried doughnut"
+  },
+  "bn_b_dm": {
+    "name_vn": "Bún bò dấm",
+    "name_en": "Vietnamese beef and rice vermicelli with vinegar sauce"
+  },
+  "bnh_su_kem": {
+    "name_vn": "Bánh su kem",
+    "name_en": "Cream puff"
+  },
+  "bn_b_nh": {
+    "name_vn": "Bún bò nhừ",
+    "name_en": "Vietnamese noodle soup with tender stewed beef"
+  },
+  "bnh_rn_vng_3_ci": {
+    "name_vn": "Bánh rán vừng 3 cái",
+    "name_en": "Sesame fried cake (3 pieces)"
+  },
+  "bn_c_cay": {
+    "name_vn": "Bún cá cay",
+    "name_en": "Spicy fish noodle soup"
+  },
+  "bnh_rn_ngt_khng_vng_5_ci": {
+    "name_vn": "Bánh rán ngọt không vừng 5 cái",
+    "name_en": "Sweet fried cake without sesame (5 pieces)"
+  },
+  "bn_c_cay_cng": {
+    "name_vn": "Bún cá cay Cảng",
+    "name_en": "Hai Phong spicy fish noodle soup (Cang style)"
+  },
+  "bnh_rn_ngt_c_vng_3c": {
+    "name_vn": "Bánh rán ngọt có vừng (3c)",
+    "name_en": "Sweet sesame fried cake (3 pieces)"
+  },
+  "nc_chanh_leo": {
+    "name_vn": "Nước chanh leo",
+    "name_en": "Passion fruit juice"
+  },
+  "bnh_quy_i_g": {
+    "name_vn": "Bánh quẩy đùi gà",
+    "name_en": "Chicken-drumstick–shaped fried cruller"
+  },
+  "nc_ma_chanh_leo": {
+    "name_vn": "Nước mía chanh leo",
+    "name_en": "Passion fruit mix sugarcane juice"
+  },
+  "bnh_np": {
+    "name_vn": "Bánh nếp",
+    "name_en": "Glutinous rice cake"
+  },
+  "bn_c_cay_ch_kh": {
+    "name_vn": "Bún cá cay chú Khò",
+    "name_en": "Spicy Fish Noodle Soup of Chef Khò"
+  },
+  "bnh_m_khng": {
+    "name_vn": "Bánh mỳ không",
+    "name_en": "Plain baguette"
+  },
+  "bn_c_chm": {
+    "name_vn": "Bún cá chấm",
+    "name_en": "Fish noodle with dipings"
+  },
+  "bnh_m_gi_ch": {
+    "name_vn": "Bánh mỳ giò chả",
+    "name_en": "Baguette with pork sausage"
+  },
+  "bn_cua_thp_cm": {
+    "name_vn": "Bún cua thập cẩm",
+    "name_en": "Rice vermicelli soup with crab and mixed seafood"
+  },
+  "bn_ch": {
+    "name_vn": "Bún chả",
+    "name_en": "Kebab rice noodles"
+  },
+  "bn_ch_c_thu": {
+    "name_vn": "Bún chả cô Thu",
+    "name_en": "Cô Thu\\"
+  },
+  "bnh_m_pate_trng": {
+    "name_vn": "Bánh mỳ pate trứng",
+    "name_en": "Baguette with pâté and egg"
+  },
+  "bn_ch_nem": {
+    "name_vn": "Bún chả nem",
+    "name_en": "Grilled pork with vermicelli and spring rolls"
+  },
+  "bn_ch_qut": {
+    "name_vn": "Bún chả quạt",
+    "name_en": "Grilled pork patties and vermicelli noodles"
+  },
+  "bnh_gi_rn_2_ci": {
+    "name_vn": "Bánh gối rán 2 cái",
+    "name_en": "Fried pillow dumplings (2 pieces)"
+  },
+  "bn_u_mm_tm": {
+    "name_vn": "Bún đậu mắm tôm",
+    "name_en": "Vermicelli with fried tofu and shrimp paste"
+  },
+  "bnh_a_vng": {
+    "name_vn": "Bánh đa vừng",
+    "name_en": "Sesame rice cracker"
+  },
+  "bnh_a_k": {
+    "name_vn": "Bánh đa kê",
+    "name_en": "Sesame rice cracker with mung bean mash"
+  },
+  "bnh_dy_ngt_3_ci": {
+    "name_vn": "Bánh dày ngọt 3 cái",
+    "name_en": "Sweet sticky rice cakes (3 pieces)"
+  },
+  "bn_g": {
+    "name_vn": "Bún gà",
+    "name_en": "Chicken vermicelli soup"
+  },
+  "thch_gng": {
+    "name_vn": "Thạch găng",
+    "name_en": "Grass jelly"
+  },
+  "to_ph_caramen": {
+    "name_vn": "Tào phớ caramen",
+    "name_en": "Caramel tofu pudding"
+  },
+  "sa_ng": {
+    "name_vn": "Sữa ngô",
+    "name_en": "Corn milk"
+  },
+  "sa_chua_l_np": {
+    "name_vn": "Sữa chua lá nếp",
+    "name_en": "Pandan yogurt"
+  },
+  "sa_chua_go_tm": {
+    "name_vn": "Sữa chua gạo tím",
+    "name_en": "Purple rice yogurt"
+  },
+  "kem_sa_chua_trn_chu": {
+    "name_vn": "Kem sữa chua trân châu",
+    "name_en": "Yogurt ice cream with tapioca pearls"
+  },
+  "sa_chua_kem": {
+    "name_vn": "Sữa chua kem",
+    "name_en": "Ice-cream yogurt"
+  },
+  "sa_chua_kem_go_tm": {
+    "name_vn": "Sữa chua kem gạo tím",
+    "name_en": "Purple rice ice-cream yogurt"
+  },
+  "sa_chua_chn_tru": {
+    "name_vn": "Sữa chua chân trâu",
+    "name_en": "Yogurt with tapioca pearls"
+  },
+  "kem_trng": {
+    "name_vn": "Kem trứng",
+    "name_en": "Egg custard"
+  },
+  "ch_da_dm": {
+    "name_vn": "Chè dừa dầm",
+    "name_en": "Coconut jelly sweet soup"
+  },
+  "ch_thp_cm": {
+    "name_vn": "Chè thập cẩm",
+    "name_en": "Mixed sweet soup"
+  },
+  "ch_sen": {
+    "name_vn": "Chè sen",
+    "name_en": "Lotus seed sweet soup"
+  },
+  "bnh_c_tu": {
+    "name_vn": "Bánh đúc tàu",
+    "name_en": "Rice cake made of rice flour and lime water"
+  },
+  "bnh_cun_trng": {
+    "name_vn": "Bánh cuốn trứng",
+    "name_en": "Egg stuffed pancake"
+  },
+  "bnh_cun_tht": {
+    "name_vn": "Bánh cuốn thịt",
+    "name_en": "Pork stuffed pancake"
+  },
+  "bnh_cun_nhn_tm_tht": {
+    "name_vn": "Bánh cuốn nhân tôm thịt",
+    "name_en": "Stuffed rice pancake with shrimp and pork"
+  },
+  "bnh_cun_chay_ch": {
+    "name_vn": "Bánh cuốn chay chả",
+    "name_en": "Vegetarian steamed pancake with \\"
+  },
+  "bnh_bt_lc_6_ci": {
+    "name_vn": "Bánh bột lọc 6 cái",
+    "name_en": "Vietnamese Tapioca Dumplings (6 pieces)"
+  },
+  "bnh_bt_lc_5_ci": {
+    "name_vn": "Bánh bột lọc (5 cái)",
+    "name_en": "Vietnamese Tapioca Dumplings (5 pieces)"
+  },
+  "bnh_bo_2_ci": {
+    "name_vn": "Bánh bèo 2 cái",
+    "name_en": "Two water fern cake"
+  },
+  "bnh_bo": {
+    "name_vn": "Bánh bèo",
+    "name_en": "Water fern cake"
+  },
+  "bnh_m_xi_cho": {
+    "name_vn": "Bánh mì - xôi chảo",
+    "name_en": "Baguette with combo pan"
+  },
+  "xi_xo_thp_cm": {
+    "name_vn": "Xôi xéo thập cẩm",
+    "name_en": "Turmeric sticky rice with mung beans and mixed toppings"
+  },
+  "xi_xo_i_g_st": {
+    "name_vn": "Xôi xéo đùi gà sốt",
+    "name_en": "Sticky rice with mung bean, chicken thigh, and sauce"
+  },
+  "xi_tht_thp_cm": {
+    "name_vn": "Xôi thịt thập cẩm",
+    "name_en": "Sticky Rice with Mixed Meat"
+  },
+  "xi_tht": {
+    "name_vn": "Xôi thịt",
+    "name_en": "Sticky rice with braised pork"
+  },
+  "xi_en": {
+    "name_vn": "Xôi đỗ đen",
+    "name_en": "Black Bean Sticky Rice"
+  },
+  "xc_xch_rn_5_ci": {
+    "name_vn": "Xúc xích rán (5 cái)",
+    "name_en": "Fried sausages (5 pieces)"
+  },
+  "trng_vt_ln": {
+    "name_vn": "Trứng vịt lộn",
+    "name_en": "Balut (fertilized duck egg)"
+  },
+  "tht_xin_nng": {
+    "name_vn": "Thịt xiên nướng",
+    "name_en": "Grilled meat skewers"
+  },
+  "quy_rn": {
+    "name_vn": "Quẩy rán",
+    "name_en": "Fried dough sticks"
+  },
+  "qu_xoi_dm": {
+    "name_vn": "Quả xoài dầm",
+    "name_en": "Shredded mango with seasoning"
+  },
+  "nem_rn_4_ci": {
+    "name_vn": "Nem rán (4 cái)",
+    "name_en": "Fried spring rolls (4 pieces)"
+  },
+  "nem_chua_rn_5_ci": {
+    "name_vn": "Nem chua rán 5 cái",
+    "name_en": "Fried fermented pork rolls (5 pieces)"
+  },
+  "khoai_lang_mt_nng": {
+    "name_vn": "Khoai lang mật nướng",
+    "name_en": "Roasted honey sweet potato"
+  },
+  "khoai_lang_chin": {
+    "name_vn": "Khoai lang chiên",
+    "name_en": "Fried sweet potato"
+  },
+  "ht_d_luc": {
+    "name_vn": "Hạt dẻ luộc",
+    "name_en": "Boiled chestnuts"
+  },
+  "bnh_bng_k": {
+    "name_vn": "Bánh bỏng kê",
+    "name_en": "Popped millet cake"
+  },
+  "nc_p_da_hu": {
+    "name_vn": "Nước ép dưa hấu",
+    "name_en": "Watermelon juice"
+  },
+  "nc_p_chanh_leo": {
+    "name_vn": "Nước ép chanh leo",
+    "name_en": "Passion fruit juice"
+  },
+  "bnh_tri_tu": {
+    "name_vn": "Bánh trôi tàu",
+    "name_en": "Sweet glutinous rice dumplings in syrup"
+  },
+  "bnh_t": {
+    "name_vn": "Bánh tẻ",
+    "name_en": "Savory steamed rice cake"
+  },
+  "bnh_rn_vng": {
+    "name_vn": "Bánh rán vừng",
+    "name_en": "Sesame fried cake"
+  },
+  "bnh_rn_vng_5_ci": {
+    "name_vn": "Bánh rán vừng (5 cái)",
+    "name_en": "Sesame fried cakes (5 pieces)"
+  },
+  "bnh_rn_ngt": {
+    "name_vn": "Bánh rán ngọt",
+    "name_en": "Sweet fried cake"
+  },
+  "bnh_rn_mt_5_ci": {
+    "name_vn": "Bánh rán mật (5 cái)",
+    "name_en": "Molasses-fried cakes (5 pieces)"
+  },
+  "bnh_rn_mt": {
+    "name_vn": "Bánh rán mật",
+    "name_en": "Molasses-fried cake"
+  },
+  "bnh_rn_mn": {
+    "name_vn": "Bánh rán mặn",
+    "name_en": "Savory fried cake"
+  },
+  "bnh_rn_ng_5_ci": {
+    "name_vn": "Bánh rán đường (5 cái)",
+    "name_en": "Sugar-coated fried cakes (5 pieces)"
+  },
+  "bnh_rn_ng": {
+    "name_vn": "Bánh rán đường",
+    "name_en": "Sugar-coated fried cake"
+  },
+  "bnh_quy": {
+    "name_vn": "Bánh quẩy",
+    "name_en": "Fried dough sticks"
+  },
+  "bnh_m_thp_cm": {
+    "name_vn": "Bánh mỳ thập cẩm",
+    "name_en": "Mixed sandwich"
+  },
+  "bnh_m_que": {
+    "name_vn": "Bánh mỳ que",
+    "name_en": "Breadstick"
+  },
+  "bnh_m_bate_trng": {
+    "name_vn": "Bánh mỳ bate trứng",
+    "name_en": "Bread with pâté and egg"
+  },
+  "bnh_m": {
+    "name_vn": "Bánh mỳ",
+    "name_en": "Bread"
+  },
+  "bnh_gi_3_ci": {
+    "name_vn": "Bánh gối 3 cái",
+    "name_en": "Three fried pillow cakes"
+  },
+  "bnh_gai": {
+    "name_vn": "Bánh gai",
+    "name_en": "Black sticky rice cake"
+  },
+  "bnh_c": {
+    "name_vn": "Bánh đúc",
+    "name_en": "Plain rice cake"
+  },
+  "bnh_a": {
+    "name_vn": "Bánh đa",
+    "name_en": "Sesame rice cracker"
+  },
+  "bnh_dy_ngt": {
+    "name_vn": "Bánh dày ngọt",
+    "name_en": "Sweet sticky rice cake"
+  },
+  "bnh_dy_gi": {
+    "name_vn": "Bánh dày giò",
+    "name_en": "Sticky rice cake with pork sausage"
+  },
+  "bnh_dy": {
+    "name_vn": "Bánh dày",
+    "name_en": "Sticky rice cake"
+  },
+  "bnh_chng_rn": {
+    "name_vn": "Bánh chưng rán",
+    "name_en": "Fried square sticky rice cake"
+  },
+  "bnh_chui": {
+    "name_vn": "Bánh chuối",
+    "name_en": "Banana cake"
+  },
+  "bnh_chay": {
+    "name_vn": "Bánh chay",
+    "name_en": "Sweet mung bean glutinous rice balls"
+  },
+  "bnh_cun_ch": {
+    "name_vn": "Bánh cuốn chả",
+    "name_en": "Steamed rice rolls with pork sausage"
+  },
+  "bnh_cun": {
+    "name_vn": "Bánh cuốn",
+    "name_en": "Steamed rice rolls"
+  },
+  "bnh_bt_lc": {
+    "name_vn": "Bánh bột lọc",
+    "name_en": "Tapioca dumplings"
+  },
+  "cho_sn": {
+    "name_vn": "Cháo sườn",
+    "name_en": "Pork rib porridge"
+  },
+  "cho_trai_khng_quy": {
+    "name_vn": "Cháo trai không quẩy",
+    "name_en": "Clam porridge without fried dough sticks"
+  },
+  "cho_trai_c_quy": {
+    "name_vn": "Cháo trai có quẩy",
+    "name_en": "Clam porridge with fried dough sticks"
+  },
+  "cho_xanh": {
+    "name_vn": "Cháo đỗ xanh",
+    "name_en": "Mung bean porridge"
+  },
+  "cho_u_en_ng": {
+    "name_vn": "Cháo đậu đen đường",
+    "name_en": "Black bean sweet porridge"
+  },
+  "xi_xo": {
+    "name_vn": "Xôi xéo",
+    "name_en": "Savory sticky rice with mung bean paste"
+  },
+  "xi_trng_mui_vng": {
+    "name_vn": "Xôi trắng muối vừng",
+    "name_en": "Plain sticky rice with sesame salt"
+  },
+  "xi_lc_vng": {
+    "name_vn": "Xôi lạc vừng",
+    "name_en": "Sticky rice with peanuts and sesame"
+  },
+  "xi_khc": {
+    "name_vn": "Xôi khúc",
+    "name_en": "Pandan sticky rice cake"
+  },
+  "xi_xanh": {
+    "name_vn": "Xôi đỗ xanh",
+    "name_en": "Mung bean sticky rice"
+  },
+  "xi_da": {
+    "name_vn": "Xôi dừa",
+    "name_en": "Coconut sticky rice"
+  },
+  "xi_ch": {
+    "name_vn": "Xôi chè",
+    "name_en": "Sweet sticky rice and pudding"
+  },
+  "cm_sut_45k": {
+    "name_vn": "Cơm suất 45k",
+    "name_en": "Set meal 45k"
+  },
+  "cm_sut_40k": {
+    "name_vn": "Cơm suất 40K",
+    "name_en": "Set meal 40k"
+  },
+  "cm_sut_35k": {
+    "name_vn": "cơm suất 35k",
+    "name_en": "Set meal 35k"
+  },
+  "cm_sut_30k": {
+    "name_vn": "Cơm suất 30k",
+    "name_en": "Set meal 30k"
+  },
+  "cm_rang_thp_cm": {
+    "name_vn": "Cơm rang thập cẩm",
+    "name_en": "Mixed fried rice"
+  },
+  "cm_rang_da_b": {
+    "name_vn": "cơm rang dưa bò",
+    "name_en": "Fried rice with pickled mustard greens and beef"
+  },
+  "cm_bnh_dn_35k": {
+    "name_vn": "cơm bình dân 35k",
+    "name_en": "Affordable set rice meal 35k"
+  },
+  "bn_sn_mc": {
+    "name_vn": "Bún sườn mọc",
+    "name_en": "Pork rib and meatball noodle soup"
+  },
+  "bn_riu_cua_b_gi": {
+    "name_vn": "Bún riêu cua bò giò",
+    "name_en": "Crab noodle soup with beef and pork trotters"
+  },
+  "bn_riu": {
+    "name_vn": "Bún riêu",
+    "name_en": "Crab noodle soup"
+  },
+  "xi_pate_tht": {
+    "name_vn": "Xôi pate thịt",
+    "name_en": "Sticky rice with pâté and meat"
+  },
+  "xi_pate": {
+    "name_vn": "Xôi pate",
+    "name_en": "Sticky rice with pate"
+  },
+  "cm_sut_tht_g_ln_trng": {
+    "name_vn": "Cơm suất (thịt gà, lợn, trứng)",
+    "name_en": "Set meal (chicken, pork belly, and egg)"
+  },
+  "cm_sut_tm_c_tht_g": {
+    "name_vn": "Cơm suất (tôm, ốc, thịt gà)",
+    "name_en": "Set meal (shrimp, snail, and chicken)"
+  },
+  "cm_sut_mng_gi_gi_cy": {
+    "name_vn": "Cơm suất (móng giò, giả cầy)",
+    "name_en": "Pork trotters with fake dog meat sauce"
+  },
+  "cm_sut_ba_ch_kho": {
+    "name_vn": "Cơm suất (ba chỉ kho)",
+    "name_en": "Set meal (braised pork belly)"
+  },
+  "cm_sut_ba_ch_rang": {
+    "name_vn": "Cơm suất (ba chỉ rang)",
+    "name_en": "Pork belly with rice"
+  },
+  "cm_sut_sn_u_ch_l_lt": {
+    "name_vn": "Cơm suất (sườn, đậu, chả lá lốt)",
+    "name_en": "Rice with grilled pork chop, egg roll, and fried egg"
+  },
+  "bn_c": {
+    "name_vn": "Bún ốc",
+    "name_en": "Snail noodle soup"
+  },
+  "bn_ngan_thanh_h": {
+    "name_vn": "Bún ngan Thanh Hà",
+    "name_en": "Thanh Ha duck noodle soup"
+  },
+  "bn_ngan": {
+    "name_vn": "Bún ngan",
+    "name_en": "Duck noodle soup"
+  },
+  "nem_nng_5_ci": {
+    "name_vn": "Nem nướng (5 cái)",
+    "name_en": "Grilled pork rolls (5 pieces)"
+  },
+  "i_g_rn": {
+    "name_vn": "Đùi gà rán",
+    "name_en": "Fried chicken thigh"
+  },
+  "cm_huy_linh": {
+    "name_vn": "Cốm Huy Linh",
+    "name_en": "Huy Linh young green rice"
+  },
+  "chn_g_nng_mui": {
+    "name_vn": "Chân gà nướng muối",
+    "name_en": "Grilled chicken feet with salt"
+  },
+  "chn_g_nng_mm_5_ci": {
+    "name_vn": "Chân gà nướng mắm (5 cái)",
+    "name_en": "Grilled chicken feet with fish sauce (5 pieces)"
+  },
+  "chn_g_nng_5_ci": {
+    "name_vn": "Chân gà nướng (5 cái)",
+    "name_en": "Grilled chicken feet (5 pieces)"
+  },
+  "chn_g_nng": {
+    "name_vn": "Chân gà nướng",
+    "name_en": "Grilled chicken feet"
+  },
+  "ch_c_thng_long_cho": {
+    "name_vn": "Chả cá thăng long chảo",
+    "name_en": "Pan-fried Thang Long fish"
+  },
+  "cnh_g_nng": {
+    "name_vn": "Cánh gà nướng",
+    "name_en": "Grilled chicken wings"
+  },
+  "kem_sa_da": {
+    "name_vn": "Kem sữa dừa",
+    "name_en": "Coconut milk ice cream"
+  },
+  "kem_khoai_mn": {
+    "name_vn": "Kem khoai môn",
+    "name_en": "Taro ice cream"
+  },
+  "kem_socola": {
+    "name_vn": "Kem socola",
+    "name_en": "Chocolate ice cream"
+  },
+  "kem_su_ring": {
+    "name_vn": "Kem sầu riêng",
+    "name_en": "Durian ice cream"
+  },
+  "kem_c_qu_vani": {
+    "name_vn": "Kem ốc quế vani",
+    "name_en": "Vanilla cone ice cream"
+  },
+  "kem_c_qu_cacao": {
+    "name_vn": "Kem ốc quế cacao",
+    "name_en": "Cocoa cone ice cream"
+  },
+  "kem_u_xanh": {
+    "name_vn": "Kem đậu xanh",
+    "name_en": "Mung bean ice cream"
+  },
+  "kem_cm": {
+    "name_vn": "Kem cốm",
+    "name_en": "Young green rice ice cream"
+  },
+  "kem_cacao": {
+    "name_vn": "Kem cacao",
+    "name_en": "Cocoa ice cream"
+  },
+  "to_ph_truyn_thng": {
+    "name_vn": "Tào phớ truyền thống",
+    "name_en": "Traditional tofu pudding"
+  },
+  "ch_xoi": {
+    "name_vn": "Chè xoài",
+    "name_en": "Mango sweet soup"
+  },
+  "ch_khc_bch": {
+    "name_vn": "Chè khúc bạch",
+    "name_en": "Almond milk jelly dessert"
+  },
+  "che_caramen": {
+    "name_vn": "Caramen",
+    "name_en": "Caramen"
+  },
+  "caramen_hoa_qu": {
+    "name_vn": "Caramen hoa quả",
+    "name_en": "Fruit caramel pudding"
+  },
+  "burger_cheesy": {
+    "name_vn": "Burger Cheesy",
+    "name_en": "Burger Cheesy"
+  },
+  "burger_bbq": {
+    "name_vn": "Burger BBQ",
+    "name_en": "Burger BBQ"
+  },
+  "cm_sut_c_trng_tht": {
+    "name_vn": "Cơm suất (cá, trứng, thịt)",
+    "name_en": "Set meal (scad fish, egg and pork belly)"
+  },
+  "bnh_tm_5_ci": {
+    "name_vn": "Bánh tôm (5 cái)",
+    "name_en": "Shrimp fritters (5 pieces)"
+  },
+  "bnh_tm": {
+    "name_vn": "Bánh tôm",
+    "name_en": "Shrimp fritters"
+  },
+  "bnh_cun_nhn_tht": {
+    "name_vn": "Bánh cuốn nhân thịt",
+    "name_en": "Steamed rice rolls with minced pork filling"
+  },
+  "bnh_cun_nng": {
+    "name_vn": "Bánh cuốn nóng",
+    "name_en": "Hot steamed rice rolls"
+  },
+  "bnh_cun_ch_b_honh": {
+    "name_vn": "Bánh cuốn chả bà hoành",
+    "name_en": "Steamed rice rolls with pork sausage (Ba Hoanh style)"
+  },
+  "bnh_m_st_vang": {
+    "name_vn": "Bánh mỳ sốt vang",
+    "name_en": "Red wine beef stew baguette"
+  },
+  "bnh_m_pate_trng_ch": {
+    "name_vn": "Bánh mỳ pate trứng chả",
+    "name_en": "Pâté, egg, and pork sausage baguette"
+  },
+  "bnh_m_g_quay": {
+    "name_vn": "Bánh mỳ gà quay",
+    "name_en": "Roasted chicken baguette"
+  },
+  "bnh_m_bt_tt": {
+    "name_vn": "Bánh mỳ bít tết",
+    "name_en": "Steak baguette"
+  },
+  "cho_trai_sn": {
+    "name_vn": "Cháo trai sườn",
+    "name_en": "Rice congee with mussel and pork rib meat"
+  },
+  "cho_lng": {
+    "name_vn": "Cháo lòng",
+    "name_en": "Pork organ congee"
+  },
+  "cho_khoi": {
+    "name_vn": "Cháo khoái",
+    "name_en": "Rice and spinach porridge with mung bean patse"
+  },
+  "cho_g": {
+    "name_vn": "Cháo gà",
+    "name_en": "Chicken congee"
+  },
+  "cho_ch": {
+    "name_vn": "Cháo ếch",
+    "name_en": "Frog congee"
+  },
+  "cho_ln_cay": {
+    "name_vn": "Cháo lươn cay",
+    "name_en": "Spicy eel porridge"
+  },
+  "xi_ch_b_ct": {
+    "name_vn": "Xôi chè bà cốt",
+    "name_en": "Ms.Cot\\"
+  },
+  "cho_trai": {
+    "name_vn": "Cháo trai",
+    "name_en": "Clam rice porridge"
+  },
+  "cho_tim": {
+    "name_vn": "Cháo tim",
+    "name_en": "Heart congee"
+  },
+  "cho_sn_sn": {
+    "name_vn": "Cháo sườn sụn",
+    "name_en": "Rice congee with pork cartilage"
+  },
+  "cho_sn_ln": {
+    "name_vn": "Cháo sườn lợn",
+    "name_en": "Pork rib congee"
+  },
+  "min_ngan_trn": {
+    "name_vn": "Miến ngan trộn",
+    "name_en": "Vermicelli mixed with goose"
+  },
+  "min_ngan_nc": {
+    "name_vn": "Miến ngan nước",
+    "name_en": "Vermicelli soup with muscovy duck"
+  },
+  "min_g_trn": {
+    "name_vn": "Miến gà trộn",
+    "name_en": "Vermicelli mixed with chicken"
+  },
+  "m_vn_thn": {
+    "name_vn": "Mỳ vằn thắn",
+    "name_en": "Wheat noodle with Wonton soup"
+  },
+  "m_trn_b": {
+    "name_vn": "Mỳ trọn bò",
+    "name_en": "Wheat noodle mixed with beef"
+  },
+  "m_trn": {
+    "name_vn": "Mỳ trộn",
+    "name_en": "Wheat noodle mixed with wonton, meat and vegetables"
+  },
+  "m_ch_thp_cm": {
+    "name_vn": "Mỳ chờ thập cẩm",
+    "name_en": "Wheat noodle soup with wonton and pork"
+  },
+  "m_ch": {
+    "name_vn": "Mỳ chờ",
+    "name_en": "Wheat noodle soup with wonton"
+  },
+  "m_vn_thn_thng_huyn": {
+    "name_vn": "Mỳ vằn thắn Thắng Huyền",
+    "name_en": "Thang Huyen\\"
+  },
+  "m_tim_ct": {
+    "name_vn": "Mỳ tim cật",
+    "name_en": "Wheat noodle soup with mixed pork organs"
+  },
+  "min_ngan": {
+    "name_vn": "Miến ngan",
+    "name_en": "Muscovy duck vermicelli"
+  },
+  "min_ln_nc": {
+    "name_vn": "Miến lươn (nước)",
+    "name_en": "Vermicelli soup with eel"
+  },
+  "h_tiu_nam_vang_nc": {
+    "name_vn": "Hủ tiếu Nam vang nước",
+    "name_en": "Phnom Penh-style noodle soup"
+  },
+  "bnh_canh_gh": {
+    "name_vn": "Bánh canh ghẹ",
+    "name_en": "Crab thick noodle soup"
+  },
+  "trng_g_rn_ngi_cu": {
+    "name_vn": "Trứng gà rán ngải cứu",
+    "name_en": "Wormwood Fried Eggs"
+  },
+  "ph_xo_mm": {
+    "name_vn": "Phở xào mềm",
+    "name_en": "Stir-fried rice noodles"
+  },
+  "ph_trn": {
+    "name_vn": "Phở trộn",
+    "name_en": "Mixed Pho"
+  },
+  "ph_tru": {
+    "name_vn": "Phở Trâu",
+    "name_en": "Noodle soup with buffalo meat"
+  },
+  "ph_ti_b": {
+    "name_vn": "Phở tái bò",
+    "name_en": "Noodle soup with eye round steak and meat balls"
+  },
+  "ph_st_vang": {
+    "name_vn": "Phở sốt vang",
+    "name_en": "Pho with beef stew in red wine"
+  },
+  "ph_g_cht": {
+    "name_vn": "Phở gà chặt",
+    "name_en": "Chopped chicken pho"
+  },
+  "ph_chin_phng": {
+    "name_vn": "Phở chiên phồng",
+    "name_en": "Fried Pho Noodle"
+  },
+  "ph_b_ti": {
+    "name_vn": "Phở bò tái",
+    "name_en": "Noodle soup with eye round steak"
+  },
+  "ph_b_chn": {
+    "name_vn": "Phở bò chín",
+    "name_en": "Noodle soup with brisket & meat balls"
+  },
+  "bn_tm": {
+    "name_vn": "Bún tôm",
+    "name_en": "Shrimp noodle soup"
+  },
+  "bn_ri": {
+    "name_vn": "Bún rươi",
+    "name_en": "Rice vermicelli with freshwater crab"
+  },
+  "ph_xo": {
+    "name_vn": "Phở xào",
+    "name_en": "Stir-fried pho"
+  },
+  "ph_g": {
+    "name_vn": "Phở gà",
+    "name_en": "Sliced-chicken noodle soup"
+  },
+  "ph_chin": {
+    "name_vn": "Phở chiên",
+    "name_en": "Stir-fried pho"
+  },
+  "ph_cun_10_ci": {
+    "name_vn": "Phở cuốn (10 cái)",
+    "name_en": "Rolled up beef noodles"
+  },
+  "ph_b_xo": {
+    "name_vn": "Phở bò xào",
+    "name_en": "Fried rice noodles with beef"
+  },
+  "ph_b_st_vang": {
+    "name_vn": "Phở bò sốt vang",
+    "name_en": "Vietnamese Red Wine Beef Noodle Soup"
+  },
+  "bn_trn_nam_b": {
+    "name_vn": "Bún trộn nam bộ",
+    "name_en": "Southern Vietnamese beef noodle salad"
+  },
+  "bn_thang": {
+    "name_vn": "Bún thang",
+    "name_en": "Hot rice noodle soup"
+  },
+  "bn_riu_gnh": {
+    "name_vn": "Bún riêu gánh",
+    "name_en": "Crab paste noodle soup"
+  },
+  "bn_c_nng": {
+    "name_vn": "Bún ốc nóng",
+    "name_en": "Snail noodle soup"
+  },
+  "bn_gi_cy": {
+    "name_vn": "Bún giả cày",
+    "name_en": "Vietnamese rice vermicelli with fermented pork knuckle stew"
+  },
+  "bn_u_mt": {
+    "name_vn": "Bún đậu mẹt",
+    "name_en": "Vermicelli with fried tofu and shrimp paste"
+  },
+  "bn_dc_mng": {
+    "name_vn": "Bún dọc mùng",
+    "name_en": "Colocasia gigantea noodle soup"
+  },
+  "trng_ngi_cu": {
+    "name_vn": "Trứng ngải cứu",
+    "name_en": "Mugwort fried eggs"
+  },
+  "quy_ng_5_ci": {
+    "name_vn": "Quẩy đường (5 cái)",
+    "name_en": "Wheat fritters twisted fried"
+  },
+  "pho_mai_que_chin_2_ci": {
+    "name_vn": "Pho mai que chiên 2 cái",
+    "name_en": "Deep fried cheese sticks (2 pieces)"
+  },
+  "mc_vin_chin_ng_ph_5_ci": {
+    "name_vn": "Mực viên chiên đường phố (5 cái)",
+    "name_en": "Fried squid balls on the street (5 pieces)"
+  },
+  "c_vin_chin_ng_ph_5_ci": {
+    "name_vn": "Cá viên chiên đường phố (5 cái)",
+    "name_en": "Fried fish balls on the street (5 pieces)"
+  },
+  "bnh_bng_ng_mt": {
+    "name_vn": "Bánh bỏng ngô mật",
+    "name_en": "Molasses popcorn"
+  },
+  "bnh_bng_go": {
+    "name_vn": "Bánh bỏng gạo",
+    "name_en": "Poprice cake"
+  },
+  "to_ph_thp_cm": {
+    "name_vn": "Tào phớ thập cẩm",
+    "name_en": "Tofu with tapioca pearls and jelly"
+  },
+  "ch_xanh_trn_chu": {
+    "name_vn": "Chè đỗ xanh trân châu",
+    "name_en": "Mung bean dessert soup with tapioca pearls"
+  },
+  "bo_bia": {
+    "name_vn": "Bò bía",
+    "name_en": "Sweet popiah"
+  },
+  "bnh_trng_nng": {
+    "name_vn": "Bánh tráng nướng",
+    "name_en": "Grilled girdle cake"
+  },
+  "bnh_ng": {
+    "name_vn": "Bánh ngô",
+    "name_en": "Sweet corn fritters"
+  },
+  "bnh_khoai": {
+    "name_vn": "Bánh khoai",
+    "name_en": "Sweet potato fritters"
+  },
+  "bnh_crepe_socola_chui": {
+    "name_vn": "Bánh crepe socola chuối",
+    "name_en": "Banana chocolate crepe cake"
+  },
+  "bnh_crepe_ngt": {
+    "name_vn": "Bánh crepe ngọt",
+    "name_en": "Sweet crepes cake"
+  },
+  "bnh_crepe_mn": {
+    "name_vn": "Bánh crepe mặn",
+    "name_en": "Crepes cake with sausage and cheese"
+  },
+  "bnh_crepe_dm_bng_ph_mai": {
+    "name_vn": "Bánh crepe dăm bông phô mai",
+    "name_en": "Crepes cake with ham and cheese"
+  },
+  "bnh_gio_mt_ma": {
+    "name_vn": "Bánh gio mật mía",
+    "name_en": "Alkaline sticky rice dumplings with molasses"
+  },
+  "cho_ruc_tht_ln": {
+    "name_vn": "Cháo ruốc thịt lợn",
+    "name_en": "Rice congee with dried shredded pork"
+  },
+  "cho_lng_ln": {
+    "name_vn": "Cháo lòng lợn",
+    "name_en": "Rice congee with hog intestines"
+  },
+  "cho_u_en_u_ph": {
+    "name_vn": "Cháo đậu đen, đậu phụ",
+    "name_en": "Rice congee with black beans and fried tofu"
+  },
+  "xi_trng_tht_trng": {
+    "name_vn": "Xôi trắng thịt trứng",
+    "name_en": "Sticky rice with braised meat and eggs"
+  },
+  "xi_ng": {
+    "name_vn": "Xôi ngô",
+    "name_en": "Sticky rice with maize seeds and mung bean paste"
+  },
+  "xi_lc_vng_ruc": {
+    "name_vn": "Xôi lạc vừng ruốc",
+    "name_en": "Sticky rice with dried shredded pork and roasted peanut mixed with sesame and salt"
+  },
+  "cm_sut_trng_tht_ba_ch": {
+    "name_vn": "Cơm suất (trứng, thịt ba chỉ)",
+    "name_en": "Set meal (egg and pork belly)"
+  },
+  "cm_sut_tht_c": {
+    "name_vn": "Cơm suất (thịt, cá)",
+    "name_en": "Set meal (amur carp and pig leg)"
+  },
+  "cm_g": {
+    "name_vn": "Cơm gà",
+    "name_en": "Economy rice with chicken"
+  },
+  "cm_bi": {
+    "name_vn": "Cơm bụi",
+    "name_en": "Low-price rice"
+  },
+  "cm_bnh_dn_c_tht_tm_u": {
+    "name_vn": "Cơm bình dân (cá, thịt, tôm, đậu)",
+    "name_en": "Set meal (scad fish, pork belly, shrimp and tofu)"
+  },
+  "cm_bnh_dn_tht_g_tm_tht_ln_ba_ch": {
+    "name_vn": "Cơm bình dân (thịt gà, tôm, thịt lợn ba chỉ)",
+    "name_en": "Set meal (chicken, shrimp and pork belly)"
+  },
+  "cm_bnh_dn_c_nc_tht_ba_ch": {
+    "name_vn": "Cơm bình dân (cá nục, thịt ba chỉ)",
+    "name_en": "Set meal (scad fish and pork belly)"
+  },
+  "trng_chn_nng": {
+    "name_vn": "Trứng chén nướng",
+    "name_en": "Grilled eggs"
+  },
+  "set_cnh_i_g_tm_bt_chin": {
+    "name_vn": "Set cánh, đùi gà tẩm bột chiên",
+    "name_en": "Set of deep fried chicken wings and drumsticks"
+  },
+  "set_cnh_i_g_chin_mm": {
+    "name_vn": "Set cánh - đùi gà chiên mắm",
+    "name_en": "Set of fish sauce glazed chicken wings and drumsticks"
+  },
+  "ph_mai_chin_2_vin": {
+    "name_vn": "Phô mai chiên (2 viên)",
+    "name_en": "Deep fried cheesecake (2 pieces)"
+  },
+  "nem_nng_cun": {
+    "name_vn": "Nem nướng cuốn",
+    "name_en": "Vietnamese grilled pork sausage rolls"
+  },
+  "cm_lng_vng": {
+    "name_vn": "Cốm làng vòng",
+    "name_en": "Vong village green rice"
+  },
+  "ch_ri": {
+    "name_vn": "Chả rươi",
+    "name_en": "Sandworm omelet"
+  },
+  "ch_c_l_vng": {
+    "name_vn": "Chả cá lã vọng",
+    "name_en": "Rice vermicelli with fried fish-paste (La Vong style)"
+  },
+  "cnh_g_tm_bt_chin": {
+    "name_vn": "Cánh gà tẩm bột chiên",
+    "name_en": "Deep fried chicken wings"
+  },
+  "cnh_g_nng_5_ci": {
+    "name_vn": "Cánh gà nướng (5 cái)",
+    "name_en": "BBQ chicken wings (5 pieces)"
+  },
+  "sa_ti_trn_chu": {
+    "name_vn": "Sữa tươi trân châu",
+    "name_en": "Bubble milk"
+  },
+  "sa_chua_u_xanh_rau_m": {
+    "name_vn": "Sữa chua đậu xanh rau má",
+    "name_en": "Mungbean-greenwort yogurt smoothie"
+  },
+  "sa_chua_trn_chu": {
+    "name_vn": "Sữa chua trân châu",
+    "name_en": "Yogurt with tapioca pearls"
+  },
+  "sa_chua_thch_l_np": {
+    "name_vn": "Sữa chua thạch lá nếp",
+    "name_en": "Yogurt with pandan leaf jelly"
+  },
+  "sa_chua_np_cm_mt_caramen": {
+    "name_vn": "Sữa chua nếp cẩm, mít, caramen",
+    "name_en": "Black sticky rice yogurt with jackfruit and caramel"
+  },
+  "sa_chua_np_cm": {
+    "name_vn": "Sữa chua nếp cẩm",
+    "name_en": "Black sticky rice yogurt"
+  },
+  "nha_am_trn_mt_caramen": {
+    "name_vn": "Nha đam trộn mít caramen",
+    "name_en": "Caramel with aloe vera and jackfruit"
+  },
+  "ch_thp_cm_khng_c_xi": {
+    "name_vn": "Chè thập cẩm (không có xôi)",
+    "name_en": "Almond panna cotta dessert soup"
+  },
+  "ch_thp_cm_c_xi": {
+    "name_vn": "Chè thập cẩm (có xôi)",
+    "name_en": "Mixed bean dessert soup"
+  },
+  "ch_kem_da": {
+    "name_vn": "Chè kem dừa",
+    "name_en": "Coconut ice cream dessert soup"
+  },
+  "caramen_thp_cm_khng_xi": {
+    "name_vn": "Caramen thập cẩm (không xôi)",
+    "name_en": "Caramel mixed with tapioca pearls"
+  },
+  "caramen_thp_cm_c_xi": {
+    "name_vn": "Caramen thập cẩm (có xôi)",
+    "name_en": "Caramel mixed with black sticky rice, tapioca pearls and fruit"
+  },
+  "caramen_matcha_trn": {
+    "name_vn": "Caramen matcha trộn",
+    "name_en": "Caramel mixed with match jelly"
+  },
+  "caramen_hoa_qu_ti": {
+    "name_vn": "Caramen hoa quả tươi",
+    "name_en": "Caramel with mixed fruit"
+  },
+  "c_ph_trng": {
+    "name_vn": "Cà phê trứng",
+    "name_en": "Egg coffee"
+  },
+  "pizza_tht_xng_khi_c_l": {
+    "name_vn": "Pizza thịt xông khói (cỡ L)",
+    "name_en": "Bacon pizza (L size)"
+  },
+  "pizza_thp_cm_c_l": {
+    "name_vn": "Pizza thập cẩm (cỡ L)",
+    "name_en": "Mixed pizza (L size)"
+  },
+  "pizza_hi_sn_c_m": {
+    "name_vn": "Pizza hải sản (cỡ M)",
+    "name_en": "Seafood pizza (M size)"
+  },
+  "pizza_hi_sn_c_l": {
+    "name_vn": "Pizza hải sản (cỡ L)",
+    "name_en": "Seafood pizza (L size)"
+  },
+  "pizza_g_ph_mai_c_s": {
+    "name_vn": "Pizza gà phô mai (cỡ S)",
+    "name_en": "Cheesy Chicken Pizza (S size)"
+  },
+  "pizza_g_nng_nm_c_l": {
+    "name_vn": "Pizza gà nướng nấm (cỡ L)",
+    "name_en": "BBQ chicken mushroom pizza (L size)"
+  },
+  "pizza_b_c_m": {
+    "name_vn": "Pizza bò (cỡ M)",
+    "name_en": "Premium beed pizza (M size)"
+  },
+  "hamburger_ln": {
+    "name_vn": "Hamburger lợn",
+    "name_en": "Pork hamburger"
+  },
+  "hamburger_g": {
+    "name_vn": "Hamburger Gà",
+    "name_en": "Chicken Humburger"
+  },
+  "hamburger_b": {
+    "name_vn": "Hamburger Bò",
+    "name_en": "Beef Hamburger"
+  },
+  "burger_tm": {
+    "name_vn": "Burger Tôm",
+    "name_en": "Shrimp burger"
+  },
+  "burger_g": {
+    "name_vn": "Burger gà",
+    "name_en": "Chicken Burger"
+  },
+  "burger_c": {
+    "name_vn": "Burger cá",
+    "name_en": "Fish Burger"
+  },
+  "bnh_g_hng_mai": {
+    "name_vn": "Bánh gà Hồng Mai",
+    "name_en": "Hong Mai Chicken nugget"
+  },
+  "bnh_tm_h_ty": {
+    "name_vn": "Bánh tôm Hồ Tây",
+    "name_en": "Ho Tay crispy prawn fritters"
+  },
+  "bnh_cun_thanh_tr": {
+    "name_vn": "Bánh cuốn Thanh Trì",
+    "name_en": "Rice pancake rolled with pork (Thanh Tri style)"
+  },
+  "bnh_m_pate_thp_cm": {
+    "name_vn": "Bánh mỳ Pate thập cẩm",
+    "name_en": "Banh my with Pate and mixed"
+  },
+  "bnh_m_pa_t_trng": {
+    "name_vn": "Bánh mỳ pa tê trứng",
+    "name_en": "Banh my with Pate and fried egg"
+  },
+  "bnh_m_cho_ln": {
+    "name_vn": "Bánh mỳ chảo lợn",
+    "name_en": "Banh my with pork served in frying pan"
+  },
+  "bnh_m_cho_b": {
+    "name_vn": "Bánh mỳ chảo bò",
+    "name_en": "Banh my with beef served in frying pan"
+  },
+  "xi_xu": {
+    "name_vn": "Xôi xíu",
+    "name_en": "Sticky rice with Char siu"
+  },
+  "xi_xo_tht": {
+    "name_vn": "Xôi xéo thịt",
+    "name_en": "Sticky rice with braised pork belly and mung bean paste"
+  },
+  "xi_thp_cm": {
+    "name_vn": "Xôi thập cẩm",
+    "name_en": "Sticky rice with mixed meat and vegetables"
+  },
+  "xi_c_r_ng": {
+    "name_vn": "Xôi cá rô đồng",
+    "name_en": "Sticky rice with shredded Tilapia fish"
+  },
+  "min_riu_cua_trn": {
+    "name_vn": "Miến riêu cua (trộn)",
+    "name_en": "Vermicelli mixed with fresh water crab paste"
+  },
+  "min_riu_cua_nc": {
+    "name_vn": "Miến riêu cua (nước)",
+    "name_en": "Vermicelli soup with fresh water crab paste"
+  },
+  "min_ngan_mc": {
+    "name_vn": "Miến ngan mọc",
+    "name_en": "Vermicelli soup with muscovy duck and meatball"
+  },
+  "min_ln_trn": {
+    "name_vn": "Miến lươn trộn",
+    "name_en": "Vermicelli mixed with eel"
+  },
+  "h_tiu_tht_bm": {
+    "name_vn": "Hủ tiếu thịt bằm",
+    "name_en": "Rice noodle soup with minced pork"
+  },
+  "h_tiu_nam_vang": {
+    "name_vn": "Hủ tiếu Nam Vang",
+    "name_en": "Rice noodle soup with pork and shrimp (Nam Vang style)"
+  },
+  "h_tiu_i_dng": {
+    "name_vn": "Hủ tiếu đại dương",
+    "name_en": "Rice noodle soup with mixed seafood"
+  },
+  "bnh_canh_sn_heo": {
+    "name_vn": "Bánh canh sườn heo",
+    "name_en": "Thick rice noodle soup with pork-rib"
+  },
+  "ph_thn": {
+    "name_vn": "Phở Thìn",
+    "name_en": "Pho Thin"
+  },
+  "ph_li_b": {
+    "name_vn": "Phở lõi bò",
+    "name_en": "Pho with Beef heel muscle"
+  },
+  "ph_g_trn": {
+    "name_vn": "Phở gà trộn",
+    "name_en": "Pho mixed with chicken"
+  },
+  "ph_b_ti_chn": {
+    "name_vn": "Phở bò tái chín",
+    "name_en": "Pho with rare beef"
+  },
+  "ph_b_ti_gu": {
+    "name_vn": "Phở bò tái gầu",
+    "name_en": "Pho with rare beef and brisket"
+  },
+  "bn_riu_b": {
+    "name_vn": "Bún riêu bò",
+    "name_en": "Beef crab paste vermicelli"
+  },
+  "bn_c_sn": {
+    "name_vn": "Bún ốc sườn",
+    "name_en": "Snail and pork rib vermicelli"
+  },
+  "bn_c_ngui": {
+    "name_vn": "Bún ốc nguội",
+    "name_en": "Cold snail vermicelli"
+  },
+  "bn_riu_cua_gi_b": {
+    "name_vn": "Bún riêu cua, giò, bò",
+    "name_en": "Crab paste vermicelli with pork pie and beef"
+  },
+  "bn_ngan_mng_kh": {
+    "name_vn": "Bún ngan măng khô",
+    "name_en": "Rice vermicelli with duck and dried bamboo shoots"
+  },
+  "bn_ngan_mng_ti": {
+    "name_vn": "Bún ngan măng tươi",
+    "name_en": "Rice vermicelli with duck and fresh bamboo shoots"
+  },
+  "bn_nem_cua_b": {
+    "name_vn": "Bún nem cua bể",
+    "name_en": "Rice vermicelli with Hai Phong-style crab spring rolls"
+  },
+  "bn_u_mm_tm_lng_ln": {
+    "name_vn": "Bún đậu mắm tôm, lòng lợn",
+    "name_en": "Rice vermicelli with tofu, fermented shrimp paste, and pork offal"
+  },
+  "bn_ch_ri": {
+    "name_vn": "Bún chả rươi",
+    "name_en": "Vermicelli with grilled rươi patties"
+  },
+  "bn_nem_c": {
+    "name_vn": "Bún nem cá",
+    "name_en": "Rice vermicelli with fish springrolls"
+  },
+  "bn_b_nam_b": {
+    "name_vn": "Bún bò Nam Bộ",
+    "name_en": "Southern-style Vietnamese Beef Vermicelli"
+  },
+  "bnh_a_trn": {
+    "name_vn": "Bánh đa đỏ trộn",
+    "name_en": "Red thick rice noodle mixed with meat and vegetables"
+  },
+  "bnh_a_cua_b_gi": {
+    "name_vn": "Bánh đa cua, bò, giò",
+    "name_en": "Red thick rice noodle soup with crab paste, beef and steamed pork-paste"
+  },
+  "bnh_a_cua_trn": {
+    "name_vn": "Bánh đa cua trộn",
+    "name_en": "Mixed crab noodle salad with rice paper"
+  },
+  "bnh_a_cua_gi": {
+    "name_vn": "Bánh đa cua, giò",
+    "name_en": "Red thick rice noodle soup with crab paste and steamed pork ear roll"
+  },
+  "bnh_a_cua_b_mc": {
+    "name_vn": "Bánh đa cua, bò, mọc",
+    "name_en": "Red thick rice noodle soup with crab paste, beef and meatball"
+  },
+  "c_b_hp": {
+    "name_vn": "Ốc bé hấp",
+    "name_en": "Steamed small snail"
+  },
+  "ngao_trng_hp": {
+    "name_vn": "Ngao trắng hấp",
+    "name_en": "Steamed white clams"
+  },
+  "sa_chua_ung_l_np": {
+    "name_vn": "Sữa chua uống lá nếp",
+    "name_en": "Drinkable yogurt with pandan leaves"
+  },
+  "cm_sut_c_tm_sn_chua_ngt": {
+    "name_vn": "Cơm suất (cá, tôm, sườn chua ngọt)",
+    "name_en": "Set meal (fish, shrimp, sweet and sour pork ribs)"
+  },
+  "cm_sut_tht_ln_tm": {
+    "name_vn": "Cơm suất (thịt lợn, tôm)",
+    "name_en": "Set meal (pork belly, shrimp)"
+  },
+  "cm_sut_tht_ln_c_c": {
+    "name_vn": "Cơm suất (thịt lợn, cá, ốc)",
+    "name_en": "Set meal (pork belly,fish, snail)"
+  },
+  "cm_sut_tmc_tht_g": {
+    "name_vn": "Cơm suất (tôm,ốc, thịt gà)",
+    "name_en": "Set meal (shrimp, snail, and chicken)"
+  },
+  "cm_sut_sn_mng_gi_gi_cy": {
+    "name_vn": "Cơm suất (sườn, móng giò giả cầy)",
+    "name_en": "Set meal (BBQ pork-ribs and braised pork leg)"
+  },
+  "bn_ngm": {
+    "name_vn": "Bún ngâm",
+    "name_en": "Soft rice vermicelli soup"
+  },
+  "bnh_crepe_xc_xch": {
+    "name_vn": "Bánh crepe xúc xích",
+    "name_en": "Sausage crepes cake"
+  },
+  "bun_c_ngui": {
+    "name_vn": "Bún ốc nguội",
+    "name_en": "Rice vermicelli with cold stuffed snails"
+  },
+  "trng_ga_ran_ngai_cu": {
+    "name_vn": "Trứng gà rán ngải cứu",
+    "name_en": "Mugwort fried eggs"
+  },
+  "bp_xo_tp": {
+    "name_vn": "Bắp xào tép",
+    "name_en": "Stir-fried maize seeds with small shrimp"
+  },
+  "cha_ln_m": {
+    "name_vn": "Chả lợn mỡ",
+    "name_en": "Fatty pork-patse"
+  },
+  "bp_xao_tep": {
+    "name_vn": "Bắp xào tép",
+    "name_en": "Stir-fried maize seeds with small shrimp"
+  },
+  "cm_trng": {
+    "name_vn": "Cơm trắng",
+    "name_en": "Steamed white rice"
+  }
+}
