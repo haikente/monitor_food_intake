@@ -48,6 +48,10 @@ app.*.map.json
 *.tflite
 *.pt
 *.onnx
+
+# Environment variables with sensitive keys
+.env
+*.env
 *_saved_model/
 output/
 
