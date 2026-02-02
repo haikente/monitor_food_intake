@@ -7,7 +7,7 @@ import '../models/food_item.dart';
 import '../models/dish.dart';
 import 'food_database_service.dart';
 
-class GeminiService {
+class GeminiService {//
   final String apiKey;
   late final GenerativeModel model;
 
