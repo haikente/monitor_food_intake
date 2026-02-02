@@ -36,4 +36,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-//update lib/models/food_nutrition.dart

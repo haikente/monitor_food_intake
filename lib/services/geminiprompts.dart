@@ -57,52 +57,113 @@ $completeDatabaseList
 │   → {"name": "Unknown", "weight": 100}                │
 └────────────────────────────────────────────────────────┘
 
-📤 OUTPUT FORMAT (JSON):
+📤 OUTPUT FORMAT (JSON với 2 CHẾ ĐỘ):
+
+🎯 CHÍNH SÁCH PHÂN TÍCH:
+• Nếu là MÓN ĂN ĐƠN (1 món đơn giản): Dùng "foods"
+• Nếu là BỮA ĂN NHIỀU MÓN hoặc MÓN PHỨC TẠP có nhiều thành phần: Dùng "dishes"
+
+📋 FORMAT 1 - SIMPLE (chỉ một món đơn giản):
 {
   "foods": [
-    // Case 1: Có trong DB (1,275 món Việt)
-    {"name": "Cơm trắng", "weight": 150},
-    
-    // Case 2: Không trong DB (Pizza, Sushi...)
+    {"name": "Cơm trắng", "weight": 150}
+  ]
+}
+
+📋 FORMAT 2 - COMPLEX (món ăn phức tạp hoặc nhiều món):
+{
+  "dishes": [
     {
-      "name": "Pizza Margherita",
-      "weight": 250,
-      "calories": 250,
-      "protein": 6.3,
-      "carbs": 30.0,
-      "fat": 9.0,
-      "fiber": 1.3,
-      "glycemicIndex": 70
+      "dishName": "Phở bò",
+      "ingredients": [
+        {"name": "Nước phở", "weight": 300},
+        {"name": "Bánh phở", "weight": 200},
+        {"name": "Thịt bò phở", "weight": 80},
+        {"name": "Rau thơm", "weight": 20}
+      ]
     },
-    
-    // Case 3: Không rõ (ảnh mờ)
-    {"name": "Unknown", "weight": 100}
+    {
+      "dishName": "Chả giò",
+      "ingredients": [
+        {"name": "Chả giò", "weight": 60}
+      ]
+    }
   ]
 }
 
-✅ VÍ DỤ CỤ THỂ - ẢNH NHIỀU MÓN:
+✅ VÍ DỤ CỤ THỂ:
 
-1️⃣ Ảnh: BÁT CƠM + THỊT KHO + CANH (cơm tấm 3 món)
+1️⃣ Ảnh: CHỈ 1 BÁT CƠM (đơn giản)
 {
   "foods": [
-    {"name": "Cơm trắng", "weight": 150},
-    {"name": "Thịt kho tàu", "weight": 80},
-    {"name": "Canh chua", "weight": 200}
+    {"name": "Cơm trắng", "weight": 150}
   ]
 }
-→ Cả 3 đều CÓ trong database → CHỈ trả name + weight
-→ QUAN TRỌNG: Phải trả về 3 món riêng biệt!
 
-2️⃣ Ảnh: ĐĨA CƠM PHẦN + NHIỀU TOPPING (cơm gà, thịt, trứng)
+2️⃣ Ảnh: CƠM TẤM SƯỜN (món phức tạp - nhiều thành phần)
 {
-  "foods": [
-    {"name": "Cơm trắng", "weight": 200},
-    {"name": "Gà luộc", "weight": 80},
-    {"name": "Thịt heo quay", "weight": 50},
-    {"name": "Trứng luộc", "weight": 50}
+  "dishes": [
+    {
+      "dishName": "Cơm tấm sườn",
+      "ingredients": [
+        {"name": "Cơm tấm", "weight": 200},
+        {"name": "Sườn nướng", "weight": 100},
+        {"name": "Bì", "weight": 30},
+        {"name": "Chả", "weight": 30},
+        {"name": "Trứng ốp la", "weight": 50},
+        {"name": "Dưa leo", "weight": 20}
+      ]
+    }
   ]
 }
-→ PHÁT HIỆN TẤT CẢ topping trên đĩa!
+
+3️⃣ Ảnh: BỮA ĂN NHIỀU MÓN (cơm + thịt kho + canh)
+{
+  "dishes": [
+    {
+      "dishName": "Cơm trắng",
+      "ingredients": [
+        {"name": "Cơm trắng", "weight": 150}
+      ]
+    },
+    {
+      "dishName": "Thịt kho tàu",
+      "ingredients": [
+        {"name": "Thịt heo", "weight": 80},
+        {"name": "Trứng luộc", "weight": 50}
+      ]
+    },
+    {
+      "dishName": "Canh chua",
+      "ingredients": [
+        {"name": "Nước canh", "weight": 150},
+        {"name": "Cá", "weight": 50}
+      ]
+    }
+  ]
+}
+
+⚠️ LƯU Ý QUAN TRỌNG - TRÁNH LẶP:
+• KHÔNG đặt tên thành phần trùng với tên món ăn
+• VD SAI: dishName="Bún chả", ingredients=[{"name": "Bún chả"}] ❌
+• VD ĐÚNG: dishName="Bún chả", ingredients=[{"name": "Bún", "weight": 200}, {"name": "Chả", "weight": 100}] ✅
+• Nếu món đơn giản (1 thành phần), dùng format "foods" thay vì "dishes"
+
+4️⃣ Ảnh: PHỞ BÒ (món nước - tách thành phần)
+{
+  "dishes": [
+    {
+      "dishName": "Phở bò",
+      "ingredients": [
+        {"name": "Nước phở", "weight": 300},
+        {"name": "Bánh phở", "weight": 200},
+        {"name": "Thịt bò phở", "weight": 80},
+        {"name": "Rau thơm", "weight": 20},
+        {"name": "Hành lá", "weight": 5}
+      ]
+    }
+  ]
+}
 
 3️⃣ Ảnh: BỮA ĂN HOÀN CHỈNH (phở + chả giò + nước ngọt)
 {

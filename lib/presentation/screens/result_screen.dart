@@ -7,6 +7,8 @@ import '../../domain/entities/food_item_entity.dart';
 import '../../domain/usecases/save_food_analysis.dart';
 import '../../models/food_analysis.dart';
 import '../../models/food_item.dart';
+import '../../models/dish.dart';
+import '../widgets/dish_card.dart';
 
 /// Màn hình hiển thị kết quả phân tích
 class ResultScreen extends StatefulWidget {
@@ -161,36 +163,98 @@ class _ResultScreenState extends State<ResultScreen> {
 
                   const SizedBox(height: 24),
 
-                  // Danh sách thực phẩm
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Text(
-                        'Danh sách thực phẩm (${_analysis.foods.length} món)',
-                        style: Theme.of(context).textTheme.titleLarge?.copyWith(
-                              fontWeight: FontWeight.bold,
-                            ),
-                      ),
-                      if (_isEditing)
-                        IconButton(
-                          icon: const Icon(Icons.add_circle),
-                          color: Colors.green,
-                          iconSize: 32,
-                          onPressed: _addNewFoodItem,
-                          tooltip: 'Thêm món',
+                  // HIỂN THỊ DISHES (nếu có)
+                  if (_analysis.dishes != null &&
+                      _analysis.dishes!.isNotEmpty) ...[
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Text(
+                          'Danh sách món ăn (${_analysis.dishes!.length} món)',
+                          style:
+                              Theme.of(context).textTheme.titleLarge?.copyWith(
+                                    fontWeight: FontWeight.bold,
+                                  ),
                         ),
-                    ],
-                  ),
-                  const SizedBox(height: 12),
+                      ],
+                    ),
+                    const SizedBox(height: 12),
 
-                  // Food items list
-                  ..._analysis.foods.asMap().entries.map((entry) {
-                    final index = entry.key;
-                    final food = entry.value;
-                    return _buildFoodItemCard(food, index);
-                  }),
+                    // Dishes list
+                    ..._analysis.dishes!.asMap().entries.map((entry) {
+                      final index = entry.key;
+                      final dish = entry.value;
+                      return DishCard(
+                        dish: dish,
+                        isEditing: _isEditing,
+                        onDishChanged: (updatedDish) {
+                          setState(() {
+                            final newDishes =
+                                List<Dish>.from(_analysis.dishes!);
+                            newDishes[index] = updatedDish;
+                            _analysis = FoodAnalysis(
+                              foods: _analysis.foods,
+                              dishes: newDishes,
+                              timestamp: _analysis.timestamp,
+                              imagePath: _analysis.imagePath,
+                            );
+                          });
+                        },
+                        onRemove: _isEditing
+                            ? () {
+                                setState(() {
+                                  final newDishes =
+                                      List<Dish>.from(_analysis.dishes!);
+                                  newDishes.removeAt(index);
+                                  _analysis = FoodAnalysis(
+                                    foods: _analysis.foods,
+                                    dishes:
+                                        newDishes.isEmpty ? null : newDishes,
+                                    timestamp: _analysis.timestamp,
+                                    imagePath: _analysis.imagePath,
+                                  );
+                                });
+                              }
+                            : null,
+                      );
+                    }),
 
-                  const SizedBox(height: 24),
+                    const SizedBox(height: 24),
+                  ],
+
+                  // Danh sách thực phẩm (foods - legacy format)
+                  if (_analysis.foods.isNotEmpty) ...[
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Text(
+                          'Thực phẩm riêng lẻ (${_analysis.foods.length})',
+                          style:
+                              Theme.of(context).textTheme.titleLarge?.copyWith(
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                        ),
+                        if (_isEditing)
+                          IconButton(
+                            icon: const Icon(Icons.add_circle),
+                            color: Colors.green,
+                            iconSize: 32,
+                            onPressed: _addNewFoodItem,
+                            tooltip: 'Thêm món',
+                          ),
+                      ],
+                    ),
+                    const SizedBox(height: 12),
+
+                    // Food items list
+                    ..._analysis.foods.asMap().entries.map((entry) {
+                      final index = entry.key;
+                      final food = entry.value;
+                      return _buildFoodItemCard(food, index);
+                    }),
+
+                    const SizedBox(height: 24),
+                  ],
 
                   // Lời khuyên sức khỏe
                   Container(
