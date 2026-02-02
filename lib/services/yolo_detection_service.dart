@@ -2,15 +2,14 @@ import 'dart:io';
 import 'package:tflite_flutter/tflite_flutter.dart';
 import 'package:image/image.dart' as img;
 
-/// Service phát hiện object (món ăn) trong ảnh bằng YOLOv8
-/// Sử dụng TFLite để chạy model YOLOv8n.tflite
+
 class YoloDetectionService {
   Interpreter? _interpreter;
   static const int _inputSize = 640; // YOLOv8 input size
   static const double _confidenceThreshold = 0.25;
   static const double _iouThreshold = 0.45;
 
-  // COCO dataset food-related classes (class IDs from COCO)
+
   static const Map<int, String> _cocoFoodClasses = {
     46: 'banana',
     47: 'apple',
@@ -30,181 +29,144 @@ class YoloDetectionService {
   };
 
   /// Khởi tạo TFLite interpreter với YOLOv8 model
-  Future<void> initialize() async {
-    try {
-      print('🤖 Loading YOLOv8 TFLite model...');
+Future<void> initialize() async {
+try {
+  _interpreter = await Interpreter.fromAsset(
+    'assets/models/yolov8n.tflite',
+    options: InterpreterOptions()..threads = 4,
+  );
+  } catch (e) {
+    throw(Exception("Lỗi tải model"));
+  }
+}
 
-      // Load model từ assets
-      _interpreter = await Interpreter.fromAsset(
-        'assets/models/yolov8n.tflite',
-        options: InterpreterOptions()..threads = 4,
-      );
-
-      print('✅ YOLOv8 TFLite model loaded successfully');
-      print('📊 Input shape: ${_interpreter!.getInputTensor(0).shape}');
-      print('📊 Output shape: ${_interpreter!.getOutputTensor(0).shape}');
-    } catch (e) {
-      print('❌ Error loading YOLOv8: $e');
-      rethrow;
-    }
+Future<List<DetectionResult>> detectObjects(File imageFile) async {
+  if (_interpreter == null) {
+    throw Exception(
+      'YOLO interpreter chưa được khởi tạo. Gọi initialize() trước.');
   }
 
-  /// Phát hiện các object trong ảnh
-  /// Trả về danh sách bounding boxes của các món ăn
-  Future<List<DetectionResult>> detectObjects(File imageFile) async {
-    if (_interpreter == null) {
-      throw Exception(
-          'YOLO interpreter chưa được khởi tạo. Gọi initialize() trước.');
+  try {
+    final imageBytes = await imageFile.readAsBytes();
+    final image = img.decodeImage(imageBytes);
+    if (image == null) {
+      throw Exception('Không thể đọc ảnh');
     }
 
-    try {
-      print('🔍 Detecting objects with YOLOv8...');
+    final originalWidth = image.width;
+    final originalHeight = image.height;
 
-      // Đọc và xử lý ảnh
-      final imageBytes = await imageFile.readAsBytes();
-      final image = img.decodeImage(imageBytes);
-
-      if (image == null) {
-        throw Exception('Không thể đọc ảnh');
-      }
-
-      final originalWidth = image.width;
-      final originalHeight = image.height;
-
-      // Resize về 640x640 (YOLOv8 input)
-      final resized = img.copyResize(
-        image,
-        width: _inputSize,
-        height: _inputSize,
-      );
-
-      // Chuẩn hóa và chuyển sang tensor [1, 640, 640, 3]
-      final inputTensor = _imageToTensor(resized);
-
-      // Prepare output buffer
-      // YOLOv8 output shape: [1, 84, 8400]
-      // 84 = 4 (bbox) + 80 (classes)
-      final output = List.generate(
-        1,
-        (_) => List.generate(
-          84,
-          (_) => List<double>.filled(8400, 0.0),
-        ),
-      );
-
-      // Chạy inference
-      final stopwatch = Stopwatch()..start();
-      _interpreter!.run(inputTensor, output);
-      stopwatch.stop();
-
-      print('⚡ YOLOv8 inference: ${stopwatch.elapsedMilliseconds}ms');
-
-      // Post-process: NMS và filter
-      final detections = _postProcess(
-        output,
-        originalWidth,
-        originalHeight,
-      );
-
-      print('✅ Detected ${detections.length} food objects');
-
-      return detections;
-    } catch (e) {
-      print('❌ Error in object detection: $e');
-      rethrow;
-    }
-  }
-
-  /// Chuyển ảnh sang tensor [1, 640, 640, 3] với normalization
-  List<List<List<List<double>>>> _imageToTensor(img.Image image) {
-    final tensor = List.generate(
-      1,
-      (_) => List.generate(
-        _inputSize,
-        (_) => List.generate(
-          _inputSize,
-          (_) => List<double>.filled(3, 0.0),
-        ),
-      ),
+    final resized = img.copyResize(
+      image,
+      width: _inputSize,
+      height: _inputSize,
     );
 
-    // YOLOv8 expects RGB format normalized to [0, 1]
-    for (var y = 0; y < _inputSize; y++) {
-      for (var x = 0; x < _inputSize; x++) {
-        final pixel = image.getPixel(x, y);
-        tensor[0][y][x][0] = pixel.r / 255.0;
-        tensor[0][y][x][1] = pixel.g / 255.0;
-        tensor[0][y][x][2] = pixel.b / 255.0;
-      }
-    }
+    final inputTensor = _imageToTensor(resized);
 
-    return tensor;
+     
+    final output = List.generate(
+      1,
+      (_) => List.generate(
+        84,
+      (_) => List<double>.filled(8400, 0.0),
+    ),
+  );
+
+
+  final stopwatch = Stopwatch()..start();
+    _interpreter!.run(inputTensor, output);
+    stopwatch.stop();
+    // Post-process: NMS và filter
+    final detections = _postProcess(
+      output,
+      originalWidth,
+      originalHeight,
+    );
+    return detections;
+  } catch (e) {
+    rethrow;
   }
+}
+
+  /// Chuyển ảnh sang tensor [1, 640, 640, 3] với normalization
+List<List<List<List<double>>>> _imageToTensor(img.Image image) {
+final tensor = List.generate(
+  1,
+  (_) => List.generate(
+      _inputSize,
+      (_) => List.generate(
+      _inputSize,
+      (_) => List<double>.filled(3, 0.0),
+      ),
+    ),
+  );
+  // YOLOv8 expects RGB format normalized to [0, 1]
+for (var y = 0; y < _inputSize; y++) {
+    for (var x = 0; x < _inputSize; x++) {
+      final pixel = image.getPixel(x, y);
+      tensor[0][y][x][0] = pixel.r / 255.0;
+      tensor[0][y][x][1] = pixel.g / 255.0;
+      tensor[0][y][x][2] = pixel.b / 255.0;
+    }
+  }
+  return tensor;
+}
 
   /// Post-process YOLO output: NMS + filtering
-  List<DetectionResult> _postProcess(
-    List<List<List<double>>> output,
-    int originalWidth,
-    int originalHeight,
-  ) {
-    final detections = <DetectionResult>[];
-
-    // YOLOv8 output shape: [1, 84, 8400]
-    // output[0] = [84][8400]
-    final predictions = output[0];
-
-    for (var i = 0; i < 8400; i++) {
-      // Get bbox coordinates (first 4 values)
-      final x = predictions[0][i];
-      final y = predictions[1][i];
-      final w = predictions[2][i];
-      final h = predictions[3][i];
-
-      // Get class scores (index 4-83)
-      double maxScore = 0;
-      int maxClassId = -1;
-
-      for (var classId = 0; classId < 80; classId++) {
-        final score = predictions[4 + classId][i];
-        if (score > maxScore) {
-          maxScore = score;
-          maxClassId = classId;
-        }
+List<DetectionResult> _postProcess(
+  List<List<List<double>>> output,
+  int originalWidth,
+  int originalHeight,
+) {
+  final detections = <DetectionResult>[];
+  final predictions = output[0];
+  for (var i = 0; i < 8400; i++) {
+    final x = predictions[0][i];
+    final y = predictions[1][i];
+    final w = predictions[2][i];
+    final h = predictions[3][i];
+  
+    // Get class scores (index 4-83)
+    double maxScore = 0;
+    int maxClassId = -1;
+    for (var classId = 0; classId < 80; classId++) {
+      final score = predictions[4 + classId][i];
+       if (score > maxScore) {
+        maxScore = score;
+        maxClassId = classId;
       }
-
-      // Filter by confidence
-      if (maxScore < _confidenceThreshold) continue;
-
-      // Filter only food-related classes
-      if (!_cocoFoodClasses.containsKey(maxClassId)) continue;
-
-      // Convert to original image coordinates
-      final scaleX = originalWidth / _inputSize;
-      final scaleY = originalHeight / _inputSize;
-
-      final x1 = ((x - w / 2) * scaleX).clamp(0, originalWidth.toDouble());
-      final y1 = ((y - h / 2) * scaleY).clamp(0, originalHeight.toDouble());
-      final x2 = ((x + w / 2) * scaleX).clamp(0, originalWidth.toDouble());
-      final y2 = ((y + h / 2) * scaleY).clamp(0, originalHeight.toDouble());
-
-      detections.add(DetectionResult(
-        classId: maxClassId,
-        className: _cocoFoodClasses[maxClassId] ?? 'unknown',
-        confidence: maxScore,
-        bbox: BoundingBox(
-          x1: x1.toInt(),
-          y1: y1.toInt(),
-          x2: x2.toInt(),
-          y2: y2.toInt(),
-        ),
-      ));
     }
+    // Filter by confidence
+    if (maxScore < _confidenceThreshold) continue;
+    // Filter only food-related classes
+    if (!_cocoFoodClasses.containsKey(maxClassId)) continue;
+    // Convert to original image coordinates
+    final scaleX = originalWidth / _inputSize;
+    final scaleY = originalHeight / _inputSize;
 
-    // Apply NMS
-    final nmsResults = _nonMaxSuppression(detections);
+    final x1 = ((x - w / 2) * scaleX).clamp(0, originalWidth.toDouble());
+    final y1 = ((y - h / 2) * scaleY).clamp(0, originalHeight.toDouble());
+    final x2 = ((x + w / 2) * scaleX).clamp(0, originalWidth.toDouble());
+    final y2 = ((y + h / 2) * scaleY).clamp(0, originalHeight.toDouble());
 
-    return nmsResults;
+    detections.add(DetectionResult(
+      classId: maxClassId,
+      className: _cocoFoodClasses[maxClassId] ?? 'unknown',
+      confidence: maxScore,
+      bbox: BoundingBox(
+        x1: x1.toInt(),
+        y1: y1.toInt(),
+        x2: x2.toInt(),
+        y2: y2.toInt(),
+      ),
+    ));
   }
+
+  // Apply NMS
+  final nmsResults = _nonMaxSuppression(detections);
+  return nmsResults;
+}
 
   /// Non-Maximum Suppression để loại bỏ duplicate boxes
   List<DetectionResult> _nonMaxSuppression(List<DetectionResult> detections) {
@@ -278,10 +240,9 @@ class YoloDetectionService {
   }
 
   /// Cleanup
-  void dispose() {
-    _interpreter?.close();
-    print('🧹 YOLO interpreter closed');
-  }
+void dispose() {
+  _interpreter?.close();
+ }
 }
 
 /// Kết quả phát hiện object

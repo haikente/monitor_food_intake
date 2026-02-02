@@ -248,7 +248,8 @@ class _HomeScreenState extends State<HomeScreen> {
         final hybridService = HybridFoodAnalysisService();
         await hybridService.initialize();
 
-        final analysis = await hybridService.analyzeWithDatabase(_selectedImage!);
+        final analysis =
+            await hybridService.analyzeWithDatabase(_selectedImage!);
 
         if (mounted) {
           Navigator.push(
@@ -347,23 +348,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 },
                 dense: true,
                 contentPadding: EdgeInsets.zero,
-              ),
-              RadioListTile<String>(
-                title: const Text('🖼️ Tập hợp hình ảnh (Thử nghiệm)'),
-                subtitle: const Text('',
-                    style: TextStyle(fontSize: 11)),
-                value: 'ensemble',
-                // ignore: deprecated_member_use
-                groupValue: _selectedAI,
-                // ignore: deprecated_member_use
-                onChanged: (value) {
-                  setState(() {
-                    _selectedAI = value!;
-                  });
-                },
-                dense: true,
-                contentPadding: EdgeInsets.zero,
-              ),
+               ),
             ],
           ),
         ],

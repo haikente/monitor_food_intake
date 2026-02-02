@@ -2,8 +2,7 @@ import 'package:flutter/material.dart';
 import '../../models/dish.dart';
 import '../../models/food_item.dart';
 
-/// Widget hiển thị một món ăn (Dish) với danh sách thành phần
-/// User có thể chỉnh sửa hoặc xóa từng thành phần
+
 class DishCard extends StatefulWidget {
   final Dish dish;
   final bool isEditing;
@@ -120,6 +119,7 @@ class _DishCardState extends State<DishCard> {
           Container(
             padding: const EdgeInsets.all(16),
             decoration: BoxDecoration(
+              // ignore: deprecated_member_use
               color: Theme.of(context).primaryColor.withOpacity(0.1),
               borderRadius: const BorderRadius.only(
                 topLeft: Radius.circular(12),
@@ -263,6 +263,7 @@ class _DishCardState extends State<DishCard> {
       child: ListTile(
         dense: true,
         leading: CircleAvatar(
+          // ignore: deprecated_member_use
           backgroundColor: Theme.of(context).primaryColor.withOpacity(0.2),
           radius: 16,
           child: Text(

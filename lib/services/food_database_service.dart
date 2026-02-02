@@ -5,33 +5,127 @@ import '../models/food_nutrition.dart';
 class FoodDatabaseService {
   /// Normalize text để so sánh (loại bỏ dấu, khoảng trắng thừa)
   static String _normalizeText(String text) {
-    return text
-        .toLowerCase()
-        .trim()
-        // Loại bỏ khoảng trắng thừa
+    String normalized = text.toLowerCase().trim();
+
+    // Loại bỏ dấu tiếng Việt
+    const vietnameseMap = {
+      'á': 'a',
+      'à': 'a',
+      'ả': 'a',
+      'ã': 'a',
+      'ạ': 'a',
+      'ă': 'a',
+      'ắ': 'a',
+      'ằ': 'a',
+      'ẳ': 'a',
+      'ẵ': 'a',
+      'ặ': 'a',
+      'â': 'a',
+      'ấ': 'a',
+      'ầ': 'a',
+      'ẩ': 'a',
+      'ẫ': 'a',
+      'ậ': 'a',
+      'đ': 'd',
+      'é': 'e',
+      'è': 'e',
+      'ẻ': 'e',
+      'ẽ': 'e',
+      'ẹ': 'e',
+      'ê': 'e',
+      'ế': 'e',
+      'ề': 'e',
+      'ể': 'e',
+      'ễ': 'e',
+      'ệ': 'e',
+      'í': 'i',
+      'ì': 'i',
+      'ỉ': 'i',
+      'ĩ': 'i',
+      'ị': 'i',
+      'ó': 'o',
+      'ò': 'o',
+      'ỏ': 'o',
+      'õ': 'o',
+      'ọ': 'o',
+      'ô': 'o',
+      'ố': 'o',
+      'ồ': 'o',
+      'ổ': 'o',
+      'ỗ': 'o',
+      'ộ': 'o',
+      'ơ': 'o',
+      'ớ': 'o',
+      'ờ': 'o',
+      'ở': 'o',
+      'ỡ': 'o',
+      'ợ': 'o',
+      'ú': 'u',
+      'ù': 'u',
+      'ủ': 'u',
+      'ũ': 'u',
+      'ụ': 'u',
+      'ư': 'u',
+      'ứ': 'u',
+      'ừ': 'u',
+      'ử': 'u',
+      'ữ': 'u',
+      'ự': 'u',
+      'ý': 'y',
+      'ỳ': 'y',
+      'ỷ': 'y',
+      'ỹ': 'y',
+      'ỵ': 'y',
+    };
+
+    vietnameseMap.forEach((key, value) {
+      normalized = normalized.replaceAll(key, value);
+    });
+
+    return normalized
         .replaceAll(RegExp(r'\s+'), ' ')
-        // Loại bỏ dấu phẩy, dấu chấm
         .replaceAll(',', '')
         .replaceAll('.', '')
-        // Loại bỏ dấu ngoặc
         .replaceAll('(', '')
-        .replaceAll(')', '');
+        .replaceAll(')', '')
+        .trim();
   }
 
-  /// Tính độ tương đồng giữa 2 chuỗi (0.0 - 1.0)
+  /// Tính độ tương đồng giữa 2 chuỗi (Levenshtein distance improved)
   static double _similarity(String s1, String s2) {
     if (s1 == s2) return 1.0;
     if (s1.isEmpty || s2.isEmpty) return 0.0;
 
-    // Levenshtein distance simplified
-    final longer = s1.length > s2.length ? s1 : s2;
-    final shorter = s1.length > s2.length ? s2 : s1;
+    final len1 = s1.length;
+    final len2 = s2.length;
 
-    if (longer.contains(shorter)) {
-      return shorter.length / longer.length;
+    final matrix = List.generate(
+      len1 + 1,
+      (i) => List.filled(len2 + 1, 0),
+    );
+
+    for (var i = 0; i <= len1; i++) {
+      matrix[i][0] = i;
+    }
+    for (var j = 0; j <= len2; j++) {
+      matrix[0][j] = j;
     }
 
-    return 0.0;
+    for (var i = 1; i <= len1; i++) {
+      for (var j = 1; j <= len2; j++) {
+        final cost = s1[i - 1] == s2[j - 1] ? 0 : 1;
+        matrix[i][j] = [
+          matrix[i - 1][j] + 1,
+          matrix[i][j - 1] + 1,
+          matrix[i - 1][j - 1] + cost,
+        ].reduce((a, b) => a < b ? a : b);
+      }
+    }
+
+    final distance = matrix[len1][len2];
+    final maxLen = len1 > len2 ? len1 : len2;
+
+    return 1.0 - (distance / maxLen);
   }
 
   /// Tìm món ăn trong database theo tên
@@ -42,31 +136,26 @@ class FoodDatabaseService {
     for (var entry in FoodDatabaseGenerated.foods.entries) {
       final normalizedFoodName = _normalizeText(entry.value.name);
 
-      if (normalizedFoodName == normalizedInput) {
-        print('✅ Exact match: "${entry.value.name}" (key: ${entry.key})');
+    if (normalizedFoodName == normalizedInput) {
         return entry.value;
       }
     }
 
-    // BƯỚC 2: Tìm best match với similarity > 0.7
+    // BƯỚC 2: Tìm best match với similarity > 0.65 (lowered for better recall)
     FoodNutrition? bestMatch;
-    double bestScore = 0.7; // Threshold
-    String bestKey = '';
+    double bestScore = 0.65;
 
     for (var entry in FoodDatabaseGenerated.foods.entries) {
       final normalizedFoodName = _normalizeText(entry.value.name);
       final score = _similarity(normalizedInput, normalizedFoodName);
 
-      if (score > bestScore) {
-        bestScore = score;
-        bestMatch = entry.value;
-        bestKey = entry.key;
-      }
+    if (score > bestScore) {
+      bestScore = score;
+      bestMatch = entry.value;
     }
+  }
 
-    if (bestMatch != null) {
-      print(
-          '✅ Best match (${(bestScore * 100).toStringAsFixed(0)}%): "${bestMatch.name}" (key: $bestKey)');
+  if (bestMatch != null) {
       return bestMatch;
     }
 
@@ -76,35 +165,28 @@ class FoodDatabaseService {
 
       if (normalizedFoodName.contains(normalizedInput) ||
           normalizedInput.contains(normalizedFoodName)) {
-        print('✅ Partial match: "${entry.value.name}" (key: ${entry.key})');
+
         return entry.value;
       }
     }
 
     // BƯỚC 4: Tìm theo KEY (fallback)
-    if (FoodDatabaseGenerated.foods.containsKey(normalizedInput)) {
-      print('✅ Found by key: $normalizedInput');
+  if (FoodDatabaseGenerated.foods.containsKey(normalizedInput)) {
       return FoodDatabaseGenerated.foods[normalizedInput];
     }
 
     // BƯỚC 5: Fuzzy match với key
-    for (var entry in FoodDatabaseGenerated.foods.entries) {
-      if (entry.key.contains(normalizedInput) ||
-          normalizedInput.contains(entry.key)) {
-        print('✅ Key fuzzy match: "${entry.value.name}" (key: ${entry.key})');
-        return entry.value;
-      }
+  for (var entry in FoodDatabaseGenerated.foods.entries) {
+    if (entry.key.contains(normalizedInput) ||
+      normalizedInput.contains(entry.key)) {
+      return entry.value;
     }
-
-    print('❌ Not found: "$name" (normalized: "$normalizedInput")');
-    print('💡 Suggestion: Check if name matches database exactly');
-    return null;
   }
+  return null;
+}
 
   /// Lấy thông tin dinh dưỡng cho prompt (top foods)
-  static String getDatabaseSampleForPrompt() {
-    // Lấy 50 món phổ biến nhất để gửi cho AI
-    // SỬ DỤNG SNAKE_CASE KEYS từ database sau khi fix
+static String getDatabaseSampleForPrompt() {
     final popularFoodKeys = [
       // Cơm & Tinh bột
       'com_trang', 'com_rang', 'xoi_nep_cam',
@@ -141,7 +223,7 @@ class FoodDatabaseService {
       if (food != null) {
         count++;
         // Hiển thị TÊN TIẾNG VIỆT để Gemini biết
-        buffer.writeln('${count}. ${food.name}');
+        buffer.writeln('$count. ${food.name}');
       }
     }
 

@@ -89,11 +89,12 @@ class _ResultScreenState extends State<ResultScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Kết quả phân tích'),
+        title: Text('Kết quả phân tích', style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold),),
+        centerTitle: true,
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         actions: [
           IconButton(
-            icon: Icon(_isEditing ? Icons.check : Icons.edit),
+            icon: Icon(_isEditing ? Icons.check : Icons.edit, color: Colors.black,),
             onPressed: () {
               setState(() {
                 _isEditing = !_isEditing;
@@ -109,15 +110,18 @@ class _ResultScreenState extends State<ResultScreen> {
           children: [
             // Ảnh bữa ăn
             if (_analysis.imagePath != null)
-              Container(
-                width: double.infinity,
-                height: 250,
-                decoration: BoxDecoration(
-                  color: Colors.grey[200],
-                ),
-                child: Image.file(
-                  File(_analysis.imagePath!),
-                  fit: BoxFit.cover,
+              Padding(
+                padding: const EdgeInsets.only(left: 16, right: 16, top: 16),
+                child: Container(
+                  width: double.infinity,
+                  height: 250,
+                  decoration: BoxDecoration(
+                    color: Colors.grey[200],
+                  ),
+                  child: Image.file(
+                    File(_analysis.imagePath!),
+                    fit: BoxFit.cover,
+                  ),
                 ),
               ),
 
@@ -127,44 +131,7 @@ class _ResultScreenState extends State<ResultScreen> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  // Thống kê tổng quan
-                  Row(
-                    children: [
-                      Expanded(
-                        child: _buildStatCard(
-                          icon: Icons.local_fire_department,
-                          label: 'Tổng Calories',
-                          value:
-                              '${_analysis.totalCalories.toStringAsFixed(0)} kcal',
-                          color: Colors.orange,
-                        ),
-                      ),
-                      const SizedBox(width: 12),
-                      Expanded(
-                        child: _buildStatCard(
-                          icon: Icons.monitor_weight,
-                          label: 'Khối lượng',
-                          value: '${_analysis.totalWeight.toStringAsFixed(0)}g',
-                          color: Colors.blue,
-                        ),
-                      ),
-                    ],
-                  ),
-                  const SizedBox(height: 12),
-
-                  // GI trung bình
-                  if (_analysis.averageGI != null)
-                    _buildStatCard(
-                      icon: Icons.analytics,
-                      label: 'Chỉ số GI trung bình',
-                      value: _analysis.averageGI!.toStringAsFixed(1),
-                      color: _getGIColor(_analysis.averageGI!),
-                    ),
-
-                  const SizedBox(height: 24),
-
-                  // HIỂN THỊ DISHES (nếu có)
-                  if (_analysis.dishes != null &&
+                if (_analysis.dishes != null &&
                       _analysis.dishes!.isNotEmpty) ...[
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -173,7 +140,8 @@ class _ResultScreenState extends State<ResultScreen> {
                           'Danh sách món ăn (${_analysis.dishes!.length} món)',
                           style:
                               Theme.of(context).textTheme.titleLarge?.copyWith(
-                                    fontWeight: FontWeight.bold,
+                                fontSize: 19,
+                                    fontWeight: FontWeight.w800,
                                   ),
                         ),
                       ],
@@ -327,47 +295,7 @@ class _ResultScreenState extends State<ResultScreen> {
       ),
     );
   }
-
-  /// Widget cho stat card
-  Widget _buildStatCard({
-    required IconData icon,
-    required String label,
-    required String value,
-    required Color color,
-  }) {
-    return Container(
-      padding: const EdgeInsets.all(16),
-      decoration: BoxDecoration(
-        color: color.withOpacity(0.1),
-        borderRadius: BorderRadius.circular(12),
-        border: Border.all(color: color.withOpacity(0.3)),
-      ),
-      child: Column(
-        children: [
-          Icon(icon, color: color, size: 32),
-          const SizedBox(height: 8),
-          Text(
-            label,
-            style: TextStyle(
-              fontSize: 12,
-              color: Colors.grey[700],
-            ),
-            textAlign: TextAlign.center,
-          ),
-          const SizedBox(height: 4),
-          Text(
-            value,
-            style: TextStyle(
-              fontSize: 18,
-              fontWeight: FontWeight.bold,
-              color: color,
-            ),
-          ),
-        ],
-      ),
-    );
-  }
-
+  
   /// Widget cho food item card
   Widget _buildFoodItemCard(FoodItem food, int index) {
     // Kiểm tra xem món ăn có phải "Unknown" không

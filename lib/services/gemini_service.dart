@@ -16,23 +16,23 @@ class GeminiService {
       model: 'gemini-2.5-flash-lite',
       apiKey: apiKey,
       generationConfig: GenerationConfig(
-        temperature: 0.2,
-        topK: 32,
-        topP: 1,
-        maxOutputTokens: 3000,
+        temperature: 0.3, 
+        topK: 40, 
+        topP: 0.95,
+        maxOutputTokens:
+            4096,
       ),
     );
   }
 
   /// Phân tích ảnh thực phẩm và trả về danh sách món ăn
   Future<FoodAnalysis> analyzeFoodImage(File imageFile) async {
-
-    try {
-    final imageBytes = await imageFile.readAsBytes();
+  try {
+      final imageBytes = await imageFile.readAsBytes();
 
       // Lấy prompt từ file riêng
       final prompt = GeminiPrompts.buildFoodAnalysisPrompt();
-    
+
       final content = [
         Content.multi([
           TextPart(prompt),
@@ -41,7 +41,7 @@ class GeminiService {
       ];
 
       // Gọi API
-    final response = await model.generateContent(content);
+      final response = await model.generateContent(content);
 
       // Lấy text từ response
       final responseText = response.text;
@@ -51,11 +51,12 @@ class GeminiService {
       }
 
       // ignore: avoid_print
-      print('📝 Response preview: ${responseText.substring(0, responseText.length > 200 ? 200 : responseText.length)}...');
+      print(
+          '📝 Response preview: ${responseText.substring(0, responseText.length > 200 ? 200 : responseText.length)}...');
 
       // Parse JSON từ response
       final analysis = _parseGeminiResponse(responseText, imageFile.path);
-      
+
 
       return analysis;
     } on FileSystemException catch (e) {
@@ -65,8 +66,8 @@ class GeminiService {
 
       throw Exception('Gemini trả về JSON không hợp lệ');
     } on SocketException {
-
-      throw Exception('Không có kết nối internet. Vui lòng kiểm tra mạng của bạn.');
+      throw Exception(
+          'Không có kết nối internet. Vui lòng kiểm tra mạng của bạn.');
     } on GenerativeAIException catch (e) {
 
 
@@ -167,19 +168,25 @@ class GeminiService {
 
       final allIngredients = _parseFoodsList(ingredientsJson);
 
-      // LOẠI BỎ THÀNH PHẦN TRÙNG TÊN VỚI MÓN ĂN
-      final dishNameLower = dishName.toLowerCase().trim();
+      // LOẠI BỎ THÀNH PHẦN TRÙNG TÊN VỚI MÓN ĂN (Improved fuzzy matching)
+      final dishNameLower = _normalizeVietnamese(dishName.toLowerCase().trim());
       final ingredients = allIngredients.where((ingredient) {
-        final ingredientNameLower = ingredient.name.toLowerCase().trim();
+        final ingredientNameLower =
+            _normalizeVietnamese(ingredient.name.toLowerCase().trim());
 
         // Loại bỏ nếu tên thành phần giống hệt tên món
         if (ingredientNameLower == dishNameLower) {
           return false;
         }
 
-        // Loại bỏ nếu tên món chứa trong tên thành phần (VD: "Bún chả" vs "Bún chả Hà Nội")
+        // Loại bỏ nếu tên món chứa trong tên thành phần
         if (ingredientNameLower.contains(dishNameLower) &&
             ingredientNameLower.length - dishNameLower.length < 10) {
+          return false;
+        }
+
+        // Loại bỏ nếu similarity > 85% (Levenshtein distance)
+        if (_calculateSimilarity(dishNameLower, ingredientNameLower) > 0.85) {
           return false;
         }
 
@@ -294,4 +301,128 @@ class GeminiService {
     }
     return foods;
   }
+
+  /// Normalize Vietnamese text để so sánh chính xác hơn
+  String _normalizeVietnamese(String text) {
+    // Loại bỏ dấu tiếng Việt để so sánh
+    const vietnameseMap = {
+      'á': 'a',
+      'à': 'a',
+      'ả': 'a',
+      'ã': 'a',
+      'ạ': 'a',
+      'ă': 'a',
+      'ắ': 'a',
+      'ằ': 'a',
+      'ẳ': 'a',
+      'ẵ': 'a',
+      'ặ': 'a',
+      'â': 'a',
+      'ấ': 'a',
+      'ầ': 'a',
+      'ẩ': 'a',
+      'ẫ': 'a',
+      'ậ': 'a',
+      'đ': 'd',
+      'é': 'e',
+      'è': 'e',
+      'ẻ': 'e',
+      'ẽ': 'e',
+      'ẹ': 'e',
+      'ê': 'e',
+      'ế': 'e',
+      'ề': 'e',
+      'ể': 'e',
+      'ễ': 'e',
+      'ệ': 'e',
+      'í': 'i',
+      'ì': 'i',
+      'ỉ': 'i',
+      'ĩ': 'i',
+      'ị': 'i',
+      'ó': 'o',
+      'ò': 'o',
+      'ỏ': 'o',
+      'õ': 'o',
+      'ọ': 'o',
+      'ô': 'o',
+      'ố': 'o',
+      'ồ': 'o',
+      'ổ': 'o',
+      'ỗ': 'o',
+      'ộ': 'o',
+      'ơ': 'o',
+      'ớ': 'o',
+      'ờ': 'o',
+      'ở': 'o',
+      'ỡ': 'o',
+      'ợ': 'o',
+      'ú': 'u',
+      'ù': 'u',
+      'ủ': 'u',
+      'ũ': 'u',
+      'ụ': 'u',
+      'ư': 'u',
+      'ứ': 'u',
+      'ừ': 'u',
+      'ử': 'u',
+      'ữ': 'u',
+      'ự': 'u',
+      'ý': 'y',
+      'ỳ': 'y',
+      'ỷ': 'y',
+      'ỹ': 'y',
+      'ỵ': 'y',
+    };
+
+    String normalized = text;
+    vietnameseMap.forEach((key, value) {
+      normalized = normalized.replaceAll(key, value);
+    });
+
+    // Loại bỏ khoảng trắng thừa
+    return normalized.replaceAll(RegExp(r'\s+'), ' ').trim();
+  }
+
+  /// Tính độ tương đồng giữa 2 chuỗi (Levenshtein distance)
+  double _calculateSimilarity(String s1, String s2) {
+    if (s1 == s2) return 1.0;
+    if (s1.isEmpty || s2.isEmpty) return 0.0;
+
+    final len1 = s1.length;
+    final len2 = s2.length;
+
+    // Matrix cho dynamic programming
+    final matrix = List.generate(
+      len1 + 1,
+      (i) => List.filled(len2 + 1, 0),
+    );
+
+    // Initialize
+    for (var i = 0; i <= len1; i++) {
+      matrix[i][0] = i;
+    }
+    for (var j = 0; j <= len2; j++) {
+      matrix[0][j] = j;
+    }
+
+    // Calculate Levenshtein distance
+    for (var i = 1; i <= len1; i++) {
+      for (var j = 1; j <= len2; j++) {
+        final cost = s1[i - 1] == s2[j - 1] ? 0 : 1;
+        matrix[i][j] = [
+          matrix[i - 1][j] + 1, // deletion
+          matrix[i][j - 1] + 1, // insertion
+          matrix[i - 1][j - 1] + cost, // substitution
+        ].reduce((a, b) => a < b ? a : b);
+      }
+    }
+
+    final distance = matrix[len1][len2];
+    final maxLen = len1 > len2 ? len1 : len2;
+
+    // Similarity = 1 - (distance / maxLength)
+    return 1.0 - (distance / maxLen);
+  }
+
 }
