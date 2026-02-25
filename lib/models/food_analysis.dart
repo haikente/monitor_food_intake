@@ -4,8 +4,8 @@ import '../domain/entities/food_analysis_entity.dart';
 import '../domain/entities/food_item_entity.dart';
 
 class FoodAnalysis {
-  final List<FoodItem> foods; 
-  final List<Dish>? dishes; 
+  final List<FoodItem> foods;
+  final List<Dish>? dishes;
   final DateTime timestamp;
   final String? imagePath;
 
@@ -100,24 +100,55 @@ class FoodAnalysis {
   }
 
   FoodAnalysisEntity toEntity({String? id, String? notes}) {
+    // Convert foods trực tiếp
+    final foodEntities = foods
+        .map((f) => FoodItemEntity(
+              name: f.name,
+              nameEn: f.nameEn,
+              weight: f.weight,
+              calories: f.calories,
+              protein: f.protein != null ? (f.protein! * f.weight / 100) : null,
+              carbs: f.carbs != null ? (f.carbs! * f.weight / 100) : null,
+              fat: f.fat != null ? (f.fat! * f.weight / 100) : null,
+              fiber: f.fiber != null ? (f.fiber! * f.weight / 100) : null,
+              glycemicIndex: f.glycemicIndex,
+              category: f.category,
+            ))
+        .toList();
+
+    // Flatten dishes ingredients vào foods list
+    if (dishes != null) {
+      for (final dish in dishes!) {
+        for (final ingredient in dish.ingredients) {
+          foodEntities.add(FoodItemEntity(
+            name: '${dish.dishName} - ${ingredient.name}',
+            nameEn: ingredient.nameEn,
+            weight: ingredient.weight,
+            calories: ingredient.calories,
+            protein: ingredient.protein != null
+                ? (ingredient.protein! * ingredient.weight / 100)
+                : null,
+            carbs: ingredient.carbs != null
+                ? (ingredient.carbs! * ingredient.weight / 100)
+                : null,
+            fat: ingredient.fat != null
+                ? (ingredient.fat! * ingredient.weight / 100)
+                : null,
+            fiber: ingredient.fiber != null
+                ? (ingredient.fiber! * ingredient.weight / 100)
+                : null,
+            glycemicIndex: ingredient.glycemicIndex,
+            category: ingredient.category,
+          ));
+        }
+      }
+    }
+
     return FoodAnalysisEntity(
       id: id ?? DateTime.now().millisecondsSinceEpoch.toString(),
       timestamp: timestamp,
       imagePath: imagePath,
-      foods: foods
-          .map((f) => FoodItemEntity(
-                name: f.name,
-                nameEn: f.nameEn,
-                weight: f.weight,
-                calories: f.calories,
-                protein: f.protein,
-                carbs: f.carbs,
-                fat: f.fat,
-                fiber: f.fiber,
-                glycemicIndex: f.glycemicIndex,
-                category: f.category,
-              ))
-          .toList(),
+      foods: foodEntities,
       notes: notes,
     );
   }

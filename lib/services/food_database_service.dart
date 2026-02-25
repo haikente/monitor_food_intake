@@ -132,16 +132,20 @@ class FoodDatabaseService {
   static FoodNutrition? findFood(String name) {
     final normalizedInput = _normalizeText(name);
 
+    // BƯỚC 0: Check common ingredient aliases trước
+    final aliasResult = _checkIngredientAliases(name);
+    if (aliasResult != null) return aliasResult;
+
     // BƯỚC 1: Tìm exact match với NAME field
     for (var entry in FoodDatabaseGenerated.foods.entries) {
       final normalizedFoodName = _normalizeText(entry.value.name);
 
-    if (normalizedFoodName == normalizedInput) {
+      if (normalizedFoodName == normalizedInput) {
         return entry.value;
       }
     }
 
-    // BƯỚC 2: Tìm best match với similarity > 0.65 (lowered for better recall)
+    // BƯỚC 2: Tìm best match với similarity > 0.65
     FoodNutrition? bestMatch;
     double bestScore = 0.65;
 
@@ -149,13 +153,13 @@ class FoodDatabaseService {
       final normalizedFoodName = _normalizeText(entry.value.name);
       final score = _similarity(normalizedInput, normalizedFoodName);
 
-    if (score > bestScore) {
-      bestScore = score;
-      bestMatch = entry.value;
+      if (score > bestScore) {
+        bestScore = score;
+        bestMatch = entry.value;
+      }
     }
-  }
 
-  if (bestMatch != null) {
+    if (bestMatch != null) {
       return bestMatch;
     }
 
@@ -165,25 +169,164 @@ class FoodDatabaseService {
 
       if (normalizedFoodName.contains(normalizedInput) ||
           normalizedInput.contains(normalizedFoodName)) {
-
         return entry.value;
       }
     }
 
     // BƯỚC 4: Tìm theo KEY (fallback)
-  if (FoodDatabaseGenerated.foods.containsKey(normalizedInput)) {
+    if (FoodDatabaseGenerated.foods.containsKey(normalizedInput)) {
       return FoodDatabaseGenerated.foods[normalizedInput];
     }
 
     // BƯỚC 5: Fuzzy match với key
-  for (var entry in FoodDatabaseGenerated.foods.entries) {
-    if (entry.key.contains(normalizedInput) ||
-      normalizedInput.contains(entry.key)) {
-      return entry.value;
+    for (var entry in FoodDatabaseGenerated.foods.entries) {
+      if (entry.key.contains(normalizedInput) ||
+          normalizedInput.contains(entry.key)) {
+        return entry.value;
+      }
     }
+
+    // BƯỚC 6: Token-based matching - ít nhất 2 tokens trùng
+    final inputTokens = normalizedInput.split(' ').where((t) => t.length > 1).toSet();
+    if (inputTokens.length >= 2) {
+      FoodNutrition? tokenBestMatch;
+      int tokenBestCount = 1;
+
+      for (var entry in FoodDatabaseGenerated.foods.entries) {
+        final foodTokens = _normalizeText(entry.value.name).split(' ').where((t) => t.length > 1).toSet();
+        final matchCount = inputTokens.intersection(foodTokens).length;
+
+        if (matchCount > tokenBestCount) {
+          tokenBestCount = matchCount;
+          tokenBestMatch = entry.value;
+        }
+      }
+
+      if (tokenBestMatch != null) {
+        return tokenBestMatch;
+      }
+    }
+
+    return null;
   }
-  return null;
-}
+
+  /// Check ingredient aliases phổ biến cho thành phần món ăn
+  static FoodNutrition? _checkIngredientAliases(String name) {
+    final lower = name.toLowerCase().trim();
+
+    // Map tên thành phần ngắn → tên trong database
+    const ingredientAliases = <String, List<String>>{
+      // Cơm / Tinh bột
+      'cơm': ['Cơm trắng', 'Cơm tẻ'],
+      'cơm trắng': ['Cơm trắng', 'Cơm tẻ'],
+      'cơm tấm': ['Cơm tấm'],
+      'cơm chiên': ['Cơm rang'],
+      'cơm rang': ['Cơm rang'],
+      'xôi': ['Xôi nếp cẩm'],
+      'bánh phở': ['Phở bò chín'],
+      'bún': ['Bún bò Huế'],
+      'miến': ['Miến gà'],
+      'mì': ['Mì trứng'],
+      'bánh mì': ['Bánh mỳ vuông ngọt'],
+      
+      // Thịt
+      'thịt bò': ['Thịt bò hộp'],
+      'thịt bò phở': ['Thịt bò hộp'],
+      'thịt heo': ['Thịt lợn hộp'],
+      'thịt lợn': ['Thịt lợn hộp'],
+      'thịt gà': ['Thịt gà hộp'],
+      'sườn': ['Sườn lợn'],
+      'sườn nướng': ['Sườn lợn'],
+      'sườn lợn': ['Sườn lợn'],
+      'thịt vịt': ['Thịt vịt hầm'],
+      'giò': ['Giò lụa'],
+      'giò lụa': ['Giò lụa'],
+      'chả': ['Chả quế'],
+      'chả quế': ['Chả quế'],
+      'chả giò': ['Chả giò'],
+      'nem rán': ['Chả giò'],
+      'nem': ['Chả giò'],
+      'bì': ['Bì lợn'],
+      'thịt nướng': ['Thịt lợn hộp'],
+
+      // Hải sản
+      'cá': ['Cá thu hộp'],
+      'cá thu': ['Cá thu hộp'],
+      'cá ngừ': ['Cá ngừ hộp'],
+      'tôm': ['Tôm sú'],
+      'mực': ['Mực tươi'],
+
+      // Trứng & Đậu
+      'trứng': ['Trứng gà ta'],
+      'trứng gà': ['Trứng gà ta'],
+      'trứng luộc': ['Trứng gà ta'],
+      'trứng ốp la': ['Trứng gà ta'],
+      'trứng chiên': ['Trứng gà ta'],
+      'trứng vịt': ['Trứng vịt'],
+      'đậu phụ': ['Đậu phụ sống'],
+      'đậu hũ': ['Đậu phụ sống'],
+      'tàu hũ': ['Đậu phụ sống'],
+
+      // Rau
+      'rau muống': ['Rau muống'],
+      'rau thơm': ['Rau thơm'],
+      'rau sống': ['Rau thơm'],
+      'rau xà lách': ['Xà lách'],
+      'xà lách': ['Xà lách'],
+      'cà chua': ['Quả cà chua tươi'],
+      'dưa leo': ['Dưa chuột'],
+      'dưa chuột': ['Dưa chuột'],
+      'hành lá': ['Hành lá'],
+      'cải xanh': ['Cải xanh tươi'],
+      'bắp cải': ['Bắp cải'],
+      'cà rốt': ['Củ cà rốt tươi'],
+      'khoai tây': ['Khoai tây tươi'],
+      'khoai lang': ['Khoai lang tươi'],
+      'bí đỏ': ['Quả bí ngô tươi'],
+      'giá đỗ': ['Giá đỗ'],
+
+      // Nước phở/canh
+      'nước phở': ['Nước phở'],
+      'nước canh': ['Nước canh'],
+      'nước lèo': ['Nước phở'],
+      'canh': ['Canh rau'],
+
+      // Trái cây
+      'chuối': ['Chuối tiêu tươi'],
+      'táo': ['Táo ta tươi'],
+      'cam': ['Cam tươi'],
+
+      // Đồ uống
+      'sữa': ['Sữa bò tươi'],
+      'sữa tươi': ['Sữa bò tươi'],
+      'sữa chua': ['Sữa chua'],
+      'cà phê': ['Cà phê đá'],
+      'trà': ['Trà'],
+      'nước dừa': ['Nước dừa hộp'],
+      'nước ngọt': ['Nước ngọt'],
+    };
+
+    // Tìm alias match
+    for (var entry in ingredientAliases.entries) {
+      if (lower == entry.key || lower.contains(entry.key) || entry.key.contains(lower)) {
+        // Tìm trong DB theo danh sách tên ưu tiên
+        for (var dbName in entry.value) {
+          final found = _findByExactName(dbName);
+          if (found != null) return found;
+        }
+      }
+    }
+
+    return null;
+  }
+
+  /// Tìm chính xác theo tên (không normalize)
+  static FoodNutrition? _findByExactName(String exactName) {
+    for (var food in FoodDatabaseGenerated.foods.values) {
+      if (food.name == exactName) return food;
+    }
+    return null;
+  }
 
   /// Lấy thông tin dinh dưỡng cho prompt (top foods)
 static String getDatabaseSampleForPrompt() {

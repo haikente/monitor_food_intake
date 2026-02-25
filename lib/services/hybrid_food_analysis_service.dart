@@ -1,6 +1,7 @@
 import 'dart:io';
 import 'package:monitor_food_intake/models/food_analysis.dart';
 import 'package:monitor_food_intake/models/food_item.dart';
+import 'package:monitor_food_intake/models/dish.dart';
 import 'package:monitor_food_intake/services/gemini_service.dart';
 import 'package:monitor_food_intake/services/semantic_food_search_service.dart';
 import 'package:monitor_food_intake/services/yolo_detection_service.dart';
@@ -69,14 +70,26 @@ class HybridFoodAnalysisService {
     print('🤖 [GEMINI] Analyzing image with Gemini AI (Online)...');
     final geminiAnalysis = await _geminiService.analyzeFoodImage(imageFile);
 
-    if (geminiAnalysis.foods.isEmpty) {
+    // Kiểm tra cả dishes và foods
+    final hasDishes =
+        geminiAnalysis.dishes != null && geminiAnalysis.dishes!.isNotEmpty;
+    final hasFoods = geminiAnalysis.foods.isNotEmpty;
+
+    if (!hasDishes && !hasFoods) {
       print('❌ [GEMINI] No food detected');
       return geminiAnalysis;
     }
 
-    print('✅ [GEMINI] Detected ${geminiAnalysis.foods.length} food(s)');
+    if (hasDishes) {
+      print(
+          '✅ [GEMINI] Detected ${geminiAnalysis.dishes!.length} dish(es) with ingredients');
+    }
+    if (hasFoods) {
+      print(
+          '✅ [GEMINI] Detected ${geminiAnalysis.foods.length} individual food(s)');
+    }
 
-    // 3. Enhance với database
+    // 3. Enhance với database (hỗ trợ cả dishes và foods)
     if (useSemanticSearch) {
       print('🔍 [DATABASE] Enhancing with semantic search...');
       return _enhanceWithSemanticSearch(geminiAnalysis);
@@ -158,31 +171,217 @@ class HybridFoodAnalysisService {
       );
     }
 
-    return null; 
+    return null;
   }
 
-  /// Enhance bằng SEMANTIC SEARCH (khuyến nghị)
+  /// Tìm món ăn tốt nhất với multiple attempts
+  /// Thử các biến thể của tên món để tăng độ chính xác
+  FoodSearchResult? _findBestMatch(String foodName) {
+    // Attempt 1: Tìm trực tiếp
+    var result = SemanticFoodSearchService.searchBest(foodName);
+    if (result != null && result.similarity >= _matchThreshold) {
+      return result;
+    }
+
+    // Attempt 2: Loại bỏ các từ phụ và thử lại
+    final cleanedName = _cleanFoodName(foodName);
+    if (cleanedName != foodName) {
+      result = SemanticFoodSearchService.searchBest(cleanedName);
+      if (result != null && result.similarity >= _matchThreshold) {
+        return result;
+      }
+    }
+
+    // Attempt 3: Thử với từng từ chính
+    final keywords = _extractKeywords(foodName);
+    for (final keyword in keywords) {
+      result = SemanticFoodSearchService.searchBest(keyword);
+      if (result != null && result.similarity >= 0.6) {
+        // Higher threshold for single keyword
+        return result;
+      }
+    }
+
+    // Trả về kết quả tốt nhất (có thể null hoặc dưới threshold)
+    return SemanticFoodSearchService.searchBest(foodName);
+  }
+
+  /// Làm sạch tên món ăn - loại bỏ các từ phụ
+  String _cleanFoodName(String name) {
+    // Loại bỏ các từ không cần thiết
+    const removeWords = [
+      'tươi',
+      'ngon',
+      'nóng',
+      'lạnh',
+      'chín',
+      'sống',
+      'nhỏ',
+      'vừa',
+      'lớn',
+      'to',
+      'bé',
+      'miếng',
+      'lát',
+      'khúc',
+      'con',
+      'quả',
+      'cái',
+      'bát',
+      'đĩa',
+      'tô',
+      'đặc biệt',
+      'thượng hạng',
+      'cao cấp',
+      'hà nội',
+      'sài gòn',
+      'huế',
+      'nam',
+      'bắc',
+      'trung',
+    ];
+
+    String result = name.toLowerCase();
+    for (final word in removeWords) {
+      result =
+          result.replaceAll(RegExp('\\b$word\\b', caseSensitive: false), '');
+    }
+
+    return result.replaceAll(RegExp(r'\s+'), ' ').trim();
+  }
+
+  /// Trích xuất từ khóa chính từ tên món
+  List<String> _extractKeywords(String name) {
+    const importantWords = [
+      'cơm',
+      'phở',
+      'bún',
+      'mì',
+      'bánh',
+      'xôi',
+      'cháo',
+      'thịt',
+      'cá',
+      'gà',
+      'heo',
+      'bò',
+      'tôm',
+      'trứng',
+      'đậu',
+      'rau',
+      'canh',
+      'gỏi',
+      'chả',
+      'nem',
+      'xào',
+      'kho',
+      'nướng',
+      'chiên',
+      'luộc',
+      'sườn',
+      'đùi',
+      'cánh',
+      'tim',
+      'gan',
+    ];
+
+    final words = name.toLowerCase().split(' ');
+    final keywords = <String>[];
+
+    for (final word in words) {
+      if (importantWords.any((kw) => word.contains(kw))) {
+        keywords.add(word);
+      }
+    }
+
+    return keywords;
+  }
+
+  /// Enhance bằng SEMANTIC SEARCH (khuyến nghị) - Hỗ trợ cả dishes và foods
+  /// Threshold: 0.4 (sau khi upgrade algorithm với N-gram + Levenshtein)
+  static const double _matchThreshold = 0.4;
+
   FoodAnalysis _enhanceWithSemanticSearch(FoodAnalysis geminiAnalysis) {
+    // 1. ENHANCE DISHES (nếu có)
+    List<Dish>? enhancedDishes;
+    if (geminiAnalysis.dishes != null && geminiAnalysis.dishes!.isNotEmpty) {
+      enhancedDishes = [];
+      int dishEnhancedCount = 0;
+
+      for (final dish in geminiAnalysis.dishes!) {
+        print('\n🍜 Processing Dish: "${dish.dishName}"');
+
+        final enhancedIngredients = <FoodItem>[];
+        int ingredientEnhancedCount = 0;
+
+        for (final ingredient in dish.ingredients) {
+          print('   📝 Ingredient: "${ingredient.name}"');
+
+          // Tìm kiếm với multiple attempts
+          final searchResult = _findBestMatch(ingredient.name);
+
+          if (searchResult != null &&
+              searchResult.similarity >= _matchThreshold) {
+            print(
+                '      ✅ Found in DB: "${searchResult.matchedName}" (${(searchResult.similarity * 100).toStringAsFixed(1)}%)');
+
+            final weight = ingredient.weight;
+            final dbFood = searchResult.food;
+
+            enhancedIngredients.add(FoodItem(
+              name: searchResult.matchedName,
+              nameEn: dbFood.nameEn,
+              weight: weight,
+              calories: (dbFood.caloriesPer100g * weight / 100),
+              protein: (dbFood.protein * weight / 100),
+              carbs: (dbFood.carbs * weight / 100),
+              fat: (dbFood.fat * weight / 100),
+              fiber: (dbFood.fiber * weight / 100),
+              glycemicIndex: dbFood.glycemicIndex?.toDouble(),
+              category: dbFood.category,
+            ));
+            ingredientEnhancedCount++;
+          } else {
+            print('      ⚠️ Not found in DB (keep original)');
+            enhancedIngredients.add(ingredient);
+          }
+        }
+
+        enhancedDishes.add(Dish(
+          dishName: dish.dishName,
+          ingredients: enhancedIngredients,
+        ));
+
+        if (ingredientEnhancedCount > 0) {
+          dishEnhancedCount++;
+        }
+        print(
+            '   📊 Enhanced $ingredientEnhancedCount/${dish.ingredients.length} ingredients');
+      }
+
+      print(
+          '\n🍽️ [DISHES] Enhanced $dishEnhancedCount/${geminiAnalysis.dishes!.length} dishes');
+    }
+
+    // 2. ENHANCE FOODS (legacy format)
     final enhancedFoods = <FoodItem>[];
     int enhancedCount = 0;
 
     for (final food in geminiAnalysis.foods) {
-      print('\n📝 Processing: "${food.name}"');
+      print('\n📝 Processing Food: "${food.name}"');
 
-      // Tìm kiếm semantic
-      final searchResult = SemanticFoodSearchService.searchBest(food.name);
+      // Sử dụng _findBestMatch với multiple attempts
+      final searchResult = _findBestMatch(food.name);
 
-      if (searchResult != null && searchResult.similarity >= 0.5) {
-        // Tìm thấy món trong database
+      if (searchResult != null && searchResult.similarity >= _matchThreshold) {
         print(
             '   ✅ Found in DB: "${searchResult.matchedName}" (${(searchResult.similarity * 100).toStringAsFixed(1)}%)');
 
-        // Tính nutrition dựa trên weight từ Gemini
         final weight = food.weight;
         final dbFood = searchResult.food;
 
-        final enhancedFood = FoodItem(
-          name: searchResult.matchedName, // Dùng tên chính xác từ DB
+        enhancedFoods.add(FoodItem(
+          name: searchResult.matchedName,
           nameEn: dbFood.nameEn,
           weight: weight,
           calories: (dbFood.caloriesPer100g * weight / 100),
@@ -192,22 +391,22 @@ class HybridFoodAnalysisService {
           fiber: (dbFood.fiber * weight / 100),
           glycemicIndex: dbFood.glycemicIndex?.toDouble(),
           category: dbFood.category,
-        );
-
-        enhancedFoods.add(enhancedFood);
+        ));
         enhancedCount++;
       } else {
-        // Không tìm thấy trong DB → Giữ nguyên Gemini result
         print('   ⚠️ Not found in DB (keep Gemini result)');
         enhancedFoods.add(food);
       }
     }
 
-    print(
-        '\n📊 [RESULT] Enhanced ${enhancedCount}/${geminiAnalysis.foods.length} foods from database');
+    if (geminiAnalysis.foods.isNotEmpty) {
+      print(
+          '\n📊 [FOODS] Enhanced $enhancedCount/${geminiAnalysis.foods.length} foods from database');
+    }
 
     return FoodAnalysis(
       foods: enhancedFoods,
+      dishes: enhancedDishes,
       timestamp: geminiAnalysis.timestamp,
       imagePath: geminiAnalysis.imagePath,
     );

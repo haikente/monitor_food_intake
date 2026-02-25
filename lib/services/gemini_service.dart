@@ -16,15 +16,14 @@ class GeminiService {
       model: 'gemini-2.5-flash-lite',
       apiKey: apiKey,
       generationConfig: GenerationConfig(
-        temperature: 0.3, 
-        topK: 40, 
-        topP: 0.95,
-        maxOutputTokens:
-            4096,
+        temperature: 0.1, 
+        topK: 32,
+        topP: 0.9,
+        maxOutputTokens: 8192,
       ),
     );
   }
-
+  // gemini-2.5-flash-lite
   /// Phân tích ảnh thực phẩm và trả về danh sách món ăn
   Future<FoodAnalysis> analyzeFoodImage(File imageFile) async {
   try {
@@ -179,7 +178,7 @@ class GeminiService {
           return false;
         }
 
-        // Loại bỏ nếu tên món chứa trong tên thành phần
+        // Loại bỏ nếu tên thành phần chứa toàn bộ tên món (VD: "Bún chả Hà Nội" chứa "Bún chả")
         if (ingredientNameLower.contains(dishNameLower) &&
             ingredientNameLower.length - dishNameLower.length < 10) {
           return false;
@@ -193,6 +192,7 @@ class GeminiService {
         return true;
       }).toList();
 
+      // Nếu tất cả ingredients bị loại → giữ nguyên allIngredients
       if (ingredients.isEmpty) {
         dishes.add(Dish(
           dishName: dishName,
@@ -239,51 +239,53 @@ class GeminiService {
         continue;
       }
 
-      // Kiểm tra xem Gemini có tự phân tích không (có calories field)
-      final hasCaloriesField = foodJson.containsKey('calories');
+      // LUÔN thử tra cứu database trước, bất kể AI có tự phân tích hay không
+      final enrichedData = FoodDatabaseService.enrichFoodData(name, weight);
 
-      if (hasCaloriesField) {
-        // CASE 2: Món KHÔNG trong DB, Gemini đã tự phân tích
-
-        final calories = (foodJson['calories'] as num?)?.toDouble() ?? 0;
-        final protein = (foodJson['protein'] as num?)?.toDouble();
-        final carbs = (foodJson['carbs'] as num?)?.toDouble();
-        final fat = (foodJson['fat'] as num?)?.toDouble();
-        final fiber = (foodJson['fiber'] as num?)?.toDouble();
-        final gi = (foodJson['glycemicIndex'] as num?)?.toDouble();
-
-        // Tính calories thực tế dựa trên khối lượng
-        final actualCalories = calories * weight / 100;
-
+      if (enrichedData['source'] == 'database') {
+        // TÌM THẤY TRONG DATABASE → ưu tiên dữ liệu DB (chính xác hơn)
         foods.add(FoodItem(
-          name: name,
-          weight: weight,
-          calories: actualCalories,
-          glycemicIndex: gi,
-          protein: protein, // per 100g
-          carbs: carbs, // per 100g
-          fat: fat, // per 100g
-          fiber: fiber, // per 100g
-          category: 'Tự phân tích bởi AI',
-          nameEn: name,
+          name: enrichedData['name'],
+          weight: enrichedData['weight'],
+          calories: enrichedData['calories'],
+          glycemicIndex: enrichedData['glycemicIndex'],
+          protein: enrichedData['protein'], // /100g
+          carbs: enrichedData['carbs'], // /100g
+          fat: enrichedData['fat'], // /100g
+          fiber: enrichedData['fiber'], // /100g
+          category: enrichedData['category'],
+          nameEn: enrichedData['nameEn'],
         ));
       } else {
-        // CASE 1: Món có thể trong DB, tra cứu
-        final enrichedData = FoodDatabaseService.enrichFoodData(name, weight);
-        if (enrichedData['source'] == 'database') {
+        // KHÔNG trong DB → dùng data AI cung cấp hoặc đánh dấu Unknown
+        final hasCaloriesField = foodJson.containsKey('calories');
+
+        if (hasCaloriesField) {
+          // AI đã tự phân tích → dùng data AI
+          final calories = (foodJson['calories'] as num?)?.toDouble() ?? 0;
+          final protein = (foodJson['protein'] as num?)?.toDouble();
+          final carbs = (foodJson['carbs'] as num?)?.toDouble();
+          final fat = (foodJson['fat'] as num?)?.toDouble();
+          final fiber = (foodJson['fiber'] as num?)?.toDouble();
+          final gi = (foodJson['glycemicIndex'] as num?)?.toDouble();
+
+          // Tính calories thực tế dựa trên khối lượng
+          final actualCalories = calories * weight / 100;
+
           foods.add(FoodItem(
-            name: enrichedData['name'],
-            weight: enrichedData['weight'],
-            calories: enrichedData['calories'],
-            glycemicIndex: enrichedData['glycemicIndex'],
-            protein: enrichedData['protein'], // /100g
-            carbs: enrichedData['carbs'], // /100g
-            fat: enrichedData['fat'], // /100g
-            fiber: enrichedData['fiber'], // /100g
-            category: enrichedData['category'],
-            nameEn: enrichedData['nameEn'],
+            name: name,
+            weight: weight,
+            calories: actualCalories,
+            glycemicIndex: gi,
+            protein: protein, // per 100g
+            carbs: carbs, // per 100g
+            fat: fat, // per 100g
+            fiber: fiber, // per 100g
+            category: 'Tự phân tích bởi AI',
+            nameEn: name,
           ));
         } else {
+          // AI chỉ gửi name + weight, KHÔNG có trong DB → Unknown
           foods.add(FoodItem(
             name: 'Unknown ($name)',
             weight: weight,

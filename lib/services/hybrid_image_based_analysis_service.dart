@@ -94,7 +94,6 @@ class HybridImageBasedAnalysisService {
       final croppedImage = croppedImages[i];
 
       if (searchResult == null) {
-     
         continue;
       }
 

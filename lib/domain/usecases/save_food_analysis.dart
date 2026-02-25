@@ -12,9 +12,9 @@ class SaveFoodAnalysisUseCase {
   /// Returns: Future<void>
   /// Throws: Exception nếu lưu thất bại
   Future<void> call(FoodAnalysisEntity analysis) async {
-    // Có thể thêm business logic validation ở đây
+    // Validate: phải có ít nhất 1 food hoặc totalCalories > 0
     if (analysis.foods.isEmpty) {
-      throw Exception('Cannot save analysis with no foods');
+      throw Exception('Phân tích phải có ít nhất một món ăn');
     }
 
     return await repository.saveFoodAnalysis(analysis);

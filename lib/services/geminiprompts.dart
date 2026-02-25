@@ -82,14 +82,18 @@ $completeDatabaseList
 • Nếu là BỮA ĂN NHIỀU MÓN hoặc MÓN PHỨC TẠP có nhiều thành phần: Dùng "dishes"
 
 ⚠️ QUAN TRỌNG - PHÂN TÍCH THÀNH PHẦN:
-• Phân tích CỤ THỂ từng thành phần thực sự thấy được
-• VD: "Phở bò" → tách thành: Nước phở, Bánh phở, Thịt bò, Rau thơm
-• VD: "Cơm tấm sườn" → tách: Cơm tấm, Sườn nướng, Bì, Chả, Trứng, Dưa leo
+• Phân tích CỤ THỂ từng thành phần thực sự NHÌN THẤY trong ảnh
+• TÁCH RÕ RÀNG từng nguyên liệu, ước lượng khối lượng riêng
+• VD: "Phở bò" → tách thành: Bánh phở (200g), Thịt bò (80g), Rau thơm (20g), Hành lá (5g)
+• VD: "Cơm tấm sườn" → tách: Cơm tấm (200g), Sườn nướng (100g), Bì (30g), Chả (30g), Trứng ốp la (50g)
+• KHÔNG đưa "Nước phở" hoặc "Nước canh" làm thành phần trừ khi nhìn thấy rõ ràng
+• MẠNH DẠN tách nhỏ: thà tách nhiều thành phần riêng còn hơn gộp chung 1 cục
+• Mỗi thành phần CHỈ CẦN trả name + weight, hệ thống sẽ tự tra DB
 • KHÔNG lặp lại tên món trong thành phần!
   ❌ SAI: {"dishName": "Bún chả", "ingredients": [{"name": "Bún chả"}]}
-  ✅ ĐÚNG: {"dishName": "Bún chả", "ingredients": [{"name": "Bún"}, {"name": "Chả"}]}
+  ✅ ĐÚNG: {"dishName": "Bún chả", "ingredients": [{"name": "Bún", "weight": 200}, {"name": "Chả", "weight": 100}]}
 
-📏 HƯỚNG DẪN ƯỚC LƯỢNG KHỐI LƯỢNG CHUẨN:
+📏 HƯỚNG DẪN ƯỚC LƯỢNG KHỐI LƯỢNG THÀNH PHẦN:
 
 MÓN NỀN (Carbs):
 • Cơm trắng: 1 bát nhỏ = 100g, trung = 150g, lớn = 200g
@@ -129,10 +133,10 @@ NƯỚC/SOUP:
     {
       "dishName": "Phở bò",
       "ingredients": [
-        {"name": "Nước phở", "weight": 300},
         {"name": "Bánh phở", "weight": 200},
-        {"name": "Thịt bò phở", "weight": 80},
-        {"name": "Rau thơm", "weight": 20}
+        {"name": "Thịt bò", "weight": 80},
+        {"name": "Rau thơm", "weight": 20},
+        {"name": "Hành lá", "weight": 5}
       ]
     },
     {
@@ -208,9 +212,8 @@ NƯỚC/SOUP:
     {
       "dishName": "Phở bò",
       "ingredients": [
-        {"name": "Nước phở", "weight": 300},
         {"name": "Bánh phở", "weight": 200},
-        {"name": "Thịt bò phở", "weight": 80},
+        {"name": "Thịt bò", "weight": 80},
         {"name": "Rau thơm", "weight": 20},
         {"name": "Hành lá", "weight": 5}
       ]
